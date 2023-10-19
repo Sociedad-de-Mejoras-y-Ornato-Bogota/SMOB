@@ -1,0 +1,1317 @@
+[
+  {
+    "id": 1,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/1.jpg",
+    "title": "Dialéctica negativa.",
+    "autor": " Adorno, Theodor",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 2,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/2.jpg",
+    "title": "La energía en Bogotá 111 años de historia.",
+    "autor": "Alcaldía Mayor de Bogotá",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 3,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/3.jpg",
+    "title": "La estratificación en Bogotá. Impacto social y alternativas para asignar subsidios",
+    "autor": "Alcaldía Mayor de Bogotá",
+    "link": "https://www.sdp.gov.co/sites/default/files/estratificacionbogota2016.pdf",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 4,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/4.jpg",
+    "title": "Memoria al aire. Gubernamentalidad, radiodifusión y nación en Colombia (1940-1973).",
+    "autor": "Amador Baquiro, Juan Carlos",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 5,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/5.jpg",
+    "title": "Mal de América: Las obras y los días de Agustín Codazzi, 1793-1859.",
+    "autor": "Antei, Giorgio.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 6,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/6.jpg",
+    "title": "Historia de la arquitectura en Colombia.",
+    "autor": " Arango, Silvia.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 7,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/7.jpg",
+    "title": "Serie homenajes arquitectos Bogotá – Pablo de la Cruz.",
+    "autor": " Arango, Silvia; Ramírez Nieto Jorge; otros.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 8,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/8.jpg",
+    "title": "Serie homenajes arquitectos Bogotá – Alberto Manrique Martín.",
+    "autor": "Arango, Silvia; Ramírez Nieto Jorge; otros.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 9,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/9.jpg",
+    "title": "Presidentes de Colombia 1810- 1990",
+    "autor": "Arizmendi, Ignacio.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 10,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/10.jpg",
+    "title": "Historia política de Colombia.",
+    "autor": " Arteaga, Manuel; Arteaga, Jaime.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 11,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/11.jpg",
+    "title": "La ciudad colombiana. La formación espacial de la conquista, siglos XVI-XVII.",
+    "autor": "Aprile-Gniset, Jacques.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 12,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/12.jpg",
+    "title": "Construcción del Ejército Nacional de Colombia (1907-1930).",
+    "autor": "Atehortúa, Adolfo León.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 13,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/13.jpg",
+    "title": "El sino trágico de Antonio Nariño.",
+    "autor": "Barón Wilches, Moisés.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 14,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/14.jpg",
+    "title": "El tren y sus gentes: los ferrocarriles en Colombia.",
+    "autor": "Betancur, Belisario y Zuluaga, Conrado.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 15,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/15.jpg",
+    "title": "La nación sentida: Colombia, 1949. El país se busca en sus palabras.",
+    "autor": "Braun, Herbert.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 16,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/16.jpg",
+    "title": "Bogotá: ciudad capital, evolución institucional y normativa.",
+    "autor": "Brito, Fernando",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 17,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/17.jpg",
+    "title": "Colombia, una nación a pesar de sí misma. Nuestra historia desde los tiempos precolombinos hasta hoy.",
+    "autor": "Bushnell, David.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 18,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/18.jpg",
+    "title": "Colombia. Mirando hacia adentro. Tomo IV (1940 – 1960)..",
+    "autor": "Caballero, Carlos; Camacho, Carlos; Deas, Malcom; Londoño, Rocio; Silva, Renán",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 19,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/19.jpg",
+    "title": "Pietro Cantini: Semblanza de un arquitecto.",
+    "autor": " Cantini Ardila, Jorge Ernesto.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 20,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/20.jpg",
+    "title": "Estudio de un barrio de invasión.",
+    "autor": " Cardona, Ramiro.",
+    "link": "https://repositorio.unal.edu.co/bitstream/handle/unal/47302/11686-29384-2-PB.pdf?sequence=1&isAllowed=y",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 21,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/21.jpg",
+    "title": "Las migraciones internas.",
+    "autor": " Cardona, Ramiro.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 22,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/22.jpg",
+    "title": "Colombia: distribución espacial de la población.",
+    "autor": " Cardona, Ramiro.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 23,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/23.jpg",
+    "title": "Quintas y estancias de Santafé y Bogotá.",
+    "autor": " Carrasquilla Botero, Juan.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 24,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/24.jpg",
+    "title": "Los Convenios de la Administración: Entre la gestión pública y la actividad contractual.",
+    "autor": " Chávez Marín Augusto Ramón.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 25,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/25.jpg",
+    "title": "La Compañía de Cemento Samper.",
+    "autor": " Carrasco Zaldúa, Fernando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 26,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/26.jpg",
+    "title": "Tomás Cipriano de Mosquera.",
+    "autor": " Castrillón Arboleda, Diego.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 27,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/27.jpg",
+    "title": "Proceso a la violencia y proceso de paz.",
+    "autor": "Autor Castro, Jaime.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 28,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/28.jpg",
+    "title": "Partidos políticos y clases sociales.",
+    "autor": " Colmenares, Germán.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 29,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/29.jpg",
+    "title": "Apuntes de historia constitucional y política de Colombia.",
+    "autor": " Córdoba Mariño, Luis.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 30,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/30.jpg",
+    "title": "Reminiscencias de Santafé y Bogotá.",
+    "autor": " Cordovez Moure, José María.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 31,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/31.jpg",
+    "title": "Atlas histórico de Bogotá. Cartografía 1791-2007.",
+    "autor": " Cuéllar Sánchez, Marcela., Mejía Pavony, Germán.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 32,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/32.jpg",
+    "title": "Por qué fracasan los países.",
+    "autor": " Daron Acemoğlu y James A. Robinson.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 33,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/33.jpg",
+    "title": "Intercambios violentos: y dos ensayos más sobre el conflicto en Colombia.",
+    "autor": " Deas, Malcom.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 34,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/34.jpg",
+    "title": "Cartilla de conceptos básico e indicadores socio demográficos.",
+    "autor": " Departamento Administrativo Nacional de Estadística.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 35,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/35.jpg",
+    "title": "Encuesta Nacional de calidad de vida 2019.",
+    "autor": " Departamento Administrativo Nacional de Estadística.",
+    "link": "https://www.dane.gov.co/files/investigaciones/condiciones_vida/calidad_vida/2019/Presentacion_ECV_2019.pdf",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 36,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/36.jpg",
+    "title": "Calles de Santafé de Bogotá: homenaje en su IV centenario.",
+    "autor": "Autor De la Rosa, Moisés.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 37,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/37.jpg",
+    "title": "El agua en la historia de la ciudad.",
+    "autor": " Empresa de acueducto y alcantarillado de Bogotá.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 38,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/38.jpg",
+    "title": "Atlas histórico de Bogotá 1538-1910.",
+    "autor": " Escobar, Alberto y Peña, César.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 39,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/39.jpg",
+    "title": "Gaston Lelarge Itinerario de su obra en Colombia.",
+    "autor": " Escovar, Alberto y Delgadillo, Hugo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 40,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/40.jpg",
+    "title": "La subversión en Colombia. El cambio social en la historia.",
+    "autor": " Fals Borda, Orlando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 41,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/41.jpg",
+    "title": "El método de las necesidades básicas insatisfechas (NBI) y sus aplicaciones en América Latina.",
+    "autor": " Feres Juan Carlos y Mancero Xavier.",
+    "link": "https://repositorio.cepal.org/bitstream/handle/11362/4784/1/S0102117_es.pdf",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 42,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/42.jpg",
+    "title": "Estructuración técnica del tramo 1 de la primera línea del metro de Bogotá (PLMB).",
+    "autor": " Financiera de Desarrollo Nacional.",
+    "link": "https://www.metrodebogota.gov.co/sites/default/files/3.%20DESCRIPCI%C3%93N%20DEL%20PROYECTO.pdf",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 43,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/43.jpg",
+    "title": "Las transformaciones sociodemográficas en Colombia.",
+    "autor": " Flórez, Carmen Elisa; Méndez, Regina.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 44,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/44.jpg",
+    "title": "Alguien tiene que llevar la contraria.",
+    "autor": " Gaviria, Alejandro.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 45,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/45.jpg",
+    "title": "Bogotá estructura y servicios públicos.",
+    "autor": " González Escobar, Arturo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 46,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/34.jpg",
+    "title": "Cartilla de conceptos básico e indicadores socio demográficos.",
+    "autor": " Departamento Administrativo Nacional de Estadística.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 47,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/35.jpg",
+    "title": "Encuesta Nacional de calidad de vida 2019.",
+    "autor": " Departamento Administrativo Nacional de Estadística.",
+    "link": "https://www.dane.gov.co/files/investigaciones/condiciones_vida/calidad_vida/2019/Presentacion_ECV_2019.pdf",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 49,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/37.jpg",
+    "title": "El agua en la historia de la ciudad.",
+    "autor": " Empresa de acueducto y alcantarillado de Bogotá.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 50,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/38.jpg",
+    "title": "Atlas histórico de Bogotá 1538-1910.",
+    "autor": " Escobar, Alberto y Peña, César.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 52,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/40.jpg",
+    "title": "La subversión en Colombia. El cambio social en la historia.",
+    "autor": " Fals Borda, Orlando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 53,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/41.jpg",
+    "title": "El método de las necesidades básicas insatisfechas (NBI) y sus aplicaciones en América Latina.",
+    "autor": " Feres Juan Carlos y Mancero Xavier.",
+    "link": "https://repositorio.cepal.org/bitstream/handle/11362/4784/1/S0102117_es.pdf",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 54,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/42.jpg",
+    "title": "Estructuración técnica del tramo 1 de la primera línea del metro de Bogotá (PLMB).",
+    "autor": " Financiera de Desarrollo Nacional.",
+    "link": "https://www.metrodebogota.gov.co/sites/default/files/3.%20DESCRIPCI%C3%93N%20DEL%20PROYECTO.pdf",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 55,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/43.jpg",
+    "title": "Las transformaciones sociodemográficas en Colombia.",
+    "autor": " Flórez, Carmen Elisa; Méndez, Regina.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 56,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/44.jpg",
+    "title": "Alguien tiene que llevar la contraria.",
+    "autor": " Gaviria, Alejandro.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 57,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/45.jpg",
+    "title": "Bogotá estructura y servicios públicos.",
+    "autor": " González Escobar, Arturo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 58,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/46.jpg",
+    "title": "Conceptos y técnicas básicas del análisis demográfico.",
+    "autor": " González Pulido, Alejandro.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 59,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/47.jpg",
+    "title": "Ensayos de historia colombiana.",
+    "autor": " González, Margarita.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 60,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/48.jpg",
+    "title": "Colombia: Ordenación del territorio en base del epicentrismo regional.",
+    "autor": " Guhl Nannetti, Ernesto; Fornaguera, Miguel.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 61,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/49.jpg",
+    "title": "El poder político en Colombia.",
+    "autor": " Guillén Martínez, Fernando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 62,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/50.jpg",
+    "title": "Estructura histórica, social y política de Colombia.",
+    "autor": " Guillén Martínez, Fernando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 63,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/51.jpg",
+    "title": "Historia de Bogotá Tomo II - Siglo XIX.",
+    "autor": " Gutiérrez, Eugenio.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 64,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/52.jpg",
+    "title": "La violencia en Colombia, estudio de un proceso social.",
+    "autor": " Guzmán, Germán; Fals, Orlando; Umaña, Eduardo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 65,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/53.jpg",
+    "title": "Cuando Colombia se desangró. Un estudio de la violencia en metrópoli y provincia.",
+    "autor": " Henderson, James.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 66,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/54.jpg",
+    "title": "Systemic intervention: philosophy, methodology, and practice.",
+    "autor": " Midgley, Gerard.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 67,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/55.jpg",
+    "title": "Cartas políticas por el doctor Carlos Holguín.",
+    "autor": " Holguín, Carlos.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 68,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/56.jpg",
+    "title": "Carlos Holguín Holguín. Escritos.",
+    "autor": " Holguín Holguín, Carlos.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 69,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/57.jpg",
+    "title": "Crónicas de Bogotá.",
+    "autor": " Ibáñez, Pedro María.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 70,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/58.jpg",
+    "title": "Trajes, historias y leyendas de Santafé.",
+    "autor": " Iriarte, Alfredo; Trujillo, Carolina.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 71,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/59.jpg",
+    "title": "Masonería y poder político en Colombia.",
+    "autor": " Jaramillo, Mario Arango.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 72,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/60.jpg",
+    "title": "El pensamiento colombiano en el siglo XIX.",
+    "autor": " Jaramillo Uribe, Jaime.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 73,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/61.jpg",
+    "title": "Historia económica de Colombia en el siglo XX.",
+    "autor": " Junguito, Roberto.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 74,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/62.jpg",
+    "title": "Nueva historia económica de Colombia.",
+    "autor": " Kalmanovitz, Salomón.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 75,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/63.jpg",
+    "title": "La paz olvidada.",
+    "autor": " Karl, Robert.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 76,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/64.jpg",
+    "title": "Elecciones y partidos políticos en Colombia.",
+    "autor": " Latorre, Mario.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 77,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/65.jpg",
+    "title": "Fray Domingo de Petrés. En el Nuevo Reino de Granada.",
+    "autor": " León, Vicente, Cuéllar, Marcela, Delgadillo, Hugo y Mejía Pavony, Germán.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 78,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/66.jpg",
+    "title": "El proceso de Mosquera ante el Senado.",
+    "autor": " Liévano Aguirre, Indalecio.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 79,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/67.jpg",
+    "title": "Geografía y descripción universal de las Indias.",
+    "autor": " López de Velasco, Juan.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 80,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/68.jpg",
+    "title": "Tendencias de muertes violentas en Colombia.",
+    "autor": " Losada, Rodrigo.",
+    "link": "https://www.repository.fedesarrollo.org.co/bitstream/handle/11445/1895/Co_So_Mayo_1989_Losada_y_Velez.pdf?sequence=2&isAllowed=y",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 81,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/69.jpg",
+    "title": "Bogotá: Sinopsis sobre su evolución urbana 1536-1900.",
+    "autor": " Martínez, Carlos.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 82,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/70.jpg",
+    "title": "Santafé: Capital del Nuevo Reino de Granada.",
+    "autor": " Martínez, Carlos.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 83,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/71.jpg",
+    "title": "Localización, historia y arte de las iglesias coloniales en Bogotá.",
+    "autor": " Medina de Pacheco, Mercedes.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 84,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/72.jpg",
+    "title": "Historia del Partido Comunista de Colombia.",
+    "autor": " Medina Pineda, Medófilo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 85,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/73.jpg",
+    "title": "Los años del cambio. Historia urbana de Bogotá 1820-1910.",
+    "autor": " Mejía Pavony, Germán.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 86,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/74.jpg",
+    "title": "Urbanismo y vida urbana en Iberoamérica colonial.",
+    "autor": " Mejía Pavony, Germán.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 87,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/75.jpg",
+    "title": "Atlas histórico de barrios de Bogotá 1884 – 1954.",
+    "autor": " Mejía Pavony, Germán.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 88,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/76.jpg",
+    "title": "Reportajes de la historia de Colombia.",
+    "autor": " Melo, Jorge Orlando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 89,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/77.jpg",
+    "title": "Colombia: una historia mínima.",
+    "autor": " Melo, Jorge Orlando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 90,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/78.jpg",
+    "title": "Colombia: las razones de la guerra.",
+    "autor": " Melo, Jorge Orlando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 91,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/79.jpg",
+    "title": "Más allá de la retórica de la reacción, análisis económico de la desamortización en Colombia, 1861-1888.",
+    "autor": " Meisel, Adolfo.",
+    "link": "https://www.banrep.gov.co/sites/default/files/Publicaciones SMOB/archivos/chee_22.pdf",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 92,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/80.jpg",
+    "title": "Fragmentos de la historia del conflicto armado (1920-2010). Comisión histórica del conflicto y sus víctimas (Comp.). Contribución al entendimiento del conflicto armado en Colombia.",
+    "autor": " Molano, Alfredo.",
+    "link": "https://www.corteidh.or.cr/tablas/r33246.pdf"
+  },
+  {
+    "id": 93,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/81.jpg",
+    "title": "Las ideas liberales en Colombia 1849 - 1959.",
+    "autor": " Molina, Gerardo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 94,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/82.jpg",
+    "title": "Leo S. Kopp 1858-1927. Historia de un visionario.",
+    "autor": " Molina Londoño, Luis Fernando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 95,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/83.jpg",
+    "title": "La ciudad del tranvía. 1880 1920. Bogotá: transformaciones urbanas y movilidad.",
+    "autor": " Montezuma, Ricardo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 96,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/84.jpg",
+    "title": "De la ciudad hidalga a la metrópoli globalizada. Una historiografía urbana y regional de Bogotá.",
+    "autor": " Montoya Garay, Jhon Williams.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 97,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/85.jpg",
+    "title": "Colombia país formal y país real.",
+    "autor": " Montaña Cuellar, Diego.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 98,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/86.jpg",
+    "title": "Pasado, presente y futuro de la epidemiología: una perspectiva latinoamericana.",
+    "autor": " Moravia, Alfredo.",
+    "link": "http://www.scielo.org.co/pdf/rsap/v15n5/v15n5a08.pdf",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 99,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/87.jpg",
+    "title": "Introducción al pensamiento complejo.",
+    "autor": " Morin, Edgar.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 100,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/88.jpg",
+    "title": "Economía y cultura en la historia de Colombia.",
+    "autor": " Nieto Arteta, Luis Eduardo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 101,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/89.jpg",
+    "title": "Historia económica de Colombia.",
+    "autor": "Ocampo, José Antonio.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 102,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/90.jpg",
+    "title": "Violencia, conflicto y política en Colombia.",
+    "autor": " Oquist, Paul.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 103,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/91.jpg",
+    "title": "Historia de Colombia: País fragmentado, sociedad dividida.",
+    "autor": " Palacios, Marco; Safford, Frank.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 104,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/92.jpg",
+    "title": "La historia de las guerras.",
+    "autor": " Pardo Rueda, Rafael.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 105,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/93.jpg",
+    "title": "La experiencia de la violencia: Los desafíos del relato y la memoria.",
+    "autor": " Pécaut, Daniel.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 106,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/94.jpg",
+    "title": "Orden y violencia. Colombia 1930 – 1953.",
+    "autor": " Pécaut, Daniel.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 107,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/95.jpg",
+    "title": "Constituciones de Colombia.",
+    "autor": " Pombo, Manuel Antonio, y Guerra, José Joaquín.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 108,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/96.jpg",
+    "title": "Construyamos civilidad.",
+    "autor": " Pombo Urdaneta, Carlos Roberto.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 109,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/97.jpg",
+    "title": "La rebelión de las provincias: relatos sobre la Revolución de los Conventillos y la guerra de los Supremos.",
+    "autor": " Ponce Muriel, Álvaro.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 110,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/98.jpg",
+    "title": "Manual de historia de Colombia. Tomo I.",
+    "autor": " Posada Carbó, Eduardo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 111,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/99.jpg",
+    "title": "Colombia la búsqueda de la democracia.",
+    "autor": " Posada Carbó Eduardo; Melo Jorge Orlando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 112,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/100.jpg",
+    "title": "Guerrilleros y soldados.",
+    "autor": "Ramsey, Russell.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 113,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/101.jpg",
+    "title": "La paz y el Sagrado Corazón. Iglesia del voto nacional.",
+    "autor": "Reina Mendoza, Sandra.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 114,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/102.jpg",
+    "title": "La Bogotá que seremos.",
+    "autor": "Rojas, Ernesto; Pachón, Álvaro.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 115,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/103.jpg",
+    "title": "Análisis demográfico de la violencia en Colombia.",
+    "autor": "Romero-Prieto, Julio Enrique; Meisel-Roca, Adolfo.",
+    "link": "https://repositorio.banrep.gov.co/bitstream/handle/20.500.12134/9597/CHE_50.pdf"
+  },
+  {
+    "id": 116,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/104.jpg",
+    "title": "Globalización y pobreza.",
+    "autor": "Romero, Alberto.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 117,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/105.jpg",
+    "title": "Las vicisitudes de los jesuitas en Colombia.",
+    "autor": " Salcedo, Jorge Enrique.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 118,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/106.jpg",
+    "title": "En busca de Thomas Reed. Arquitectura y política en el siglo XIX.",
+    "autor": " Saldarriaga Roa, Alberto, Pinzón Rivera, José Alexander, y Ortiz Crespo, Alfonso.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 119,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/107.jpg",
+    "title": "Ciudades sostenibles en el posconflicto en Colombia: Cartagena, Bogotá, Medellín, Bucaramanga.",
+    "autor": " Saldarriaga, Alberto.",
+    "link": "https://library.fes.de/pdf-files/bueros/kolumbien/13432.pdf",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 120,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/108.jpg",
+    "title": "La miseria en Bogotá.",
+    "autor": " Samper, Miguel.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 121,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/109.jpg",
+    "title": "Bogotá. 1538-1938. Homenaje del municipio de Bogotá a la ciudad en su IV centenario.",
+    "autor": " Samper Ortega, Daniel.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 122,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/110.jpg",
+    "title": "Bogotá 450 años: Retos y realidades.",
+    "autor": " Santana, Pedro; Vargas, Julián; Zambrano, Fabio; Díaz, Juan; Goueset, Vincent; Giraldo, Fabio; González, Hernando; López, Néstor; Andrade, Irma.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 123,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/111.jpg",
+    "title": "El país que me tocó.",
+    "autor": " Santos Calderón, Enrique.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 124,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/112.jpg",
+    "title": "Grandes conspiraciones en la historia de Colombia.",
+    "autor": " Santos Molano, Enrique.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 125,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/113.jpg",
+    "title": "Antonio Nariño, filósofo revolucionario.",
+    "autor": " Santos Molano, Enrique.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 126,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/114.jpg",
+    "title": "Las grandes noticias colombianas.",
+    "autor": " Santos Molano, Enrique.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 127,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/115.jpg",
+    "title": "Bogotá. Ayer hoy y mañana.",
+    "autor": " Sanz de Santamaría, Carlos.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 128,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/116.jpg",
+    "title": "Bogotá: Estructura y principales servicios públicos.",
+    "autor": " Sanz de Santamaría, Carlos.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 129,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/117.jpg",
+    "title": "Historia de las Leyes – Acto Legislativo 3 de 1910.",
+    "autor": " Segovia, Lacides.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 130,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/118.jpg",
+    "title": "Desarrollo y libertad.",
+    "autor": " Sen, Amartya.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 131,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/119.jpg",
+    "title": "Historia de la fotografía en Colombia. Museo de Arte Moderno.",
+    "autor": " Serrano, Eduardo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 132,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/120.jpg",
+    "title": "Descripción del Reino de Santafé de Bogotá.",
+    "autor": " Silvestre Sánchez, Francisco.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 133,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/121.jpg",
+    "title": "Historia y geografìa de algunas enfermedades en Colombia.",
+    "autor": " Sotomayor, Hugo Armando.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 134,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/122.jpg",
+    "title": "La iglesia y convento de San Agustín en Santafé y Bogotá.",
+    "autor": " Téllez, Germán.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 135,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/123.jpg",
+    "title": "El Estado y la política en el siglo XIX.",
+    "autor": " Tirado Mejía, Álvaro.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 136,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/124.jpg",
+    "title": "Matar, rematar y contramatar. Las masacres de La Violencia en Tolima 1948-1964.",
+    "autor": " Uribe Alarcón, María Victoria.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 137,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/125.jpg",
+    "title": "Arquitectura sublime. Patrimonio religioso en Bogotá.",
+    "autor": " Uribe González, Mauricio.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 138,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/126.jpg",
+    "title": "Las Constituciones de Colombia: historia, crítica y textos.",
+    "autor": " Uribe Vargas, Diego.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 139,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/127.jpg",
+    "title": "40 años de desarrollo: su impacto social.",
+    "autor": " Urrutia Montoya, Miguel.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 140,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/128.jpg",
+    "title": "Historia del sindicalismo en Colombia.",
+    "autor": " Urrutia Montoya, Miguel.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 141,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/129.jpg",
+    "title": "Historia de Bogotá. Siglo XIX.",
+    "autor": " Vargas Lesmes, Julián; Gutiérrez Cely, Eugenio; Zambrano Pantoja, Fabio.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 142,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/130.jpg",
+    "title": "Derecho Administrativo.",
+    "autor": " Vidal Perdomo, Jaime.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 143,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/131.jpg",
+    "title": "La Constitución de 1821.",
+    "autor": " Zambrano, Fabio.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 144,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/132.jpg",
+    "title": "Historia de Bogotá en el siglo XX.",
+    "autor": " Zambrano, Fabio.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 145,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/133.jpg",
+    "title": "La materialización del proyecto borbónico en la obra de Domingo Esquiaqui en Santafé de Bogotá 1784-1794.",
+    "autor": " Blanco Quijano, Ricardo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 146,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/134.jpg",
+    "title": "Bogotá de la devastación a la esperanza.",
+    "autor": " Gómez, Pedro.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 147,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/135.jpg",
+    "title": "Joyas arquitectónicas de Bogotá.",
+    "autor": " Niño, Carlos.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 148,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/136.jpg",
+    "title": "Monumentos Nacionales de Colombia.",
+    "autor": " Patiño de Borda, Mariana.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 149,
+    "url_image": "https://geoapps.esri.co/recursos/smob/libros/137.jpg",
+    "title": "Iglesia de San Ignacio Bogotá.",
+    "autor": " Villegas, Benjamín.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 150,
+    "url_image": "https://geoapps.esri.co/recursos/smob/Publicaciones/1.png",
+    "title": "Construyamos civilidad.",
+    "autor": " Pombo Urdaneta, Carlos Roberto.",
+    "link": "",
+    "type": "Publicaciones SMOB"
+  },
+  {
+    "id": 151,
+    "url_image": "https://geoapps.esri.co/recursos/smob/Publicaciones/2.png",
+    "title": " La Bogotá que seremos",
+    "autor": "Rojas Morales, Ernesto & Pachon Muñoz, Alvaro E.",
+    "link": "",
+    "type": "Publicaciones SMOB"
+  },
+  {
+    "id": 152,
+    "url_image": "https://geoapps.esri.co/recursos/smob/Publicaciones/3.png",
+    "title": "Bogotá y la Sabana Sistema Ambiental y los Modelos de Ocupación",
+    "autor": "Echeverri Perico, Rafael & Wilches Chaux, Gustavo",
+    "link": "",
+    "type": "Publicaciones SMOB"
+  },
+  {
+    "id": 153,
+    "url_image": "https://geoapps.esri.co/recursos/smob/Publicaciones/4.png",
+    "title": "Análisis demográfico prospectivo",
+    "autor": "Echeverri Perico, Rafael",
+    "link": "",
+    "type": "Publicaciones SMOB"
+  },
+  {
+    "id": 154,
+    "url_image": "https://geoapps.esri.co/recursos/smob/Publicaciones/5.png",
+    "title": "La construcción del territorio sostenible de asunto complejo",
+    "autor": " Guhl Nannetti, Ernesto; Guzman Henneses, Manuel ; Carrizosa Umaña, Julio; Pacheco, Margarita.",
+    "link": "",
+    "type": "Publicaciones SMOB"
+  },
+  {
+    "id": 155,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/bienestar/1.%20Usos%20y%20%C3%A1reas%20de%20actividad%20en%20el%20ordenamiento%20territorial.pdf",
+    "title": "Usos y áreas de actividad en el ordenamiento territorial",
+    "autor": "Componente Bienestar",
+    "link": "En el diplomado dictado en la Universidad Sergio Arboleda para el Concejo Distrital, fue de la mayor importancia el módulo relativo a la estructura del ordenamiento territorial en Bogotá. Se analiza la forma en que instrumentos como la ley 338 de 1997 y el decreto 075 de 2013, deben ocuparse expresamente de asuntos como infraestructura y equipamiento, espacio público, vivienda, transporte y movilidad, normas urbanas, y conservación del medio ambiente, entre otros.Presentación realizada en el marco del Diplomado “Plan de Ordenamiento Territorial, Derecho Urbano y Políticas Públicas”. Contó con la participación de docentes expertos en ordenamiento territorial de la Sociedad de Mejoras y Ornato de Bogotá, la Universidad de los Andes, Universidad Nacional, la Salle y Sergio Arboleda. Duración tres meses. ",
+    "type": "Presentaciones SMOB"
+  },
+  {
+    "id": 156,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/bienestar/2.%20Condiciones%20de%20habitabilidad%20caso%20UPZ%20Patio%20Bonito.pdf",
+    "title": "Condiciones de habitabilidad caso UPZ Patio Bonito",
+    "autor": "Componente Bienestar",
+    "link": "Con metodología y un modelo de análisis desarrollados en la SMOB, se evalúan las condiciones de habitabilidad reales de la UPZ Patio Bonito en Bogotá. La herramienta incorpora todas las variables claves, entre las que se señalan: carácter y sentido de las UPZ como formas de dividir y administrar el territorio, protección y desarrollo de las mismas, consolidación, renovación urbana y modelos de ocupación, clasificación del suelo urbano, dinámica poblacional, y potencial constructivo.   ",
+    "type": "Presentaciones SMOB"
+  },
+  {
+    "id": 157,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/construyendo/1.%20Bogot%C3%A1-Una%20ciudad%20compleja.pdf",
+    "title": "Bogotá-Una ciudad compleja",
+    "autor": "Construyendo  civilidad",
+    "link": "En la medida en que crecía y se desarrollaba la ciudad, fueron cambiando sus características esenciales y las ópticas o visiones para tratar de analizarla y comprenderla. Esto sucedió lentamente al comienzo, cuando se trató de la urbe que apenas nacía, pero su dinámica empezó a acelerarse marcadamente a mediados del siglo XX. Estas visiones de la ciudad no desaparecieron para dejar lugar a las nuevas, por el contrario, se mezclaron con las que llegaron formando el conjunto complejo que tenemos hoy en día.",
+    "type": "Presentaciones SMOB"
+  },
+  {
+    "id": 158,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/construyendo/2.%20Esquema%20de%20pensamiento%20complejo.pdf",
+    "title": "Esquema de pensamiento complejo",
+    "autor": "Construyendo  civilidad",
+    "link": "Los principios del Pensamiento Complejo (dialógico, recursivo y holístico), tal como los formalizó hace 40 años el gran sociólogo francés Edgar Morin, son perfectamente dúctiles para emprender la tarea de comprender la ciudad moderna. Ante el incesante flujo -circular, dinámico-, de causa y efecto a lo largo del tiempo, nos permiten ver de manera integrada los elementos claves: territorio, política pública, servicios, comunidad, tecnología, cambio climático y modelos de ocupación.  ",
+    "type": "Presentaciones SMOB"
+  },
+  {
+    "id": 159,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/construyendo/3.%20El%20papel%20de%20las%20Sociedades%20de%20Mejoras%20P%C3%BAblicas%20en%20el%20OT.pdf",
+    "title": "El papel de las Sociedades de Mejoras Públicas en el OT",
+    "autor": "Construyendo  civilidad",
+    "link": "La SMOB presentó un panorama histórico de las Sociedades de Mejoras Públicas, en junio de 2019 en Manizales, con ocasión de los 107 años de fundación de la Sociedad de Mejoras de la capital caldense. Se señala cómo, desde la Constitución de 1886, el ámbito de legal es propicio a la creación y al concurso activo de este tipo de entidades, nacidas en lo hondo del espíritu cívico y de la civilidad. Gradualmente, se hace el tránsito del sencillo embellecimiento de plazas y parajes, a la participación activa en la planeación de la ciudad y la consolidación de los espacios de control ciudadano. Las sociedades de mejoras son las llamadas a convocar y congregar a la ciudadanía. Y desde luego, a expandir la civilidad.  ",
+    "type": "Presentaciones SMOB"
+  },
+  {
+    "id": 160,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/marco/1.%20Coloquio%20la%20nueva%20agenda%20urbana%20en%20tiempos%20de%20pandemia.pdf",
+    "title": "Coloquio la nueva agenda urbana en tiempos de pandemia",
+    "autor": "Marco institucional",
+    "link": "El Pensamiento Complejo ante las metas trazadas por la ONU para los próximos años, en asuntos neurálgicos como pobreza y hambre, salud, agua y saneamiento básico, energías limpias, trabajo, infraestructura, cambio climático y paz, entre otros, exacerbados de manera angustiante por la pandemia del COVID 19. Y en estos términos, visión de Bogotá: transición demográfica, tasas de crecimiento, mortalidad y fecundidad, servicios públicos, migraciones, pobreza, hambre y hacinamiento. Panorama de la brutal inequidad revelada por un virus infeccioso.Ver el video de esta presentación realizada el 13 de julio de 2022 en: https://www.youtube.com/watch?v=nACL5B6M2H4 ",
+    "type": "Presentaciones SMOB"
+  },
+  {
+    "id": 161,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/marco/2.%20Para%20qui%C3%A9n%20es%20el%20POT%20de%20Bogot%C3%A1.pdf",
+    "title": "Para quién es el POT de Bogotá",
+    "autor": "Marco institucional",
+    "link": "El POT, que precisa y acota las normas de ocupación del territorio, debe reflejar la realidad cotidiana que viven los ciudadanos y proporcionarles las herramientas prácticas para solucionar sus problemas y atender sus necesidades. Así mismo, debe ocuparse de los mecanismos de participación de la ciudadanía, los objetivos de desarrollo sostenible, las cifras y progresiones demográficas, y los fenómenos migratorios. En él tienen que reflejarse de igual manera, aspectos neurálgicos como el cambio climático, los efectos de la pandemia, la ocupación y el trabajo, y la lucha contra el hambre y la pobreza.    ",
+    "type": "Presentaciones SMOB"
+  },
+  {
+    "id": 162,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/marco/3.%20Las%20grandes%20incertidumbres%20y%20el%20POT%20de%20Bogot%C3%A1.pdf",
+    "title": "Las grandes incertidumbres y el POT de Bogotá",
+    "autor": "Marco institucional",
+    "link": "Como instrumento fundamental de la planeación de la ciudad, en particular, de las formas de ocupación del territorio, el POT tiene el desafío de descifrar y manejar las incertidumbres que plantean las fluctuaciones demográficas (tasas de fecundidad, tasas de mortalidad, etc.), la pandemia y su efecto en la pobreza, y los flujos migratorios.Presentación realizada el 22 de julio de 2021 para el Consejo Territorial de Planeación Distrital-CTPD con apoyo de la Plataforma por el derecho a la ciudad. Ver completo en:https://www.facebook.com/watch/live/?ref=watch_permalink&v=999398160829436",
+    "type": "Presentaciones SMOB"
+  },
+  {
+    "id": 163,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/poblacional/1.%20An%C3%A1lisis%20de%20la%20pobreza%20de%20Colombia%20y%20Bogot%C3%A1%202018.pdf",
+    "title": "Análisis de la pobreza de Colombia y Bogotá 2018",
+    "autor": "Componente Poblacional",
+    "link": "En una urbe de las proporciones de Bogotá, un asunto de la trascendencia de la pobreza no puede enfrentarse con una visión general o panorámica. Es imprescindible estudiarlo minuciosamente en cada una de las localidades, antes de acudir a los agregados y a los guarimos globales. Hay variables esenciales -pobreza monetaria, extrema y multidimensional, vivienda y hacinamiento, ingreso per-cápita y estratificación, por ejemplo-, cuyo comportamiento es diferente de una localidad a otra, hasta el punto de que dicha diferencia tipifica los grupos humanos que residen en cada sector de la capital. Esto es clave para la formulación de política en el escenario distrital y para entender muchas de las dinámicas sociales de la capital colombiana.",
+    "type": "Presentaciones SMOB",
+    "subtype":"Estructura socioeconómica"
+  },
+  {
+    "id": 165,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/poblacional/1.%20Segregaci%C3%B3n%20espacial%20por%20Localidades.pdf",
+    "title": "Segregación espacial por Localidades",
+    "autor": "Componente Poblacional",
+    "link": "Las localidades que conforman a Bogotá son distintas unas de otras. Su área, su proyección demográfica, sus índices de natalidad, mortalidad y fecundidad, el flujo migratorio que reciben, el precio de la vivienda o los patrones de gasto por hogar. Es necesario estudiarlas individualmente, para después integrarlas al conjunto. Ir de lo particular a lo general, en el momento de formular la política pública o de aproximarse a la conclusión teórica o académica.   ",
+    "type": "Presentaciones SMOB",
+    "subtype":"Estructura socioespacial"
+  },
+  {
+    "id": 164,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/poblacional/1.%20An%C3%A1lisis%20de%20las%20migraciones%20en%20Bogot%C3%A1%20y%20Municipios%202018.pdf",
+    "title": "Análisis de las migraciones en Bogotá y Municipios 2018",
+    "autor": "Componente Poblacional",
+    "link": "Para desarrollar estudios válidos, que den sustento a afirmaciones teóricas, juicios académicos o decisiones de política pública, por ejemplo, es necesario conocer demográficamente, con el mayor nivel de detalle posible, la población bogotana y la de los municipios circunvecinos. No nos sirven las miradas globales o panorámicas, necesitamos saber cómo está conformado cada grupo social. Ayer, hoy y mañana. Y cuál es la dinámica social y humana que lo define y lo impulsa. Por eso debemos hacernos preguntas como: ¿Cuándo nacieron y en dónde, los residentes de la capital colombiana? ¿Dónde han residido y dónde lo hacen en este momento? ¿Qué edad tienen? Y muy importante, ¿Cómo afectan todas estas cifras y movimientos poblacionales, las migraciones?, ¿Cuál es la envergadura real y la dinámica de la población migrante?       ",
+    "type": "Presentaciones SMOB",
+    "subtype":"Estructura demográfica"
+  },
+  {
+    "id": 166,
+    "url_image": "https://geoapps.esri.co/recursos/smob/presentaciones/poblacional/2.%20Din%C3%A1micas%20demogr%C3%A1ficas%20y%20modelos%20de%20ocupaci%C3%B3n%20del%20suelo%20en%20Bogot%C3%A1%20y%20la%20Sabana.pdf",
+    "title": "Dinámicas demográficas y modelos de ocupación del suelo en Bogotá y la Sabana",
+    "autor": "Componente Poblacional",
+    "link": "Las dinámicas poblacionales van definiendo los modelos de ocupación del territorio. Qué se puede predecir y planear, qué sucede a tal ritmo que lo que se impone son la contingencia y la precariedad, son fenómenos que hay que estudiar detenidamente. El concepto de Bogotá Región, por ejemplo, cómo ha respondido a fenómenos como las variaciones en las tasas de fecundidad o mortalidad, los flujos migratorios, el crecimiento y envejecimiento de la población, la aglomeración y la pobreza, y por último, el desarrollo institucional y normativo. Presentación realizada en la Comisión Cuidad (mesa convocada por la Alcaldesa Mayor de Bogotá, Claudia López, en el proceso de formulación del POT 2020), en el marco de la discusión para el fortalecimiento de la estructura ecológica principal, la defensa de la reserva Thomas Van der Hammen y el análisis de la vivienda de interés social. ",
+    "type": "Presentaciones SMOB",
+    "subtype":"Estructura demográfica"
+  }
+
+]

@@ -1,0 +1,28 @@
+@import url('../../assets/styles/colors.css');
+@import url('../../assets/styles/font.css');
+
+.breadcrumbs_container{
+    margin-top:140px;
+    list-style: none;
+    display: flex;
+    gap: 3px;
+    padding-left: 10vw;
+
+}
+
+.separator{
+    font-weight: bold;
+    margin: 0 3PX;
+    color: var(--clr-primary);
+}
+
+.breadcrumbs_container  li{
+    color: var(--clr-black);
+    font-size: var(--font-small);
+    font-family: var(--font-principal);
+}
+@media screen and (max-width: 800px){
+    .breadcrumbs_item span,.breadcrumbs_item a{
+        font-size: 1vh !important;
+    }
+}

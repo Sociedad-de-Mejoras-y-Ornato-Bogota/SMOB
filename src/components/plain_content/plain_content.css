@@ -1,0 +1,56 @@
+@import url('../../assets/styles/colors.css');
+@import url('../../assets/styles/font.css');
+
+
+.body_scroll{
+    overflow-x: hidden;
+}
+
+.plain_c-container {
+    margin-top: 15px;
+    margin-right: 3%;
+    padding-right: 0;
+/* width: 9vw; */
+}
+
+.plain_c-main {}
+
+.plain_c-main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plain_c-main-title p{
+    font-family: var(--font-headers);
+    font-size: var(--font-h3);
+    color:var(--clr-primary);
+    margin-bottom: 0;
+
+}
+.plain_c-main-title span {
+    width: 9vw !important;
+    border-bottom: 3px solid var(--clr-primary);
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.plain_c-main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+.plain_c-main-content p{
+    width: 85%;
+    font-family: var(--font-principal);
+    font-size: var(--font-body) ;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    text-align: justify;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}

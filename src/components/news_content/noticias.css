@@ -1,0 +1,45 @@
+@import url('../../assets/styles/colors.css');
+@import url('../../assets/styles/font.css');
+
+.general{
+    display: flex;
+}
+
+.contenido{
+    display: block;
+    width: 82%;
+    margin-right: 0px;
+    padding-right: 0%;
+}
+
+.news_section{
+    width: 18%;
+    min-height: 500px;
+    border-radius: 1px;
+    float: right;
+}
+.news_title{
+    align-items: center;
+}
+.span_new{
+    width: 80% !important;
+    border-bottom: 2px solid var(--clr-black);
+    margin-bottom: 5px;
+    margin-left: 10%;
+}
+.news_title_h{
+    font-family: var(--font-principal);
+    font-size:  calc(4px + 1vw);
+    color: var(--clr-black);
+    font-weight: 600 ;
+    text-align: center;
+}
+.news_container{
+    margin:0 10px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+    

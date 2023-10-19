@@ -1,0 +1,156 @@
+@import url('../../assets/styles/colors.css');
+@import url('../../assets/styles/font.css');
+
+.lateral-menu{
+  position: fixed;
+  top: 7vh;
+
+  left: 0;
+  background: var(--clr-lightgray);
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 99999;
+}
+
+.menu-container {
+  transition: width 0.2s ease;
+  z-index: 9999;
+  width: 25vw;
+  display:flex;
+  justify-content: space-between;
+}
+
+.expanded{
+  width: 10px;
+  height: 100px;
+}
+
+
+
+.toggle-button {
+  padding: 10px;
+  background: var(--clr-lightgray);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right:0.1px solid var(--clr-primary);
+  transition: width 0.2s ease;
+}
+
+.title-component{
+  margin-left: 15px;
+}
+
+.title-component a{
+  font-size: var(--font-h4);
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 25vw;
+}
+
+.menu a{
+  text-decoration: none;
+  color: var(--clr-primary);
+  font-size: 24px !important;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  /* border-bottom: 1px solid var(--clr-primary); */
+  /* font-size: 18px; */
+}
+
+
+
+.menu-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-menu1 ul li a{
+  color: var(--clr-black);
+  font-size: var(--font-body);
+}
+
+
+
+.expand-button.expanded {
+  transform: rotate(180deg);
+}
+
+.submenus {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 16px;
+}
+
+.submenus .menu-item {
+  padding: 3px 16px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.lateral-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.2s ease;
+}
+
+.lateral-menu.expanded .lateral-img-div {
+  width: 40px;
+  height: 100px;
+}
+
+.lateral-img-div img {
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  max-width: 400px;
+  transition: opacity 0.2s ease;
+}
+
+.lateral-menu.expanded .lateral-img-div img {
+  opacity: 0;
+}
+
+.lateral-img-div img {
+  margin: 10px;
+  border-radius: 15px;
+}
+
+a,span{
+  font-family: 'Lora' !important;
+  /* font-size: 18px !important; */
+}
+
+.highcharts-title{
+  font-family: 'Lora' !important;
+  font-size: 17px !important;
+}
+
+.l-normal{
+  height: 75vh;
+  top: 13vw;
+}
+
+.l-ext{
+  height: 96.5vh;
+  top: 3.3vw
+}
+
+.s-padding{
+  padding: 0 !important;
+}
+

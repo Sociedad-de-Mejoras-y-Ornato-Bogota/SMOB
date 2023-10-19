@@ -1,0 +1,144 @@
+.panels-civilidad{
+    position: absolute;
+    font-size: 80px;
+    opacity: .3;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: 0.6vw;
+}
+.panels-container {
+    height: 800px;
+    width: 100vw;
+    display: flex;
+}
+
+
+.panels {
+    width: 25vw;
+    height: 100%;
+}
+
+.panels-face {
+    height: 100%;
+    width: 100%;
+}
+
+.image-panel {
+    height: 100%;
+}
+
+.panel-title {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    /* display: none; */
+}
+
+.panel-boton{
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 30px;
+    /* display: none; */
+}
+
+.panel-boton button{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.panel-info{
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+.panel-info:nth-child(4){
+    margin-top: 580px;
+}
+
+#panel1-frontal {
+    background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-1.png");
+    background-size: cover;
+}
+
+#panel2-frontal {
+    background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-2.png");
+    background-size: cover;
+}
+
+#panel3-frontal {
+    background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-3.png");
+    background-size: cover;
+}
+
+#panel4-frontal {
+    background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-4.png");
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .panels-container{
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-wrap: wrap;
+    }  
+    .panels{
+        width: 50vw;
+        height: 45vh;
+    }
+    .panels-civilidad{
+        display: none;
+    }
+    .panel-title {
+        margin-top: 20vh;
+        margin-left: 3vw;
+        font-size:4vw
+    }
+    .panel-boton{
+        margin-top: 35vh;
+        margin-left: 3vw;
+    }
+    .panel-boton button{
+        font-size: 2vw;
+    }
+    .panel-info{
+        margin-top: 30vh;
+        margin-left: 3vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    #panel1-frontal {
+        background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-r-1.jpg");
+        background-size: cover;
+    }
+    
+    #panel2-frontal {
+        background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-r-2.jpg");
+        background-size: cover;
+    }
+    
+    #panel3-frontal {
+        background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-r-3.jpg");
+        background-size: cover;
+    }
+    
+    #panel4-frontal {
+        background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-r-4.jpg");
+        background-size: cover;
+    }
+}

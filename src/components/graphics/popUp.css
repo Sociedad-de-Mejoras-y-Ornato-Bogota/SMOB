@@ -1,0 +1,84 @@
+.popup-container {
+    z-index: 999; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para oscurecer el fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Coloca el pop-up por encima de todo */
+  }
+  
+  .popup-content {
+    z-index: 999;
+    background: white;
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 80vw; /* Ajusta el ancho máximo del pop-up según sea necesario */
+    max-height: 80vh; /* Ajusta la altura máxima del pop-up según sea necesario */
+    overflow: auto; /* Agrega desplazamiento si el contenido es demasiado grande */
+  }
+  
+  .popup-content img {
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen para que se ajuste al contenedor */
+  height: 95%; 
+  width: 100%;/* Asegura que la altura se ajuste automáticamente al ancho */
+  display: block; /* Evita el espacio adicional debajo de la imagen */
+  margin: 0 auto; /* Centra horizontalmente la imagen en su contenedor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra a la imagen (opcional) */
+  border-radius: 5px; /* Agrega esquinas redondeadas a la imagen (opcional) */
+  z-index: 999;
+}
+
+.close-button {
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .close-button:before {
+    content: "×"; /* Agrega el símbolo "x" como contenido */
+    font-size: 24px; /* Tamaño del símbolo "x" */
+    color: #fff; /* Color del símbolo "x" */
+    text-align: center;
+    padding: 5px 12px;
+    line-height: 50px; /* Alinea verticalmente el símbolo "x" en el círculo */
+    border-radius: 50%; /* Crea un círculo alrededor del botón */
+    background-color: #333; /* Color de fondo del círculo */
+    transition: background-color 0.3s ease-in-out; /* Transición de color de fondo */
+  }
+  
+  .close-button:hover:before {
+    background-color: #ff0000; /* Cambia el color de fondo en el hover */
+  }
+  .custom-button {
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    left: 10px; /* Alinea a la izquierda */
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  

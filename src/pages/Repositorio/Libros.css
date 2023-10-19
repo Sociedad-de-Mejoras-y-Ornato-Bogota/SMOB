@@ -1,0 +1,88 @@
+.pdf-b{
+  width: 45vw;
+}
+.filtro-p-select {
+  background-color: #91583b;
+  color: #fff !important;
+}
+.filtro-publicaciones {
+  display: flex;
+  overflow-wrap: break-word;
+  box-shadow: 0 0 10px 3px #bbbeb6;
+  /* width: 60vw; */
+  margin-bottom: 5vh;
+  background-color: #fff;
+}
+.filtro-p {
+  height: 80px;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #91583b;
+  border-right: 1px solid #bbbeb6;
+  cursor: pointer;
+}
+  .image-b {
+    width:300px !important
+  }
+
+  .publicaciones-card-title{
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .publicaciones-container{
+      margin-top:80px;
+    }
+    .card-b{
+        margin-bottom: -3vh !important;
+    }
+
+  .filtros-biblioteca{
+    flex-direction: column !important;
+    padding: 1vh !important;
+    align-items: center !important;
+  }
+  .filtros-biblioteca input,.filtros-biblioteca select{
+    width: 60vw !important;
+  }
+  .r-filtros-biblioteca{
+    height: auto !important;
+    /* margin-top: "4vh" */
+  }
+  .abecedario{
+    flex-wrap: wrap;
+  }
+  .letter{
+    width: 5vw !important;
+  }
+  .publicaciones-card-title{
+    text-align: center;
+    font-size: 18px !important;
+  }
+  .publicaciones-verMas{
+    width: 40vw !important;
+  }
+}
+.publicaciones-verMas {
+  background-color: #91583b;
+  border: none;
+  color: #fff;
+}
+
+.modal-reseña {
+  width: 40vw;
+  min-height: 400px;
+  z-index: 9;
+  margin: 50vh auto;
+  border: none;
+  box-shadow: 0 0 10px 3px #bbbeb6;
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal-reseña h4 {
+  color: #91583b;
+}
