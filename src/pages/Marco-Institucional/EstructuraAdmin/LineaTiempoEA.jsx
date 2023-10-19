@@ -1,4 +1,4 @@
-import '../General.css';
+
 import Pronto from '../../../components/Not found/ComingSoon'
 export default function LineaTiempoiEA() {
     return (

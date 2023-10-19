@@ -60,6 +60,7 @@ const NavbarResponsive = () => {
             setCiudadyciudadania(false)
             setInstrumentos(false)
             setEstruturaurbana(false)
+            setVivienda(false)
         }
     };
 

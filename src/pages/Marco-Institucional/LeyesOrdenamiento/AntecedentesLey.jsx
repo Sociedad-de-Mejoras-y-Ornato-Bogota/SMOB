@@ -1,4 +1,4 @@
-import '../General.css';
+
 
 function AntecedentesLey() {
     return (

@@ -28,19 +28,19 @@ function Crecimiento() {
         
        </div>
 
-      <div className='row responsive-row' style={{width:"100vw",height:"97vh"}}>
+      <div className='row responsive-row' style={{width:"100vw",height:"auto"}}>
         <div className="col-lg-6 todo">
         <iframe
           src='https://geogeeks2.maps.arcgis.com/apps/dashboards/586d8531b4d6443fbeb0caea786b6dcb'
           className='dashboards'
-          style={{width:"100%",height:"95vh"}}
+          style={{width:"100%",height:"80vh"}}
         ></iframe>
         </div>
         <div className="col-lg-6 todo">
         <iframe
           src='https://geogeeks2.maps.arcgis.com/apps/dashboards/3ccec03e3cdc4ac9862aaf38fcf30106'
           className='dashboards'
-          style={{width:"100%",height:"95vh"}}
+          style={{width:"100%",height:"80vh"}}
         ></iframe>
         </div>
       </div>
@@ -58,12 +58,12 @@ function Crecimiento() {
         
        </div>
      
-  <div className='row' style={{width:"100vw",height:"97vh"}}>
+  <div className='row' style={{width:"100vw",height:"auto"}}>
         <div className="col-lg-12">
         <iframe
           src='https://geogeeks2.maps.arcgis.com/apps/dashboards/d2b67f4294a14f64a7c936b9c20b01d0'
           className='todo'
-          style={{width:"100vw",height:"97vh"}}
+          style={{width:"100vw",height:"80vh"}}
         ></iframe>
         </div>
 

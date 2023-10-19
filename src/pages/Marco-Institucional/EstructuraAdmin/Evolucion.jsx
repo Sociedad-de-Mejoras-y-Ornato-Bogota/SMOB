@@ -1,25 +1,24 @@
-import '../General.css';
-import Pronto from '../../../components/Not found/ComingSoon'
+import Pronto from "../../../components/Not found/ComingSoon";
 export default function Evolucion() {
-    return (
-        <>
-            <div className="general-container">
-                <div className="row">
-
-    
-
-                    <div className="col-lg-12">
-                        <div className="general-title">
-                            {/* Línea del tiempo Estructura Administrativa de Bogotá */}
-                        </div>
-
-                   
-                        <Pronto />
-                     
-                    </div>
-                </div>
+  return (
+    <>
+      <div className="general-container">
+        <div className="row responsive-columna">
+          <div className="col-lg-6">
+            <div className="general-title">
+              Evolución de la estructura administrativa de Bogotá desde su
+              fundación hasta el año 2021
             </div>
-        </>
-
-    )
+          </div>
+          <div className="col-lg-6">
+            <iframe
+              src="https://geogeeks2.maps.arcgis.com/sharing/rest/content/items/5fe7248b1f7c44dbbd46c048513e7426/data"
+              style={{ width: "40vw", height: "60vh" }}
+              className="pdf-responsive"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }

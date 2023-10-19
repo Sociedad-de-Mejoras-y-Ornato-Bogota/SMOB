@@ -16,12 +16,12 @@ const Pppym = () => {
 
       </div>
 
-      <div className='row' style={{ width: "100vw",height:"97vh" }}>
-        <div className="col-lg-12" style={{height:"97vh"}}>
+      <div className='row' style={{ width: "100vw",height:"auto" }}>
+        <div className="col-lg-12" style={{height:"80vh"}}>
           <iframe
             src='https://experience.arcgis.com/experience/d530eb788fe34cc89a21ef2d1a02dfe3/'
             className='dashboards'
-            style={{ width: "100%",height:"95vh" }}
+            style={{ width: "100%",height:"80vh" }}
           ></iframe>
         </div>
 

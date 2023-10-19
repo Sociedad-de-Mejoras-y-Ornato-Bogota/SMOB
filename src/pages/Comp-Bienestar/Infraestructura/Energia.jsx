@@ -13,12 +13,12 @@ const Energia = () => {
 
             </div>
 
-            <div className='row' style={{ width: "100vw", height:"97vh" }}>
+            <div className='row' style={{ width: "100vw", height:"auto" }}>
                 <div className="col-lg-12">
                     <iframe
                         src='https://storymaps.arcgis.com/stories/7888b71de20140058952a9ddeaf5b826'
                         className='dashboards'
-                        style={{ width: "100%", height: "95vh" }}
+                        style={{ width: "100%", height: "80vh" }}
                     ></iframe>
                 </div>
 

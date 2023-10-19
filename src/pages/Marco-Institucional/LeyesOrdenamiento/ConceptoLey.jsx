@@ -1,4 +1,4 @@
-import '../General.css';
+
 
 export default function ConceptoLey() {
     return (

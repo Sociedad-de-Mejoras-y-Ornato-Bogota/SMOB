@@ -13,12 +13,12 @@ const SGas = () => {
 
             </div>
 
-            <div className='row' style={{ width: "100vw", height:"97vh" }}>
+            <div className='row' style={{ width: "100vw", height:"auto" }}>
                 <div className="col-lg-12">
                     <iframe
                         src='https://storymaps.arcgis.com/stories/8a6395158bea4746809933e34939f4f1'
                         className='dashboards'
-                        style={{ width: "100%", height: "95vh" }}
+                        style={{ width: "100%", height: "80vh" }}
                     ></iframe>
                 </div>
 

@@ -184,21 +184,21 @@ const Graph2 = () =>{
             <Popup
             imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.1-Bogota-futuro.png"
             onClose={handleClosePopup}
-            url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+            url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 74 DE 1925 BOGOTA FUTURO.pdf"
           />
          )}
          {showPopup1 && (
             <Popup
             imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.2-Brunner.png"
             onClose={handleClosePopup1}
-            url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+            url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 28 DE 1933-BRUNNER.pdf"
           />
          )}
          {showPopup2 && (
             <Popup
             imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.3-Le-Corbusier.png"
             onClose={handleClosePopup2}
-            url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+            url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 185 DE 1951-LE CORBUSIER.pdf"
           />
          )}
          {showPopup3 && (
@@ -219,48 +219,48 @@ const Graph2 = () =>{
             <Popup
             imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.6-Acuerdo-7-1979.png"
             onClose={handleClosePopup5}
-            url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+            url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 7 1979.pdf"
           />
          )}
          {showPopup6 && (
             <Popup
             imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.7-Acuerdo-6-1990.png"
             onClose={handleClosePopup6}
-            url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+            url="https://geoapps.esri.co/recursos/smob/grafica/pdf/Acuerdo 6 de 1990.pdf"
           />
          )}
          {showPopup7 && (
             <Popup
             imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.8-Decreto-619-2000.png"
             onClose={handleClosePopup7}
-            url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+            url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 619 DE 2000.pdf"
           />
          )}
          {showPopup8 && (
             <Popup
             imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.9-Decreto-190-2004.png"
             onClose={handleClosePopup8}
-            url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+            url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO190 DE 2004.pdf"
           />
          )}
          {showPopup9 && (
             <Popup
             imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.10-Mepot-2013.png"
             onClose={handleClosePopup9}
-            url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+            url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 364 DE 2013.pdf"
           />
          )}
          {showPopup10 && (
             <Popup
             imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.11-proyecto-POT-2019.png"
             onClose={handleClosePopup10}
-            url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+            url="https://geoapps.esri.co/recursos/smob/grafica/pdf/PROYECTO DE ACUERDO POT BOGOTA 2019.pdf"
           />
          )}{showPopup11 && (
            <Popup
            imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.12-Decreto-555-2021.png"
            onClose={handleClosePopup11}
-           url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+           url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 555 DE 2021.pdf"
          />
         )}
         <div className="graphs">

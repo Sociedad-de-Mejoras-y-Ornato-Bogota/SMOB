@@ -19,12 +19,12 @@ const Indices = () => {
         
        </div>
 
-      <div className='row' style={{width:"100vw",height:"97vh"}}>
+      <div className='row' style={{width:"100vw",height:"auto"}}>
         <div className="col-lg-12">
         <iframe
           src='https://experience.arcgis.com/experience/418fb6f6b9464b50ac181020a1a18fe5/page/Indicadores/?draft=true&views=Paso-10%2CPaso-5'
           className='dashboards'
-          style={{width:"100%",height:"95vh"}}
+          style={{width:"100%",height:"80vh"}}
         ></iframe>
         </div>
 

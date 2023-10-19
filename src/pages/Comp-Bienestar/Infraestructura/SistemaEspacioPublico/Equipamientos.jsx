@@ -16,12 +16,12 @@ const Equipamientos = () => {
 
       </div>
 
-      <div className='row' style={{height:"97vh"}}>
-        <div className="col-lg-12" style={{height:"97vh"}}>
+      <div className='row' style={{height:"auto"}}>
+        <div className="col-lg-12" style={{height:"80vh"}}>
           <iframe
             src='https://experience.arcgis.com/experience/4ea28cc4a9c3408aa81128490520201e/'
             className='dashboards'
-            style={{ width: "100vw", height: "95vh" }}
+            style={{ width: "100vw", height: "80vh" }}
           ></iframe>
         </div>
 

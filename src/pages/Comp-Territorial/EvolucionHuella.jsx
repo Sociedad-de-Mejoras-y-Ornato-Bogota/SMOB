@@ -14,12 +14,12 @@ function    EvolucionHuella() {
         
        </div>
 
-      <div className='row' style={{height:"97vh"}}>
+      <div className='row' style={{height:"auto"}}>
         <div className="col-lg-12">
         <iframe
           src='https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/'
           className='dashboards'
-          style={{width:"100vw",height:"95vh"}}
+          style={{width:"100vw",height:"80vh"}}
         ></iframe>
         </div>
 

@@ -13,12 +13,12 @@ const AguaYAcueducto = () => {
 
             </div>
 
-            <div className='row' style={{ width: "100vw", height:"97vh" }}>
+            <div className='row' style={{ width: "100vw", height:"auto" }}>
                 <div className="col-lg-12">
                     <iframe
                         src='https://storymaps.arcgis.com/stories/81cfdc0533fc4a90a2d5377f62dd512c'
                         className='dashboards'
-                        style={{ width: "100%", height: "95vh" }}
+                        style={{ width: "100%", height: "80vh" }}
                     ></iframe>
                 </div>
 

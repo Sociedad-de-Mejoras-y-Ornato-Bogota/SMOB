@@ -54,12 +54,12 @@ function Ecuacion() {
 
       </div>
 
-      <div className='row' style={{ width: "100vw",height:"97vh"}}>
+      <div className='row' style={{ width: "100vw",height:"auto"}}>
         <div className="col-lg-12">
           <iframe
             src='https://geogeeks2.maps.arcgis.com/apps/dashboards/45a68a91109b40318c6d2bb327d7befa'
             className='dashboards'
-            style={{ width: "100%",height:"95vh" }}
+            style={{ width: "100%",height:"80vh" }}
           ></iframe>
         </div>
 

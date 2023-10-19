@@ -70,7 +70,7 @@ export const archivo = [
             }
         ],
     }, {
-        title: "Componenete Poblacional",
+        title: "Componente Poblacional",
         ruta: "Componente poblacional",
         color: "white",
         submenu: [
@@ -110,7 +110,7 @@ export const archivo = [
                         ruta: "Componente poblacional/Demografía/Ecuación compensadora de Bogotá",
                     }, {
                         title: "Pirámides de distribución por edad y sexo",
-                        ruta: "Componente poblacional/Demografía/Pirámides de distribución por edad y sexoComponente poblacional/Demografía/Pirámides de distribución por edad y sexo",
+                        ruta: "Componente poblacional/Demografía/Pirámides de distribución por edad y sexo",
                         submenu: [
                             {
                                 title: "Pirámides de distribución por edad y sexo de Colombia o Bogotá",

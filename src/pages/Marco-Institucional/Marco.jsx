@@ -1,5 +1,5 @@
 
-import './General.css';
+// import './General.css';
 
 export default function Marco() {
 
