@@ -64,6 +64,9 @@
     margin-top: 2vh;
     flex-direction: column;
   }
+  #footer-links p{
+    text-align: center !important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -74,4 +77,5 @@
     align-items: center;
     gap: 1.5vw;
   }
+
 }

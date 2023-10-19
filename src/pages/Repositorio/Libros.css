@@ -32,12 +32,22 @@
   }
 
   @media (max-width: 768px) {
+    .filtro-publicaciones{
+      flex-direction: column;
+      width: 60vw;
+    }
+    .filtro-publicaciones div{
+      width: 100%;
+    }
     .publicaciones-container{
       margin-top:80px;
     }
     .card-b{
         margin-bottom: -3vh !important;
     }
+    .pdf-b {
+      width: 80vw !important;
+  }
 
   .filtros-biblioteca{
     flex-direction: column !important;
