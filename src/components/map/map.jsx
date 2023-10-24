@@ -20,7 +20,7 @@ const Map = ({ map_id, layers }) => {
 
     view.current = new MapView({
       map: webmap,
-      zoom: 14,
+      zoom: 15,
     });
 
     const scalebar = new ScaleBar({
@@ -48,10 +48,12 @@ const Map = ({ map_id, layers }) => {
 
     webmap.load().then(() => {
       webmap.layers.forEach((layer) => {
-        console.log(layer.title)
+
         if (layers.includes(layer.title)) {
+          console.log(layer.title)
           layer.visible = true;
         } else {
+          console.error(layer.title)
           layer.visible = false;
         }
       });

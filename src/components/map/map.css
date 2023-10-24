@@ -1,6 +1,13 @@
 @import "https://js.arcgis.com/4.26/@arcgis/core/assets/esri/themes/light/main.css";
 
-#viewDiv{
-     height: 600px;
+#viewDiv {
+      height: 600px;
       width: 80vw
+}
+
+@media screen and (max-width: 960px) {
+      #viewDiv {
+            width: 100vw !important;
+            height: 60vh !important;
+      }
 }

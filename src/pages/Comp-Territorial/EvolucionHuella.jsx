@@ -3,7 +3,7 @@ import Data from "./HuellaUrbana.json";
 import { useState } from "react";
 
 function EvolucionHuella() {
-  const [opacity , setOpacity] = useState(false)
+  const [opacity, setOpacity] = useState(false);
   const [open, setOpen] = useState(false);
   const [year, setYear] = useState("Historia de la huella urbana");
   const [dataFilter, setFilter] = useState({
@@ -53,12 +53,11 @@ function EvolucionHuella() {
               justifyContent: "space-evenly",
               alignItems: "center",
               listStyle: "none",
-
               top: "130px",
               fontSize: ".8vw",
               cursor: "pointer",
             }}
-            className={` ${opacity ? "opacity": " "}`}
+            className={`menu-huella-responsive ${opacity ? "opacity" : " "}`}
           >
             {Data.map((item) => {
               return (
@@ -68,7 +67,7 @@ function EvolucionHuella() {
                   onClick={() => {
                     setYear(item.año);
                     setFilter(item);
-                    setOpen(false)
+                    setOpen(false);
                   }}
                 >
                   {item.año}
@@ -93,15 +92,16 @@ function EvolucionHuella() {
             >
               {open && (
                 <dialog
+                className="modal-responsive"
                   open
                   style={{
                     width: "80vw",
                     height: "600px",
                     position: "absolute",
                     left: "10%",
-                    top:"40%",
+                    top: "40%",
                     border: "none",
-                    zIndex:"9"
+                    zIndex: "9",
                   }}
                 >
                   <Map
@@ -109,6 +109,7 @@ function EvolucionHuella() {
                     layers={dataFilter?.layers}
                   />
                   <button
+                  className="boton-modal-responsive"
                     style={{
                       position: "absolute",
                       top: "0",
@@ -116,12 +117,17 @@ function EvolucionHuella() {
                       backgroundColor: "#91583b",
                       border: "none",
                       color: "#fff",
-                      width:"auto"
+                      width: "10vw",
+                      height: "5vh",
+                      padding: "10px",
+                      fontSize: "14px",
                     }}
-                    onClick={()=> {
-                      setOpen(false)
-                      setOpacity(false)
-                      document.querySelector(`#frame`).scrollIntoView({ behavior: 'smooth' });
+                    onClick={() => {
+                      setOpen(false);
+                      setOpacity(false);
+                      document
+                        .querySelector(`#frame`)
+                        .scrollIntoView({ behavior: "smooth" });
                     }}
                   >
                     Ver indicadores
@@ -129,20 +135,27 @@ function EvolucionHuella() {
                 </dialog>
               )}
 
-              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold" }}>
+              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold" }}               className="text-responsive">
                 {dataFilter?.titulo}
               </h4>
-              <i style={{ color: "#762f0b" }}>
+              <i style={{ color: "#762f0b" }}               className="text-responsive">
                 Haga clic en la imagen del plano escaneado del año {year} para
                 poder ver el plano digitalizado por la Sociedad de Mejoras y
                 Ornato de Bogotá.
               </i>
               <img
-              onClick={()=> {
-                setOpacity(true)
-                setOpen(!open)}}
+                            className="img-responsive"
+                onClick={() => {
+                  setOpacity(true);
+                  setOpen(!open);
+                }}
                 src={dataFilter?.img_url}
-                style={{ width: "50vw", height: "60vh", margin: "1vh 1vw", cursor:"pointer" }}
+                style={{
+                  width: "50vw",
+                  height: "60vh",
+                  margin: "1vh 1vw",
+                  cursor: "pointer",
+                }}
               ></img>
             </div>
           )}
@@ -174,7 +187,7 @@ function EvolucionHuella() {
                 alignItems: "center",
               }}
             >
-              <i style={{ color: "#762f0b", textAlign: "center" }}>
+              <i style={{ color: "#762f0b", textAlign: "center" }} className="text-responsive">
                 En esta sección puede explorar la línea de tiempo de la huella
                 urbana para la ciudad de Bogotá. Observará la evolución de los
                 planos originales a su estado digitalizado, el crecimiento
@@ -187,12 +200,14 @@ function EvolucionHuella() {
                   fontWeight: "bold",
                   margin: "1vh 1vw",
                 }}
+                className="text-responsive"
               >
                 {dataFilter?.titulo}
               </h4>
               <img
                 src={dataFilter.img_url}
                 style={{ width: "50vw", height: "60vh", margin: "1vh 1vw" }}
+                className="img-responsive"
               ></img>
             </div>
           )}
@@ -202,10 +217,10 @@ function EvolucionHuella() {
         <div className="row" style={{ height: "auto", marginTop: "5vh" }}>
           <div className="col-lg-12">
             <iframe
-                            className={` ${opacity ? "opacity": " "}`}
+              className={` ${opacity ? "opacity" : " "}`}
               id="frame"
               src={dataFilter.iframe_url}
-              style={{ width: "100%", height: "90vh" }}
+              style={{ width: "100vw", height: "90vh" }}
               sandbox="allow-scripts allow-same-origin allow-popups"
             ></iframe>
           </div>

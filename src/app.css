@@ -22,9 +22,10 @@ p {
 
 
 @media screen and (max-width: 960px) {
-    .row{
+    .row {
         height: auto !important;
     }
+
     .general-container {
         margin-top: 100px;
         height: auto !important;
@@ -87,6 +88,21 @@ p {
 
     .graficas-censo div {
         width: 100vw !important;
+    }
+
+    .img-responsive {
+        width: 90vw !important;
+        height: 50vh !important;
+    }
+
+    .modal-responsive {
+        width: 100vw !important;
+        height: 60vh !important;
+        left: 0% !important;
+    }
+    .boton-modal-responsive{
+        width: 50vw !important;
+        height: 7vh !important;
     }
 
 }
@@ -208,10 +224,20 @@ p {
     height: 100%;
 }
 
-.selected-year{
+.selected-year {
     text-decoration: underline;
     font-weight: bold;
 }
-.opacity{
+
+.opacity {
     opacity: .1;
 }
+/* Estilos para el menú en pantallas pequeñas (menos de 768px de ancho) */
+@media (max-width: 768px) {
+    .menu-huella-responsive {
+      font-size: 1.5vw !important;
+    }
+
+  }
+  
+  /* Estilos para el botón de menú en pantallas pequeñas */
