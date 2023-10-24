@@ -1,0 +1,6 @@
+@import "https://js.arcgis.com/4.26/@arcgis/core/assets/esri/themes/light/main.css";
+
+#viewDiv{
+     height: 600px;
+      width: 80vw
+}
