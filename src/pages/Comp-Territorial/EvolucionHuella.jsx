@@ -116,6 +116,7 @@ function EvolucionHuella() {
                       backgroundColor: "#91583b",
                       border: "none",
                       color: "#fff",
+                      width:"auto"
                     }}
                     onClick={()=> {
                       setOpen(false)
