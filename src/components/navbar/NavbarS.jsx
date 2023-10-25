@@ -12,7 +12,7 @@ const NavbarS = () => {
         <div className='header-img' id='hola'>
               <Link to="/">
                   <img src="https://geoapps.esri.co/recursos/SMOB/logo.png" alt="logo" style={{ width: '3vw', marginLeft: '-50%' }} />
-                  <img src="https://i.ibb.co/jT1YtpX/LOGO-PLATAFORMA-WEB-SMOB-Mesa-de-trabajo-1.png" alt="logo" style={{ width: '3vw', marginLeft: '-2%' }} />
+                  <img src="https://geoapps.esri.co/recursos/SMOB/logo_plataforma.png" alt="logo" style={{ width: '3vw', marginLeft: '-2%' }} />
               </Link></div>
           <div className='header-title' id='hola' style={{marginLeft:"5vw"}}>
               <h1>Construyendo civilidad: ciudad y ciudadanía
