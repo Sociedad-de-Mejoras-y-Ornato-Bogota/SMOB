@@ -222,14 +222,14 @@ const Graph = () =>{
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.4-Fase-2-1972.png"
          onClose={handleClosePopup3}
-         url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+         url=""
        />
       )}
       {showPopup4 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.5-plan-desarrollo-urbano-1975.png"
          onClose={handleClosePopup4}
-         url="https://www.esri.co/es-co/nosotros/sobre-esri/inicio"
+         url=""
        />
       )}
       {showPopup5 && (

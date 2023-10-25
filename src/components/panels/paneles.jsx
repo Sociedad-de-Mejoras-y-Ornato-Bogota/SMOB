@@ -3,12 +3,12 @@ import './paneles.css'
 const Panels = () => {
     return (
         <div className="panels-container">
-            <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad">
+            <Link to="construyendo civilidad">
                 <p className="panels-civilidad"> CONSTRUYENDO CIVILIDAD</p>
             </Link>
 
             <div className="panels">
-                <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional">
+                <Link to="marco institucional">
                     <div className="panels-face">
                         <p className='panel-title'>
                             Marco <br></br> Institucional
@@ -24,7 +24,7 @@ const Panels = () => {
                 </Link>
             </div>
             <div className="panels">
-                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional">
+                <Link to="Componente poblacional">
                     <div className="panels-face">
                         <p className='panel-title'>
                             Componente<br></br> Poblacional
@@ -40,7 +40,7 @@ const Panels = () => {
                 </Link>
             </div>
             <div className="panels">
-                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial">
+                <Link to="Componente territorial">
                     <div className="panels-face">
                         <p className='panel-title'>
                             Componente<br></br> Territorial
@@ -56,7 +56,7 @@ const Panels = () => {
                 </Link>
             </div>
             <div className="panels">
-                <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar">
+                <Link to="componente bienestar">
                     <div className="panels-face">
                         <p className='panel-title'>
                             Componente<br></br> Bienestar

@@ -10,7 +10,7 @@ const NavbarS = () => {
         <>
         <header id='header' className='col-lg' >
         <div className='header-img' id='hola'>
-              <Link to="/sociedad-de-mejoras-y-ornato-bogota/">
+              <Link to="/">
                   <img src="https://geoapps.esri.co/recursos/SMOB/logo.png" alt="logo" style={{ width: '3vw', marginLeft: '-50%' }} />
                   <img src="https://i.ibb.co/jT1YtpX/LOGO-PLATAFORMA-WEB-SMOB-Mesa-de-trabajo-1.png" alt="logo" style={{ width: '3vw', marginLeft: '-2%' }} />
               </Link></div>

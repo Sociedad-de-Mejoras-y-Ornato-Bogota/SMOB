@@ -8,7 +8,7 @@ export default function Index() {
 
         <main className='cards' style={{width:"100vw"}}>
             <div className='card'>
-                <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional">
+                <Link to="marco institucional">
                     <div className='face front'>
                         <p className='card-title'>
                             Marco Institucional<br></br>
@@ -27,7 +27,7 @@ export default function Index() {
             </div>
 
             <div className='card'>
-                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional">
+                <Link to="Componente poblacional">
                     <div className='face front' >
                         <p className='card-title' style={{ zIndex: "9999" }}>
                             Componente Poblacional<br></br>
@@ -46,7 +46,7 @@ export default function Index() {
             </div>
 
             <div className='card'>
-                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial">
+                <Link to="Componente territorial">
                     <div className='face front'>
                         <p className='card-title'>
                             Componente Territorial<br></br>
@@ -65,7 +65,7 @@ export default function Index() {
             </div>
 
             <div className='card'>
-                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente bienestar">
+                <Link to="Componente bienestar">
                     <div className='face front'>
                         <p className='card-title'>
                             Componente Bienestar<br></br>

@@ -30,7 +30,7 @@ const NavbarSimple = () => {
           esconderTodo();
       } }>
           <div className='header-img' id='hola'>
-              <Link to="/sociedad-de-mejoras-y-ornato-bogota/">
+              <Link to="/">
                   <img src="https://geoapps.esri.co/recursos/SMOB/logo.png" alt="logo" style={{ width: '6vw', height: '12vh', marginLeft: '-50%' }} />
                   <img src="https://i.ibb.co/jT1YtpX/LOGO-PLATAFORMA-WEB-SMOB-Mesa-de-trabajo-1.png" alt="logo" style={{ width: '6vw', height: '12vh' }} />
               </Link></div>
@@ -41,7 +41,7 @@ const NavbarSimple = () => {
       </header><nav className="navbar">
               <ul className="navbar-nav">
                   <li className="nav-item">
-                      <a><Link to="/sociedad-de-mejoras-y-ornato-bogota/" >Inicio</Link></a>
+                      <a><Link to="/" >Inicio</Link></a>
                   </li>
                   <li className="nav-item">
                       <p className='unir'><a href="#servicios">Servicios</a>

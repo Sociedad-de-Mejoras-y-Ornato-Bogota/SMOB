@@ -54,7 +54,7 @@ return () => {
 
       {!isExpanded && <ul className="menu">
         <div className='title-component'>
-          <Link to='marco institucional' >
+          <Link to='zmarco institucional' >
             <p style={{fontWeight:"bold",fontSize:"24px",margin:"1vh 0"}}>
             Marco Institucional
               </p></Link>
