@@ -13,7 +13,11 @@ export default  function BogotaCiudadCompleja() {
                 </div>
 
                 <div className="col-lg-6">
-                    <Pronto />
+                <iframe
+            src="https://geoapps.esri.co/recursos/SMOB/libros//construyendo-civilidad//3.pdf"
+            style={{ width: "40vw", height: "50vh" }}
+            className="pdf-responsive"
+          ></iframe>
                 </div>
 
             </div>
