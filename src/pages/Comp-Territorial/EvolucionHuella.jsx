@@ -1,8 +1,9 @@
 import Map from "../../components/map/map";
 import Data from "./HuellaUrbana.json";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function EvolucionHuella() {
+  const [scrollTop , setScrollTop] = useState(0)
   const [opacity, setOpacity] = useState(false);
   const [open, setOpen] = useState(false);
   const [year, setYear] = useState("Historia de la huella urbana");
@@ -14,6 +15,26 @@ function EvolucionHuella() {
     img_url: "https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/0.gif",
   });
 
+  useEffect(() => {
+    const handleScroll = () => {
+        setScrollTop(window.scrollY);
+        var elem = document.getElementById('nav-huella');
+        var pant = screen.height;
+        pant = (pant / 8) * 1.5;
+        if (window.scrollY > pant) {
+            elem.classList.remove("navbar-principal");
+            elem.classList.add("pegar");
+        }
+        else {
+            elem.classList.remove("pegar");
+            elem.classList.add("navbar-principal");
+        }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, []);
   return (
     <div className={`general-container`}>
       <div
@@ -53,11 +74,11 @@ function EvolucionHuella() {
               justifyContent: "space-evenly",
               alignItems: "center",
               listStyle: "none",
-              top: "130px",
               fontSize: ".8vw",
               cursor: "pointer",
             }}
             className={`menu-huella-responsive ${opacity ? "opacity" : " "}`}
+            id="nav-huella"
           >
             {Data.map((item) => {
               return (
