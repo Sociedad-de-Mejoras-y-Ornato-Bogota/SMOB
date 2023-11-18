@@ -469,12 +469,12 @@ const Menu = () => {
                 esconderTodo()
             }} >
                 <div className='header-img' id='hola'>
-                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/">
+                    <Link to="/">
                         <img src="https://geoapps.esri.co/recursos/SMOB/logo.png" alt="logo" style={{ width: '6vw', height: '12vh', marginLeft: '-50%' }} />
                         <img src="https://geoapps.esri.co/recursos/SMOB/logo_plataforma.png" alt="logo" style={{ width: '6vw', height: '12vh' }} />
                     </Link></div>
                 <div className='header-title' id='hola'>
-                    <h1>Construyendo civilidad: ciudad y ciudadanía
+                    <h1>Construyendo Civilidad
                     </h1>
                 </div>
             </header>
@@ -483,31 +483,31 @@ const Menu = () => {
                 esconderTodo()
             }}>
                 <li className='navbar-item' onMouseOver={toggleInicio}><span className="linea" >
-                    <a className='dowmLogo'><Link to="/sociedad-de-mejoras-y-ornato-bogota/" ><p className='letra'>Inicio</p></Link></a>
+                    <a className='dowmLogo'><Link to="/" ><p className='letra'>Inicio</p></Link></a>
                 </span></li>
                 <li className='navbar-item' ><span className="linea" >
-                    <a className='dowmLogo'  ><Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad"><p className='letra'>Construyendo<br />Civilidad </p></Link></a>
+                    <a className='dowmLogo'  ><Link to="/construyendo civilidad"><p className='letra'>Construyendo<br />Civilidad </p></Link></a>
                 </span><i onClick={toggleCivilidad} className='ic'>▼</i></li>
                 <li className='navbar-item'><span className="linea">
-                    <a className='dowmLogo' ><Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional"><p className='letra'>Marco<br />institucional </p></Link></a>
+                    <a className='dowmLogo' ><Link to="/marco institucional"><p className='letra'>Marco<br />institucional </p></Link></a>
                 </span><i onClick={toggleGeneral} className='ic'>▼</i></li>
                 <li className='navbar-item'><span className="linea">
-                    <a className='dowmLogo' ><Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional"><p className='letra'>Componente<br />Poblacional</p></Link></a>
+                    <a className='dowmLogo' ><Link to="/Componente poblacional"><p className='letra'>Componente<br />Poblacional</p></Link></a>
                 </span><i onClick={togglePoblacional} className='ic'>▼</i></li>
                 <li className='navbar-item'><span className="linea">
-                    <a className='dowmLogo'><Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial"><p className='letra'>Componente<br />Territorial</p></Link></a>
+                    <a className='dowmLogo'><Link to="/Componente territorial"><p className='letra'>Componente<br />Territorial</p></Link></a>
                 </span><i onClick={toggleTerritorial} className='ic'>▼</i></li>
                 <li className='navbar-item' > <span className="linea">
-                    <a className='dowmLogo' ><Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar"><p className='letra'>Componente<br />Bienestar</p></Link></a>
+                    <a className='dowmLogo' ><Link to="/componente bienestar"><p className='letra'>Componente<br />Bienestar</p></Link></a>
                 </span><i onClick={toggleOrdenamiento} className='ic'>▼</i></li>
                 <li className='navbar-item' > <span className="linea">
-                    <a className='dowmLogo' ><Link to="/sociedad-de-mejoras-y-ornato-bogota/Modelos Urbanos"><p className='letra'>Modelos<br />Urbanos</p></Link></a>
+                    <a className='dowmLogo' ><Link to="/Modelos Urbanos"><p className='letra'>Modelos<br />Urbanos</p></Link></a>
                 </span><i onClick={toggleModelosU} className='ic'>▼</i></li>
                 <li className='navbar-item'  ><span className="linea">
-                    <a className='dowmLogo' onClick={toggleNoticiasl}><Link to="/sociedad-de-mejoras-y-ornato-bogota/noticias" ><p className='letra'>Noticias</p></Link></a>
+                    <a className='dowmLogo' onClick={toggleNoticiasl}><Link to="/noticias" ><p className='letra'>Noticias</p></Link></a>
                 </span></li>
                 <li className='navbar-item'><span className="linea" style={{ border: 'transparent' }}>
-                    <a className='dowmLogo'  ><Link to="/sociedad-de-mejoras-y-ornato-bogota/Repositorio/Libros"><p className='letra'>Repositorio</p></Link></a>
+                    <a className='dowmLogo'  ><Link to="/Repositorio/Libros"><p className='letra'>Repositorio</p></Link></a>
                 </span></li>
             </nav>
 
@@ -521,7 +521,7 @@ const Menu = () => {
                             esconderTodo()
                         }}>
                             <li className='option' >
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
+                                <Link to="/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
                                     <p className='letra-sub'>La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá</p>
                                 </Link>
                             </li>
@@ -530,7 +530,7 @@ const Menu = () => {
                                 setselectedBogotaYCivilidad(true)
                                 mostrarMenu2(2, "Civil-2")
                             }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía"><p className='letra-sub'>Ciudad y ciudadanía</p></Link>
+                                <Link to="/construyendo civilidad/Cuidad y cuidadanía"><p className='letra-sub'>Ciudad y ciudadanía</p></Link>
                             </li>
                         </ul>
                     </div>
@@ -540,27 +540,27 @@ const Menu = () => {
                         <div className='submenu-item submenu-1-1' >
                             <ul className='Civil-2'>
                                 <li className='option invisible'>
-                                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Cuidadanía y civilidad">
+                                    <Link to="/construyendo civilidad/Cuidad y cuidadanía/Cuidadanía y civilidad">
                                         <p className='letra-sub'>Cuidadanía y civilidad</p>
                                     </Link>
                                 </li>
                                 <li className='option invisible'>
-                                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Orígenes de la civilidad en Colombia">
+                                    <Link to="/construyendo civilidad/Cuidad y cuidadanía/Orígenes de la civilidad en Colombia">
                                         <p className='letra-sub'>Orígenes de la civilidad en Colombia</p>
                                     </Link>
                                 </li>
                                 <li className='option invisible'>
-                                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Bogotá: una ciudad compleja">
+                                    <Link to="/construyendo civilidad/Cuidad y cuidadanía/Bogotá: una ciudad compleja">
                                         <p className='letra-sub'>Bogotá: una ciudad compleja</p>
                                     </Link>
                                 </li>
                                 <li className='option invisible'>
-                                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Civilidad y complejidad">
+                                    <Link to="/construyendo civilidad/Cuidad y cuidadanía/Civilidad y complejidad">
                                         <p className='letra-sub'>Civilidad y complejidad</p>
                                     </Link>
                                 </li>
                                 <li className='option invisible'>
-                                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
+                                    <Link to="/construyendo civilidad/Cuidad y cuidadanía/La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
                                         <p className='letra-sub'>   La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá</p>
                                     </Link>
                                 </li>
@@ -577,7 +577,7 @@ const Menu = () => {
                             // esconderTodo()
                         }}>
                             <li className='option' >
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
+                                <Link to="/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
                                     <p className='letra-sub'>La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá</p>
                                 </Link>
                             </li>
@@ -586,7 +586,7 @@ const Menu = () => {
                                 setselectedBogotaYCivilidad(true)
                                 mostrarMenu2(2, "Civil-2")
                             }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía"><p className='letra-sub'>Ciudad y ciudadanía</p></Link>
+                                <Link to="/construyendo civilidad/Cuidad y cuidadanía"><p className='letra-sub'>Ciudad y ciudadanía</p></Link>
                             </li>
                         </ul>
                     </div>
@@ -594,27 +594,27 @@ const Menu = () => {
                         <div className='submenu-item submenu-1-1' >
                             <ul className='Civil-2'>
                                 <li className='option invisible'>
-                                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Cuidadanía y civilidad">
+                                    <Link to="/construyendo civilidad/Cuidad y cuidadanía/Cuidadanía y civilidad">
                                         <p className='letra-sub'>Cuidadanía y civilidad</p>
                                     </Link>
                                 </li>
                                 <li className='option invisible'>
-                                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Orígenes de la civilidad en Colombia">
+                                    <Link to="/construyendo civilidad/Cuidad y cuidadanía/Orígenes de la civilidad en Colombia">
                                         <p className='letra-sub'>Orígenes de la civilidad en Colombia</p>
                                     </Link>
                                 </li>
                                 <li className='option invisible'>
-                                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Bogotá: una ciudad compleja">
+                                    <Link to="/construyendo civilidad/Cuidad y cuidadanía/Bogotá: una ciudad compleja">
                                         <p className='letra-sub'>Bogotá: una ciudad compleja</p>
                                     </Link>
                                 </li>
                                 <li className='option invisible'>
-                                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Civilidad y complejidad">
+                                    <Link to="/construyendo civilidad/Cuidad y cuidadanía/Civilidad y complejidad">
                                         <p className='letra-sub'>Civilidad y complejidad</p>
                                     </Link>
                                 </li>
                                 <li className='option invisible'>
-                                    <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
+                                    <Link to="/construyendo civilidad/Cuidad y cuidadanía/La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
                                         <p className='letra-sub'>   La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá</p>
                                     </Link>
                                 </li>
@@ -630,12 +630,12 @@ const Menu = () => {
                             esconderTodo()
                         }}>
                             <li className='option'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Modelos Urbanos/Bogotá Colonial">
+                                <Link to="/Modelos Urbanos/Bogotá Colonial">
                                     <p className='letra-sub'>Bogotá Colonial</p>
                                 </Link>
                             </li>
                             <li className='option'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Modelos Urbanos/Bogotá Republicana">
+                                <Link to="/Modelos Urbanos/Bogotá Republicana">
                                     <p className='letra-sub'>Bogotá Republicana</p>
                                 </Link>
                             </li>
@@ -662,7 +662,7 @@ const Menu = () => {
                             setSelectedOds(true)
                             mostrarMenu2(2, "General-1")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Nueva agenda urbana y los ODS"><p className='letra-sub'>Nueva agenda urbana y los ODS</p></Link>
+                            <Link to="/marco institucional/Nueva agenda urbana y los ODS"><p className='letra-sub'>Nueva agenda urbana y los ODS</p></Link>
                         </li>
                         <li className={`option ${selectedLeyes ? 'selected-menu' : ''}`} onMouseOver={() => {
                             removebackground()
@@ -671,7 +671,7 @@ const Menu = () => {
                             setSelectedLeyes(true)
                             mostrarMenu2(2, "General-2")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Leyes de ordenamiento territorial"><p className='letra-sub'>Leyes de ordenamiento territorial</p></Link>
+                            <Link to="/marco institucional/Leyes de ordenamiento territorial"><p className='letra-sub'>Leyes de ordenamiento territorial</p></Link>
                         </li>
                         <li className={`option ${selectedEstructura ? 'selected-menu' : ''}`} onMouseOver={() => {
                             removebackground()
@@ -680,7 +680,7 @@ const Menu = () => {
                             setSelectedEstructura(true)
                             mostrarMenu2(2, "General-3")
                         }} >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Estructura administrativa de Bogotá"><p className='letra-sub'>Estructura administrativa de Bogotá</p></Link>
+                            <Link to="/marco institucional/Estructura administrativa de Bogotá"><p className='letra-sub'>Estructura administrativa de Bogotá</p></Link>
                         </li>
                     </ul>
 
@@ -691,18 +691,18 @@ const Menu = () => {
                     <div className='submenu-item submenu-2-1'>
                         <ul className='General-1'>
                             {/* <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Nueva agenda urbana y los ODS/Coloquio la nueva agenda urbana en tiempo de la pandemia">
+                                <Link to="/Componente general/Nueva agenda urbana y los ODS/Coloquio la nueva agenda urbana en tiempo de la pandemia">
                                     <p className='letra-sub'>Coloquio la nueva agenda urbana en tiempo de la pandemía</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Nueva agenda urbana y los ODS/Para quién es el POT">
+                                <Link to="/Componente general/Nueva agenda urbana y los ODS/Para quién es el POT">
                                     <p className='letra-sub'>¿Para quien es el POT?</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
 
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Nueva agenda urbana y los ODS/Las grandes incertidumbres y el POT de Bogotá">
+                                <Link to="/Componente general/Nueva agenda urbana y los ODS/Las grandes incertidumbres y el POT de Bogotá">
                                     <p className='letra-sub'>Las grandes incertidumbres y el POT de Bogotá</p>
                                 </Link>
                             </li> */}
@@ -711,16 +711,16 @@ const Menu = () => {
                     <div className='submenu-item submenu-2-2'>
                         <ul className='General-2'>
                             {/* <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997">
+                                <Link to="/Componente general/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997">
                                     <p className='letra-sub'>Antecedentes de la Ley 388 de 1997</p>
                                 </Link></li> */}
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997">
+                                <Link to="/marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997">
                                     <p className='letra-sub'> Esquema de la Ley 388 de 1997</p>
                                 </Link>
                             </li>
                             {/* <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Leyes de ordenamiento territorial/Concepto Plan de Ordenamiento Territorial año 2019">
+                                <Link to="/Componente general/Leyes de ordenamiento territorial/Concepto Plan de Ordenamiento Territorial año 2019">
                                     <p className='letra-sub'>Concepto Plan de Ordenamiento Territorial año 2019</p>
                                 </Link>
 
@@ -730,7 +730,7 @@ const Menu = () => {
                     <div className='submenu-item submenu-2-3'>
                         <ul className='General-3'>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Estructura administrativa de Bogotá/Línea del tiempo Estructura Administrativa de Bogotá"><p className='letra-sub'>Línea del tiempo Estructura Administrativa de Bogotá</p></Link>
+                                <Link to="/marco institucional/Estructura administrativa de Bogotá/Línea del tiempo Estructura Administrativa de Bogotá"><p className='letra-sub'>Línea del tiempo Estructura Administrativa de Bogotá</p></Link>
                             </li>
                         </ul>
                     </div>
@@ -755,7 +755,7 @@ const Menu = () => {
                             setSelectedOds(true)
                             mostrarMenu2(2, "General-1")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Nueva agenda urbana y los ODS"><p className='letra-sub'>Nueva agenda urbana y los ODS</p></Link>
+                            <Link to="/marco institucional/Nueva agenda urbana y los ODS"><p className='letra-sub'>Nueva agenda urbana y los ODS</p></Link>
                         </li>
                         <li className={`option ${selectedLeyes ? 'selected-menu' : ''}`} onMouseOver={() => {
                             removebackground()
@@ -764,7 +764,7 @@ const Menu = () => {
                             setSelectedLeyes(true)
                             mostrarMenu2(2, "General-2")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Leyes de ordenamiento territorial"><p className='letra-sub'>Leyes de ordenamiento territorial</p></Link>
+                            <Link to="/marco institucional/Leyes de ordenamiento territorial"><p className='letra-sub'>Leyes de ordenamiento territorial</p></Link>
                         </li>
                         <li className={`option ${selectedEstructura ? 'selected-menu' : ''}`} onMouseOver={() => {
                             removebackground()
@@ -773,7 +773,7 @@ const Menu = () => {
                             setSelectedEstructura(true)
                             mostrarMenu2(2, "General-3")
                         }} >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Estructura administrativa de Bogotá"><p className='letra-sub'>Estructura administrativa de Bogotá</p></Link>
+                            <Link to="/marco institucional/Estructura administrativa de Bogotá"><p className='letra-sub'>Estructura administrativa de Bogotá</p></Link>
                         </li>
                     </ul>
 
@@ -784,18 +784,18 @@ const Menu = () => {
                     <div className='submenu-item submenu-2-1'>
                         <ul className='General-1'>
                             {/* <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Nueva agenda urbana y los ODS/Coloquio la nueva agenda urbana en tiempo de la pandemia">
+                                <Link to="/Componente general/Nueva agenda urbana y los ODS/Coloquio la nueva agenda urbana en tiempo de la pandemia">
                                     <p className='letra-sub'>Coloquio la nueva agenda urbana en tiempo de la pandemía</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Nueva agenda urbana y los ODS/Para quién es el POT">
+                                <Link to="/Componente general/Nueva agenda urbana y los ODS/Para quién es el POT">
                                     <p className='letra-sub'>¿Para quien es el POT?</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
 
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Nueva agenda urbana y los ODS/Las grandes incertidumbres y el POT de Bogotá">
+                                <Link to="/Componente general/Nueva agenda urbana y los ODS/Las grandes incertidumbres y el POT de Bogotá">
                                     <p className='letra-sub'>Las grandes incertidumbres y el POT de Bogotá</p>
                                 </Link>
                             </li> */}
@@ -804,16 +804,16 @@ const Menu = () => {
                     <div className='submenu-item submenu-2-2'>
                         <ul className='General-2'>
                             {/* <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997">
+                                <Link to="/Componente general/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997">
                                     <p className='letra-sub'>Antecedentes de la Ley 388 de 1997</p>
                                 </Link></li> */}
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997">
+                                <Link to="/marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997">
                                     <p className='letra-sub'> Esquema de la Ley 388 de 1997</p>
                                 </Link>
                             </li>
                             {/* <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Leyes de ordenamiento territorial/Concepto Plan de Ordenamiento Territorial año 2019">
+                                <Link to="/Componente general/Leyes de ordenamiento territorial/Concepto Plan de Ordenamiento Territorial año 2019">
                                     <p className='letra-sub'>Concepto Plan de Ordenamiento Territorial año 2019</p>
                                 </Link>
 
@@ -823,7 +823,7 @@ const Menu = () => {
                     <div className='submenu-item submenu-2-3'>
                         <ul className='General-3'>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Estructura administrativa de Bogotá/Línea del tiempo Estructura Administrativa de Bogotá"><p className='letra-sub'>Línea del tiempo Estructura Administrativa de Bogotá</p></Link>
+                                <Link to="/marco institucional/Estructura administrativa de Bogotá/Línea del tiempo Estructura Administrativa de Bogotá"><p className='letra-sub'>Línea del tiempo Estructura Administrativa de Bogotá</p></Link>
                             </li>
                         </ul>
                     </div>
@@ -845,7 +845,7 @@ const Menu = () => {
                             setSelectedCivilidad(true)
                             mostrarMenu2(3, "Pob-1")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad">
+                            <Link to="/Componente poblacional/Conflicto - civilidad">
                                 <p className='letra-sub'>Conflicto - civilidad</p>
                             </Link>
 
@@ -857,7 +857,7 @@ const Menu = () => {
                             setSelectedDemografia(true)
                             mostrarMenu2(3, "Pob-2")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/demografía">
+                            <Link to="/Componente poblacional/demografía">
                                 <p className='letra-sub'>Estructura Demográfica</p>
                             </Link>
                         </li>
@@ -867,7 +867,7 @@ const Menu = () => {
                             setSelectedPobreza(true)
                             mostrarMenu2(3, "Pob-4")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioespacial">
+                            <Link to="/Componente poblacional/Estructura socioespacial">
                                 <p className='letra-sub'>Estructura Socioespacial</p>
                             </Link>
                         </li>
@@ -878,7 +878,7 @@ const Menu = () => {
                             setSelectedEstructuraSocial(true)
                             mostrarMenu2(3, "Pob-3")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioeconómica">
+                            <Link to="/Componente poblacional/Estructura socioeconómica">
                                 <p className='letra-sub'>Estructura Socioeconómica</p>
                             </Link>
                         </li>
@@ -891,22 +891,22 @@ const Menu = () => {
                         <ul className='Pob-1'>
 
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX">
+                                <Link to="/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX">
                                     <p className='letra-sub'>Bogotá Asediada siglo XIX</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/Caminos hacia la Independencia">
+                                <Link to="/Componente poblacional/Conflicto - civilidad/Caminos hacia la Independencia">
                                     <p className='letra-sub'>Caminos hacia la Independencia</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización">
+                                <Link to="/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización">
                                     <p className='letra-sub'>Demografía: violencia y urbanización</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/ ¿Por qué tanta discordia?">
+                                <Link to="/Componente poblacional/Conflicto - civilidad/ ¿Por qué tanta discordia?">
                                     <p className='letra-sub'>¿Por qué tanta discordía?</p>
                                 </Link>
                             </li>
@@ -923,7 +923,7 @@ const Menu = () => {
                             //         mostrarMenu2(3, "Pob-2")
                             //     }}
                             >
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/demografía/Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018">
+                                <Link to="/Componente poblacional/demografía/Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018">
                                     <p className='letra-sub'>Demografía de Colombia y Bogotá 80 años</p>
                                 </Link>
                             </li>
@@ -934,7 +934,7 @@ const Menu = () => {
                                 setSelectedProyecciones(false)
                                 mostrarMenu2(3, "Pob-2")
                             }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/demografía/Series de población"><p className='letra-sub'>Series de población</p></Link>
+                                <Link to="/Componente poblacional/demografía/Series de población"><p className='letra-sub'>Series de población</p></Link>
                             </li>
                             <li className='option invisible'
                                 onMouseOver={() => {
@@ -944,7 +944,7 @@ const Menu = () => {
                                     setSelectedProyecciones(false)
                                     mostrarMenu2(3, "Pob-2")
                                 }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Crecimiento de la población (1790 - 2035)"><p className='letra-sub'>Crecimiento de la población(1790 - 2035)</p></Link>
+                                <Link to="/Componente poblacional/Demografía/Crecimiento de la población (1790 - 2035)"><p className='letra-sub'>Crecimiento de la población(1790 - 2035)</p></Link>
                             </li>
                             <li className='option invisible'
                                 onMouseOver={() => {
@@ -954,13 +954,13 @@ const Menu = () => {
                                     setSelectedProyecciones(false)
                                     mostrarMenu2(3, "Pob-2")
                                 }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Ecuación compensadora de Bogotá"><p className='letra-sub'>Ecuación compensadora de Bogotá(1905 - 2035)</p></Link> </li>
+                                <Link to="/Componente poblacional/Demografía/Ecuación compensadora de Bogotá"><p className='letra-sub'>Ecuación compensadora de Bogotá(1905 - 2035)</p></Link> </li>
                             <li className={` ${selectedPiramides ? 'option selected-menu' : 'option invisible'}`} onMouseOver={() => {
                                 setSelectedPiramides(false)
                                 // setSelectedProyecciones(false)
                                 mostrarMenu2(3, "Pob-2d")
                             }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo">
+                                <Link to="/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo">
                                     <p className='letra-sub'>Pirámides de distribucción por edad y sexo</p>
                                 </Link>
                             </li>
@@ -970,7 +970,7 @@ const Menu = () => {
                                     esconderLi('Pob-2d')
                                 }}
                             >
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Indices demográficos">
+                                <Link to="/Componente poblacional/Demografía/Indices demográficos">
                                     <p className='letra-sub'>índices demográficos</p>
                                 </Link>
                             </li>
@@ -980,7 +980,7 @@ const Menu = () => {
                                 setSelectedProyecciones(false)
                                 mostrarMenu2(3, "Pob-2f")
                             }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Proyecciones de población">
+                                <Link to="/Componente poblacional/Demografía/Proyecciones de población">
                                     <p className='letra-sub'>Proyecciones de población</p>
                                 </Link>
                             </li>
@@ -993,7 +993,7 @@ const Menu = () => {
                     <div className='submenu-item submenu-2-3'>
                         <ul className='Pob-3'>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá">
+                                <Link to="/Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá">
                                     <li className='option invisible'><p className='letra-sub'>Pobreza en Colombia y Bogotá 2018</p></li>
                                 </Link></li>
                         </ul>
@@ -1003,7 +1003,7 @@ const Menu = () => {
 
 
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioespacial/Segregación espacial por Localidades">
+                                <Link to="/Componente poblacional/Estructura socioespacial/Segregación espacial por Localidades">
                                     <p className='letra-sub'>Segregación espacial por localidades</p>
                                 </Link></li>
                         </ul>
@@ -1013,7 +1013,7 @@ const Menu = () => {
                     <div className='submenu-item submenu-3-1'>
                         <ul className='Pob-2d'>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo/Pirámides de distribución por edad y sexo de Colombia o Bogotá">
+                                <Link to="/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo/Pirámides de distribución por edad y sexo de Colombia o Bogotá">
                                     <p className='letra-sub'> Pirámides de distribución por edad y sexo de Colombia o Bogotá</p>
                                 </Link>
                             </li>
@@ -1027,12 +1027,12 @@ const Menu = () => {
                     <div className='submenu-item submenu-3-2'>
                         <ul className='Pob-2f'>
                             {/* <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Proyecciones de población/Análisis de migraciones en Bogotá y municipios 2018">
+                                <Link to="/Componente poblacional/Demografía/Proyecciones de población/Análisis de migraciones en Bogotá y municipios 2018">
                                     <p className='letra-sub'>Análisis de migraciones en Bogotá y municipios 2018</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Proyecciones de población/Dinámica demográfica y modelos de ocupación del suelo en Bogotá y la Sabana">
+                                <Link to="/Componente poblacional/Demografía/Proyecciones de población/Dinámica demográfica y modelos de ocupación del suelo en Bogotá y la Sabana">
                                     <p className='letra-sub'>Dinámica demográfica y modelos de ocupación del suelo en Bogotá y la Sabana</p>
                                 </Link>
                             </li> */}
@@ -1055,7 +1055,7 @@ const Menu = () => {
                             setSelectedCivilidad(true)
                             mostrarMenu2(3, "Pob-1")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad">
+                            <Link to="/Componente poblacional/Conflicto - civilidad">
                                 <p className='letra-sub'>Conflicto - civilidad</p>
                             </Link>
 
@@ -1067,7 +1067,7 @@ const Menu = () => {
                             setSelectedDemografia(true)
                             mostrarMenu2(3, "Pob-2")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/demografía">
+                            <Link to="/Componente poblacional/demografía">
                                 <p className='letra-sub'>Estructura Demográfica</p>
                             </Link>
                         </li>
@@ -1078,7 +1078,7 @@ const Menu = () => {
                             setSelectedPobreza(true)
                             mostrarMenu2(3, "Pob-4")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioespacial">
+                            <Link to="/Componente poblacional/Estructura socioespacial">
                                 <p className='letra-sub'>Estructura Socioespacial</p>
                             </Link>
                         </li>
@@ -1089,7 +1089,7 @@ const Menu = () => {
                             setSelectedEstructuraSocial(true)
                             mostrarMenu2(3, "Pob-3")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioeconómica">
+                            <Link to="/Componente poblacional/Estructura socioeconómica">
                                 <p className='letra-sub'>Estructura Socioeconómica</p>
                             </Link>
                         </li>
@@ -1100,22 +1100,22 @@ const Menu = () => {
                     <div className='submenu-item submenu-2-1'>
                         <ul className='Pob-1'>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX">
+                                <Link to="/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX">
                                     <p className='letra-sub'>Bogotá Asediada siglo XIX</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/Caminos hacia la Independencia">
+                                <Link to="/Componente poblacional/Conflicto - civilidad/Caminos hacia la Independencia">
                                     <p className='letra-sub'>Caminos hacia la Independencia</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización">
+                                <Link to="/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización">
                                     <p className='letra-sub'>Demografía: violencia y urbanización</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/ ¿Por qué tanta discordia?">
+                                <Link to="/Componente poblacional/Conflicto - civilidad/ ¿Por qué tanta discordia?">
                                     <p className='letra-sub'>¿Por qué tanta discordía?</p>
                                 </Link>
                             </li>
@@ -1132,7 +1132,7 @@ const Menu = () => {
                             //         mostrarMenu2(3, "Pob-2")
                             //     }}
                             >
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/demografía/Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018">
+                                <Link to="/Componente poblacional/demografía/Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018">
                                     <p className='letra-sub'>Demografía de Colombia y Bogotá 80 años</p>
                                 </Link>
                             </li>
@@ -1143,7 +1143,7 @@ const Menu = () => {
                                 setSelectedProyecciones(false)
                                 mostrarMenu2(3, "Pob-2")
                             }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/demografía/Series de población"><p className='letra-sub'>Series de población</p></Link>
+                                <Link to="/Componente poblacional/demografía/Series de población"><p className='letra-sub'>Series de población</p></Link>
                             </li>
                             <li className='option invisible'
                                 onMouseOver={() => {
@@ -1153,7 +1153,7 @@ const Menu = () => {
                                     setSelectedProyecciones(false)
                                     mostrarMenu2(3, "Pob-2")
                                 }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Crecimiento de la población (1790 - 2035)"><p className='letra-sub'>Crecimiento de la población(1790 - 2035)</p></Link>
+                                <Link to="/Componente poblacional/Demografía/Crecimiento de la población (1790 - 2035)"><p className='letra-sub'>Crecimiento de la población(1790 - 2035)</p></Link>
                             </li>
                             <li className='option invisible'
                                 onMouseOver={() => {
@@ -1163,13 +1163,13 @@ const Menu = () => {
                                     setSelectedProyecciones(false)
                                     mostrarMenu2(3, "Pob-2")
                                 }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Ecuación compensadora de Bogotá"><p className='letra-sub'>Ecuación compensadora de Bogotá(1905 - 2035)</p></Link> </li>
+                                <Link to="/Componente poblacional/Demografía/Ecuación compensadora de Bogotá"><p className='letra-sub'>Ecuación compensadora de Bogotá(1905 - 2035)</p></Link> </li>
                             <li className={` ${selectedPiramides ? 'option selected-menu' : 'option invisible'}`} onMouseOver={() => {
                                 setSelectedPiramides(false)
                                 // setSelectedProyecciones(false)
                                 mostrarMenu2(3, "Pob-2d")
                             }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo">
+                                <Link to="/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo">
                                     <p className='letra-sub'>Pirámides de distribucción por edad y sexo</p>
                                 </Link>
                             </li>
@@ -1179,7 +1179,7 @@ const Menu = () => {
                                     esconderLi('Pob-2d')
 
                                 }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Indices demográficos">
+                                <Link to="/Componente poblacional/Demografía/Indices demográficos">
                                     <p className='letra-sub'>Índices demográficos</p>
                                 </Link>
                             </li>
@@ -1189,7 +1189,7 @@ const Menu = () => {
                                 setSelectedProyecciones(false)
                                 mostrarMenu2(3, "Pob-2f")
                             }}>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Proyecciones de población">
+                                <Link to="/Componente poblacional/Demografía/Proyecciones de población">
                                     <p className='letra-sub'>Proyecciones de población</p>
                                 </Link>
                             </li>
@@ -1202,7 +1202,7 @@ const Menu = () => {
                     <div className='submenu-item submenu-2-3'>
                         <ul className='Pob-3'>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá">
+                                <Link to="/Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá">
                                     <p className='letra-sub'>Pobreza en Colombia y Bogotá 2018</p>
                                 </Link></li>
                         </ul>
@@ -1210,7 +1210,7 @@ const Menu = () => {
                     <div className='submenu-item submenu-2-4'>
                         <ul className='Pob-4'>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioespacial/Segregación espacial por Localidades">
+                                <Link to="/Componente poblacional/Estructura socioespacial/Segregación espacial por Localidades">
                                     <p className='letra-sub'>Segregación espacial por localidades</p>
                                 </Link></li>
                         </ul>
@@ -1220,12 +1220,12 @@ const Menu = () => {
                     <div className='submenu-item submenu-3-1'>
                         <ul className='Pob-2d'>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo/Pirámides de distribución por edad y sexo de Colombia o Bogotá">
+                                <Link to="/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo/Pirámides de distribución por edad y sexo de Colombia o Bogotá">
                                     <p className='letra-sub'> Pirámides de distribución por edad y sexo de Colombia o Bogotá</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo/Comparador pirámides Colombia y Bogotá por censos">
+                                <Link to="/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo/Comparador pirámides Colombia y Bogotá por censos">
                                     <p className='letra-sub'>Comparador pirámides Colombia y Bogotá por censos</p>
                                 </Link>
                             </li>
@@ -1234,12 +1234,12 @@ const Menu = () => {
                     <div className='submenu-item submenu-3-2'>
                         <ul className='Pob-2f'>
                             {/* <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Proyecciones de población/Análisis de migraciones en Bogotá y municipios 2018">
+                                <Link to="/Componente poblacional/Demografía/Proyecciones de población/Análisis de migraciones en Bogotá y municipios 2018">
                                     <p className='letra-sub'>Análisis de migraciones en Bogotá y municipios 2018</p>
                                 </Link>
                             </li>
                             <li className='option invisible'>
-                                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Proyecciones de población/Dinámica demográfica y modelos de ocupación del suelo en Bogotá y la Sabana">
+                                <Link to="/Componente poblacional/Demografía/Proyecciones de población/Dinámica demográfica y modelos de ocupación del suelo en Bogotá y la Sabana">
                                     <p className='letra-sub'>Dinámica demográfica y modelos de ocupación del suelo en Bogotá y la Sabana</p>
                                 </Link>
                             </li> */}
@@ -1257,17 +1257,17 @@ const Menu = () => {
                 <div className='submenu-item submenu-1'>
                     <ul>
                         <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Evokución de la huella urbana">
+                            <Link to="/Componente territorial/Evokución de la huella urbana">
                                 <p className='letra-sub'>Evolución de la huella urbana</p>
                             </Link>
                         </li>
                         {/* <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Historia de huella urbana">
+                            <Link to="/Componente territorial/Historia de huella urbana">
                                 <p className='letra-sub'>Historia de la huella urbana</p>
                             </Link>
                         </li> */}
                         <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Indicadores urbanísticos">
+                            <Link to="/Componente territorial/Indicadores urbanísticos">
                                 <p className='letra-sub'>Indicadores urbanísticos</p>
                             </Link>
                         </li>
@@ -1276,7 +1276,7 @@ const Menu = () => {
                 {/* <div className='submenu-item submenu-2-2'>
                     <ul className='Pob-2'>
                         <li className='option invisible' >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente ordenamiento/Infraestructura/Sistema vial y de transporte"><p className='letra-sub'>Sistema Vial y de Transporte</p></Link>
+                            <Link to="/componente ordenamiento/Infraestructura/Sistema vial y de transporte"><p className='letra-sub'>Sistema Vial y de Transporte</p></Link>
                         </li>
                     </ul>
                 </div> */}
@@ -1289,17 +1289,17 @@ const Menu = () => {
                 <div className='submenu-item submenu-1'>
                     <ul>
                     <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Evokución de la huella urbana">
+                            <Link to="/Componente territorial/Evokución de la huella urbana">
                                 <p className='letra-sub'>Evolución de la huella urbana</p>
                             </Link>
                         </li>
                         {/* <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Historia de huella urbana">
+                            <Link to="/Componente territorial/Historia de huella urbana">
                                 <p className='letra-sub'>Historia de la huella urbana</p>
                             </Link>
                         </li> */}
                         <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Indicadores urbanísticos">
+                            <Link to="/Componente territorial/Indicadores urbanísticos">
                                 <p className='letra-sub'>Indicadores urbanísticos</p>
                             </Link>
                         </li>
@@ -1308,7 +1308,7 @@ const Menu = () => {
                 <div className='submenu-item submenu-2-2'>
                     <ul className='Pob-2'>
                         <li className='option invisible' >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente ordenamiento/Infraestructura/Sistema vial y de transporte"><p className='letra-sub'>Sistema Vial y de Transporte</p></Link>
+                            <Link to="/componente ordenamiento/Infraestructura/Sistema vial y de transporte"><p className='letra-sub'>Sistema Vial y de Transporte</p></Link>
                         </li>
                     </ul>
                 </div>
@@ -1321,17 +1321,17 @@ const Menu = () => {
                 <div className='submenu-item submenu-1'>
                     <ul>
                     <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Evokución de la huella urbana">
+                            <Link to="/Componente territorial/Evokución de la huella urbana">
                                 <p className='letra-sub'>Evolución de la huella urbana</p>
                             </Link>
                         </li>
                         {/* <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Historia de huella urbana">
+                            <Link to="/Componente territorial/Historia de huella urbana">
                                 <p className='letra-sub'>Historia de la huella urbana</p>
                             </Link>
                         </li> */}
                         <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Indicadores urbanísticos">
+                            <Link to="/Componente territorial/Indicadores urbanísticos">
                                 <p className='letra-sub'>Indicadores urbanísticos</p>
                             </Link>
                         </li>
@@ -1340,7 +1340,7 @@ const Menu = () => {
                 <div className='submenu-item submenu-2-2'>
                     {/* <ul className='Pob-2'>
                         <li className='option invisible' >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente ordenamiento/Infraestructura/Sistema vial y de transporte"><p className='letra-sub'>Sistema Vial y de Transporte</p></Link>
+                            <Link to="/componente ordenamiento/Infraestructura/Sistema vial y de transporte"><p className='letra-sub'>Sistema Vial y de Transporte</p></Link>
                         </li>
                     </ul> */}
                 </div>
@@ -1357,7 +1357,7 @@ const Menu = () => {
                             esconderLi("Bien-2")
                             esconderLi("Bien-1")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura">
+                            <Link to="/componente bienestar/infraestructura">
                                 <p className='letra-sub'>Infraestructura</p>
                             </Link>
                         </li>
@@ -1366,7 +1366,7 @@ const Menu = () => {
                             mostrarMenu2(3, "Bien-1")
                             esconderLi("Bien-2")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana">
+                            <Link to="/componente bienestar/Estructura urbana">
                                 <p className='letra-sub'>Estructura urbana</p>
                             </Link>
                         </li>
@@ -1376,7 +1376,7 @@ const Menu = () => {
                             mostrarMenu2(3, "Bien-2")
                             esconderLi("Bien-1")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos">
+                            <Link to="/componente bienestar/instrumentos">
                                 <p className='letra-sub'>Instrumentos</p>
                             </Link>
                         </li>
@@ -1390,7 +1390,7 @@ const Menu = () => {
                                 esconderLi('Pob-4d')
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema vial y de transporte">
+                            <Link to="/componente bienestar/infraestructura/Sistema vial y de transporte">
                                 <p className='letra-sub'>Sistema Vial y de Transporte</p>
                             </Link>
                         </li>
@@ -1399,7 +1399,7 @@ const Menu = () => {
                             esconderLi('Pob-4d')
                             mostrarMenu2(3, "Pob-2d")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos">
+                            <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos">
                                 <p className='letra-sub'>Sistema de Espacio Público</p>
                             </Link>
                         </li>
@@ -1409,7 +1409,7 @@ const Menu = () => {
                                 mostrarMenu2(3, "Pob-4d")
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos">
+                            <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos">
                                 <p className='letra-sub'>Sistema de Servicios Públicos</p>
                             </Link>
                         </li>
@@ -1423,7 +1423,7 @@ const Menu = () => {
                                 mostrarMenu2(3, 'Bien-1a')
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)">
+                            <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)">
                                 <p className='letra-sub'>Sistemas urbanos (subdivisón y lotificación)</p>
                             </Link>
                         </li>
@@ -1435,7 +1435,7 @@ const Menu = () => {
                             esconderLi('Pob-1c')
                             esconderLi('Bien-1a')
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Vivienda, comercio e industria">
+                            <Link to="/componente bienestar/Estructura urbana/Vivienda, comercio e industria">
                                 <p className='letra-sub'>Vivienda, comercio e industria</p>
                             </Link>
                         </li>
@@ -1448,7 +1448,7 @@ const Menu = () => {
                                 esconderLi('Bien-1b')
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas">
+                            <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas">
                                 <p className='letra-sub'>Tratamientos y normas urbanísticas</p>
                             </Link>
                         </li>
@@ -1461,7 +1461,7 @@ const Menu = () => {
                                 // esconderLi('Bien-2')
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos/Planificación">
+                            <Link to="/componente bienestar/instrumentos/Planificación">
                                 <p className='letra-sub'>Planificación</p>
                             </Link>
                         </li>
@@ -1470,7 +1470,7 @@ const Menu = () => {
                             // esconderLi('Pob-4d')
                             // mostrarMenu2(3, "Pob-2d")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos/Gestión">
+                            <Link to="/componente bienestar/instrumentos/Gestión">
                                 <p className='letra-sub'>Gestión</p>
                             </Link>
                         </li>
@@ -1480,7 +1480,7 @@ const Menu = () => {
                                 // mostrarMenu2(3, "Pob-4d")
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos/Financiación">
+                            <Link to="/componente bienestar/instrumentos/Financiación">
                                 <p className='letra-sub'>Financiación</p>
                             </Link>
                         </li>
@@ -1489,58 +1489,58 @@ const Menu = () => {
                 <div className='submenu-item submenu-3'>
                     <ul className='Pob-2d'>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Plazas">
+                            <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Plazas">
                                 <p className='letra-sub'>Plazas, Plazoletas, Parques y Monumentos</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Equipamentos">
+                            <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Equipamentos">
                                 <p className='letra-sub'>Equipamientos</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Iglesias">
+                            <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Iglesias">
                                 <p className='letra-sub'>Iglesias</p>
                             </Link>
                         </li>
                     </ul>
                     <ul className='Bien-1a'>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios">
+                            <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios">
                                 <p className='letra-sub'>Historia de barrios</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ">
+                            <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ">
                                 <p className='letra-sub'>Condiciones de habitabilidad UPZ</p>
                             </Link>
                         </li>
                     </ul>
                     <ul className='Bien-1b'>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos">
+                            <Link to="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos">
                                 <p className='letra-sub'>Desarrollos urbanísticos</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda">
+                            <Link to="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda">
                                 <p className='letra-sub'>Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda</p>
                             </Link>
                         </li>
                     </ul>
                     <ul className='Bien-1c'>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación">
+                            <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación">
                                 <p className='letra-sub'>Conservación</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación">
+                            <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación">
                                 <p className='letra-sub'>Renovación</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo">
+                            <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo">
                                 <p className='letra-sub'>Desarrollo</p>
                             </Link>
                         </li>
@@ -1549,22 +1549,22 @@ const Menu = () => {
                 <div className='submenu-item submenu-3'>
                     <ul className='Pob-4d'>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Acueducto">
+                            <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Acueducto">
                                 <p className='letra-sub'>Agua y Alcantarillado</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Gas">
+                            <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Gas">
                                 <p className='letra-sub'>Sistema de Gas</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Energia">
+                            <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Energia">
                                 <p className='letra-sub'>Sistema de Energía Eléctrica</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Telecomunicaciones">
+                            <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Telecomunicaciones">
                                 <p className='letra-sub'>Sistema de Telecomunicaciones</p>
                             </Link>
                         </li>
@@ -1584,7 +1584,7 @@ const Menu = () => {
                             esconderLi("Bien-2")
                             esconderLi("Bien-1")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura">
+                            <Link to="/componente bienestar/infraestructura">
                                 <p className='letra-sub'>Infraestructura</p>
                             </Link>
                         </li>
@@ -1593,7 +1593,7 @@ const Menu = () => {
                                   mostrarMenu2(3, "Bien-1")
                                    esconderLi("Bien-2")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana">
+                            <Link to="/componente bienestar/Estructura urbana">
                                 <p className='letra-sub'>Estructura urbana</p>
                             </Link>
                         </li>
@@ -1602,7 +1602,7 @@ const Menu = () => {
                             mostrarMenu2(3, "Bien-2")
                             esconderLi("Bien-1")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos">
+                            <Link to="/componente bienestar/instrumentos">
                                 <p className='letra-sub'>Instrumentos</p>
                             </Link>
                         </li>
@@ -1616,7 +1616,7 @@ const Menu = () => {
                                 esconderLi('Pob-24')
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema vial y de transporte">
+                            <Link to="/componente bienestar/infraestructura/Sistema vial y de transporte">
                                 <p className='letra-sub'>Sistema Vial y de Transporte</p>
                             </Link>
                         </li>
@@ -1625,7 +1625,7 @@ const Menu = () => {
                             esconderLi('Pob-4d')
                         }}>
 
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos">
+                            <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos">
                                 <p className='letra-sub'>Sistema de Espacio Público</p>
                             </Link>
                         </li>
@@ -1635,7 +1635,7 @@ const Menu = () => {
                                 mostrarMenu2(3, "Pob-4d")
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente ordenamiento/Infraestructura/Sistema de servicios públicos">
+                            <Link to="/componente ordenamiento/Infraestructura/Sistema de servicios públicos">
                                 <p className='letra-sub'>Sistema de servicios públicos</p>
                             </Link>
                         </li>
@@ -1649,7 +1649,7 @@ const Menu = () => {
                                 mostrarMenu2(3, 'Bien-1a')
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)">
+                            <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)">
                                 <p className='letra-sub'>Sistemas urbanos (subdivisón y lotificación)</p>
                             </Link>
                         </li>
@@ -1661,7 +1661,7 @@ const Menu = () => {
                             esconderLi('Pob-1c')
                             esconderLi('Bien-1a')
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Vivienda, comercio e industria">
+                            <Link to="/componente bienestar/Estructura urbana/Vivienda, comercio e industria">
                                 <p className='letra-sub'>Vivienda, comercio e industria</p>
                             </Link>
                         </li>
@@ -1674,7 +1674,7 @@ const Menu = () => {
                                 esconderLi('Bien-1b')
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas">
+                            <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas">
                                 <p className='letra-sub'>Tratamientos y normas urbanísticas</p>
                             </Link>
                         </li>
@@ -1686,7 +1686,7 @@ const Menu = () => {
                                 // esconderLi('Pob-4d')
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos/Planificación">
+                            <Link to="/componente bienestar/instrumentos/Planificación">
                                 <p className='letra-sub'>Planificación</p>
                             </Link>
                         </li>
@@ -1695,7 +1695,7 @@ const Menu = () => {
                             // esconderLi('Pob-4d')
                             // mostrarMenu2(3, "Pob-2d")
                         }}>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos/Gestión">
+                            <Link to="/componente bienestar/instrumentos/Gestión">
                                 <p className='letra-sub'>Gestión</p>
                             </Link>
                         </li>
@@ -1705,7 +1705,7 @@ const Menu = () => {
                                 // mostrarMenu2(3, "Pob-4d")
                             }}
                         >
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos/Financiación">
+                            <Link to="/componente bienestar/instrumentos/Financiación">
                                 <p className='letra-sub'>Financiación</p>
                             </Link>
                         </li>
@@ -1714,17 +1714,17 @@ const Menu = () => {
                 <div className='submenu-item submenu-3'>
                     <ul className='Pob-2d'>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Plazas">
+                            <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Plazas">
                                 <p className='letra-sub'>Plazas, Plazoletas, Parques y Monumentos</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Equipamentos">
+                            <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Equipamentos">
                                 <p className='letra-sub'>Equipamientos</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Iglesias">
+                            <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Iglesias">
                                 <p className='letra-sub'>Iglesias</p>
                             </Link>
                         </li>
@@ -1732,41 +1732,41 @@ const Menu = () => {
 
                     <ul className='Bien-1a'>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios">
+                            <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios">
                                 <p className='letra-sub'>Historia de barrios</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ">
+                            <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ">
                                 <p className='letra-sub'>Condiciones de habitabilidad UPZ</p>
                             </Link>
                         </li>
                     </ul>
                     <ul className='Bien-1b'>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos">
+                            <Link to="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos">
                                 <p className='letra-sub'>Desarrollos urbanísticos</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda">
+                            <Link to="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda">
                                 <p className='letra-sub'>Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda</p>
                             </Link>
                         </li>
                     </ul>
                     <ul className='Bien-1c'>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación">
+                            <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación">
                                 <p className='letra-sub'>Conservación</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación">
+                            <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación">
                                 <p className='letra-sub'>Renovación</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo">
+                            <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo">
                                 <p className='letra-sub'>Desarrollo</p>
                             </Link>
                         </li>
@@ -1775,22 +1775,22 @@ const Menu = () => {
                 <div className='submenu-item submenu-3'>
                     <ul className='Pob-4d'>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Acueducto">
+                            <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Acueducto">
                                 <p className='letra-sub'>Agua y Alcantarillado</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Ga">
+                            <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Ga">
                                 <p className='letra-sub'>Sistema de Gas</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Energia">
+                            <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Energia">
                                 <p className='letra-sub'>Sistema de Energía Eléctrica</p>
                             </Link>
                         </li>
                         <li className='option invisible'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Telecomunicaciones">
+                            <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Telecomunicaciones">
                                 <p className='letra-sub'>Sistema de Telecomunicaciones</p>
                             </Link>
                         </li>
@@ -1804,12 +1804,12 @@ const Menu = () => {
                 <div className='submenu-item submenu-1'>
                     <ul>
                         <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Modelos Urbanos/Bogotá Colonial">
+                            <Link to="/Modelos Urbanos/Bogotá Colonial">
                                 <p className='letra-sub'>Bogotá Colonial</p>
                             </Link>
                         </li>
                         <li className='option'>
-                            <Link to="/sociedad-de-mejoras-y-ornato-bogota/Modelos Urbanos/Bogotá Republicana">
+                            <Link to="/Modelos Urbanos/Bogotá Republicana">
                                 <p className='letra-sub'>Bogotá Republicana</p>
                             </Link>
                         </li>

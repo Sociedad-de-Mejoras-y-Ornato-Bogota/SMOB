@@ -15,7 +15,7 @@ const NavbarS = () => {
                   <img src="https://geoapps.esri.co/recursos/SMOB/logo_plataforma.png" alt="logo" style={{ width: '3vw', marginLeft: '-2%' }} />
               </Link></div>
           <div className='header-title' id='hola' style={{marginLeft:"5vw"}}>
-              <h1>Construyendo civilidad: ciudad y ciudadanía
+              <h1>Construyendo Civilidad
               </h1>
           </div>
         </header>

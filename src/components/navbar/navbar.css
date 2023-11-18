@@ -35,7 +35,13 @@ body{
   color: var(--clr-black);
   margin-left: -15%;
 }
-
+.title-responsive{
+  display: inline-block;
+  font-size: var(--font-especial-title);
+  font-family: var(--font-headers);
+  color: var(--clr-black);
+  /* margin-left: 1; */
+}
 .remove{
   position: sticky;
 }

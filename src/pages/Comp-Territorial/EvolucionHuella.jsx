@@ -1,9 +1,10 @@
 import Map from "../../components/map/map";
 import Data from "./HuellaUrbana.json";
+import Popup from './popUp';
 import { useState, useEffect } from "react";
 
 function EvolucionHuella() {
-  const [scrollTop , setScrollTop] = useState(0)
+  const [scrollTop, setScrollTop] = useState(0)
   const [opacity, setOpacity] = useState(false);
   const [open, setOpen] = useState(false);
   const [year, setYear] = useState("Historia de la huella urbana");
@@ -13,30 +14,40 @@ function EvolucionHuella() {
     año: "Historia de la huella urbana",
     layers: [],
     img_url: "https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/0.gif",
+    zoom: ""
   });
+
+  const [showPopup, setShowPopup] = useState(true)
+  const handleClosePopup = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
-        setScrollTop(window.scrollY);
-        var elem = document.getElementById('nav-huella');
-        var pant = screen.height;
-        pant = (pant / 8) * 1.5;
-        if (window.scrollY > pant) {
-            elem.classList.remove("navbar-principal");
-            elem.classList.add("pegar");
-        }
-        else {
-            elem.classList.remove("pegar");
-            elem.classList.add("navbar-principal");
-        }
+      setScrollTop(window.scrollY);
+      var elem = document.getElementById('nav-huella');
+      var pant = screen.height;
+      pant = (pant / 8) * 1.5;
+      if (window.scrollY > pant) {
+        elem.classList.remove("navbar-principal");
+        elem.classList.add("pegar");
+      }
+      else {
+        elem.classList.remove("pegar");
+        elem.classList.add("navbar-principal");
+      }
     };
     window.addEventListener('scroll', handleScroll);
     return () => {
-        window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
-}, []);
+  }, []);
   return (
     <div className={`general-container`}>
+      {showPopup && <Popup
+        onClose={handleClosePopup}
+      />}
       <div
         className="row responsive-columna"
         style={{ height: "12.5vh", width: "100%", color: "black" }}
@@ -113,7 +124,7 @@ function EvolucionHuella() {
             >
               {open && (
                 <dialog
-                className="modal-responsive"
+                  className="modal-responsive"
                   open
                   style={{
                     width: "80vw",
@@ -128,9 +139,10 @@ function EvolucionHuella() {
                   <Map
                     map_id={dataFilter?.map_id}
                     layers={dataFilter?.layers}
+                    zoom={dataFilter?.zoom}
                   />
                   <button
-                  className="boton-modal-responsive"
+                    className="boton-modal-responsive"
                     style={{
                       position: "absolute",
                       top: "0",
@@ -156,24 +168,24 @@ function EvolucionHuella() {
                 </dialog>
               )}
 
-              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold" }}               className="text-responsive">
+              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold" }} className="text-responsive">
                 {dataFilter?.titulo}
               </h4>
-              <i style={{ color: "#762f0b" }}               className="text-responsive">
+              <i style={{ color: "#762f0b" }} className="text-responsive">
                 Haga clic en la imagen del plano escaneado del año {year} para
                 poder ver el plano digitalizado por la Sociedad de Mejoras y
                 Ornato de Bogotá.
               </i>
               <img
-                            className="img-responsive"
+                className="img-responsive"
                 onClick={() => {
                   setOpacity(true);
                   setOpen(!open);
                 }}
                 src={dataFilter?.img_url}
                 style={{
-                  width: "50vw",
-                  height: "60vh",
+                  width: "40vw",
+                  height: "50vh",
                   margin: "1vh 1vw",
                   cursor: "pointer",
                 }}
@@ -194,7 +206,7 @@ function EvolucionHuella() {
                 {dataFilter?.titulo}
               </h4>
 
-              <Map map_id={dataFilter?.map_id} layers={dataFilter?.layers} />
+              <Map map_id={dataFilter?.map_id} layers={dataFilter?.layers} zoom={dataFilter?.zoom} />
             </div>
           )}
 
@@ -227,7 +239,7 @@ function EvolucionHuella() {
               </h4>
               <img
                 src={dataFilter.img_url}
-                style={{ width: "50vw", height: "60vh", margin: "1vh 1vw" }}
+                style={{ width: "40vw", height: "50vh", margin: "1vh 1vw" }}
                 className="img-responsive"
               ></img>
             </div>

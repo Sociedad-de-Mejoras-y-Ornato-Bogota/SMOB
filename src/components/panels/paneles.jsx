@@ -8,10 +8,10 @@ const Panels = () => {
             </Link>
 
             <div className="panels">
-                <Link to="marco institucional">
+                <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional">
                     <div className="panels-face">
                         <p className='panel-title'>
-                            Marco <br></br> Institucional
+                            Marco  <span >Institucional</span>
                         </p>
                         <p className="panel-info">
                             CIUDADANÍA Y CIVILIDAD
@@ -24,10 +24,10 @@ const Panels = () => {
                 </Link>
             </div>
             <div className="panels">
-                <Link to="Componente poblacional">
+                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional">
                     <div className="panels-face">
                         <p className='panel-title'>
-                            Componente<br></br> Poblacional
+                            Componente <span>Poblacional</span>
                         </p>
                         <p className="panel-info">
                             CONFLICTOS Y CIVILIDAD
@@ -40,10 +40,10 @@ const Panels = () => {
                 </Link>
             </div>
             <div className="panels">
-                <Link to="Componente territorial">
+                <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial">
                     <div className="panels-face">
                         <p className='panel-title'>
-                            Componente<br></br> Territorial
+                            Componente <span>Territorial</span>
                         </p>
                         <p className="panel-info">
                             CLASIFICACIÓN DEL TERRITORIO
@@ -55,11 +55,11 @@ const Panels = () => {
                     </div>
                 </Link>
             </div>
-            <div className="panels">
-                <Link to="componente bienestar">
+            <div className="panels last">
+                <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar">
                     <div className="panels-face">
                         <p className='panel-title'>
-                            Componente<br></br> Bienestar
+                            Componente <span>Bienestar</span>
                         </p>
                         <p className="panel-info">
                             PLANES DE DESARROLLO Y  <br />ORDENAMIENTO TERRITORIAL

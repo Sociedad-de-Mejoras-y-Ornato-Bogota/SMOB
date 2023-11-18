@@ -35,7 +35,7 @@ const NavbarSimple = () => {
                   <img src="https://i.ibb.co/jT1YtpX/LOGO-PLATAFORMA-WEB-SMOB-Mesa-de-trabajo-1.png" alt="logo" style={{ width: '6vw', height: '12vh' }} />
               </Link></div>
           <div className='header-title' id='hola'>
-              <h1>Construyendo civilidad: ciudad y ciudadanía
+              <h1>Construyendo civilidad
               </h1>
           </div>
       </header><nav className="navbar">

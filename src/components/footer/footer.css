@@ -2,7 +2,8 @@
 @import url('../../assets/styles/font.css');
 
 .footer {
-  min-height: 260px;
+  /* min-height: 220px; */
+  padding: 1vh 1vw;
 }
 
 
@@ -15,6 +16,11 @@
   text-align: center;
   text-decoration: none;
 }
+.footer,
+.footer-p,
+#footer-links {
+  font-size: 0.7vw;
+}
 
 
 @media only screen and (max-width: 960px) {
@@ -25,7 +31,8 @@
   .footer,
   .footer-p,
   #footer-links {
-    font-size: 14px !important;
+    font-size: 2.4vw;
+    line-height: 1em;
   }
 
   .footer-top {
@@ -48,6 +55,7 @@
 
   .footer-ul {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 1.5vw;
   }

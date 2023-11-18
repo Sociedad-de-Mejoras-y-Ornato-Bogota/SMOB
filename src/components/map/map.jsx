@@ -6,11 +6,12 @@ import ScaleBar from "@arcgis/core/widgets/ScaleBar.js";
 import Home from "@arcgis/core/widgets/Home.js";
 import Compass from "@arcgis/core/widgets/Compass.js";
 import './map.css'
-const Map = ({ map_id, layers }) => {
+const Map = ({ map_id, layers, zoom }) => {
   const mapElement = useRef(null);
   const view = useRef(null);
   const legend = useRef(null);
 
+  console.log(zoom)
   useEffect(() => {
     const webmap = new WebMap({
       portalItem: {
@@ -20,7 +21,8 @@ const Map = ({ map_id, layers }) => {
 
     view.current = new MapView({
       map: webmap,
-      zoom: 15,
+      zoom: zoom,
+      center:[-74.071750, 4.604800 ]
     });
 
     const scalebar = new ScaleBar({

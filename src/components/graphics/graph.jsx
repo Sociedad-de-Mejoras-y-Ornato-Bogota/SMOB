@@ -4,15 +4,25 @@ import './graph.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from "react";
 import Popup from './pupUp';
+import Popup2 from "./popUp2";
 import 'reactjs-popup/dist/index.css';
+// import icono from '../../assets/icons/imagen.png';
+// import icono1 from '../../assets/icons/pdf.png';
 
-const tama = ((window.innerWidth/8)*6)-10
+ let tama 
+if(window.innerWidth > 1024){
+   tama = ((window.innerWidth/8)*6)
+}else{
+  tama = ((window.innerWidth/8)*6.5)
+}
+
+
+
 const options = {
     chart: {
         type: 'line',
         width: tama,
         height:600,
-        
     },
     title: {
         text: '',
@@ -97,6 +107,8 @@ responsive: {
 
 
 const Graph = () =>{
+
+  //primero
     const [showPopup, setShowPopup] = useState(false);
     const [showPopup1, setShowPopup1] = useState(false);
     const [showPopup2, setShowPopup2] = useState(false);
@@ -109,6 +121,20 @@ const Graph = () =>{
      const [showPopup9, setShowPopup9] = useState(false);
      const [showPopup10, setShowPopup10] = useState(false);
      const [showPopup11, setShowPopup11] = useState(false);
+     //segundo
+     const [showPopupE, setShowPopupE] = useState(false);
+    const [showPopup1E, setShowPopup1E] = useState(false);
+    const [showPopup2E, setShowPopup2E] = useState(false);
+    const [showPopup3E, setShowPopup3E] = useState(false);
+    const [showPopup4E, setShowPopup4E] = useState(false);
+     const [showPopup5E, setShowPopup5E] = useState(false);
+     const [showPopup6E, setShowPopup6E] = useState(false);
+     const [showPopup7E, setShowPopup7E] = useState(false);
+     const [showPopup8E, setShowPopup8E] = useState(false);
+     const [showPopup9E, setShowPopup9E] = useState(false);
+     const [showPopup10E, setShowPopup10E] = useState(false);
+     const [showPopup11E, setShowPopup11E] = useState(false);
+     //primero
     const handleDivClick = () => {
         setShowPopup(true);
       };
@@ -145,7 +171,44 @@ const Graph = () =>{
       const handleDivClick11 = () => {
         setShowPopup11(true);
       };
-
+      //segundo
+      const handleDivClickE = () => {
+        setShowPopupE(true);
+      };
+      const handleDivClick1E = () => {
+        setShowPopup1E(true);
+      };
+      const handleDivClick2E = () => {
+        setShowPopup2E(true);
+      };
+      const handleDivClick3E = () => {
+        setShowPopup3E(true);
+      };
+      const handleDivClick4E = () => {
+        setShowPopup4E(true);
+      };
+      const handleDivClick5E = () => {
+        setShowPopup5E(true);
+      };
+      const handleDivClick6E = () => {
+        setShowPopup6E(true);
+      };
+      const handleDivClick7E = () => {
+        setShowPopup7E(true);
+      };
+      const handleDivClick8E = () => {
+        setShowPopup8E(true);
+      };
+      const handleDivClick9E = () => {
+        setShowPopup9E(true);
+      };
+      const handleDivClick10E = () => {
+        setShowPopup10E(true);
+      };
+      const handleDivClick11E = () => {
+        setShowPopup11E(true);
+      };
+      //primero
       const handleClosePopup = () => {
         console.log('Cerrando el pop-up');
         setShowPopup(false);
@@ -194,191 +257,379 @@ const Graph = () =>{
         console.log('Cerrando el pop-up');
         setShowPopup11(false);
       };
-
+      //segundo
+      const handleClosePopupE = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopupE(false);
+      };
+      const handleClosePopup1E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup1E(false);
+      };
+      const handleClosePopup2E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup2E(false);
+      };
+      const handleClosePopup3E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup3E(false);
+      };
+      const handleClosePopup4E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup4E(false);
+      };
+      const handleClosePopup5E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup5E(false);
+      };
+      const handleClosePopup6E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup6E(false);
+      };
+      const handleClosePopup7E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup7E(false);
+      };
+      const handleClosePopup8E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup8E(false);
+      };
+      const handleClosePopup9E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup9E(false);
+      };
+      const handleClosePopup10E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup10E(false);
+      };
+      const handleClosePopup11E = () => {
+        console.log('Cerrando el pop-up');
+        setShowPopup11E(false);
+      };      
     return (
         <>
         {showPopup && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.1-Bogota-futuro.png"
          onClose={handleClosePopup}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 74 DE 1925 BOGOTA FUTURO.pdf"
        />
       )}
       {showPopup1 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.2-Brunner.png"
          onClose={handleClosePopup1}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 28 DE 1933-BRUNNER.pdf"
+  
        />
       )}
       {showPopup2 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.3-Le-Corbusier.png"
          onClose={handleClosePopup2}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 185 DE 1951-LE CORBUSIER.pdf"
        />
       )}
       {showPopup3 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.4-Fase-2-1972.png"
          onClose={handleClosePopup3}
-         url=""
+  
        />
       )}
       {showPopup4 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.5-plan-desarrollo-urbano-1975.png"
          onClose={handleClosePopup4}
-         url=""
+  
        />
       )}
       {showPopup5 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.6-Acuerdo-7-1979.png"
          onClose={handleClosePopup5}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 7 1979.pdf"
+  
        />
       )}
       {showPopup6 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.7-Acuerdo-6-1990.png"
          onClose={handleClosePopup6}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/Acuerdo 6 de 1990.pdf"
+  
        />
       )}
       {showPopup7 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.8-Decreto-619-2000.png"
          onClose={handleClosePopup7}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 619 DE 2000.pdf"
+  
        />
       )}
       {showPopup8 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.9-Decreto-190-2004.png"
          onClose={handleClosePopup8}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO190 DE 2004.pdf"
+  
        />
       )}
       {showPopup9 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.10-Mepot-2013.png"
          onClose={handleClosePopup9}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 364 DE 2013.pdf"
+  
        />
       )}
       {showPopup10 && (
          <Popup
          imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.11-proyecto-POT-2019.png"
          onClose={handleClosePopup10}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/PROYECTO DE ACUERDO POT BOGOTA 2019.pdf"
+  
        />
       )}{showPopup11 && (
         <Popup
         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.12-Decreto-555-2021.png"
         onClose={handleClosePopup11}
+
+      />
+     )}
+     {showPopupE && (
+         <Popup2
+         onClose={handleClosePopupE}
+         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 74 DE 1925 BOGOTA FUTURO.pdf"
+       />
+      )}
+      {showPopup1E && (
+         <Popup2
+         onClose={handleClosePopup1E}
+         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 28 DE 1933-BRUNNER.pdf"
+       />
+      )}
+      {showPopup2E && (
+         <Popup2
+         onClose={handleClosePopup2E}
+         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 185 DE 1951-LE CORBUSIER.pdf"
+       />
+      )}
+      {showPopup3E && (
+         <Popup2
+         onClose={handleClosePopup3E}
+         url=""
+       />
+      )}
+      {showPopup4E && (
+         <Popup2
+         onClose={handleClosePopup4E}
+         url=""
+       />
+      )}
+      {showPopup5E && (
+         <Popup2
+         onClose={handleClosePopup5E}
+         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 7 1979.pdf"
+       />
+      )}
+      {showPopup6E && (
+         <Popup2
+         onClose={handleClosePopup6E}
+         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/Acuerdo 6 de 1990.pdf"
+       />
+      )}
+      {showPopup7E && (
+         <Popup2
+         onClose={handleClosePopup7E}
+         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 619 DE 2000.pdf"
+       />
+      )}
+      {showPopup8E && (
+         <Popup2
+         onClose={handleClosePopup8E}
+         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO190 DE 2004.pdf"
+       />
+      )}
+      {showPopup9E && (
+         <Popup2
+         onClose={handleClosePopup9E}
+         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 364 DE 2013.pdf"
+       />
+      )}
+      {showPopup10E && (
+         <Popup2
+         onClose={handleClosePopup10E}
+         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/PROYECTO DE ACUERDO POT BOGOTA 2019.pdf"
+       />
+      )}{showPopup11E && (
+        <Popup2
+        onClose={handleClosePopup11E}
         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 555 DE 2021.pdf"
       />
      )}
         <div className="graphs">
         <div className="graphs-2">
         <div className="linea1"></div>
-            <div className="cuadro1" onClick={handleDivClick}>
-            
+            <div className="cuadro1">
                 <p><h1 className="h1-c"> 1925</h1>
             <h2 className="h2-c">Bogotá futuro</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">3,7600</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">1,7600</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">2,0100</strong></h3>
+            <button className="cus">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClickE}/>
+        </button>
             </p>
             </div>
             <div className="linea2"></div>
-            <div className="cuadro2" onClick={handleDivClick1}><p><h1 className="h1-c"> 1936</h1>
+            <div className="cuadro2"><p><h1 className="h1-c"> 1936</h1>
             <h2 className="h2-c">Plan Brunner</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">3,8800</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">2,0000</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">1,8800</strong></h3>
+            <button className="cus">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick1}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick1E}/>
+        </button>
             </p>
             </div>
             <div className="linea3"></div>
-            <div className="cuadro3"onClick={handleDivClick2}><p><h1 className="h1-c"> 1951</h1>
+            <div className="cuadro3"><p><h1 className="h1-c"> 1951</h1>
             <h2 className="h2-c">Decreto 185. Plan Piloto</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">6,7300</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">2,8200</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">3,9100</strong></h3>
+            <button className="cus">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick2}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick2E}/>
+        </button>
             </p>
             </div>
             <div className="linea4"></div>
-            <div className="cuadro4"onClick={handleDivClick3}><p><h1 className="h1-c"> 1972</h1>
+            <div className="cuadro4"><p><h1 className="h1-c"> 1972</h1>
             <h2 className="h2-c">Fase II (Ciudades entre</h2>
             <h2 className="h2-c">Ciudades)</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">4,6000</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">2,8400</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">1,7600</strong></h3>
+            <button className="cus-e">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick3}/>
+        </button>
+        <button className="cus2-e">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick3E}/>
+        </button>
             </p>
             </div>
             <div className="linea5"></div>
-            <div className="cuadro5"onClick={handleDivClick4}><p><h1 className="h1-c"> 1975</h1>
+            <div className="cuadro5"><p><h1 className="h1-c"> 1975</h1>
             <h2 className="h2-c">Plan de desarrollo urbano</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">4,0300</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">2,5200</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">1,5500</strong></h3>
+            <button className="cus">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E}/>
+        </button>
             </p>
             </div>
             <div className="linea6"></div>
-            <div className="cuadro6"onClick={handleDivClick5}><p><h1 className="h1-c"> 1979</h1>
+            <div className="cuadro6"><p><h1 className="h1-c"> 1979</h1>
             <h2 className="h2-c">Acuerdo 7</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">3,5500</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">2,0200</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">1,3400</strong></h3>
+            <button className="cus">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick5}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick5E}/>
+        </button>
             </p>
             </div>
             <div className="linea7"></div>
-            <div className="cuadro7"onClick={handleDivClick6}><p><h1 className="h1-c"> 1990</h1>
+            <div className="cuadro7"><p><h1 className="h1-c"> 1990</h1>
             <h2 className="h2-c">Acuerdo 6</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">2,5200</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">1,5000</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">0,9000</strong></h3>
+            <button className="cus">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick6}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick6E}/>
+        </button>
             </p>
             </div>
             <div className="linea8"></div>
-            <div className="cuadro8"onClick={handleDivClick7}><p><h1 className="h1-c"> 2000</h1>
+            <div className="cuadro8"><p><h1 className="h1-c"> 2000</h1>
             <h2 className="h2-c">Decreto 619</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">1,9200</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">1,3400</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">0,6300</strong></h3>
+            <button className="cus">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick7}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick7E}/>
+        </button>
             </p>
             </div>
             <div className="linea9"></div>
-            <div className="cuadro9"onClick={handleDivClick8}><p><h1 className="h1-c"> 2004</h1>
+            <div className="cuadro9"><p><h1 className="h1-c"> 2004</h1>
             <h2 className="h2-c">Decreto 190</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">1,7000</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">1,2200</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">0,5100</strong></h3>
+            <button className="cus">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick8}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick8E}/>
+        </button>
             </p>
             </div>
             <div className="linea10"></div>
-            <div className="cuadro10"onClick={handleDivClick9}><p><h1 className="h1-c"> 2013</h1>
+            <div className="cuadro10"><p><h1 className="h1-c"> 2013</h1>
             <h2 className="h2-c">MePOT</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">0,4800</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">0,9100</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">-0,4300</strong></h3>
+            <button className="cus">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick9}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick9E}/>
+        </button>
             </p>
             </div>
             <div className="linea11"></div>
-            <div className="cuadro11"onClick={handleDivClick10}><p><h1 className="h1-c"> 2019</h1>
+            <div className="cuadro11"><p><h1 className="h1-c"> 2019</h1>
             <h2 className="h2-c">Proyecto POT</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">0,2200</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">0,6600</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">-0,6600</strong></h3>
+            <button className="cus">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick10}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick10E}/>
+        </button>
             </p>
             </div>
             <div className="linea12"></div>
-            <div className="cuadro12"onClick={handleDivClick11}><p><h1 className="h1-c"> 2021</h1>
+            <div className="cuadro12"><p><h1 className="h1-c"> 2021</h1>
             <h2 className="h2-c">Decreto 555</h2>
             <h3 className="h3-c">- Crecimiento: <strong className="str">1,1700</strong></h3>
             <h3 className="h3-c">- Vegetativa: <strong className="str">0,2500</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">0,9200</strong></h3>
+            <button className="cus">
+            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick11}/>
+        </button>
+        <button className="cus2">
+          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick11E}/>
+        </button>
             </p>
             </div>
             <HighchartsReact highcharts={Highcharts} options={options}/>

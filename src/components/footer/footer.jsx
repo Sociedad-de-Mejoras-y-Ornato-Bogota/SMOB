@@ -12,18 +12,18 @@ const Footer = () => {
       <div
         className="footer-top"
         style={{
-          heigth: "200px",
+          heigth: "110px",
           display: "flex",
           alignItems: "center",
           justifyContent: "space-around",
-          padding: "1vh 3vw 0",
+          padding: "0.5vh 1vw 0",
           gap: "1vw",
         }}
       >
         <div className="footer-p-div" style={{ width: "50%" }}>
           <p
             className="footer-p"
-            style={{ padding: "2vh 1vw" }}
+            style={{ padding: "0.5vh 1vw", lineHeight:"1em",  }}
           >
             La Sociedad de Mejoras y Ornato de Bogotá es una entidad privada que
             tiene como objeto social principal el de trabajar por la civilidad
@@ -68,7 +68,7 @@ const Footer = () => {
       <div
         className="footer-dowm"
         style={{
-            heigth: "150px",
+            heigth: "110px",
           display: "flex",
           alignItems: "center",
           justifyContent: "space-around",

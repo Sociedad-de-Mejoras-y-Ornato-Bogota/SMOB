@@ -1,23 +1,37 @@
 import Pronto from "../../../components/Not found/ComingSoon";
 function CivilidadYComplejidad() {
+  const handleDownload = () => {
+    const response = fetch("https://geoapps.esri.co/recursos/SMOB/libros/construyendo-civilidad/4.pdf", {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET",
+        "Access-Control-Allow-Headers": "Content-Type",
+        
+      },
+    });
+
+    if (response.ok) {
+      const blob = response.blob();
+      const fileName = "documento.pdf";
+
+      FileSaver.saveAs(blob, fileName);
+    }
+  };
   return (
     <div className="general-container">
       <div className="row responsive-columna">
-        <div className="col-lg-6">
+        <div className="col-lg-5">
           <div className="general-title">Civilidad y complejidad</div>
 
-          <div
-            className="general-content text-responsive"
-            style={{ textAlign: "justify" }}
-          >
-            {/* En la medida en que crecía y se desarrollaba la ciudad, fueron cambiando sus características esenciales y las ópticas o visiones para tratar de analizarla y comprenderla. Esto sucedió lentamente al comienzo, cuando se trató de la urbe que apenas nacía, pero su dinámica empezó a acelerarse marcadamente a mediados del siglo XX. Estas visiones de la ciudad no desaparecieron para dejar lugar a las nuevas, por el contrario, se mezclaron con las que llegaron formando el conjunto complejo que tenemos hoy en día. */}
+          <div className="general-content " style={{ textAlign: "justify" }}>
+            <button style={{ width: "200px", fontSize: "14px", backgroundColor: "#762f0b", borderRadius: "5px #762f0b", borderColor: "#762f0b", color: "white" }} onClick={handleDownload}>Descargar documento</button>
           </div>
         </div>
 
-        <div className="col-lg-6">
+        <div className="col-lg-7">
           <iframe
             src="https://geoapps.esri.co/recursos/SMOB/libros/construyendo-civilidad/4.pdf"
-            style={{ width: "40vw", height: "50vh" }}
+            style={{ width: "50vw", height: "70vh" }}
             className="pdf-responsive"
           ></iframe>
         </div>

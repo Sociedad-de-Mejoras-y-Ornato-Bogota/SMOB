@@ -54,12 +54,12 @@ export default function Bienestar() {
       </div>
       {windowWidth > 800 && (
         <div>
-          <Graph />
+          <Graph2 />
         </div>
       )}
       {windowWidth > 800 && (
         <div>
-          <Graph2 />
+          <Graph />
         </div>
       )}
     </>

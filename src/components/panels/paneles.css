@@ -1,15 +1,15 @@
 .panels-civilidad{
     position: absolute;
-    font-size: 80px;
+    font-size: 4VW;
     opacity: .3;
     color: white;
     width: 100vw;
     text-align: center;
     margin-top: 100px;
-    letter-spacing: 0.6vw;
+    letter-spacing: 0.4vw;
 }
 .panels-container {
-    height: 800px;
+    height: 43vw;
     width: 100vw;
     display: flex;
 }
@@ -31,18 +31,22 @@
 
 .panel-title {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 20vw;
     margin-left: 30px;
-    font-size: 40px;
+    font-size: 2.2vw;
     font-weight: bolder;
     text-decoration: none;
     color: white;
+    line-height: 1em;
     /* display: none; */
+}
+.panel-title span{
+    display: block;
 }
 
 .panel-boton{
     position: absolute;
-    margin-top: 660px;
+    margin-top: 35vw;
     margin-left: 30px;
     /* display: none; */
 }
@@ -51,16 +55,24 @@
     width: auto;
     height: auto;
     padding: 5px;
-    font-size: 30px;
+    font-size: 1vw;
     font-weight: bold;
     border-radius: 15px;
 }
+.last .panel-info{
+    position: absolute;
+    margin-top: 30.5vw;
+    margin-left: 30px;
+    font-size: 1vw;
+    color: white;
+}
 .panel-info{
     position: absolute;
-    margin-top: 570px;
+    margin-top: 31vw;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 1vw;
     color: white;
+    line-height: 1em;
 }
 .panel-info:nth-child(4){
     margin-top: 580px;
@@ -69,6 +81,7 @@
 #panel1-frontal {
     background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-1.png");
     background-size: cover;
+
 }
 
 #panel2-frontal {
@@ -91,19 +104,19 @@
     
     .panels-container{
         width: 100vw;
-        height: 90vh;
+        height: 100vh;
         display: flex;
         flex-wrap: wrap;
     }  
     .panels{
         width: 50vw;
-        height: 45vh;
+        height: 50vh;
     }
     .panels-civilidad{
         display: none;
     }
     .panel-title {
-        margin-top: 20vh;
+        margin-top: 13vh;
         margin-left: 3vw;
         font-size:4vw
     }
@@ -113,11 +126,12 @@
     }
     .panel-boton button{
         font-size: 2vw;
+        /* margin-top: 32vh; */
     }
-    .panel-info{
-        margin-top: 30vh;
+    .panel-info, .last .panel-info{
+        margin-top: 25vh;
         margin-left: 3vw;
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 }
 
