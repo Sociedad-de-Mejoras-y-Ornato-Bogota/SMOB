@@ -51,7 +51,9 @@ export default function Bienestar() {
             </div>
           </div>
         </div>
+        <center style={{color: "#762f0b",fontWeight: "bold", fontSize:"18px"}}>Gráficas de crecimiento de población y planes de ordenamiento</center>
       </div>
+
       {windowWidth > 800 && (
         <div>
           <Graph2 />

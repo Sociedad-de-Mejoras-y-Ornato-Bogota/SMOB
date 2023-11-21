@@ -17,9 +17,9 @@ function    IndicadoresUrban() {
       <div className='row' style={{width:"100vw", height:"auto"}}>
         <div className="col-lg-12">
         <iframe
-          src='https://geogeeks2.maps.arcgis.com/apps/dashboards/b9050711ea264338a4ba21027d28395a'
+          src='https://geogeeks2.maps.arcgis.com/apps/dashboards/d3204ef726bf4f069eb7c4e68abf9ec2'
           className='dashboards'
-          style={{width:"100%",height:"80vh"}}
+          style={{width:"100%",height:"85vh"}}
         ></iframe>
         </div>
 

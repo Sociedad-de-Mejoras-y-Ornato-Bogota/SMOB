@@ -20,8 +20,7 @@ function Piramides() {
     
             <div className="col-lg-6">          
                 
-                <img src='https://geoapps.esri.co/recursos/SMOB/circulos/Componente%20Poblacional/1.1.%20Estructura%20demogr%C3%A1fica-01.png'
-                className='imagen-responsive' style={{width:"400px", height:"400px"}}></img>
+ 
     
             </div>
     

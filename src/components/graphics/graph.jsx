@@ -466,9 +466,9 @@ const Graph = () =>{
             <div className="cuadro1">
                 <p><h1 className="h1-c"> 1925</h1>
             <h2 className="h2-c">Bogotá futuro</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">3,7600</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">1,7600</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">2,0100</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">3,76</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">1,76</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">2,01</strong></h3>
             <button className="cus">
           <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick}/>
         </button>
@@ -480,9 +480,9 @@ const Graph = () =>{
             <div className="linea2"></div>
             <div className="cuadro2"><p><h1 className="h1-c"> 1936</h1>
             <h2 className="h2-c">Plan Brunner</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">3,8800</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">2,0000</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">1,8800</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">3,88</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">2,00</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">1,88</strong></h3>
             <button className="cus">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick1}/>
         </button>
@@ -494,9 +494,9 @@ const Graph = () =>{
             <div className="linea3"></div>
             <div className="cuadro3"><p><h1 className="h1-c"> 1951</h1>
             <h2 className="h2-c">Decreto 185. Plan Piloto</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">6,7300</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">2,8200</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">3,9100</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">6,73</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">2,82</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">3,91</strong></h3>
             <button className="cus">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick2}/>
         </button>
@@ -509,9 +509,9 @@ const Graph = () =>{
             <div className="cuadro4"><p><h1 className="h1-c"> 1972</h1>
             <h2 className="h2-c">Fase II (Ciudades entre</h2>
             <h2 className="h2-c">Ciudades)</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">4,6000</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">2,8400</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">1,7600</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">4,60</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">2,84</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">1,76</strong></h3>
             <button className="cus-e">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick3}/>
         </button>
@@ -523,9 +523,9 @@ const Graph = () =>{
             <div className="linea5"></div>
             <div className="cuadro5"><p><h1 className="h1-c"> 1975</h1>
             <h2 className="h2-c">Plan de desarrollo urbano</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">4,0300</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">2,5200</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">1,5500</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">4,03</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">2,52</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">1,55</strong></h3>
             <button className="cus">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4}/>
         </button>
@@ -537,9 +537,9 @@ const Graph = () =>{
             <div className="linea6"></div>
             <div className="cuadro6"><p><h1 className="h1-c"> 1979</h1>
             <h2 className="h2-c">Acuerdo 7</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">3,5500</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">2,0200</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">1,3400</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">3,55</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">2,02</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">1,34</strong></h3>
             <button className="cus">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick5}/>
         </button>
@@ -551,9 +551,9 @@ const Graph = () =>{
             <div className="linea7"></div>
             <div className="cuadro7"><p><h1 className="h1-c"> 1990</h1>
             <h2 className="h2-c">Acuerdo 6</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">2,5200</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">1,5000</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">0,9000</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">2,52</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">1,50</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">0,90</strong></h3>
             <button className="cus">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick6}/>
         </button>
@@ -565,9 +565,9 @@ const Graph = () =>{
             <div className="linea8"></div>
             <div className="cuadro8"><p><h1 className="h1-c"> 2000</h1>
             <h2 className="h2-c">Decreto 619</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">1,9200</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">1,3400</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">0,6300</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">1,92</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">1,34</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">0,63</strong></h3>
             <button className="cus">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick7}/>
         </button>
@@ -579,9 +579,9 @@ const Graph = () =>{
             <div className="linea9"></div>
             <div className="cuadro9"><p><h1 className="h1-c"> 2004</h1>
             <h2 className="h2-c">Decreto 190</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">1,7000</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">1,2200</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">0,5100</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">1,70</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">1,22</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">0,51</strong></h3>
             <button className="cus">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick8}/>
         </button>
@@ -593,9 +593,9 @@ const Graph = () =>{
             <div className="linea10"></div>
             <div className="cuadro10"><p><h1 className="h1-c"> 2013</h1>
             <h2 className="h2-c">MePOT</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">0,4800</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">0,9100</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">-0,4300</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">0,48</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">0,91</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">-0,43</strong></h3>
             <button className="cus">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick9}/>
         </button>
@@ -607,9 +607,9 @@ const Graph = () =>{
             <div className="linea11"></div>
             <div className="cuadro11"><p><h1 className="h1-c"> 2019</h1>
             <h2 className="h2-c">Proyecto POT</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">0,2200</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">0,6600</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">-0,6600</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">0,22</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">0,66</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">-0,66</strong></h3>
             <button className="cus">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick10}/>
         </button>
@@ -621,9 +621,9 @@ const Graph = () =>{
             <div className="linea12"></div>
             <div className="cuadro12"><p><h1 className="h1-c"> 2021</h1>
             <h2 className="h2-c">Decreto 555</h2>
-            <h3 className="h3-c">- Crecimiento: <strong className="str">1,1700</strong></h3>
-            <h3 className="h3-c">- Vegetativa: <strong className="str">0,2500</strong></h3>
-            <h3 className="h3-c">- Migración: <strong className="str">0,9200</strong></h3>
+            <h3 className="h3-c">- Crecimiento: <strong className="str">1,17</strong></h3>
+            <h3 className="h3-c">- Vegetativa: <strong className="str">0,25</strong></h3>
+            <h3 className="h3-c">- Migración: <strong className="str">0,92</strong></h3>
             <button className="cus">
             <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick11}/>
         </button>

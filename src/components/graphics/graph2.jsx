@@ -34,7 +34,18 @@ var options = {
       text: "",
     },
     labels: {
-      format: "{value}",
+      tickInterval: 1000,
+      gridLineWidth: 0,
+      formatter: function () {
+
+        const options = {
+          groupingSize: 3,
+          locale: "en-US",
+        };
+        
+        const formattedNumber = Intl.NumberFormat("de-DE", options).format(this.value);
+        return formattedNumber 
+      }
     },
     tickInterval: 1000000,
     gridLineWidth: 0,
