@@ -79,23 +79,23 @@
 }
 
 #panel1-frontal {
-    background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-1.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-1.png");
     background-size: cover;
 
 }
 
 #panel2-frontal {
-    background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-2.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-2.png");
     background-size: cover;
 }
 
 #panel3-frontal {
-    background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-3.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-3.png");
     background-size: cover;
 }
 
 #panel4-frontal {
-    background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-4.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-4.png");
     background-size: cover;
 }
 
@@ -137,22 +137,22 @@
 
 @media only screen and (max-width: 645px) {
     #panel1-frontal {
-        background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-r-1.jpg");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-1.jpg");
         background-size: cover;
     }
     
     #panel2-frontal {
-        background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-r-2.jpg");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-2.jpg");
         background-size: cover;
     }
     
     #panel3-frontal {
-        background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-r-3.jpg");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-3.jpg");
         background-size: cover;
     }
     
     #panel4-frontal {
-        background-image: url("https://geoapps.esri.co/recursos/smob/paneles/panel-r-4.jpg");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-4.jpg");
         background-size: cover;
     }
 }

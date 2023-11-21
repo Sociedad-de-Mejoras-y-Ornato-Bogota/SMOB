@@ -8,7 +8,7 @@ const Ordenamiento = () => {
                 <div className="row responsive-columna">
 
                     <div className="col-lg-6">
-                        <img src="https://geoapps.esri.co/recursos/smob/circulos/Componente Bienestar/3. Componente Ordenamiento Territorial-01.png" style={{width:"600px", height:"600px"}}
+                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente Bienestar/3. Componente Ordenamiento Territorial-01.png" style={{width:"600px", height:"600px"}}
                         className='imagen-responsive'></img>
                     </div>
 

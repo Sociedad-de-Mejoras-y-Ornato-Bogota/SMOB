@@ -16,7 +16,7 @@ export default function ResponsabilidadSocial() {
                     </div>
 
                     <div className="col-lg-6">
-                            <iframe src="https://geoapps.esri.co/recursos/SMOB/Responsabilidad_SMOB.mp4" style={{width:"40vw",height:"50vh"}} className='pdf-responsive'></iframe>
+                            <iframe src="https://smob-storage.s3.us-east-2.amazonaws.com/Responsabilidad_SMOB.mp4" style={{width:"40vw",height:"50vh"}} className='pdf-responsive'></iframe>
                     </div>
                 </div>
             </div>

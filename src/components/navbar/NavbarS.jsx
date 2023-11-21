@@ -11,8 +11,8 @@ const NavbarS = () => {
         <header id='header' className='col-lg' >
         <div className='header-img' id='hola'>
               <Link to="/">
-                  <img src="https://geoapps.esri.co/recursos/SMOB/logo.png" alt="logo" style={{ width: '3vw', marginLeft: '-50%' }} />
-                  <img src="https://geoapps.esri.co/recursos/SMOB/logo_plataforma.png" alt="logo" style={{ width: '3vw', marginLeft: '-2%' }} />
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '3vw', marginLeft: '-50%' }} />
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="logo" style={{ width: '3vw', marginLeft: '-2%' }} />
               </Link></div>
           <div className='header-title' id='hola' style={{marginLeft:"5vw"}}>
               <h1>Construyendo Civilidad

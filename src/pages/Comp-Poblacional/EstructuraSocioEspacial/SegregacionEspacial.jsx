@@ -17,7 +17,7 @@ function Espacial() {
           </div>
 
           <div className="col-lg-6">
-            <iframe src='https://geoapps.esri.co/recursos/SMOB/1.%20Segregación%20espacial%20por%20Localidades.pdf'
+            <iframe src='https://smob-storage.s3.us-east-2.amazonaws.com/1.%20Segregación%20espacial%20por%20Localidades.pdf'
               style={{ width: "40vw", height: "60vh" }}
               className='pdf-responsive'></iframe>
 

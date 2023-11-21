@@ -6,7 +6,7 @@
 .home-content,
 .soon,
 .publicaciones-container {
-    background-image: url(https://geoapps.esri.co/recursos/smob/marca.png);
+    background-image: url(https://smob-storage.s3.us-east-2.amazonaws.com/marca.png);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;

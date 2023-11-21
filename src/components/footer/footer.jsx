@@ -52,13 +52,13 @@ const Footer = () => {
         </div>
         <div className="footer-logos" style={{ display: "flex" }}>
           <img
-            src="https://geoapps.esri.co/recursos/SMOB/logo.png"
+            src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png"
             alt="logo"
             height="60px"
             width="60px"
           />
           <img
-            src="https://geoapps.esri.co/recursos/SMOB/logo_plataforma.png"
+            src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png"
             alt="logo"
             height="60px"
             width="60px"

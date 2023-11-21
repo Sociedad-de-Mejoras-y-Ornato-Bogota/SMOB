@@ -310,81 +310,81 @@ const Graph = () =>{
         <>
         {showPopup && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.1-Bogota-futuro.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.1-Bogota-futuro.png"
          onClose={handleClosePopup}
        />
       )}
       {showPopup1 && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.2-Brunner.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.2-Brunner.png"
          onClose={handleClosePopup1}
   
        />
       )}
       {showPopup2 && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.3-Le-Corbusier.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.3-Le-Corbusier.png"
          onClose={handleClosePopup2}
        />
       )}
       {showPopup3 && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.4-Fase-2-1972.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.4-Fase-2-1972.png"
          onClose={handleClosePopup3}
   
        />
       )}
       {showPopup4 && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.5-plan-desarrollo-urbano-1975.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.5-plan-desarrollo-urbano-1975.png"
          onClose={handleClosePopup4}
   
        />
       )}
       {showPopup5 && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.6-Acuerdo-7-1979.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.6-Acuerdo-7-1979.png"
          onClose={handleClosePopup5}
   
        />
       )}
       {showPopup6 && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.7-Acuerdo-6-1990.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.7-Acuerdo-6-1990.png"
          onClose={handleClosePopup6}
   
        />
       )}
       {showPopup7 && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.8-Decreto-619-2000.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.8-Decreto-619-2000.png"
          onClose={handleClosePopup7}
   
        />
       )}
       {showPopup8 && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.9-Decreto-190-2004.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.9-Decreto-190-2004.png"
          onClose={handleClosePopup8}
   
        />
       )}
       {showPopup9 && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.10-Mepot-2013.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.10-Mepot-2013.png"
          onClose={handleClosePopup9}
   
        />
       )}
       {showPopup10 && (
          <Popup
-         imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.11-proyecto-POT-2019.png"
+         imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.11-proyecto-POT-2019.png"
          onClose={handleClosePopup10}
   
        />
       )}{showPopup11 && (
         <Popup
-        imageUrl="https://geoapps.esri.co/recursos/smob/grafica/E.1.12-Decreto-555-2021.png"
+        imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.12-Decreto-555-2021.png"
         onClose={handleClosePopup11}
 
       />
@@ -392,19 +392,19 @@ const Graph = () =>{
      {showPopupE && (
          <Popup2
          onClose={handleClosePopupE}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 74 DE 1925 BOGOTA FUTURO.pdf"
+         url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 74 DE 1925 BOGOTA FUTURO.pdf"
        />
       )}
       {showPopup1E && (
          <Popup2
          onClose={handleClosePopup1E}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 28 DE 1933-BRUNNER.pdf"
+         url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 28 DE 1933-BRUNNER.pdf"
        />
       )}
       {showPopup2E && (
          <Popup2
          onClose={handleClosePopup2E}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 185 DE 1951-LE CORBUSIER.pdf"
+         url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 185 DE 1951-LE CORBUSIER.pdf"
        />
       )}
       {showPopup3E && (
@@ -422,42 +422,42 @@ const Graph = () =>{
       {showPopup5E && (
          <Popup2
          onClose={handleClosePopup5E}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/ACUERDO 7 1979.pdf"
+         url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 7 1979.pdf"
        />
       )}
       {showPopup6E && (
          <Popup2
          onClose={handleClosePopup6E}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/Acuerdo 6 de 1990.pdf"
+         url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/Acuerdo 6 de 1990.pdf"
        />
       )}
       {showPopup7E && (
          <Popup2
          onClose={handleClosePopup7E}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 619 DE 2000.pdf"
+         url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 619 DE 2000.pdf"
        />
       )}
       {showPopup8E && (
          <Popup2
          onClose={handleClosePopup8E}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO190 DE 2004.pdf"
+         url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO190 DE 2004.pdf"
        />
       )}
       {showPopup9E && (
          <Popup2
          onClose={handleClosePopup9E}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 364 DE 2013.pdf"
+         url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 364 DE 2013.pdf"
        />
       )}
       {showPopup10E && (
          <Popup2
          onClose={handleClosePopup10E}
-         url="https://geoapps.esri.co/recursos/smob/grafica/pdf/PROYECTO DE ACUERDO POT BOGOTA 2019.pdf"
+         url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/PROYECTO DE ACUERDO POT BOGOTA 2019.pdf"
        />
       )}{showPopup11E && (
         <Popup2
         onClose={handleClosePopup11E}
-        url="https://geoapps.esri.co/recursos/smob/grafica/pdf/DECRETO 555 DE 2021.pdf"
+        url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 555 DE 2021.pdf"
       />
      )}
         <div className="graphs">
@@ -470,10 +470,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">1,76</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">2,01</strong></h3>
             <button className="cus">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClickE}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClickE}/>
         </button>
             </p>
             </div>
@@ -484,10 +484,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">2,00</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">1,88</strong></h3>
             <button className="cus">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick1}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick1}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick1E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick1E}/>
         </button>
             </p>
             </div>
@@ -498,10 +498,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">2,82</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">3,91</strong></h3>
             <button className="cus">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick2}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick2}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick2E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick2E}/>
         </button>
             </p>
             </div>
@@ -513,10 +513,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">2,84</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">1,76</strong></h3>
             <button className="cus-e">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick3}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick3}/>
         </button>
         <button className="cus2-e">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick3E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick3E}/>
         </button>
             </p>
             </div>
@@ -527,10 +527,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">2,52</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">1,55</strong></h3>
             <button className="cus">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E}/>
         </button>
             </p>
             </div>
@@ -541,10 +541,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">2,02</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">1,34</strong></h3>
             <button className="cus">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick5}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick5}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick5E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick5E}/>
         </button>
             </p>
             </div>
@@ -555,10 +555,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">1,50</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">0,90</strong></h3>
             <button className="cus">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick6}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick6}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick6E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick6E}/>
         </button>
             </p>
             </div>
@@ -569,10 +569,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">1,34</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">0,63</strong></h3>
             <button className="cus">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick7}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick7}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick7E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick7E}/>
         </button>
             </p>
             </div>
@@ -583,10 +583,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">1,22</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">0,51</strong></h3>
             <button className="cus">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick8}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick8}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick8E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick8E}/>
         </button>
             </p>
             </div>
@@ -597,10 +597,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">0,91</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">-0,43</strong></h3>
             <button className="cus">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick9}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick9}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick9E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick9E}/>
         </button>
             </p>
             </div>
@@ -611,10 +611,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">0,66</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">-0,66</strong></h3>
             <button className="cus">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick10}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick10}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick10E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick10E}/>
         </button>
             </p>
             </div>
@@ -625,10 +625,10 @@ const Graph = () =>{
             <h3 className="h3-c">- Vegetativa: <strong className="str">0,25</strong></h3>
             <h3 className="h3-c">- Migración: <strong className="str">0,92</strong></h3>
             <button className="cus">
-            <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick11}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick11}/>
         </button>
         <button className="cus2">
-          <img src="https://geoapps.esri.co/recursos/smob/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick11E}/>
+          <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick11E}/>
         </button>
             </p>
             </div>

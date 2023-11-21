@@ -470,8 +470,8 @@ const Menu = () => {
             }} >
                 <div className='header-img' id='hola'>
                     <Link to="/">
-                        <img src="https://geoapps.esri.co/recursos/SMOB/logo.png" alt="logo" style={{ width: '6vw', height: '12vh', marginLeft: '-50%' }} />
-                        <img src="https://geoapps.esri.co/recursos/SMOB/logo_plataforma.png" alt="logo" style={{ width: '6vw', height: '12vh' }} />
+                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '6vw', height: '12vh', marginLeft: '-50%' }} />
+                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo_plataforma.png" alt="logo" style={{ width: '6vw', height: '12vh' }} />
                     </Link></div>
                 <div className='header-title' id='hola'>
                     <h1>Construyendo Civilidad

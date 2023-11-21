@@ -32,7 +32,7 @@ const Series = () => {
       <div className="row" style={{ width: "100vw", height: "auto" }}>
         <div className="col-lg-12">
           <iframe
-            src="https://www.arcgis.com/apps/dashboards/60d645f0e5be4965a03daadaafbc945e"
+            src="https://experience.arcgis.com/experience/418fb6f6b9464b50ac181020a1a18fe5/"
             referrerPolicy="origin"
             style={{ width: "100%", height: "80vh" }}
           ></iframe>

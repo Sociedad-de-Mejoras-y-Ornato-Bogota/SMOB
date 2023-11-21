@@ -5,7 +5,7 @@ const SistemaEP = () => {
             <div className="row responsive-columna">
 
                 <div className="col-lg-6">
-                    <img src="https://geoapps.esri.co/recursos/smob/circulos/ordenamiento/3.1.3.%20Sistemas%20de%20espacio%20p%C3%BAblico%20y%20equipamentos-01.png" width={"80%"} height={"90%"}
+                    <img src="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/ordenamiento/3.1.3.%20Sistemas%20de%20espacio%20p%C3%BAblico%20y%20equipamentos-01.png" width={"80%"} height={"90%"}
                     className="imagen-responsive" ></img>
                 </div>
 

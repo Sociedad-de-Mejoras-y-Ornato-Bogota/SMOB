@@ -4,7 +4,7 @@ import "./home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
-  const videoSrc = "https://geoapps.esri.co/recursos/SMOB/Gif_Modelo.mp4";
+  const videoSrc = "https://smob-storage.s3.us-east-2.amazonaws.com/Gif_Modelo.mp4";
 
   return (
     <div className="Home" id="Home">
@@ -18,7 +18,7 @@ const Home = () => {
               </p>
             </div>
             <img
-              src="https://geoapps.esri.co/recursos/SMOB/fondoj.jpg"
+              src="https://smob-storage.s3.us-east-2.amazonaws.com/FondoJ.jpg"
               alt=""
             ></img>
           </div>

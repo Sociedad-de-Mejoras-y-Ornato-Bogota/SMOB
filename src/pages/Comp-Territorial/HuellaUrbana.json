@@ -3,14 +3,14 @@
     "titulo":"Visualice en la siguiente línea temporal el crecimiento de la huella urbana para la ciudad de Bogotá.",
     "año": "Historia de la huella urbana",
     "layers": [],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/0.gif",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/0.gif",
     "zoom":""
   },
   {
     "titulo":"Plano de Santafé finales del siglo XVI elaborado por Carlos Martínez",
     "año": 1600,
     "layers": ["Huella urbana 1600", "Manzanas en construcción 1600", "Curvas de Nivel", "Cuerpos hídricos"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1600.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1600.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1600/",
     "zoom":"14"
@@ -19,7 +19,7 @@
     "titulo":"    Plano geométrico de Santafé de Bogotá en 1791 elaborado por Domingo Esquiaqui",
     "año": 1791,
     "layers": ["Huella urbana 1791","Cuerpos lénticos 1791", "Cuerpos hídricos 1791", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1791.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1791.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1791/",
     "zoom":"14"
@@ -28,7 +28,7 @@
     "titulo":"Plano geométrico de Santafé de Bogotá en 1816 elaborado por Domingo Esquiaqui",
     "año": 1816,
     "layers": ["Huella urbana 1816", "Cuerpos lénticos 1819", "Cuerpos hídricos 1819", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1816.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1816.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1816/",
     "zoom":"14"
@@ -37,7 +37,7 @@
     "titulo":"Plano topográfico de Bogotá y sus alrededores en 1849 elaborado por Agustín Codazzi",
     "año": 1849,
     "layers": ["Huella urbana 1849", "Cuerpos lénticos 1849", "Cuerpos hídricos 1849", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1849.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1849.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1849/?draft=true",
     "zoom":"14"
@@ -46,7 +46,7 @@
     "titulo":"Plano de Bogotá de 1886. Versión de Juan Carrasquilla Botero",
     "año": 1885,
     "layers": ["Huella urbana 1885", "Cuerpos lénticos 1885", "Cuerpos hídricos 1885", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1885.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1885.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1885/?draft=true",
     "zoom":"14"
@@ -55,7 +55,7 @@
     "titulo":"Plano de Bogotá 1906 elaborado por Francisco Javier Vergara y Velasco",
     "año": 1906,
     "layers": ["Huella urbana 1906", "Cuerpos lénticos 1906", "Cuerpos hídricos 1906", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1906.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1906.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1906/?draft=true",
     "zoom":"13"
@@ -64,7 +64,7 @@
     "titulo":"Plano de Bogotá 1913 elaborado por la Oficina de Longitudes y Gregorio Hernández ",
     "año": 1913,
     "layers": ["Huella urbana 1913", "Cuerpos Lénticos", "Cuerpos Hídricos", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1913.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1913.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1913/?draft=true",
     "zoom":"13"
@@ -73,7 +73,7 @@
     "titulo":"Plano de Bogotá 1923 elaborado por Manuel Rincón ",
     "año": 1923,
     "layers": ["Huella urbana 1923", "Cuerpos Lénticos 1923", "Cuerpos Hídricos 1923", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1923.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1923.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1923/?draft=true",
     "zoom":"13"
@@ -82,7 +82,7 @@
     "titulo":"Plano editado de Bogotá de 1932  ",
     "año": 1932,
     "layers": ["Huella urbana 1932", "Cuerpos Lénticos 1932", "Cuerpos Hídricos 1932", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1932.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1932.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1932/?draft=true",
     "zoom":"13"
@@ -91,7 +91,7 @@
     "titulo":"Plano de Bogotá Acuerdo 21 de 1944 de la Secretaría de Obras Públicas Municipales",
     "año": 1944,
     "layers": ["Huella urbana 1944", "Cuerpos Lénticos 1944", "Cuerpos Hídricos 1944", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1944.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1944.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1944/?draft=true",
     "zoom":"13"
@@ -100,7 +100,7 @@
     "titulo":"Plano de Bogotá de 1954 elaborado por el Instituto Geográfico Agustín Codazzi",
     "año": 1954,
     "layers": ["Huella urbana 1954", "Cuerpos Lénticos 1954", "Cuerpos hidricos 1954", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1954.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1954.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1954/?draft=true",
     "zoom":"13"
@@ -109,7 +109,7 @@
     "titulo":"Plano de Bogotá de 1965 elaborado por Carvajal & Cía.",
     "año": 1965,
     "layers": ["Huella urbana 1965", "Cuerpos Lénticos 1964", "Cuerpos Hidricos 1964", "Curvas de Nivel", "Huella urbana Año 1965"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1965.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1965.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1965/?draft=true",
     "zoom":"13"
@@ -118,7 +118,7 @@
     "titulo":"Plano de Bogotá de 1976",
     "año": 1976,
     "layers": ["Huella urbana 1976", "Huella urbana Año 1976", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1976.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1976.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1976/?draft=true",
     "zoom":"13"
@@ -127,7 +127,7 @@
     "titulo":"Plano de Bogotá de 1985",
     "año": 1985,
     "layers": ["Huella urbana 1985", "Huella urbana Año 1985", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/1985.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1985.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1985/?draft=true",
     "zoom":"12"
@@ -136,7 +136,7 @@
     "titulo":"Plano de Bogotá de 2000",
     "año": 2000,
     "layers": ["Huella urbana 2000", "Cuerpos lénticos 2000", "Cuerpos hídr icos 2000", "Curvas de Nivel"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/2000.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2000.png",
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-2000/?draft=true",
     "zoom":"12"
@@ -145,7 +145,7 @@
     "titulo":"Plano de Bogotá de 2023",
     "año": 2023,
     "layers": ["Huella urbana 2023", "Curvas de Nivel", "Cuerpos_hidricos_2023", "Huella urbana Año 2023"],
-    "img_url":"https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/2023.png",
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2023.png",
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-2023/?draft=true",
     "zoom":"12"

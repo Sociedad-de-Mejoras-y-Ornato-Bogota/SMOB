@@ -8,7 +8,7 @@ function ConstruyendoCivilidad() {
                 <div className="row responsive-columna">
     
                     <div className="col-lg-6">
-                    <img src="https://geoapps.esri.co/recursos/smob/circulos/Construyendo-civilidad.png" style={{width:"400px", height:"400px"}}className='imagen-responsive'></img>
+                    <img src="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Construyendo-civilidad.png" style={{width:"400px", height:"400px"}}className='imagen-responsive'></img>
                     </div>
     
                     <div className="col-lg-6">

@@ -8,7 +8,7 @@ function demografia() {
         <div className="row responsive-columna">
 
             <div className="col-lg-6">
-                <img src="https://geoapps.esri.co/recursos/SMOB/circulos/Componente Poblacional/1.1. Estructura demográfica-01.png"
+                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente Poblacional/1.1. Estructura demográfica-01.png"
                 style={{width:"400px", height:"400px"}}
                 className='imagen-responsive'></img>
             </div>

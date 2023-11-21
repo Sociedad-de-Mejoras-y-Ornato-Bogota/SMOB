@@ -102,8 +102,8 @@ const NavbarResponsive = () => {
             <div className={styles.navbarBrand}>
                 <div className=''>
                     <Link to="/sociedad-de-mejoras-y-ornato-bogota//">
-                        <img src="https://geoapps.esri.co/recursos/SMOB/logo.png" alt="logo" style={{ width: '30px', height: '30px' }} />
-                        <img src="https://geoapps.esri.co/recursos/SMOB/logo_plataforma.png" alt="logo" style={{ width: '30px', height: '30px' }} />
+                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '30px', height: '30px' }} />
+                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo_plataforma.png" alt="logo" style={{ width: '30px', height: '30px' }} />
                         <h1 className='title-responsive'>Construyendo Civilidad</h1>
                     </Link>
                 </div>

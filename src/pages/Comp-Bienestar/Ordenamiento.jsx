@@ -24,7 +24,7 @@ export default function Bienestar() {
         <div className="responsive-columna row ">
           <div className="col-lg-6">
             <img
-              src="https://geoapps.esri.co/recursos/smob/circulos/Componente Bienestar/3. Componente Ordenamiento Territorial-01.png"
+              src="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente Bienestar/3. Componente Ordenamiento Territorial-01.png"
               style={{ width: "400px", height: "400px" }}
               className="imagen-responsive"
             ></img>

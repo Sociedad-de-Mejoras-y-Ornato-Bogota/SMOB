@@ -4,7 +4,7 @@ const SistemaS = () => {
             <div className="row responsive-columna">
 
                 <div className="col-lg-6">
-                    <img src="https://geoapps.esri.co/recursos/smob/circulos/ordenamiento/3.1.2.%20Sistemas%20de%20servicios%20p%C3%BAblicos%20ind-01.png" style={{width:"400px", height:"400px"}}
+                    <img src="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/ordenamiento/3.1.2.%20Sistemas%20de%20servicios%20p%C3%BAblicos%20ind-01.png" style={{width:"400px", height:"400px"}}
                     className="imagen-responsive"></img>
                 </div>
 

@@ -16,7 +16,7 @@ function CivilidadYComplejidad() {
                 </div>
 
                 <div className="col-lg-6">
-                    <iframe src='https://geoapps.esri.co/recursos/smob/Ciudadania y civilidad_cuarto machote.pdf'
+                    <iframe src='https://smob-storage.s3.us-east-2.amazonaws.com/Ciudadania y civilidad_cuarto machote.pdf'
               style={{width:"40vw",height:"60vh"}} className='pdf-responsive'></iframe>
                 </div>
 

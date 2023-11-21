@@ -183,22 +183,22 @@
   }
 
   #card1-frontal{
-    background-image: url("https://geoapps.esri.co/recursos/smob/Diseño-paneles-inicio-afd43625.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/Diseño-paneles-inicio-afd43625.png");
     background-size: cover;
   }
   
   #card2-frontal{
-    background-image: url("https://geoapps.esri.co/recursos/smob/Diseño-paneles-inicio-02-fbc9cd7e.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/Diseño-paneles-inicio-02-fbc9cd7e.png");
     background-size: cover;
   }
   
   #card3-frontal{
-    background-image: url("https://geoapps.esri.co/recursos/smob/Diseño-paneles-inicio-03-1d368d21.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/Diseño-paneles-inicio-03-1d368d21.png");
     background-size: cover;
   }
   
   #card4-frontal{
-    background-image: url("https://geoapps.esri.co/recursos/smob/Diseño-paneles-inicio-05-7dd42aaf.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/Diseño-paneles-inicio-05-7dd42aaf.png");
     background-size: cover;
   }
   @media only screen and (max-width: 1024px) {
@@ -284,22 +284,22 @@
         /* z-index: 10; */
     }
     #card1-frontal{
-        background-image: url("https://geoapps.esri.co/recursos/smob/Diseño paneles de incio versión mobile_Mesa de trabajo 1.png");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/Diseño paneles de incio versión mobile_Mesa de trabajo 1.png");
         background-size: cover;
       }
       
       #card2-frontal{
-        background-image: url("https://geoapps.esri.co/recursos/smob/Diseño paneles de incio versión mobile-02.png");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/Diseño paneles de incio versión mobile-02.png");
         background-size: cover;
       }
       
       #card3-frontal{
-        background-image: url("https://geoapps.esri.co/recursos/smob/Diseño paneles de incio versión mobile-03.png");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/Diseño paneles de incio versión mobile-03.png");
         background-size: cover;
       }
       
       #card4-frontal{
-        background-image: url("https://geoapps.esri.co/recursos/smob/Diseño paneles de incio versión mobile-05.png");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/Diseño paneles de incio versión mobile-05.png");
         background-size: cover;
       }
 
