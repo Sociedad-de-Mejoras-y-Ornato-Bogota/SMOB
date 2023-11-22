@@ -13,7 +13,7 @@ function EvolucionHuella() {
       "Visualice en la siguiente línea temporal el crecimiento de la huella urbana para la ciudad de Bogotá.",
     año: "Historia de la huella urbana",
     layers: [],
-    img_url: "https://geoapps.esri.co/recursos/smob/huella-urbana-imgs/0.gif",
+    img_url: "https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/0.gif",
     zoom: ""
   });
 
@@ -192,7 +192,7 @@ function EvolucionHuella() {
               ></img>
             </div>
           )}
-          {year == "2023"  && (
+          {year == "2023" || year == "1991" || year == "2006" && (
             <div
               style={{
                 width: "100vw",
