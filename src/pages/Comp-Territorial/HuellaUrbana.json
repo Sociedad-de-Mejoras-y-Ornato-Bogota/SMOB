@@ -133,12 +133,30 @@
     "zoom":"12"
   },
   {
+    "titulo":"Plano de Bogotá de 1991",
+    "año": 1991,
+    "layers": ["Huella urbana 1991", "Huella urbana Año 1991", "Curvas de Nivel"],
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1991.png",
+    "map_id":"380fef7b6a55643479f80f79e6d8cceea",
+    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1991/?draft=true",
+    "zoom":"12"
+  },
+  {
     "titulo":"Plano de Bogotá de 2000",
     "año": 2000,
     "layers": ["Huella urbana 2000", "Cuerpos lénticos 2000", "Cuerpos hídr icos 2000", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2000.png",
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-2000/?draft=true",
+    "zoom":"12"
+  },
+  {
+    "titulo":"Plano de Bogotá de 2006",
+    "año": 2006,
+    "layers": ["Huella urbana 2006", "Huella urbana Año 2006", "Curvas de Nivel"],
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2006.png",
+    "map_id":"3ef1b1d8359404e219e971bfe48d796e4",
+    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/2006/?draft=true",
     "zoom":"12"
   },
   {

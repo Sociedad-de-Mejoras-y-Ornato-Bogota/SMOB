@@ -112,7 +112,7 @@ function EvolucionHuella() {
 
       <div className="row" style={{ height: "auto" }}>
         <div className="col-lg-12">
-          {year != "2023" && year != "Historia de la huella urbana" && (
+          {year != "2023" && year != "Historia de la huella urbana" && year != "1991" && year != "2006" && (
             <div
               style={{
                 width: "100vw",
@@ -192,7 +192,7 @@ function EvolucionHuella() {
               ></img>
             </div>
           )}
-          {year == "2023" && (
+          {year == "2023"  || year == "1991"  && year == "1991" && (
             <div
               style={{
                 width: "100vw",
