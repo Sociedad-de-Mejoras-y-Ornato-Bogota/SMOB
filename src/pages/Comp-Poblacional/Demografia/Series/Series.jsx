@@ -34,7 +34,7 @@ const Series = () => {
           <iframe
             src="https://experience.arcgis.com/experience/418fb6f6b9464b50ac181020a1a18fe5/"
             referrerPolicy="origin"
-            style={{ width: "100%", height: "80vh" }}
+            style={{ width: "100%", height: "90vh" }}
           ></iframe>
           <p  style={{
             display: "flex",

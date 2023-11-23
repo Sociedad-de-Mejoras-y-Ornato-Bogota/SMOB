@@ -112,7 +112,26 @@ function EvolucionHuella() {
 
       <div className="row" style={{ height: "auto" }}>
         <div className="col-lg-12">
-          {year != "2023" || year != "Historia de la huella urbana" || year != "1991" || year != "2006" && (
+
+          {(year === 2023 || year === 1991 || year === 2006) &&
+            <div
+              style={{
+                width: "100vw",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold" }}>
+                {dataFilter?.titulo}
+              </h4>
+
+              <Map map_id={dataFilter?.map_id} layers={dataFilter?.layers} zoom={dataFilter?.zoom} center={dataFilter?.center} />
+            </div>
+          }
+
+          {(year !== 2023 && year !== "Historia de la huella urbana" && year !== 1991 && year !== 2006) &&
             <div
               style={{
                 width: "100vw",
@@ -140,6 +159,7 @@ function EvolucionHuella() {
                     map_id={dataFilter?.map_id}
                     layers={dataFilter?.layers}
                     zoom={dataFilter?.zoom}
+                    center={dataFilter?.center}
                   />
                   <button
                     className="boton-modal-responsive"
@@ -191,26 +211,8 @@ function EvolucionHuella() {
                 }}
               ></img>
             </div>
-          )}
-          {year == "2023" || year == "1991" || year == "2006" && (
-            <div
-              style={{
-                width: "100vw",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold" }}>
-                {dataFilter?.titulo}
-              </h4>
-
-              <Map map_id={dataFilter?.map_id} layers={dataFilter?.layers} zoom={dataFilter?.zoom} />
-            </div>
-          )}
-
-          {year == "Historia de la huella urbana" && (
+          }
+          {(year == "Historia de la huella urbana") && (
             <div
               style={{
                 width: "100vw",

@@ -6,7 +6,7 @@ import ScaleBar from "@arcgis/core/widgets/ScaleBar.js";
 import Home from "@arcgis/core/widgets/Home.js";
 import Compass from "@arcgis/core/widgets/Compass.js";
 import './map.css'
-const Map = ({ map_id, layers, zoom }) => {
+const Map = ({ map_id, layers, zoom, center }) => {
   const mapElement = useRef(null);
   const view = useRef(null);
   const legend = useRef(null);
@@ -22,7 +22,7 @@ const Map = ({ map_id, layers, zoom }) => {
     view.current = new MapView({
       map: webmap,
       zoom: zoom,
-      center:[-74.121750, 4.634800 ]
+      center: center
     });
 
     const scalebar = new ScaleBar({

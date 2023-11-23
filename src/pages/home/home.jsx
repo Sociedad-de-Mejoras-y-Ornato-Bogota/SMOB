@@ -18,7 +18,7 @@ const Home = () => {
               </p>
             </div>
             <img
-              src="https://smob-storage.s3.us-east-2.amazonaws.com/FondoJ.jpg"
+              src="https://smob-storage.s3.us-east-2.amazonaws.com/FondoJ.png"
               alt=""
             ></img>
           </div>

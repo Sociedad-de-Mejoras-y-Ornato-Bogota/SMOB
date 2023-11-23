@@ -13,7 +13,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1600.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1600/",
-    "zoom":"14"
+    "zoom":"14",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"    Plano geométrico de Santafé de Bogotá en 1791 elaborado por Domingo Esquiaqui",
@@ -22,7 +23,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1791.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1791/",
-    "zoom":"14"
+    "zoom":"14",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano geométrico de Santafé de Bogotá en 1816 elaborado por Domingo Esquiaqui",
@@ -31,7 +33,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1816.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1816/",
-    "zoom":"14"
+    "zoom":"14",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano topográfico de Bogotá y sus alrededores en 1849 elaborado por Agustín Codazzi",
@@ -40,7 +43,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1849.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1849/?draft=true",
-    "zoom":"14"
+    "zoom":"14",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano de Bogotá de 1886. Versión de Juan Carrasquilla Botero",
@@ -49,7 +53,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1885.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1885/?draft=true",
-    "zoom":"14"
+    "zoom":"14",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano de Bogotá 1906 elaborado por Francisco Javier Vergara y Velasco",
@@ -58,7 +63,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1906.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1906/?draft=true",
-    "zoom":"13"
+    "zoom":"13",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano de Bogotá 1913 elaborado por la Oficina de Longitudes y Gregorio Hernández ",
@@ -67,7 +73,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1913.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1913/?draft=true",
-    "zoom":"13"
+    "zoom":"13",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano de Bogotá 1923 elaborado por Manuel Rincón ",
@@ -76,7 +83,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1923.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1923/?draft=true",
-    "zoom":"13"
+    "zoom":"13",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano editado de Bogotá de 1932  ",
@@ -85,7 +93,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1932.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1932/?draft=true",
-    "zoom":"13"
+    "zoom":"13",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano de Bogotá Acuerdo 21 de 1944 de la Secretaría de Obras Públicas Municipales",
@@ -94,7 +103,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1944.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1944/?draft=true",
-    "zoom":"13"
+    "zoom":"13",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano de Bogotá de 1954 elaborado por el Instituto Geográfico Agustín Codazzi",
@@ -103,7 +113,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1954.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1954/?draft=true",
-    "zoom":"13"
+    "zoom":"13",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano de Bogotá de 1965 elaborado por Carvajal & Cía.",
@@ -112,7 +123,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1965.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1965/?draft=true",
-    "zoom":"13"
+    "zoom":"12",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano de Bogotá de 1976",
@@ -121,7 +133,8 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1976.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1976/?draft=true",
-    "zoom":"13"
+    "zoom":"12",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano de Bogotá de 1985",
@@ -130,16 +143,18 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1985.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1985/?draft=true",
-    "zoom":"12"
+    "zoom":"12",
+    "center":[-74.071750, 4.604800 ]
   },
   {
     "titulo":"Plano de Bogotá de 1991",
     "año": 1991,
     "layers": ["Pu1991", "Manzanas1991"],
-    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1991.png",
+    "img_url":"",
     "map_id":"80fef7b6a55643479f80f79e6d8cceea",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1991/?draft=true",
-    "zoom":"12"
+    "zoom":"12",
+    "center":[-74.121750, 4.634800 ]
   },
   {
     "titulo":"Plano de Bogotá de 2000",
@@ -148,24 +163,27 @@
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2000.png",
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-2000/?draft=true",
-    "zoom":"12"
+    "zoom":"12",
+    "center":[-74.121750, 4.634800 ]
   },
   {
     "titulo":"Plano de Bogotá de 2006",
     "año": 2006,
     "layers": ["Manzanas2006", "Pu2006"],
-    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2006.png",
+    "img_url":[-74.121750, 4.634800 ],
     "map_id":"ef1b1d8359404e219e971bfe48d796e4",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/2006/?draft=true",
-    "zoom":"12"
+    "zoom":"12",
+    "center":[-74.121750, 4.634800 ]
   },
   {
     "titulo":"Plano de Bogotá de 2023",
     "año": 2023,
     "layers": ["Huella urbana 2023", "Curvas de Nivel", "Cuerpos_hidricos_2023", "Huella urbana Año 2023"],
-    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2023.png",
+    "img_url":"",
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-2023/?draft=true",
-    "zoom":"12"
+    "zoom":"12",
+    "center":[-74.121750, 4.634800 ]
   }
 ]
