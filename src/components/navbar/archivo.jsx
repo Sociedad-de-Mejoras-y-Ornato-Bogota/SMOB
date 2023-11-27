@@ -4,7 +4,7 @@ export const archivo = [
         ruta: "/",
         color: "white",
     }, {
-        title: "Construyendo Civilidad",
+        title: "Construyendo civilidad",
         ruta: "/construyendo civilidad",
         color: "white",
         submenu: [
@@ -70,7 +70,7 @@ export const archivo = [
             }
         ],
     }, {
-        title: "Componente Poblacional",
+        title: "Componente poblacional",
         ruta: "/Componente poblacional",
         color: "white",
         submenu: [
@@ -129,7 +129,7 @@ export const archivo = [
                     },
                 ],
             }, {
-                title: "Estructura Socioespacial",
+                title: "Estructura socioespacial",
                 ruta: "/Componente poblacional/Estructura socioespacial",
                 submenu: [{
                     title: "Segregación espacial por Localidades",
@@ -172,21 +172,21 @@ export const archivo = [
                     title: "Sistema de servicios públicos",
                     ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos",
                     submenu: [{
-                        title: "Historia del Acueducto y alcantarillado ",
+                        title: "Historia del acueducto y alcantarillado ",
                         ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos/Acueducto",
                     }, {
-                        title: "Historia de la Energía eléctrica",
+                        title: "Historia de la energía eléctrica",
                         ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos/Energia",
                     }, {
                         title: "Historia del Gas natural",
                         ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos/Gas",
                     },
                     {
-                        title: "Historia de las Telecomunicaciones",
+                        title: "Historia de las telecomunicaciones",
                         ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos/Telecomunicaciones",
                     },
                     {
-                        title: "Historia de las Basuras",
+                        title: "Historia de las basuras",
                         ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos/Basuras",
                     },
                     ],
