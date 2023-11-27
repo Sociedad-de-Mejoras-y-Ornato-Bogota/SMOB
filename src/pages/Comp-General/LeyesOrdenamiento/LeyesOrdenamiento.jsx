@@ -5,11 +5,11 @@ function LeyesOrdenamiento() {
         <div className="general-container">
             <div className="row responsive-columna">
 
-                <div className="col-lg-6">
+                <div className="col-lg-5">
                     <img src="https://i.ibb.co/DphNWFx/Esquema-de-c-rculos-versi-n-simplificada-01-removebg-preview.png" alt="imagen-general" ></img>
                 </div>
 
-                <div className="col-lg-6">
+                <div className="col-lg-7">
                     <div className="general-title">
                         Leyes de ordenamiento territorial
                     </div> 

@@ -91,3 +91,19 @@
     background-color: #762f0b;
   }
   
+  .popup-content3{
+    z-index: 999;
+    background: white;
+    width: 40vw;
+    height: 35vh;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 80vw; /* Ajusta el ancho máximo del pop-up según sea necesario */
+    max-height: 80vh; /* Ajusta la altura máxima del pop-up según sea necesario */
+    overflow: auto; /* Agrega desplazamiento si el contenido es demasiado grande */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+  }

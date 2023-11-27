@@ -140,7 +140,8 @@ const LazyLibros = () => {
                 <img src={item.url_image} alt={item.title} style={{ height: "45vh", width: "20vw", marginBottom: "1vh" }} className='image-b' />
                 <spam className="publicaciones-card-title">{item.title}</spam>
                 <address className="publicaciones-card-title">{item.autor}</address>
-                <button className='publicaciones-verMas'>Ver más</button>
+                <a href={item.link} target='_blank' className='publicaciones-verMas'>Ver más</a>
+                {/* <button className='publicaciones-verMas'>Ver más</button> */}
               </div>
             );
           })}

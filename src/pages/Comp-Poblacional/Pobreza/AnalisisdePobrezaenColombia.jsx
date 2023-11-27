@@ -19,9 +19,9 @@ function  AnalisisPob() {
           </div>
   
           <div className="col-lg-6">          
-              <iframe src='https://smob-storage.s3.us-east-2.amazonaws.com/1.%20Análisis%20de%20la%20pobreza%20de%20Colombia%20y%20Bogotá%202018.pdf'
+              {/* <iframe src='https://smob-storage.s3.us-east-2.amazonaws.com/1.%20Análisis%20de%20la%20pobreza%20de%20Colombia%20y%20Bogotá%202018.pdf'
               style={{width:"40vw",height:"60vh"}}
-              className='pdf-responsive'></iframe>
+              className='pdf-responsive'></iframe> */}
   
           </div>
   

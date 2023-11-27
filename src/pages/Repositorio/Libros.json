@@ -1178,39 +1178,39 @@
     "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/1.png",
     "title": "Construyamos civilidad.",
     "autor": " Pombo Urdaneta, Carlos Roberto.",
-    "link": "",
+    "link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Construyamos+Civilidad.pdf",
     "type": "Publicaciones SMOB"
   },
   {
     "id": 151,
     "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/2.png",
     "title": " La Bogotá que seremos",
-    "autor": "Rojas Morales, Ernesto & Pachon Muñoz, Alvaro E.",
-    "link": "",
+    "autor": "Rojas Morales, Ernesto & Pachón Muñoz, Alvaro E.",
+    "link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/La+Bogot%C3%A1+que+seremos+-+Poblaci%C3%B3n+y+territorio.pdf",
     "type": "Publicaciones SMOB"
   },
   {
     "id": 152,
-    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/3.png",
-    "title": "Bogotá y la Sabana Sistema Ambiental y los Modelos de Ocupación",
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/3.PNG",
+    "title": "Bogotá y la Sabana. Sistema Ambiental y los Modelos de Ocupación",
     "autor": "Echeverri Perico, Rafael & Wilches Chaux, Gustavo",
-    "link": "",
+    "link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Bogot%C3%A1+y+la+Sabana+-+sistema+ambiental+y+los+modelos+de+ocupaci%C3%B3n.pdf",
     "type": "Publicaciones SMOB"
   },
   {
     "id": 153,
     "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/4.png",
-    "title": "Análisis demográfico prospectivo",
+    "title": "Análisis demográfico prospectivo de Bogotá y la Sabana(2020 - 2050)",
     "autor": "Echeverri Perico, Rafael",
-    "link": "",
+    "link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/An%C3%A1lisis+demogr%C3%A1fico+prospectivo+de+Bogot%C3%A1+y+la+Sabana+2020-2050.pdf",
     "type": "Publicaciones SMOB"
   },
   {
     "id": 154,
     "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/5.png",
-    "title": "La construcción del territorio sostenible de asunto complejo",
-    "autor": " Guhl Nannetti, Ernesto; Guzman Henneses, Manuel ; Carrizosa Umaña, Julio; Pacheco, Margarita.",
-    "link": "",
+    "title": "La construcción del territorio sostenible.Un asunto complejo",
+    "autor": " Guhl Nannetti, Ernesto; Guzmán Hennessey, Manuel ; Carrizosa Umaña, Julio; Pacheco, Margarita.",
+    "link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/La+construcci%C3%B3n+del+territorio+sostenible.+Un+asunto+complejo.pdf",
     "type": "Publicaciones SMOB"
   },
   {
@@ -1247,8 +1247,8 @@
   },
   {
     "id": 159,
-    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/construyendo/3.%20El%20papel%20de%20las%20Sociedades%20de%20Mejoras%20P%C3%BAblicas%20en%20el%20OT.pdf",
-    "title": "El papel de las Sociedades de Mejoras Públicas en el OT",
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/construyendo/3.+El+papel+de+las+Sociedades+de+Mejoras+P%C3%BAblicas+en+el+OT.PDF",
+    "title": "El papel de las Sociedades de Mejoras Públicas en el Ordenamiento Territorial: antecedentes y perspectivas",
     "autor": "Construyendo  civilidad",
     "link": "La SMOB presentó un panorama histórico de las Sociedades de Mejoras Públicas, en junio de 2019 en Manizales, con ocasión de los 107 años de fundación de la Sociedad de Mejoras de la capital caldense. Se señala cómo, desde la Constitución de 1886, el ámbito de legal es propicio a la creación y al concurso activo de este tipo de entidades, nacidas en lo hondo del espíritu cívico y de la civilidad. Gradualmente, se hace el tránsito del sencillo embellecimiento de plazas y parajes, a la participación activa en la planeación de la ciudad y la consolidación de los espacios de control ciudadano. Las sociedades de mejoras son las llamadas a convocar y congregar a la ciudadanía. Y desde luego, a expandir la civilidad.  ",
     "type": "Presentaciones SMOB"
@@ -1263,16 +1263,16 @@
   },
   {
     "id": 161,
-    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/marco/2.%20Para%20qui%C3%A9n%20es%20el%20POT%20de%20Bogot%C3%A1.pdf",
-    "title": "Para quién es el POT de Bogotá",
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/marco/2.+Para+qui%C3%A9n+es+el+POT+de+Bogot%C3%A1.PDF",
+    "title": "Para quién es el Plan de Ordenamiento Territorial de Bogotá",
     "autor": "Marco institucional",
     "link": "El POT, que precisa y acota las normas de ocupación del territorio, debe reflejar la realidad cotidiana que viven los ciudadanos y proporcionarles las herramientas prácticas para solucionar sus problemas y atender sus necesidades. Así mismo, debe ocuparse de los mecanismos de participación de la ciudadanía, los objetivos de desarrollo sostenible, las cifras y progresiones demográficas, y los fenómenos migratorios. En él tienen que reflejarse de igual manera, aspectos neurálgicos como el cambio climático, los efectos de la pandemia, la ocupación y el trabajo, y la lucha contra el hambre y la pobreza.    ",
     "type": "Presentaciones SMOB"
   },
   {
     "id": 162,
-    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/marco/3.%20Las%20grandes%20incertidumbres%20y%20el%20POT%20de%20Bogot%C3%A1.pdf",
-    "title": "Las grandes incertidumbres y el POT de Bogotá",
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/marco/3.+Las+grandes+incertidumbres+y+el+POT+de+Bogot%C3%A1.PDF",
+    "title": "Las grandes incertidumbres y el Plan de Ordenamiento Territorial de Bogotá",
     "autor": "Marco institucional",
     "link": "Como instrumento fundamental de la planeación de la ciudad, en particular, de las formas de ocupación del territorio, el POT tiene el desafío de descifrar y manejar las incertidumbres que plantean las fluctuaciones demográficas (tasas de fecundidad, tasas de mortalidad, etc.), la pandemia y su efecto en la pobreza, y los flujos migratorios.Presentación realizada el 22 de julio de 2021 para el Consejo Territorial de Planeación Distrital-CTPD con apoyo de la Plataforma por el derecho a la ciudad. Ver completo en:https://www.facebook.com/watch/live/?ref=watch_permalink&v=999398160829436",
     "type": "Presentaciones SMOB"
@@ -1297,7 +1297,7 @@
   },
   {
     "id": 164,
-    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/poblacional/1.%20An%C3%A1lisis%20de%20las%20migraciones%20en%20Bogot%C3%A1%20y%20Municipios%202018.pdf",
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/poblacional/1.+An%C3%A1lisis+de+las+migraciones+en+Bogot%C3%A1+y+Municipios+2018.PDF",
     "title": "Análisis de las migraciones en Bogotá y Municipios 2018",
     "autor": "Componente Poblacional",
     "link": "Para desarrollar estudios válidos, que den sustento a afirmaciones teóricas, juicios académicos o decisiones de política pública, por ejemplo, es necesario conocer demográficamente, con el mayor nivel de detalle posible, la población bogotana y la de los municipios circunvecinos. No nos sirven las miradas globales o panorámicas, necesitamos saber cómo está conformado cada grupo social. Ayer, hoy y mañana. Y cuál es la dinámica social y humana que lo define y lo impulsa. Por eso debemos hacernos preguntas como: ¿Cuándo nacieron y en dónde, los residentes de la capital colombiana? ¿Dónde han residido y dónde lo hacen en este momento? ¿Qué edad tienen? Y muy importante, ¿Cómo afectan todas estas cifras y movimientos poblacionales, las migraciones?, ¿Cuál es la envergadura real y la dinámica de la población migrante?       ",
@@ -1306,7 +1306,7 @@
   },
   {
     "id": 166,
-    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/poblacional/2.%20Din%C3%A1micas%20demogr%C3%A1ficas%20y%20modelos%20de%20ocupaci%C3%B3n%20del%20suelo%20en%20Bogot%C3%A1%20y%20la%20Sabana.pdf",
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/poblacional/2.+Din%C3%A1micas+demogr%C3%A1ficas+y+modelos+de+ocupaci%C3%B3n+del+suelo+en+Bogot%C3%A1+y+la+Sabana.PDF",
     "title": "Dinámicas demográficas y modelos de ocupación del suelo en Bogotá y la Sabana",
     "autor": "Componente Poblacional",
     "link": "Las dinámicas poblacionales van definiendo los modelos de ocupación del territorio. Qué se puede predecir y planear, qué sucede a tal ritmo que lo que se impone son la contingencia y la precariedad, son fenómenos que hay que estudiar detenidamente. El concepto de Bogotá Región, por ejemplo, cómo ha respondido a fenómenos como las variaciones en las tasas de fecundidad o mortalidad, los flujos migratorios, el crecimiento y envejecimiento de la población, la aglomeración y la pobreza, y por último, el desarrollo institucional y normativo. Presentación realizada en la Comisión Cuidad (mesa convocada por la Alcaldesa Mayor de Bogotá, Claudia López, en el proceso de formulación del POT 2020), en el marco de la discusión para el fortalecimiento de la estructura ecológica principal, la defensa de la reserva Thomas Van der Hammen y el análisis de la vivienda de interés social. ",

@@ -20,8 +20,8 @@ export default function EsquemaLey() {
           <div className="col-lg-6">          
 
               <iframe src='https://geogeeks2.maps.arcgis.com/sharing/rest/content/items/1258478d96a34288989508a2fa866a03/data'
-        style={{width:"40vw",height:"60vh"}}
-        className='pdf-responsive'
+                               style={{ width: "50vw", height: "70vh" }}
+                               className="pdf-responsive"
               ></iframe>
   
           </div>

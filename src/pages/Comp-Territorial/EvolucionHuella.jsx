@@ -222,7 +222,7 @@ function EvolucionHuella() {
                 alignItems: "center",
               }}
             >
-              <i style={{ color: "#762f0b", textAlign: "center" }} className="text-responsive">
+              <i style={{ color: "#762f0b", textAlign: "center", padding:"2vw" }} className="text-responsive">
                 En esta sección puede explorar la línea de tiempo de la huella
                 urbana para la ciudad de Bogotá. Observará la evolución de los
                 planos originales a su estado digitalizado, el crecimiento

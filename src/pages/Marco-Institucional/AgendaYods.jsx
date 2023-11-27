@@ -8,14 +8,14 @@ export default function AgendaYods() {
     <>
       <div className="general-container">
         <div className="row responsive-columna">
-          <div className="col-lg-6">
-            <div className="general-title">
+          <div className="col-lg-12" >
+            <div className="text-responsive" style={{padding:"2vw 2vw", color:"#762f0b", fontWeight:"bold", fontSize:"24px"}}>
               Nueva agenda urbana y los Objetivos de Desarrollo Sostenible
             </div>
 
             <div
-              className="general-content text-responsive"
-              style={{ textAlign: "justify" }}
+              className=""
+              style={{ textAlign: "justify", padding:"0 2vw", color:"#762f0b", fontSize:"18px" }}
             >
               Las herramientas de planificación de la ciudad y los propios
               mecanismos de participación ciudadana, tal vez como nunca antes en
@@ -27,7 +27,7 @@ export default function AgendaYods() {
             </div>
           </div>
         </div>
-        <div className="row" style={{ height: "auto", marginTop: "-10vh" }}>
+        <div className="row" style={{ height: "auto", marginTop: "-40vh" }}>
           <div
             style={{
               display: "flex",
@@ -38,9 +38,10 @@ export default function AgendaYods() {
             }}
           >
             {modal && (
-              <dialog open className="modal-reseña">
+              <dialog open className="popup-container">
+                <div className="popup-content3">
                 <header>
-                  <h4>{infoPresentacion[0]}</h4>
+                  <h4 style={{color:"#762f0b"}}>{infoPresentacion[0]}</h4>
                   <span
                     style={{
                       position: "absolute",
@@ -76,8 +77,10 @@ export default function AgendaYods() {
                   </span>
                 </header>
                 <section>
-                  <p>{infoPresentacion[1]}</p>
+                  <p style={{ fontSize:"18px"}}>{infoPresentacion[1]}</p>
                 </section>
+                </div>
+
               </dialog>
             )}
             {data.map((item) => {
