@@ -103,7 +103,7 @@ const NavbarResponsive = () => {
                 <div className=''>
                     <Link to="/sociedad-de-mejoras-y-ornato-bogota//">
                         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '30px', height: '30px' }} />
-                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo_plataforma.png" alt="logo" style={{ width: '30px', height: '30px' }} />
+                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="logo" style={{ width: '30px', height: '30px' }} />
                         <h1 className='title-responsive'>Construyendo Civilidad</h1>
                     </Link>
                 </div>
