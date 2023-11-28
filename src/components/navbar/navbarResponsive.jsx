@@ -101,7 +101,7 @@ const NavbarResponsive = () => {
         <nav className={styles.navbar}>
             <div className={styles.navbarBrand}>
                 <div className=''>
-                    <Link to="/sociedad-de-mejoras-y-ornato-bogota//">
+                    <Link to="/">
                         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '30px', height: '30px' }} />
                         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="logo" style={{ width: '30px', height: '30px' }} />
                         <h1 className='title-responsive'>Construyendo Civilidad</h1>
@@ -122,7 +122,7 @@ const NavbarResponsive = () => {
                         setMenu(false)
                         setCivilidad(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad">Construyendo civilidad</Link>
+                        <Link to="/construyendo civilidad">Construyendo civilidad</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -131,7 +131,7 @@ const NavbarResponsive = () => {
                         setMenu(false)
                         setGeneral(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional" >Marco Institucional</Link>
+                        <Link to="/marco institucional" >Marco Institucional</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -142,7 +142,7 @@ const NavbarResponsive = () => {
                         setMenu(false)
                         setPoblacional(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional" >Componente Poblacional</Link>
+                        <Link to="/Componente poblacional" >Componente Poblacional</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -152,7 +152,7 @@ const NavbarResponsive = () => {
                         setMenu(false)
                         setTerritorial(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial" > Componente Territorial</Link>
+                        <Link to="/Componente territorial" > Componente Territorial</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -163,7 +163,7 @@ const NavbarResponsive = () => {
                             setMenu(false)
                             setOrdenamiento(true)
                         }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar" >Componente Bienestar</Link>
+                        <Link to="/componente bienestar" >Componente Bienestar</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -174,18 +174,18 @@ const NavbarResponsive = () => {
                             setMenu(false)
                             setModelosUrbanos(true)
                         }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Modelos Urbanos" >Modelos Urbanos</Link>
+                        <Link to="/Modelos Urbanos" >Modelos Urbanos</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
 
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/noticias">Noticias</Link>
+                        <Link to="/noticias">Noticias</Link>
                     </li>
 
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Repositorio/Libros" >Repositorio</Link>
+                        <Link to="/Repositorio/Libros" >Repositorio</Link>
 
 
                     </li>
@@ -205,13 +205,13 @@ const NavbarResponsive = () => {
                     </div>
 
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá" >La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá</Link>
+                        <Link to="/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá" >La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" onClick={() => {
                         setCivilidad(false)
                         setCiudadyciudadania(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía" >Ciudad y ciudadanía</Link>
+                        <Link to="/construyendo civilidad/Cuidad y cuidadanía" >Ciudad y ciudadanía</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -234,16 +234,16 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Orígenes de la civilidad en Colombia">Orígenes de la civilidad en Colombia</Link>
+                        <Link to="/construyendo civilidad/Cuidad y cuidadanía/Orígenes de la civilidad en Colombia">Orígenes de la civilidad en Colombia</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Bogotá: una ciudad compleja" >Bogotá: una ciudad compleja</Link>
+                        <Link to="/construyendo civilidad/Cuidad y cuidadanía/Bogotá: una ciudad compleja" >Bogotá: una ciudad compleja</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/Civilidad y complejidad" >Civilidad y complejidad</Link>
+                        <Link to="/construyendo civilidad/Cuidad y cuidadanía/Civilidad y complejidad" >Civilidad y complejidad</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/construyendo civilidad/Cuidad y cuidadanía/La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá" >La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá</Link>
+                        <Link to="/construyendo civilidad/Cuidad y cuidadanía/La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá" >La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá</Link>
                     </li>
                 </ul>}
 
@@ -267,7 +267,7 @@ const NavbarResponsive = () => {
                     //     setGeneral_ods(true)
                     // }}
                     >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Nueva agenda urbana y los ODS">Nueva agenda urbana y los ODS</Link>
+                        <Link to="/marco institucional/Nueva agenda urbana y los ODS">Nueva agenda urbana y los ODS</Link>
                         {/* <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg> */}
@@ -276,7 +276,7 @@ const NavbarResponsive = () => {
                         setGeneral(false)
                         setGeneral_leyes(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Leyes de ordenamiento territorial" >Leyes de ordenamiento territorial</Link>
+                        <Link to="/marco institucional/Leyes de ordenamiento territorial" >Leyes de ordenamiento territorial</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -285,7 +285,7 @@ const NavbarResponsive = () => {
                         setGeneral(false)
                         setGeneral_estructura(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Estructura administrativa de Bogotá" >Estructura administrativa de Bogotá</Link>
+                        <Link to="/marco institucional/Estructura administrativa de Bogotá" >Estructura administrativa de Bogotá</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -307,13 +307,13 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Nueva agenda urbana y los ODS/Coloquio la nueva agenda urbana en tiempo de la pandemia">Coloquio la nueva agenda urbana en tiempos de pandemia</Link>
+                        <Link to="/Componente general/Nueva agenda urbana y los ODS/Coloquio la nueva agenda urbana en tiempo de la pandemia">Coloquio la nueva agenda urbana en tiempos de pandemia</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Nueva agenda urbana y los ODS/Para quién es el POT" >¿Para quien es POT?</Link>
+                        <Link to="/Componente general/Nueva agenda urbana y los ODS/Para quién es el POT" >¿Para quien es POT?</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente general/Nueva agenda urbana y los ODS/Las grandes incertidumbres y el POT de Bogotá" >Las grandes incertidumbres y el pot de Bogotá</Link>
+                        <Link to="/Componente general/Nueva agenda urbana y los ODS/Las grandes incertidumbres y el POT de Bogotá" >Las grandes incertidumbres y el pot de Bogotá</Link>
                     </li>
                 </ul>}
                 {/* general-leyes */}
@@ -330,15 +330,15 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     {/* <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997">Antecedes de la Ley 388 de 1997</Link>
+                        <Link to="/marco institucional/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997">Antecedes de la Ley 388 de 1997</Link>
 
                     </li> */}
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997" >Esquema de  Ley 388 de 1997</Link>
+                        <Link to="/marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997" >Esquema de  Ley 388 de 1997</Link>
 
                     </li>
                     {/* <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Leyes de ordenamiento territorial/Concepto Plan de Ordenamiento Territorial año 2019" >Concepto Plan de Ordenamiento Territorial del año  2019</Link>
+                        <Link to="/marco institucional/Leyes de ordenamiento territorial/Concepto Plan de Ordenamiento Territorial año 2019" >Concepto Plan de Ordenamiento Territorial del año  2019</Link>
                     </li> */}
                 </ul>}
                 {/* general-estructura */}
@@ -356,7 +356,7 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/marco institucional/Estructura administrativa de Bogotá/Línea del tiempo Estructura Administrativa de Bogotá">Línea de tiempo Estructura Administrativa de Bogotá</Link>
+                        <Link to="/marco institucional/Estructura administrativa de Bogotá/Línea del tiempo Estructura Administrativa de Bogotá">Línea de tiempo Estructura Administrativa de Bogotá</Link>
                     </li>
                 </ul>}
                 {/* territorial */}
@@ -374,10 +374,10 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Evokución de la huella urbana">Evolución de la huella urbana</Link>
+                        <Link to="/Componente territorial/Evokución de la huella urbana">Evolución de la huella urbana</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente territorial/Indicadores urbanísticos" >Indicadores urbanísticos</Link>
+                        <Link to="/Componente territorial/Indicadores urbanísticos" >Indicadores urbanísticos</Link>
                     </li>
                 </ul>}
 
@@ -399,7 +399,7 @@ const NavbarResponsive = () => {
                         setOrdenamiento(false)
                         setInfraestructura(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura">Infraestructura</Link>
+                        <Link to="/componente bienestar/infraestructura">Infraestructura</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -408,7 +408,7 @@ const NavbarResponsive = () => {
                         setOrdenamiento(false)
                         setEstruturaurbana(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana">Estructura urbana</Link>
+                        <Link to="/componente bienestar/Estructura urbana">Estructura urbana</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -417,7 +417,7 @@ const NavbarResponsive = () => {
                         setOrdenamiento(false)
                         setInstrumentos(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumento">Instrumentos</Link>
+                        <Link to="/componente bienestar/instrumento">Instrumentos</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -441,7 +441,7 @@ const NavbarResponsive = () => {
                         setPoblacional(false)
                         setConflicto(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad">Conflicto - Civilidad</Link>
+                        <Link to="/Componente poblacional/Conflicto - civilidad">Conflicto - Civilidad</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -450,7 +450,7 @@ const NavbarResponsive = () => {
                         setPoblacional(false)
                         setDemografia(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/demografía" >Estructura Demográfica</Link>
+                        <Link to="/Componente poblacional/demografía" >Estructura Demográfica</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -460,7 +460,7 @@ const NavbarResponsive = () => {
                         setPoblacional(false)
                         setEstructura(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioespacial" >Estructura Socioespacial</Link>
+                        <Link to="/Componente poblacional/Estructura socioespacial" >Estructura Socioespacial</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -469,7 +469,7 @@ const NavbarResponsive = () => {
                         setPoblacional(false)
                         setPobreza(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioeconómica" >Estructura Socioeconómica</Link>
+                        <Link to="/Componente poblacional/Estructura socioeconómica" >Estructura Socioeconómica</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -492,16 +492,16 @@ const NavbarResponsive = () => {
                     </div>
 
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX" >Bogotá asediada siglo XIX</Link>
+                        <Link to="/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX" >Bogotá asediada siglo XIX</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/Caminos hacia la Independencia" >Caminos hacia la Independencia</Link>
+                        <Link to="/Componente poblacional/Conflicto - civilidad/Caminos hacia la Independencia" >Caminos hacia la Independencia</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización" >Demografía: violencia y urbanización</Link>
+                        <Link to="/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización" >Demografía: violencia y urbanización</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Conflicto - civilidad/ ¿Por qué tanta discordia?" >¿Por qué tanta discordia?</Link>
+                        <Link to="/Componente poblacional/Conflicto - civilidad/ ¿Por qué tanta discordia?" >¿Por qué tanta discordia?</Link>
                     </li>
                 </ul>}
 
@@ -519,29 +519,29 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/demografía/Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018" >Demografía de Colombia y Bogotá 8en ochenta años 1938 - 2018</Link>
+                        <Link to="/Componente poblacional/demografía/Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018" >Demografía de Colombia y Bogotá 8en ochenta años 1938 - 2018</Link>
 
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/demografía/Series de población" >Series de población</Link>
+                        <Link to="/Componente poblacional/demografía/Series de población" >Series de población</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Crecimiento de la población (1790 - 2035)" >Crecimiento de la población(1970 - 2035) </Link>
+                        <Link to="/Componente poblacional/Demografía/Crecimiento de la población (1790 - 2035)" >Crecimiento de la población(1970 - 2035) </Link>
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Ecuación compensadora de Bogotá" >Ecuación compensadora de Bogotá (1905 - 2035)</Link>
+                        <Link to="/Componente poblacional/Demografía/Ecuación compensadora de Bogotá" >Ecuación compensadora de Bogotá (1905 - 2035)</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" onClick={() => {
                         setDemografia(false)
                         setPiramides(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo" >Piramides de distribución edad y sexo</Link>
+                        <Link to="/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo" >Piramides de distribución edad y sexo</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Indices demográficos" >índices demograficos</Link>
+                        <Link to="/Componente poblacional/Demografía/Indices demográficos" >índices demograficos</Link>
                     </li>
                     <li className={styles.navbarItem} id="a"
                     //  onClick={() => {
@@ -549,16 +549,16 @@ const NavbarResponsive = () => {
                     //     setProyecciones(true)
                     // }}
                     >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Proyecciones de población" >Proyecciones de población</Link>
+                        <Link to="/Componente poblacional/Demografía/Proyecciones de población" >Proyecciones de población</Link>
                         {/* <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg> */}
                     </li>
                     {/* <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/" >Evaluación demográfica de Colombia y Bogotá (1938 - 2018)</Link>
+                        <Link to="/" >Evaluación demográfica de Colombia y Bogotá (1938 - 2018)</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/" >Demografía Violencia y Urbanización</Link>
+                        <Link to="/" >Demografía Violencia y Urbanización</Link>
                     </li> */}
                 </ul>}
                 {/* poblacional pobreza*/}
@@ -575,7 +575,7 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioespacial/Segregación espacial por Localidades" >Segregación espacial por localidades</Link>
+                        <Link to="/Componente poblacional/Estructura socioespacial/Segregación espacial por Localidades" >Segregación espacial por localidades</Link>
                     </li>
                 </ul>}
                 {/* poblacional */}
@@ -592,7 +592,7 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá" >Ánálisis de pobreza en Colombia y Bogotá 2018</Link>
+                        <Link to="/Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá" >Ánálisis de pobreza en Colombia y Bogotá 2018</Link>
                     </li>
                 </ul>}
 
@@ -610,11 +610,11 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo/Pirámides de distribución por edad y sexo de Colombia o Bogotá" >                        Piramides de distribución edad y sexo
+                        <Link to="/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo/Pirámides de distribución por edad y sexo de Colombia o Bogotá" >                        Piramides de distribución edad y sexo
                             en Colombia y Bogotá</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo/Comparador pirámides Colombia y Bogotá por censos" >Comparador piramides Colombia y Bogotá por censos</Link>
+                        <Link to="/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo/Comparador pirámides Colombia y Bogotá por censos" >Comparador piramides Colombia y Bogotá por censos</Link>
                     </li>
                 </ul>}
 
@@ -632,10 +632,10 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Proyecciones de población/Análisis de migraciones en Bogotá y municipios 2018" >                        Análisis de migraciones en Bogotá y municipios 2018</Link>
+                        <Link to="/Componente poblacional/Demografía/Proyecciones de población/Análisis de migraciones en Bogotá y municipios 2018" >                        Análisis de migraciones en Bogotá y municipios 2018</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Componente poblacional/Demografía/Proyecciones de población/Dinámica demográfica y modelos de ocupación del suelo en Bogotá y la Sabana" >Dinámica demografica y modelos de ocupación del suelo en Bogotá y la Sabana</Link>
+                        <Link to="/Componente poblacional/Demografía/Proyecciones de población/Dinámica demográfica y modelos de ocupación del suelo en Bogotá y la Sabana" >Dinámica demografica y modelos de ocupación del suelo en Bogotá y la Sabana</Link>
                     </li>
                 </ul>} */}
 
@@ -656,13 +656,13 @@ const NavbarResponsive = () => {
                         setInfraestructura(false)
 
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema vial y de transporte">Sistema Vial y de Transporte</Link>
+                        <Link to="/componente bienestar/infraestructura/Sistema vial y de transporte">Sistema Vial y de Transporte</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" onClick={() => {
                         setInfraestructura(false)
                         setEspacioPublico(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos" >Sistema de Espacio Público</Link>
+                        <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos" >Sistema de Espacio Público</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -671,7 +671,7 @@ const NavbarResponsive = () => {
                         setInfraestructura(false)
                         setServiciosPublicos(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente ordenamiento/Infraestructura/Sistema de servicios públicos" >Sistema de Servicios Públicos</Link>
+                        <Link to="/componente ordenamiento/Infraestructura/Sistema de servicios públicos" >Sistema de Servicios Públicos</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -695,7 +695,7 @@ const NavbarResponsive = () => {
                         setEstruturaurbana(false)
                         setSistemaU(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)">Sistemas urbanos (subdivisón y lotificación)</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)">Sistemas urbanos (subdivisón y lotificación)</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -704,7 +704,7 @@ const NavbarResponsive = () => {
                         setEstruturaurbana(false)
                         setVivienda(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Vivienda, comercio e industria" >Vivienda, comercio e industria</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Vivienda, comercio e industria" >Vivienda, comercio e industria</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -713,7 +713,7 @@ const NavbarResponsive = () => {
                         setEstruturaurbana(false)
                         setNormasU(true)
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas" >Tratamientos y normas urbanísticas</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas" >Tratamientos y normas urbanísticas</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -733,10 +733,10 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios">Historia de barrios</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios">Historia de barrios</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ" >Condiciones de habitabilidad UPZ</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ" >Condiciones de habitabilidad UPZ</Link>
         
                     </li>
                 </ul>}
@@ -754,11 +754,11 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos" >Desarrollos urbanísticos</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos" >Desarrollos urbanísticos</Link>
         
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda">Línea de tiempo Historia de la vivienda</Link>
+                        <Link to="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda">Línea de tiempo Historia de la vivienda</Link>
                     </li>
           
                 </ul>}
@@ -776,14 +776,14 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación" >Conservación</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación" >Conservación</Link>
         
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación">Renovación</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación">Renovación</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo" >Desarrollo</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo" >Desarrollo</Link>
         
                     </li>
                 </ul>}
@@ -802,13 +802,13 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos/Planificación">Planificación</Link>
+                        <Link to="/componente bienestar/instrumentos/Planificación">Planificación</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos/Gestión" >Gestión</Link>
+                        <Link to="/componente bienestar/instrumentos/Gestión" >Gestión</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/instrumentos/Financiación" >Financiación</Link>
+                        <Link to="/componente bienestar/instrumentos/Financiación" >Financiación</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -830,19 +830,19 @@ const NavbarResponsive = () => {
                         setEspacioPublico(false)
 
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Plazas">Plazas, Plazoletas, Parques y Monumentos</Link>
+                        <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Plazas">Plazas, Plazoletas, Parques y Monumentos</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" onClick={() => {
                         setEspacioPublico(false)
 
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Equipamentos" >Equipamientos</Link>
+                        <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Equipamentos" >Equipamientos</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" onClick={() => {
                         setEspacioPublico(false)
 
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Iglesias" >Iglesias</Link>
+                        <Link to="/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Iglesias" >Iglesias</Link>
                     </li>
                 </ul>}
                 {serviciosPublicos && <ul >
@@ -861,19 +861,19 @@ const NavbarResponsive = () => {
                         setEspacioPublico(false)
 
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Acueducto">Agua y Alcantarillado</Link>
+                        <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Acueducto">Agua y Alcantarillado</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" onClick={() => {
                         setEspacioPublico(false)
 
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Gas">Sistema de Gas</Link>
+                        <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Gas">Sistema de Gas</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" onClick={() => {
                         setEspacioPublico(false)
 
                     }}>
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/componente bienestar/infraestructura/Sistema de servicios públicos/Energia">Sistema de Energìa Elèctrica</Link>
+                        <Link to="/componente bienestar/infraestructura/Sistema de servicios públicos/Energia">Sistema de Energìa Elèctrica</Link>
                     </li>
 
                 </ul>}
@@ -893,10 +893,10 @@ const NavbarResponsive = () => {
                     </div>
 
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Modelos Urbanos/Bogotá Colonial" >Bogotá Colonial</Link>
+                        <Link to="/Modelos Urbanos/Bogotá Colonial" >Bogotá Colonial</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/sociedad-de-mejoras-y-ornato-bogota/Modelos Urbanos/Bogotá Republicana" >Bogotá Republicana</Link>
+                        <Link to="/Modelos Urbanos/Bogotá Republicana" >Bogotá Republicana</Link>
                     </li>
                 </ul>}
 
