@@ -149,7 +149,7 @@
   {
     "titulo":"Plano de Bogotá de 1991",
     "año": 1991,
-    "layers": ["Pu1991", "Manzanas1991"],
+    "layers": ["Perímetro Urbano 1991", "Manzanas 1991"],
     "img_url":"",
     "map_id":"80fef7b6a55643479f80f79e6d8cceea",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1991/?draft=true",

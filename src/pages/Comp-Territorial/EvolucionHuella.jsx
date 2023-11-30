@@ -1,7 +1,9 @@
 import Map from "../../components/map/map";
 import Data from "./HuellaUrbana.json";
+import Gif from "./Gif.json"
 import Popup from './popUp';
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function EvolucionHuella() {
   const [scrollTop, setScrollTop] = useState(0)
@@ -16,6 +18,11 @@ function EvolucionHuella() {
     img_url: "https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/0.gif",
     zoom: ""
   });
+  const [gif, setGif] = useState({
+    link_url: "1600",
+    img_url: "https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/gif/1600.jpg"
+  })
+  const [gifI, setGifI] = useState(0)
 
   const [showPopup, setShowPopup] = useState(true)
   const handleClosePopup = () => {
@@ -43,6 +50,42 @@ function EvolucionHuella() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+
+
+  useEffect(() => {
+    let i = 0
+    const gifInterval = setInterval(() => {
+      // let i = gifI
+
+      if (i <= 17) {
+        setGifI(i)
+        setGif(Gif[i]);
+        i = i + 1
+      } else {
+        i = 0
+        setGifI(i)
+        setGif(Gif[i]);
+      }
+
+    }, 2000);
+
+
+    if (year != "Historia de la huella urbana") {
+      clearInterval(gifInterval)
+      i = 0
+      setGif(Gif[i]);
+      setGifI(i)
+    }
+
+    return () => {
+      clearInterval(gifInterval)
+      i = 0
+      setGif(Gif[i]);
+      setGifI(i)
+    }
+
+  }, [year]);
   return (
     <div className={`general-container`}>
       {showPopup && <Popup
@@ -222,7 +265,7 @@ function EvolucionHuella() {
                 alignItems: "center",
               }}
             >
-              <i style={{ color: "#762f0b", textAlign: "center", padding:"2vw" }} className="text-responsive">
+              <i style={{ color: "#762f0b", textAlign: "center", padding: "2vw" }} className="text-responsive">
                 En esta sección puede explorar la línea de tiempo de la huella
                 urbana para la ciudad de Bogotá. Observará la evolución de los
                 planos originales a su estado digitalizado, el crecimiento
@@ -239,11 +282,15 @@ function EvolucionHuella() {
               >
                 {dataFilter?.titulo}
               </h4>
-              <img
-                src={dataFilter.img_url}
-                style={{ width: "40vw", height: "50vh", margin: "1vh 1vw" }}
-                className="img-responsive"
-              ></img>
+
+              <Link onClick={() => {
+                setFilter(Data[gifI+1])
+                console.log(gifI+1)
+                console.log(Data[gifI+1])
+                setYear(gif?.link_url);
+              }}>
+                <img src={gif?.img_url} style={{ width: "40vw", height: "50vh", margin: "1vh 1vw" }}></img>
+              </Link>
             </div>
           )}
         </div>
