@@ -9,15 +9,14 @@ const NavbarS = () => {
     return (
         <>
             <header id='header' className='col-lg' >
-                {/* TODO : // CAMBIAR NAMING DE LOS IDS */}
-                {/* COMMENTS */}
                 <div className='header-img' id='hola'>
-                    <Link to="construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
-                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '3vw', marginLeft: '-50%' }} />
-                    </Link>
                     <Link to="/">
-                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="logo" style={{ width: '3vw', marginLeft: '-2%' }} />
-                        </Link>
+                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="logo" style={{ width: '3vw', marginLeft: '0' }} />
+                    </Link>
+                    <Link to="construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
+                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '3vw', marginLeft: '-10%' }} />
+                    </Link>
+
                 </div>
                 <div className='header-title' id='hola' style={{ marginLeft: "5vw" }}>
                     <h1>Construyendo Civilidad

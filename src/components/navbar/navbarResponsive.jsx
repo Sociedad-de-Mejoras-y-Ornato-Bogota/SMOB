@@ -101,12 +101,12 @@ const NavbarResponsive = () => {
         <nav className={styles.navbar}>
             <div className={styles.navbarBrand}>
                 <div className=''>
-                    <Link to="/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
-                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '30px', height: '30px' }} />
-                    </Link>
                     <Link to="/">
                         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="logo" style={{ width: '30px', height: '30px' }} />
                         <h1 className='title-responsive'>Construyendo Civilidad</h1>
+                    </Link>
+                    <Link to="/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
+                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '30px', height: '30px' }} />
                     </Link>
                 </div>
 
