@@ -10,6 +10,7 @@ const NavbarS = () => {
         <>
             <header id='header' className='col-lg' >
                 {/* TODO : // CAMBIAR NAMING DE LOS IDS */}
+                {/* COMMENTS */}
                 <div className='header-img' id='hola'>
                     <Link to="construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
                         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '3vw', marginLeft: '-50%' }} />
