@@ -1,11 +1,11 @@
-@font-face {
+/* @font-face {
     font-family: 'Instrument Serif';
     src: url('../../assets/fonts/InstrumentSerif-Regular.ttf');
 }
 @font-face {
     font-family: 'Lora';
     src: url('../../assets/fonts/Lora-VariableFont_wght.ttf');
-}
+} */
 :root {
     --font-headers: 'Instrument Serif', serif;
     --font-principal: 'Lora', serif;

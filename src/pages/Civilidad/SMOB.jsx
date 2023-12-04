@@ -6,7 +6,7 @@ export default function ResponsabilidadSocial() {
                 <div className="row responsive-columna">
                     <div className="col-lg-6">
                         <div className="general-title">
-                            La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá
+                            La Sociedad de Mejoras y Ornato de Bogotá
                         </div>
 
                         <div className="general-content text-responsive" style={{ textAlign: "justify" }}>

@@ -1,4 +1,4 @@
-import Pronto from '../../components/Not found/ComingSoon'
+import Pronto from '../../../components/Not found/ComingSoon'
 export default function CiudadYCiudania() {
     return (
         <div className="general-container">

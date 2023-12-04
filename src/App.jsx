@@ -8,8 +8,8 @@ import Layout from './layout/layout';
 import Home from './pages/home/home';
 
 import ConstruyendoCivilidad from './pages/Civilidad/ConstruyendoCivilidad'
-import ResponsabilidadSocial from './pages/Civilidad/ResponsabilidadSocial'
-import CiudadYCiudadania from './pages/Civilidad/CiudadyCiudadania'
+import ResponsabilidadSocial from './pages/Civilidad/SMOB'
+import CiudadYCiudadania from './pages/Civilidad/Ciudadyciudadania/CiudadyCiudadania'
 import CiudaniaYCivildiad from './pages/Civilidad/Ciudadyciudadania/CiudadaniaYcivilidad'
 import OrigenesCivilidad from './pages/Civilidad/Ciudadyciudadania/Origenesdelacivilidad'
 import CivilidadyComplejidad from './pages/Civilidad/Ciudadyciudadania/CivilidadYcomplejidad'
@@ -21,7 +21,6 @@ import AgendaYods from './pages/Marco-Institucional/AgendaYods';
 import LeyesOrdenamiento from './pages/Marco-Institucional/LeyesOrdenamiento/LeyesOrdenamiento';
 import AntecentesLey from './pages/Marco-Institucional/LeyesOrdenamiento/AntecedentesLey';
 import EsquemaLey from './pages/Marco-Institucional/LeyesOrdenamiento/EsquemaLey';
-import ConceptoLey from './pages/Marco-Institucional/LeyesOrdenamiento/ConceptoLey';
 import EstruturaAdmin from './pages/Marco-Institucional/EstructuraAdmin/EstructuraAdmin';
 import LineaTiempoiEA from './pages/Marco-Institucional/EstructuraAdmin/LineaTiempoEA';
 import Evolucion from './pages/Marco-Institucional/EstructuraAdmin/Evolucion';
