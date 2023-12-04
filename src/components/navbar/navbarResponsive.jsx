@@ -101,8 +101,10 @@ const NavbarResponsive = () => {
         <nav className={styles.navbar}>
             <div className={styles.navbarBrand}>
                 <div className=''>
-                    <Link to="/">
+                    <Link to="/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
                         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="logo" style={{ width: '30px', height: '30px' }} />
+                    </Link>
+                    <Link to="/">
                         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="logo" style={{ width: '30px', height: '30px' }} />
                         <h1 className='title-responsive'>Construyendo Civilidad</h1>
                     </Link>
@@ -729,7 +731,7 @@ const NavbarResponsive = () => {
                             <path d="M15.92 7.00008V9.00008H3.92002L9.42002 14.5001L8.00002 15.9201L0.0800171 8.00008L8.00002 0.0800781L9.42002 1.50008L3.92002 7.00008H15.92Z" fill="#5E2609" />
                         </svg>
                         <span >
-                        Sistemas urbanos (subdivisón y lotificación)
+                            Sistemas urbanos (subdivisón y lotificación)
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a" >
@@ -737,7 +739,7 @@ const NavbarResponsive = () => {
                     </li>
                     <li className={styles.navbarItem} id="a" >
                         <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ" >Condiciones de habitabilidad UPZ</Link>
-        
+
                     </li>
                 </ul>}
 
@@ -750,17 +752,17 @@ const NavbarResponsive = () => {
                             <path d="M15.92 7.00008V9.00008H3.92002L9.42002 14.5001L8.00002 15.9201L0.0800171 8.00008L8.00002 0.0800781L9.42002 1.50008L3.92002 7.00008H15.92Z" fill="#5E2609" />
                         </svg>
                         <span >
-                        Vivienda, comercio e industria
+                            Vivienda, comercio e industria
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a" >
                         <Link to="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos" >Desarrollos urbanísticos</Link>
-        
+
                     </li>
                     <li className={styles.navbarItem} id="a" >
                         <Link to="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda">Línea de tiempo Historia de la vivienda</Link>
                     </li>
-          
+
                 </ul>}
 
                 {normasU && <ul >
@@ -772,19 +774,19 @@ const NavbarResponsive = () => {
                             <path d="M15.92 7.00008V9.00008H3.92002L9.42002 14.5001L8.00002 15.9201L0.0800171 8.00008L8.00002 0.0800781L9.42002 1.50008L3.92002 7.00008H15.92Z" fill="#5E2609" />
                         </svg>
                         <span >
-                        Tratamientos y normas urbanísticas
+                            Tratamientos y normas urbanísticas
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a" >
                         <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación" >Conservación</Link>
-        
+
                     </li>
                     <li className={styles.navbarItem} id="a" >
                         <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación">Renovación</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" >
                         <Link to="/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo" >Desarrollo</Link>
-        
+
                     </li>
                 </ul>}
 
