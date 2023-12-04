@@ -64,14 +64,14 @@ const Home = () => {
             tecnologías digitales ha diseñado esta plataforma interactiva, que
             permite organizar información, objetiva, ordenada y contrastada.
             <br />
-            {/* En el marco de la lógica de los procesos del ordenamiento del
+            En el marco de la lógica de los procesos del ordenamiento del
             territorio vistos desde la óptica del pensamiento complejo se
             elaboró una metodología que permite caracterizar la dinámica y los
             cambios en los Modelos Urbanos, constituidos por tres componentes
             que interactúan entorno a un marco institucional, conformados por
             grupos de estructuras, que a vez se subdividen en sistemas que
             orbitan entre sí en un proceso continuo y cambiante, como se ilustra
-            en el siguiente esquema. */}
+            en el siguiente esquema.
           </p>
         </div>
         <div
