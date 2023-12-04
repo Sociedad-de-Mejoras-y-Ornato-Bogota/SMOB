@@ -55,7 +55,7 @@ const Home = () => {
             la ciudad encuentra en la memoria colectiva una fuerza poderosa
             capaz de tejer lazos profundos de respeto y solidaridad, esencia de
             la civilidad, entendida como la relación armónica entre ciudadanos.
-            <br />  <br />
+            <br />
             Con el más profundo respeto por el pasado trabajamos para fortalecer
             una ciudadanía responsable, participativa e incidente, en el entorno
             de una ciudad compleja y en permanente cambio, donde prevalezca la
@@ -63,15 +63,15 @@ const Home = () => {
             satisfactorio. La Sociedad de Mejoras apelando a novedosas
             tecnologías digitales ha diseñado esta plataforma interactiva, que
             permite organizar información, objetiva, ordenada y contrastada.
-            <br />  <br />
-            En el marco de la lógica de los procesos del ordenamiento del
+            <br />
+            {/* En el marco de la lógica de los procesos del ordenamiento del
             territorio vistos desde la óptica del pensamiento complejo se
             elaboró una metodología que permite caracterizar la dinámica y los
             cambios en los Modelos Urbanos, constituidos por tres componentes
             que interactúan entorno a un marco institucional, conformados por
             grupos de estructuras, que a vez se subdividen en sistemas que
             orbitan entre sí en un proceso continuo y cambiante, como se ilustra
-            en el siguiente esquema.
+            en el siguiente esquema. */}
           </p>
         </div>
         <div
