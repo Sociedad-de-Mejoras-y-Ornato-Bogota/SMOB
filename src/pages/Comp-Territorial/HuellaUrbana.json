@@ -169,7 +169,7 @@
   {
     "titulo":"Plano de Bogotá de 2006",
     "año": 2006,
-    "layers": ["Manzanas 2006", "Periemtro urbano 2006"],
+    "layers": ["Manzanas 2006", "Perímetro Urbano 2006"],
     "img_url":[-74.121750, 4.634800 ],
     "map_id":"ef1b1d8359404e219e971bfe48d796e4",
     "iframe_url":"https://experience.arcgis.com/experience/05d923964bdd4c2cae205dd7873c60f0/",
@@ -182,7 +182,7 @@
     "layers": ["Huella urbana 2023", "Curvas de Nivel", "Cuerpos_hidricos_2023", "Huella urbana Año 2023"],
     "img_url":"",
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
-    "iframe_url":"https://experience.arcgis.com/experience/c1640fe1880a4191b9baf9f491c44dee",
+    "iframe_url":"https://experience.arcgis.com/experience/57f7f80b8c5b487a8ac399a7553f1dae/",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ]
   }
