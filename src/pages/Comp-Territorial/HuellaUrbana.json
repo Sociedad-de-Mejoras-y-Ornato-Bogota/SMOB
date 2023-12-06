@@ -72,7 +72,7 @@
     "layers": ["Huella urbana 1913", "Cuerpos Lénticos", "Cuerpos Hídricos", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1913.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1913/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/200045e70aa84465a0dbd2464e5f7a4e/",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ]
   },
@@ -82,7 +82,7 @@
     "layers": ["Huella urbana 1923", "Cuerpos Lénticos 1923", "Cuerpos Hídricos 1923", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1923.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1923/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/767a452dc557419e95913787e0fb0c83/",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ]
   },
@@ -92,7 +92,7 @@
     "layers": ["Huella urbana 1932", "Cuerpos Lénticos 1932", "Cuerpos Hídricos 1932", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1932.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1932/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ]
   },
@@ -102,7 +102,7 @@
     "layers": ["Huella urbana 1944", "Cuerpos Lénticos 1944", "Cuerpos Hídricos 1944", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1944.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1944/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1944",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ]
   },
@@ -112,7 +112,7 @@
     "layers": ["Huella urbana 1954", "Cuerpos Lénticos 1954", "Cuerpos hidricos 1954", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1954.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1954/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1954",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ]
   },
@@ -122,7 +122,7 @@
     "layers": ["Huella urbana 1965", "Cuerpos Lénticos 1964", "Cuerpos Hidricos 1964", "Curvas de Nivel", "Huella urbana Año 1965"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1965.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1965/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1965",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ]
   },
@@ -132,7 +132,7 @@
     "layers": ["Huella urbana 1976", "Huella urbana Año 1976", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1976.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1976/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1976",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ]
   },
@@ -142,7 +142,7 @@
     "layers": ["Huella urbana 1985", "Huella urbana Año 1985", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1985.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1985/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/8c9113bcb1244b5f99a368514b97b06f",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ]
   },
@@ -162,7 +162,7 @@
     "layers": ["Huella urbana 2000", "Cuerpos lénticos 2000", "Cuerpos hídr icos 2000", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2000.png",
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-2000/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/c1640fe1880a4191b9baf9f491c44dee",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ]
   },
@@ -182,7 +182,7 @@
     "layers": ["Huella urbana 2023", "Curvas de Nivel", "Cuerpos_hidricos_2023", "Huella urbana Año 2023"],
     "img_url":"",
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-2023/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/c1640fe1880a4191b9baf9f491c44dee",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ]
   }
