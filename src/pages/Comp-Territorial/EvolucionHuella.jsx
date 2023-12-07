@@ -12,6 +12,7 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
+import './HistoriaCrecimiento.css'
 
 function EvolucionHuella() {
   const [scrollTop, setScrollTop] = useState(0)
