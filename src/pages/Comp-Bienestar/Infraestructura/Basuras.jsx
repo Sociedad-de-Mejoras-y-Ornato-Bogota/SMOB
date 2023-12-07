@@ -1,8 +1,8 @@
-import Pronto from '../../../components/Not found/ComingSoon'
+import Page_tipe_full from "../../../components/page-tipe-full/page-tipe-full"
 const Basuras = () =>{
     return(
         <>
-           <Pronto />
+           <Page_tipe_full content_url="https://storymaps.arcgis.com/stories/a3edbedb089e4dc791435491b30a5c52" title="Historia de las basuras"/>
         </>
     
     )

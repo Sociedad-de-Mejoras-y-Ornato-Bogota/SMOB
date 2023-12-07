@@ -1,5 +1,5 @@
 .pdf-b{
-  width: 45vw;
+  width: 40% !important;
 }
 .filtro-p-select {
   background-color: #91583b;
@@ -9,7 +9,7 @@
   display: flex;
   overflow-wrap: break-word;
   box-shadow: 0 0 10px 3px #bbbeb6;
-  /* width: 60vw; */
+
   margin-bottom: 5vh;
   background-color: #fff;
 }
@@ -45,9 +45,7 @@
     .card-b{
         margin-bottom: -3vh !important;
     }
-    .pdf-b {
-      width: 80vw !important;
-  }
+    
 
   .filtros-biblioteca{
     flex-direction: column !important;
@@ -72,7 +70,7 @@
     font-size: 18px !important;
   }
   .publicaciones-verMas{
-    width: 40vw !important;
+    width: 100px !important;
   }
 }
 .publicaciones-verMas {
@@ -100,4 +98,11 @@
 }
 .modal-reseña h4 {
   color: #91583b;
+}
+.card{
+  border:none;
+  width: 25%;
+}
+iframe.pdf-b{
+width: 100% !important;
 }

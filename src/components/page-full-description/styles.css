@@ -1,0 +1,13 @@
+@import url("../../assets/styles/colors.css");
+.page_full_description{
+    width: 100%;
+    min-height:5vh ;
+    padding: 3rem;
+}
+.title_description{
+    color:var(--clr-terciary);
+    font-weight: 700;
+}
+.text_description{
+    color:var(--clr-terciary);
+}

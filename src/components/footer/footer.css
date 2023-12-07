@@ -1,11 +1,14 @@
 @import url('../../assets/styles/colors.css');
-@import url('../../assets/styles/font.css');
+@import url('../../assets/styles/fonts.css');
 
 .footer {
-  /* min-height: 220px; */
   padding: 1vh 1vw;
+  font-family:var(--font-principal);
 }
 
+.footer-p{
+  font-size:var(--font-size-2)
+}
 
 .social-media {
   height: 25px;
@@ -31,7 +34,7 @@
   .footer,
   .footer-p,
   #footer-links {
-    font-size: 2.4vw;
+    font-size: 1.8vw;
     line-height: 1em;
   }
 
@@ -51,6 +54,7 @@
 
   .footer-p {
     padding: 0;
+    text-align:center
   }
 
   .footer-ul {

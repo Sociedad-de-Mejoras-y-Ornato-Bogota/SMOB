@@ -1,34 +1,13 @@
+import Page_tipe_full from "../../../../components/page-tipe-full/page-tipe-full";
+
 const Iglesias = () => {
 
 
-    return (
-
-        <div className='general-container' >
-        <div className='row responsive-columna' style={{height:"7vh",width:"100vw",color:"black"}}>
-         <div className='col-lg-2'></div>
-         <div className='col-lg-8' style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",fontWeight:"bold",fontSize:"24px"}}>
-         <p style={{color:"#762f0b"}}>
-         Iglesias
-        </p>
-
-         </div>
-         <div className='col-lg-2'></div>
-        
-       </div>
-
-      <div className='row' style={{width:"100vw",height:"auto"}}>
-        <div className="col-lg-12 " style={{height:"80vh"}}>
-        <iframe
-          src='https://experience.arcgis.com/experience/b39099d39a25486d92ae98ff09616d86/'
-          className='dashboards'
-          style={{width:"100vw",height:"80vh"}}
-        ></iframe>
-        </div>
-
-      </div>
-     
-    </div>
-    )
+  return (
+    <>
+      <Page_tipe_full title="Iglesias" content_url="https://experience.arcgis.com/experience/b39099d39a25486d92ae98ff09616d86/" />
+    </>
+  )
 }
 
 export default Iglesias;

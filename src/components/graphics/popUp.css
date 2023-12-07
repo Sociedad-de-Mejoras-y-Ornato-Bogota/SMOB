@@ -12,7 +12,7 @@
     /* Coloca el pop-up por encima de todo */
   }
   
-  .popup-content, .popup-content2  {
+  .popup-content {
     z-index: 999;
     background: white;
     width: 80vw;
@@ -35,15 +35,28 @@
   border-radius: 5px; /* Agrega esquinas redondeadas a la imagen (opcional) */
   z-index: 999;
 }
+ .popup-content2{
+  z-index: 999;
+  background: white;
+  width: 65vw;
+  height: 70vh;
+  padding: 3rem;
+  border-radius: 5px;
+  position: relative;
+  max-width: 80vw; /* Ajusta el ancho máximo del pop-up según sea necesario */
+  max-height: 80vh; /* Ajusta la altura máxima del pop-up según sea necesario */
+  overflow: auto;
+ } 
 .popup-content2 img {
-  max-width: 100%; /* Ajusta el ancho máximo de la imagen para que se ajuste al contenedor */
-  height: 75%; 
-  width: 80%;/* Asegura que la altura se ajuste automáticamente al ancho */
+  max-width: 90%; /* Ajusta el ancho máximo de la imagen para que se ajuste al contenedor */
+  height: 80%; 
+  width: 100%;/* Asegura que la altura se ajuste automáticamente al ancho */
   display: block; /* Evita el espacio adicional debajo de la imagen */
   margin: 0 auto; /* Centra horizontalmente la imagen en su contenedor */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra a la imagen (opcional) */
   border-radius: 5px; /* Agrega esquinas redondeadas a la imagen (opcional) */
   z-index: 999;
+  object-fit: contain;
 }
 .close-button {
     z-index: 999;

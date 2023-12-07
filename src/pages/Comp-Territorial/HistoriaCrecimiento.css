@@ -1,19 +1,25 @@
-.body_scroll{
-    overflow-x: hidden;
-  }
-  .historia-content{
-    width: 100vw;
-    max-height: 110vh;
-    position: relative;
-  }
-  
-  .historia-content .dashboards {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .historia-content iframe{
+.body_scroll {
+  overflow-x: hidden;
+}
+
+.historia-content {
+  width: 100vw;
+  max-height: 110vh;
+  position: relative;
+}
+
+.historia-content .dashboards {
+  height: 100%;
+  width: 100%;
+}
+
+.historia-content iframe {
   width: 100vw;
   height: 100vh;
   min-height: 100vh;
-  }
+}
+
+.swiper-slide.swiper-slide-active {
+  display: flex;
+  justify-content: center;
+}

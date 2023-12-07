@@ -9,7 +9,7 @@ export const archivo = [
         color: "white",
         submenu: [
             {
-                title: "La responsabilidad social de SMOB",
+                title: "La Sociedad de Mejoras y Ornato de Bogotá",
                 ruta: "/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá"
             }, {
                 title: "Cuidad y cuidadanía",
@@ -57,16 +57,6 @@ export const archivo = [
             }, {
                 title: "Estructura administrativa de Bogotá",
                 ruta: "/marco institucional/Estructura administrativa de Bogotá",
-                submenu: [
-                    {
-                        title: "Evolución de la estructura administrativa de Bogotá desde su fundación hasta el año 2021",
-                        ruta:"/marco institucional/Estructura administrativa de Bogotá/Evolución de la estructura administrativa de Bogotá desde su fundación hasta el año 2021"
-                    },
-                    {
-                        title: "Línea del tiempo estructura administrativa de Bogotá",
-                        ruta: "/marco institucional/Estructura administrativa de Bogotá/Línea del tiempo Estructura Administrativa de Bogotá"
-                    },
-                ],
             }
         ],
     }, {

@@ -151,251 +151,234 @@ export default function GraficasComparacion() {
     }
 
     return (
-        <center>
-            <div className="select-container responsive-columna" id="select-container" style={{height:"auto"}}>
-                <p className="label-type">¿Qué desea comparar, censo o comunidad?</p>
-                <div className="container-select-type" >
-                    <select  id="select-type" className="select-type medio" onChange={(e) => {
-                        if (e.target.value === "Censo") {
-                            setCenso(true)
-                            setComunidad(false)
-                            disabledComunidad()
-                        } else if (e.target.value === "Comunidad") {
-                            setCenso(false)
-                            setComunidad(true)
-                            disabledCenso()
-                        } else {
-                            setCenso(false)
-                            setComunidad(false)
-                            disabledCenso()
-                            disabledComunidad()
-                        }
-                    }}>
-                        <option selected>...</option>
-                        <option>Censo</option>
-                        <option>Comunidad</option>
-                    </select>
-                </div>
-            </div>
-            {censo && <div className="container-censo responsive-columna">
+        <center style={{ width: "100%" }}>
+            <div className="select-container" id="select-container" style={{ display: "flex", width: "100%", height: "6rem", gap: "1rem", padding: "3rem", backgroundColor: "#762f0b", justifyContent: "center", alignItems: "center" }}>
+                <p style={{ color: "white", fontSize: "1.25vw", margin: "0" }}>¿Qué desea comparar, censo o comunidad?</p>
 
-                <div className="censo responsive-columna" id="censo">
-                    <label className="label-type">Elige el censo a comparar: </label>
-                    <div className="container-select-type-censo">
-                        <select className="select-type-censo medio" id="select-type-censo">
-                            <option selected>1938</option>
-                            <option>1951</option>
-                            <option>1964</option>
-                            <option>1973</option>
-                            <option>1985</option>
-                            <option>1993</option>
-                            <option>2005</option>
-                            <option>2018</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div className="censo_boton medio" id="censo_boton">
-                    <button className="medio" onClick={() => {
+                <select id="select-type" style={{ width: "25%", height: "3rem" }} onChange={(e) => {
+                    if (e.target.value === "Censo") {
+                        setCenso(true)
+                        setComunidad(false)
+                        disabledComunidad()
+                    } else if (e.target.value === "Comunidad") {
+                        setCenso(false)
+                        setComunidad(true)
                         disabledCenso()
-                        let value = document.getElementById("select-type-censo").value
-                        if (value === '1938') {
-                            setCenso1938(true)
-                        } else if (value === '1951') {
-                            setCenso1951(true)
-                        } else if (value === '1964') {
-                            setCenso1964(true)
-                        } else if (value === '1973') {
-                            setCenso1973(true)
-                        } else if (value === '1985') {
-                            setCenso1985(true)
-                        } else if (value === '1993') {
-                            setCenso1993(true)
-                        } else if (value === '2005') {
-                            setCenso2005(true)
-                        } else if (value === '2018') {
-                            setCenso2018(true)
-                        }
+                    } else {
+                        setCenso(false)
+                        setComunidad(false)
+                        disabledCenso()
+                        disabledComunidad()
                     }
-                    }>Comparar</button>
-                </div>
+                }}>
+                    <option selected>...</option>
+                    <option>Censo</option>
+                    <option>Comunidad</option>
+                </select>
+            </div>
+            {censo && <div className="container-censo" style={{ display: "flex", width: "100%",height: "6rem", gap: "3em", padding: "3rem", backgroundColor: "#cbc5c0", justifyContent: "center", alignItems: "center", marginTop: "1rem" }}>
 
+
+                <p style={{ color: "white", fontSize: "1vw", margin: "0" }}>Elige el censo a comparar:</p>
+
+                <select style={{ width: "25%", height: "3rem" }} id="select-type-censo">
+                    <option selected>1938</option>
+                    <option>1951</option>
+                    <option>1964</option>
+                    <option>1973</option>
+                    <option>1985</option>
+                    <option>1993</option>
+                    <option>2005</option>
+                    <option>2018</option>
+                </select>
+
+                <button style={{padding: "0.8rem", width:"15%", borderRadius:"5px",  color:"#5e2609",borderColor:"transparent"}} onClick={() => {
+                    disabledCenso()
+                    let value = document.getElementById("select-type-censo").value
+                    if (value === '1938') {
+                        setCenso1938(true)
+                    } else if (value === '1951') {
+                        setCenso1951(true)
+                    } else if (value === '1964') {
+                        setCenso1964(true)
+                    } else if (value === '1973') {
+                        setCenso1973(true)
+                    } else if (value === '1985') {
+                        setCenso1985(true)
+                    } else if (value === '1993') {
+                        setCenso1993(true)
+                    } else if (value === '2005') {
+                        setCenso2005(true)
+                    } else if (value === '2018') {
+                        setCenso2018(true)
+                    }
+                }
+                }>Comparar</button>
 
             </div>}
-            {comunidad && <div className="container-comunidad responsive-columna">
-                <div className="censo responsive-columna" id="comunidad" style={{ marginLeft: "2vw" }}>
-                    <label className="label-type">Elige la comunidad</label>
-                    <div className="container-select-type-comunidad">
-                        <select id="select-type-comunidad" className="select-type-comunidad medio">
-                            <option selected>Colombia</option>
-                            <option>Bogotá</option>
-                        </select>
-                    </div>
-                </div>
-                <div className="censo responsive-columna">
-                    <div className="">
-                        <label>Elige el año del censo inicial:</label>
-                    </div>
-                    <div className="año_inicio">
-                        <select id="año_inicio_input" className="año_inicio_input medio" >
-                            <option selected>1938</option>
-                            <option>1951</option>
-                            <option>1964</option>
-                            <option>1973</option>
-                            <option>1985</option>
-                            <option>1993</option>
-                            <option>2005</option>
-                        </select>
-                    </div>
-                </div>
-                <div className="censo responsive-columna">
-                    <div className="">
-                        <label>Elige el año del censo final:</label>
-                    </div>
-                    <div className="año_fin">
-                        <select id="año_fin_input" className="año_fin_input medio" >
-                            <option selected>1951</option>
-                            <option>1964</option>
-                            <option>1973</option>
-                            <option>1985</option>
-                            <option>1993</option>
-                            <option>2005</option>
-                            <option>2018</option>
-                        </select>
-                    </div>
-                </div>
+            {comunidad && <div style={{ display: "flex", width: "100%", height: "6rem", gap: "3em", padding: "3rem", backgroundColor: "#cbc5c0", justifyContent: "center", alignItems: "center", marginTop: "1rem" }}>
 
-                <div className="censo_boton">
-                    <button className="medio" onClick={() => {
-                        let tipo = document.getElementById("select-type-comunidad").value
-                        let inicio = document.getElementById("año_inicio_input").value
-                        let final = document.getElementById("año_fin_input").value
-                        disabledComunidad()
-                        if (tipo === 'Colombia') {
-                            if (inicio === '1938' && final === '1951') {
-                                setcomunidad38_51(true)
-                            } else if (inicio === '1938' && final === '1964') {
-                                setcomunidad38_64(true)
-                            } else if (inicio === '1938' && final === '1973') {
-                                setcomunidad38_73(true)
-                            } else if (inicio === '1938' && final === '1985') {
-                                setcomunidad38_85(true)
-                            } else if (inicio === '1938' && final === '1993') {
-                                setcomunidad38_93(true)
-                            } else if (inicio === '1938' && final === '2005') {
-                                setcomunidad38_05(true)
-                            } else if (inicio === '1938' && final === '2018') {
-                                setcomunidad38_18(true)
-                            } else if (inicio === '1951' && final === '1964') {
-                                setcomunidad51_64(true)
-                            } else if (inicio === '1951' && final === '1973') {
-                                setcomunidad51_73(true)
-                            } else if (inicio === '1951' && final === '1985') {
-                                setcomunidad51_85(true)
-                            } else if (inicio === '1951' && final === '1993') {
-                                setcomunidad51_93(true)
-                            } else if (inicio === '1951' && final === '2005') {
-                                setcomunidad51_05(true)
-                            } else if (inicio === '1951' && final === '2018') {
-                                setcomunidad51_18(true)
-                            } else if (inicio === '1964' && final === '1973') {
-                                setcomunidad64_73(true)
-                            } else if (inicio === '1964' && final === '1985') {
-                                setcomunidad64_85(true)
-                            } else if (inicio === '1964' && final === '1993') {
-                                setcomunidad64_93(true)
-                            } else if (inicio === '1964' && final === '2005') {
-                                setcomunidad64_05(true)
-                            } else if (inicio === '1964' && final === '2018') {
-                                setcomunidad64_18(true)
-                            } else if (inicio === '1973' && final === '1985') {
-                                setcomunidad73_85(true)
-                            } else if (inicio === '1973' && final === '1993') {
-                                setcomunidad73_93(true)
-                            } else if (inicio === '1973' && final === '2005') {
-                                setcomunidad73_05(true)
-                            } else if (inicio === '1973' && final === '2018') {
-                                setcomunidad73_18(true)
-                            } else if (inicio === '1985' && final === '1993') {
-                                setcomunidad85_93(true)
-                            } else if (inicio === '1985' && final === '2005') {
-                                setcomunidad85_05(true)
-                            } else if (inicio === '1985' && final === '2018') {
-                                setcomunidad85_18(true)
-                            } else if (inicio === '1993' && final === '2005') {
-                                setcomunidad93_05(true)
-                            } else if (inicio === '1993' && final === '2018') {
-                                setcomunidad93_18(true)
-                            } else if (inicio === '2005' && final === '2018') {
-                                setcomunidad05_18(true)
-                            } else {
-                                alert("El año de censo inicial debe ser menor al año de censo final")
-                            }
+                <p style={{ color: "white", fontSize: "1vw", margin: "0" }}>Elige la comunidad</p>
+                <select id="select-type-comunidad" className="select-type-comunidad medio" style={{ width: "10%", height: "3rem" }}>
+                    <option selected>Colombia</option>
+                    <option>Bogotá</option>
+                </select>
 
-                        } else if (tipo === 'Bogotá') {
-                            if (inicio === '1938' && final === '1951') {
-                                setbcomunidad38_51(true)
-                            } else if (inicio === '1938' && final === '1964') {
-                                setbcomunidad38_64(true)
-                            } else if (inicio === '1938' && final === '1973') {
-                                setbcomunidad38_73(true)
-                            } else if (inicio === '1938' && final === '1985') {
-                                setbcomunidad38_85(true)
-                            } else if (inicio === '1938' && final === '1993') {
-                                setbcomunidad38_93(true)
-                            } else if (inicio === '1938' && final === '2005') {
-                                setbcomunidad38_05(true)
-                            } else if (inicio === '1938' && final === '2018') {
-                                setbcomunidad38_18(true)
-                            } else if (inicio === '1951' && final === '1964') {
-                                setbcomunidad51_64(true)
-                            } else if (inicio === '1951' && final === '1973') {
-                                setbcomunidad51_73(true)
-                            } else if (inicio === '1951' && final === '1985') {
-                                setbcomunidad51_85(true)
-                            } else if (inicio === '1951' && final === '1993') {
-                                setbcomunidad51_93(true)
-                            } else if (inicio === '1951' && final === '2005') {
-                                setbcomunidad51_05(true)
-                            } else if (inicio === '1951' && final === '2018') {
-                                setbcomunidad51_18(true)
-                            } else if (inicio === '1964' && final === '1973') {
-                                setbcomunidad64_73(true)
-                            } else if (inicio === '1964' && final === '1985') {
-                                setbcomunidad64_85(true)
-                            } else if (inicio === '1964' && final === '1993') {
-                                setbcomunidad64_93(true)
-                            } else if (inicio === '1964' && final === '2005') {
-                                setbcomunidad64_05(true)
-                            } else if (inicio === '1964' && final === '2018') {
-                                setbcomunidad64_18(true)
-                            } else if (inicio === '1973' && final === '1985') {
-                                setbcomunidad73_85(true)
-                            } else if (inicio === '1973' && final === '1993') {
-                                setbcomunidad73_93(true)
-                            } else if (inicio === '1973' && final === '2005') {
-                                setbcomunidad73_05(true)
-                            } else if (inicio === '1973' && final === '2018') {
-                                setbcomunidad73_18(true)
-                            } else if (inicio === '1985' && final === '1993') {
-                                setbcomunidad85_93(true)
-                            } else if (inicio === '1985' && final === '2005') {
-                                setbcomunidad85_05(true)
-                            } else if (inicio === '1985' && final === '2018') {
-                                setbcomunidad85_18(true)
-                            } else if (inicio === '1993' && final === '2005') {
-                                setbcomunidad93_05(true)
-                            } else if (inicio === '1993' && final === '2018') {
-                                setbcomunidad93_18(true)
-                            } else if (inicio === '2005' && final === '2018') {
-                                setbcomunidad05_18(true)
-                            } else {
-                                alert("El año de censo inicial debe ser menor al año de censo final")
-                            }
+                <p style={{ color: "white", fontSize: "1vw", margin: "0" }}>Elige el año del censo inicial:</p>
+
+                <select id="año_inicio_input" className="año_inicio_input medio" style={{ width: "10%", height: "3rem" }}>
+                    <option selected>1938</option>
+                    <option>1951</option>
+                    <option>1964</option>
+                    <option>1973</option>
+                    <option>1985</option>
+                    <option>1993</option>
+                    <option>2005</option>
+                </select>
+
+                <p style={{ color: "white", fontSize: "1vw", margin: "0" }}>Elige el año del censo final:</p>
+
+                <select id="año_fin_input" className="año_fin_input medio" style={{ width: "10%", height: "3rem" }}>
+                    <option selected>1951</option>
+                    <option>1964</option>
+                    <option>1973</option>
+                    <option>1985</option>
+                    <option>1993</option>
+                    <option>2005</option>
+                    <option>2018</option>
+                </select>
+
+
+                <button className="medio" style={{padding: "0.8rem", width:"15%", color:"#5e2609", borderRadius:"5px", borderColor:"transparent"}} onClick={() => {
+                    let tipo = document.getElementById("select-type-comunidad").value
+                    let inicio = document.getElementById("año_inicio_input").value
+                    let final = document.getElementById("año_fin_input").value
+                    disabledComunidad()
+                    if (tipo === 'Colombia') {
+                        if (inicio === '1938' && final === '1951') {
+                            setcomunidad38_51(true)
+                        } else if (inicio === '1938' && final === '1964') {
+                            setcomunidad38_64(true)
+                        } else if (inicio === '1938' && final === '1973') {
+                            setcomunidad38_73(true)
+                        } else if (inicio === '1938' && final === '1985') {
+                            setcomunidad38_85(true)
+                        } else if (inicio === '1938' && final === '1993') {
+                            setcomunidad38_93(true)
+                        } else if (inicio === '1938' && final === '2005') {
+                            setcomunidad38_05(true)
+                        } else if (inicio === '1938' && final === '2018') {
+                            setcomunidad38_18(true)
+                        } else if (inicio === '1951' && final === '1964') {
+                            setcomunidad51_64(true)
+                        } else if (inicio === '1951' && final === '1973') {
+                            setcomunidad51_73(true)
+                        } else if (inicio === '1951' && final === '1985') {
+                            setcomunidad51_85(true)
+                        } else if (inicio === '1951' && final === '1993') {
+                            setcomunidad51_93(true)
+                        } else if (inicio === '1951' && final === '2005') {
+                            setcomunidad51_05(true)
+                        } else if (inicio === '1951' && final === '2018') {
+                            setcomunidad51_18(true)
+                        } else if (inicio === '1964' && final === '1973') {
+                            setcomunidad64_73(true)
+                        } else if (inicio === '1964' && final === '1985') {
+                            setcomunidad64_85(true)
+                        } else if (inicio === '1964' && final === '1993') {
+                            setcomunidad64_93(true)
+                        } else if (inicio === '1964' && final === '2005') {
+                            setcomunidad64_05(true)
+                        } else if (inicio === '1964' && final === '2018') {
+                            setcomunidad64_18(true)
+                        } else if (inicio === '1973' && final === '1985') {
+                            setcomunidad73_85(true)
+                        } else if (inicio === '1973' && final === '1993') {
+                            setcomunidad73_93(true)
+                        } else if (inicio === '1973' && final === '2005') {
+                            setcomunidad73_05(true)
+                        } else if (inicio === '1973' && final === '2018') {
+                            setcomunidad73_18(true)
+                        } else if (inicio === '1985' && final === '1993') {
+                            setcomunidad85_93(true)
+                        } else if (inicio === '1985' && final === '2005') {
+                            setcomunidad85_05(true)
+                        } else if (inicio === '1985' && final === '2018') {
+                            setcomunidad85_18(true)
+                        } else if (inicio === '1993' && final === '2005') {
+                            setcomunidad93_05(true)
+                        } else if (inicio === '1993' && final === '2018') {
+                            setcomunidad93_18(true)
+                        } else if (inicio === '2005' && final === '2018') {
+                            setcomunidad05_18(true)
+                        } else {
+                            alert("El año de censo inicial debe ser menor al año de censo final")
+                        }
+
+                    } else if (tipo === 'Bogotá') {
+                        if (inicio === '1938' && final === '1951') {
+                            setbcomunidad38_51(true)
+                        } else if (inicio === '1938' && final === '1964') {
+                            setbcomunidad38_64(true)
+                        } else if (inicio === '1938' && final === '1973') {
+                            setbcomunidad38_73(true)
+                        } else if (inicio === '1938' && final === '1985') {
+                            setbcomunidad38_85(true)
+                        } else if (inicio === '1938' && final === '1993') {
+                            setbcomunidad38_93(true)
+                        } else if (inicio === '1938' && final === '2005') {
+                            setbcomunidad38_05(true)
+                        } else if (inicio === '1938' && final === '2018') {
+                            setbcomunidad38_18(true)
+                        } else if (inicio === '1951' && final === '1964') {
+                            setbcomunidad51_64(true)
+                        } else if (inicio === '1951' && final === '1973') {
+                            setbcomunidad51_73(true)
+                        } else if (inicio === '1951' && final === '1985') {
+                            setbcomunidad51_85(true)
+                        } else if (inicio === '1951' && final === '1993') {
+                            setbcomunidad51_93(true)
+                        } else if (inicio === '1951' && final === '2005') {
+                            setbcomunidad51_05(true)
+                        } else if (inicio === '1951' && final === '2018') {
+                            setbcomunidad51_18(true)
+                        } else if (inicio === '1964' && final === '1973') {
+                            setbcomunidad64_73(true)
+                        } else if (inicio === '1964' && final === '1985') {
+                            setbcomunidad64_85(true)
+                        } else if (inicio === '1964' && final === '1993') {
+                            setbcomunidad64_93(true)
+                        } else if (inicio === '1964' && final === '2005') {
+                            setbcomunidad64_05(true)
+                        } else if (inicio === '1964' && final === '2018') {
+                            setbcomunidad64_18(true)
+                        } else if (inicio === '1973' && final === '1985') {
+                            setbcomunidad73_85(true)
+                        } else if (inicio === '1973' && final === '1993') {
+                            setbcomunidad73_93(true)
+                        } else if (inicio === '1973' && final === '2005') {
+                            setbcomunidad73_05(true)
+                        } else if (inicio === '1973' && final === '2018') {
+                            setbcomunidad73_18(true)
+                        } else if (inicio === '1985' && final === '1993') {
+                            setbcomunidad85_93(true)
+                        } else if (inicio === '1985' && final === '2005') {
+                            setbcomunidad85_05(true)
+                        } else if (inicio === '1985' && final === '2018') {
+                            setbcomunidad85_18(true)
+                        } else if (inicio === '1993' && final === '2005') {
+                            setbcomunidad93_05(true)
+                        } else if (inicio === '1993' && final === '2018') {
+                            setbcomunidad93_18(true)
+                        } else if (inicio === '2005' && final === '2018') {
+                            setbcomunidad05_18(true)
+                        } else {
+                            alert("El año de censo inicial debe ser menor al año de censo final")
                         }
                     }
-                    }>Comparar</button>
-                </div>
+                }
+                }>Comparar</button>
+
             </div>}
 
             <div className="graficas-censo">
@@ -501,7 +484,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2018',
@@ -511,7 +494,7 @@ export default function GraficasComparacion() {
                                         -2.84, -2.47, -1.89, -1.36, -0.93,
                                         -0.64, -0.39, -0.21, -0.06, -0.02, -0.01],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 2018',
@@ -640,7 +623,7 @@ export default function GraficasComparacion() {
                                         -0.48, -0.27, -0.11, -0.04, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2005',
@@ -650,7 +633,7 @@ export default function GraficasComparacion() {
                                         -2.21, -1.71, -1.25, -0.87, -0.62,
                                         -0.44, -0.22, -0.11, -0.03, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 2005',
@@ -779,7 +762,7 @@ export default function GraficasComparacion() {
                                         -0.35, -0.20, -0.08, -0.03, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1993',
@@ -790,7 +773,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.15, -0.06, -0.02, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1993',
@@ -920,7 +903,7 @@ export default function GraficasComparacion() {
                                         -0.29, -0.15, -0.06, -0.02, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1985',
@@ -930,7 +913,7 @@ export default function GraficasComparacion() {
                                         -1.59, -1.17, -0.84, -0.57, -0.38,
                                         -0.23, -0.11, -0.04, -0.01, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1985',
@@ -1059,7 +1042,7 @@ export default function GraficasComparacion() {
                                         -0.22, -0.11, -0.05, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1973',
@@ -1069,7 +1052,7 @@ export default function GraficasComparacion() {
                                         -1.28, -1.19, -0.79, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1973',
@@ -1198,7 +1181,7 @@ export default function GraficasComparacion() {
                                         -0.21, -0.11, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1964',
@@ -1208,7 +1191,7 @@ export default function GraficasComparacion() {
                                         -1.18, -0.99, -0.89, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1964',
@@ -1337,7 +1320,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.13, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1951',
@@ -1347,7 +1330,7 @@ export default function GraficasComparacion() {
                                         -1.21, -0.93, -0.47, -0.28, -0.19,
                                         -0.09, -0.09, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1951',
@@ -1477,7 +1460,7 @@ export default function GraficasComparacion() {
                                         -0.15, -0.05, -0.01, 0.00, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1938',
@@ -1488,7 +1471,7 @@ export default function GraficasComparacion() {
                                         -0.20, -0.20, -0.20, 0.00, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1938',
@@ -1621,7 +1604,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1951',
@@ -1632,7 +1615,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.13, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1938',
@@ -1762,7 +1745,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1964',
@@ -1773,7 +1756,7 @@ export default function GraficasComparacion() {
                                         -0.21, -0.11, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1938',
@@ -1903,7 +1886,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1973',
@@ -1913,7 +1896,7 @@ export default function GraficasComparacion() {
                                         -1.28, -1.19, -0.79, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1938',
@@ -2042,7 +2025,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1985',
@@ -2053,7 +2036,7 @@ export default function GraficasComparacion() {
                                         -0.29, -0.15, -0.06, -0.02, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1938',
@@ -2182,7 +2165,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1993',
@@ -2193,7 +2176,7 @@ export default function GraficasComparacion() {
                                         -0.35, -0.20, -0.08, -0.03, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1938',
@@ -2323,7 +2306,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2005',
@@ -2334,7 +2317,7 @@ export default function GraficasComparacion() {
                                         -0.48, -0.27, -0.11, -0.04, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1938',
@@ -2464,7 +2447,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2018',
@@ -2475,7 +2458,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1938',
@@ -2605,7 +2588,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.13, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1964',
@@ -2616,7 +2599,7 @@ export default function GraficasComparacion() {
                                         -0.21, -0.11, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1951',
@@ -2745,7 +2728,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.13, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1973',
@@ -2756,7 +2739,7 @@ export default function GraficasComparacion() {
                                         -0.22, -0.11, -0.05, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1951',
@@ -2886,7 +2869,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.13, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1985',
@@ -2897,7 +2880,7 @@ export default function GraficasComparacion() {
                                         -0.29, -0.15, -0.06, -0.02, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1951',
@@ -3027,7 +3010,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.13, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1993',
@@ -3038,7 +3021,7 @@ export default function GraficasComparacion() {
                                         -0.35, -0.20, -0.08, -0.03, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1951',
@@ -3168,7 +3151,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.13, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2005',
@@ -3179,7 +3162,7 @@ export default function GraficasComparacion() {
                                         -0.48, -0.27, -0.11, -0.04, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1951',
@@ -3309,7 +3292,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.13, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2018',
@@ -3320,7 +3303,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1951',
@@ -3449,7 +3432,7 @@ export default function GraficasComparacion() {
                                         -0.21, -0.11, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1973',
@@ -3460,7 +3443,7 @@ export default function GraficasComparacion() {
                                         -0.22, -0.11, -0.05, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1964',
@@ -3590,7 +3573,7 @@ export default function GraficasComparacion() {
                                         -0.21, -0.11, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1985',
@@ -3601,7 +3584,7 @@ export default function GraficasComparacion() {
                                         -0.29, -0.15, -0.06, -0.02, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1964',
@@ -3731,7 +3714,7 @@ export default function GraficasComparacion() {
                                         -0.21, -0.11, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1993',
@@ -3742,7 +3725,7 @@ export default function GraficasComparacion() {
                                         -0.35, -0.20, -0.08, -0.03, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1964',
@@ -3872,7 +3855,7 @@ export default function GraficasComparacion() {
                                         -0.21, -0.11, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2005',
@@ -3883,7 +3866,7 @@ export default function GraficasComparacion() {
                                         -0.48, -0.27, -0.11, -0.04, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1964',
@@ -4013,7 +3996,7 @@ export default function GraficasComparacion() {
                                         -0.21, -0.11, -0.04, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2018',
@@ -4024,7 +4007,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1964',
@@ -4154,7 +4137,7 @@ export default function GraficasComparacion() {
                                         -0.22, -0.11, -0.05, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1985',
@@ -4165,7 +4148,7 @@ export default function GraficasComparacion() {
                                         -0.29, -0.15, -0.06, -0.02, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1973',
@@ -4295,7 +4278,7 @@ export default function GraficasComparacion() {
                                         -0.22, -0.11, -0.05, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1993',
@@ -4306,7 +4289,7 @@ export default function GraficasComparacion() {
                                         -0.35, -0.20, -0.08, -0.03, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1973',
@@ -4436,7 +4419,7 @@ export default function GraficasComparacion() {
                                         -0.22, -0.11, -0.05, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2005',
@@ -4447,7 +4430,7 @@ export default function GraficasComparacion() {
                                         -0.48, -0.27, -0.11, -0.04, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1973',
@@ -4577,7 +4560,7 @@ export default function GraficasComparacion() {
                                         -0.22, -0.11, -0.05, -0.01, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2018',
@@ -4588,7 +4571,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1973',
@@ -4718,7 +4701,7 @@ export default function GraficasComparacion() {
                                         -0.29, -0.15, -0.06, -0.02, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 1993',
@@ -4729,7 +4712,7 @@ export default function GraficasComparacion() {
                                         -0.35, -0.20, -0.08, -0.03, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1985',
@@ -4860,7 +4843,7 @@ export default function GraficasComparacion() {
                                         -0.29, -0.15, -0.06, -0.02, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2005',
@@ -4871,7 +4854,7 @@ export default function GraficasComparacion() {
                                         -0.48, -0.27, -0.11, -0.04, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1985',
@@ -5001,7 +4984,7 @@ export default function GraficasComparacion() {
                                         -0.29, -0.15, -0.06, -0.02, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2018',
@@ -5012,7 +4995,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1985',
@@ -5142,7 +5125,7 @@ export default function GraficasComparacion() {
                                         -0.35, -0.20, -0.08, -0.03, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2005',
@@ -5153,7 +5136,7 @@ export default function GraficasComparacion() {
                                         -0.48, -0.27, -0.11, -0.04, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1993',
@@ -5283,7 +5266,7 @@ export default function GraficasComparacion() {
                                         -0.35, -0.20, -0.08, -0.03, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2018',
@@ -5294,7 +5277,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 1993',
@@ -5424,7 +5407,7 @@ export default function GraficasComparacion() {
                                         -0.48, -0.27, -0.11, -0.04, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Colombia Hombres 2018',
@@ -5435,7 +5418,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Colombia Mujeres 2005',
@@ -5570,7 +5553,7 @@ export default function GraficasComparacion() {
                                         -0.20, -0.20, -0.20, 0.00, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1951',
@@ -5580,7 +5563,7 @@ export default function GraficasComparacion() {
                                         -1.21, -0.93, -0.47, -0.28, -0.19,
                                         -0.09, -0.09, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1938',
@@ -5710,7 +5693,7 @@ export default function GraficasComparacion() {
                                         -0.64, -0.41, -0.21, -0.08, -0.02, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1964',
@@ -5720,7 +5703,7 @@ export default function GraficasComparacion() {
                                         -1.18, -0.99, -0.89, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1938',
@@ -5849,7 +5832,7 @@ export default function GraficasComparacion() {
                                         -0.20, -0.20, -0.20, 0.00, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1973',
@@ -5859,7 +5842,7 @@ export default function GraficasComparacion() {
                                         -1.28, -1.19, -0.79, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1938',
@@ -5988,7 +5971,7 @@ export default function GraficasComparacion() {
                                         -0.20, -0.20, -0.20, 0.00, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1985',
@@ -5998,7 +5981,7 @@ export default function GraficasComparacion() {
                                         -1.59, -1.17, -0.84, -0.57, -0.38,
                                         -0.23, -0.11, -0.04, -0.01, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1938',
@@ -6127,7 +6110,7 @@ export default function GraficasComparacion() {
                                         -0.20, -0.20, -0.20, 0.00, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1993',
@@ -6138,7 +6121,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.15, -0.06, -0.02, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1938',
@@ -6268,7 +6251,7 @@ export default function GraficasComparacion() {
                                         -0.20, -0.20, -0.20, 0.00, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2005',
@@ -6278,7 +6261,7 @@ export default function GraficasComparacion() {
                                         -2.21, -1.71, -1.25, -0.87, -0.62,
                                         -0.44, -0.22, -0.11, -0.03, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1938',
@@ -6407,7 +6390,7 @@ export default function GraficasComparacion() {
                                         -0.20, -0.20, -0.20, 0.00, 0.00, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2018',
@@ -6417,7 +6400,7 @@ export default function GraficasComparacion() {
                                         -2.84, -2.47, -1.89, -1.36, -0.93,
                                         -0.64, -0.39, -0.21, -0.06, -0.02, -0.01],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1938',
@@ -6545,7 +6528,7 @@ export default function GraficasComparacion() {
                                         -1.21, -0.93, -0.47, -0.28, -0.19,
                                         -0.09, -0.09, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1964',
@@ -6555,7 +6538,7 @@ export default function GraficasComparacion() {
                                         -1.18, -0.99, -0.89, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1951',
@@ -6682,7 +6665,7 @@ export default function GraficasComparacion() {
                                         -1.21, -0.93, -0.47, -0.28, -0.19,
                                         -0.09, -0.09, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1973',
@@ -6692,7 +6675,7 @@ export default function GraficasComparacion() {
                                         -1.28, -1.19, -0.79, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1951',
@@ -6820,7 +6803,7 @@ export default function GraficasComparacion() {
                                         -1.21, -0.93, -0.47, -0.28, -0.19,
                                         -0.09, -0.09, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1985',
@@ -6830,7 +6813,7 @@ export default function GraficasComparacion() {
                                         -1.59, -1.17, -0.84, -0.57, -0.38,
                                         -0.23, -0.11, -0.04, -0.01, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1951',
@@ -6958,7 +6941,7 @@ export default function GraficasComparacion() {
                                         -1.21, -0.93, -0.47, -0.28, -0.19,
                                         -0.09, -0.09, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1993',
@@ -6969,7 +6952,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.15, -0.06, -0.02, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1951',
@@ -7098,7 +7081,7 @@ export default function GraficasComparacion() {
                                         -1.21, -0.93, -0.47, -0.28, -0.19,
                                         -0.09, -0.09, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2005',
@@ -7108,7 +7091,7 @@ export default function GraficasComparacion() {
                                         -2.21, -1.71, -1.25, -0.87, -0.62,
                                         -0.44, -0.22, -0.11, -0.03, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1951',
@@ -7236,7 +7219,7 @@ export default function GraficasComparacion() {
                                         -1.21, -0.93, -0.47, -0.28, -0.19,
                                         -0.09, -0.09, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2018',
@@ -7246,7 +7229,7 @@ export default function GraficasComparacion() {
                                         -2.84, -2.47, -1.89, -1.36, -0.93,
                                         -0.64, -0.39, -0.21, -0.06, -0.02, -0.01],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1951',
@@ -7373,7 +7356,7 @@ export default function GraficasComparacion() {
                                         -1.18, -0.99, -0.89, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1973',
@@ -7383,7 +7366,7 @@ export default function GraficasComparacion() {
                                         -1.28, -1.19, -0.79, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1964',
@@ -7510,7 +7493,7 @@ export default function GraficasComparacion() {
                                         -1.18, -0.99, -0.89, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1985',
@@ -7520,7 +7503,7 @@ export default function GraficasComparacion() {
                                         -1.59, -1.17, -0.84, -0.57, -0.38,
                                         -0.23, -0.11, -0.04, -0.01, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1964',
@@ -7647,7 +7630,7 @@ export default function GraficasComparacion() {
                                         -1.18, -0.99, -0.89, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1993',
@@ -7658,7 +7641,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.15, -0.06, -0.02, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1964',
@@ -7786,7 +7769,7 @@ export default function GraficasComparacion() {
                                         -1.18, -0.99, -0.89, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2005',
@@ -7796,7 +7779,7 @@ export default function GraficasComparacion() {
                                         -2.21, -1.71, -1.25, -0.87, -0.62,
                                         -0.44, -0.22, -0.11, -0.03, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1964',
@@ -7923,7 +7906,7 @@ export default function GraficasComparacion() {
                                         -1.18, -0.99, -0.89, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2018',
@@ -7933,7 +7916,7 @@ export default function GraficasComparacion() {
                                         -2.84, -2.47, -1.89, -1.36, -0.93,
                                         -0.64, -0.39, -0.21, -0.06, -0.02, -0.01],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1964',
@@ -8060,7 +8043,7 @@ export default function GraficasComparacion() {
                                         -1.28, -1.19, -0.79, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1985',
@@ -8071,7 +8054,7 @@ export default function GraficasComparacion() {
                                         -0.23, -0.11, -0.04, -0.01, -0.01, 0.00],
                                     pointWidth: 4,
 
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1973',
@@ -8198,7 +8181,7 @@ export default function GraficasComparacion() {
                                         -1.28, -1.19, -0.79, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1993',
@@ -8209,7 +8192,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.15, -0.06, -0.02, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1973',
@@ -8337,7 +8320,7 @@ export default function GraficasComparacion() {
                                         -1.28, -1.19, -0.79, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2005',
@@ -8347,7 +8330,7 @@ export default function GraficasComparacion() {
                                         -2.21, -1.71, -1.25, -0.87, -0.62,
                                         -0.44, -0.22, -0.11, -0.03, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1973',
@@ -8474,7 +8457,7 @@ export default function GraficasComparacion() {
                                         -1.28, -1.19, -0.79, -0.49, -0.30,
                                         -0.11, -0.11, -0.11, 0.00, 0.00, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2018',
@@ -8484,7 +8467,7 @@ export default function GraficasComparacion() {
                                         -2.84, -2.47, -1.89, -1.36, -0.93,
                                         -0.64, -0.39, -0.21, -0.06, -0.02, -0.01],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1973',
@@ -8611,7 +8594,7 @@ export default function GraficasComparacion() {
                                         -1.59, -1.17, -0.84, -0.57, -0.38,
                                         -0.23, -0.11, -0.04, -0.01, -0.01, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 1993',
@@ -8622,7 +8605,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.15, -0.06, -0.02, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1985',
@@ -8750,7 +8733,7 @@ export default function GraficasComparacion() {
                                         -1.59, -1.17, -0.84, -0.57, -0.38,
                                         -0.23, -0.11, -0.04, -0.01, -0.01, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2005',
@@ -8760,7 +8743,7 @@ export default function GraficasComparacion() {
                                         -2.21, -1.71, -1.25, -0.87, -0.62,
                                         -0.44, -0.22, -0.11, -0.03, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1985',
@@ -8887,7 +8870,7 @@ export default function GraficasComparacion() {
                                         -1.59, -1.17, -0.84, -0.57, -0.38,
                                         -0.23, -0.11, -0.04, -0.01, -0.01, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2018',
@@ -8897,7 +8880,7 @@ export default function GraficasComparacion() {
                                         -2.84, -2.47, -1.89, -1.36, -0.93,
                                         -0.64, -0.39, -0.21, -0.06, -0.02, -0.01],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1985',
@@ -9025,7 +9008,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.15, -0.06, -0.02, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441" 
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2005',
@@ -9035,7 +9018,7 @@ export default function GraficasComparacion() {
                                         -2.21, -1.71, -1.25, -0.87, -0.62,
                                         -0.44, -0.22, -0.11, -0.03, -0.01, 0.00],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1993',
@@ -9164,7 +9147,7 @@ export default function GraficasComparacion() {
                                         -0.26, -0.15, -0.06, -0.02, -0.01, 0.00
                                     ],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2018',
@@ -9174,7 +9157,7 @@ export default function GraficasComparacion() {
                                         -2.84, -2.47, -1.89, -1.36, -0.93,
                                         -0.64, -0.39, -0.21, -0.06, -0.02, -0.01],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 1993',
@@ -9302,7 +9285,7 @@ export default function GraficasComparacion() {
                                         -2.21, -1.71, -1.25, -0.87, -0.62,
                                         -0.44, -0.22, -0.11, -0.03, -0.01, 0.00],
                                     pointWidth: 4,
-                                  color: "#6a5441"
+                                    color: "#6a5441"
                                 },
                                 {
                                     name: 'Bogotá Hombres 2018',
@@ -9312,7 +9295,7 @@ export default function GraficasComparacion() {
                                         -2.84, -2.47, -1.89, -1.36, -0.93,
                                         -0.64, -0.39, -0.21, -0.06, -0.02, -0.01],
                                     pointWidth: 4,
-                                   color: "#faaf35"
+                                    color: "#faaf35"
                                 },
                                 {
                                     name: 'Bogotá Mujeres 2005',

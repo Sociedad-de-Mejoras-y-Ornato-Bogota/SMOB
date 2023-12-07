@@ -63,7 +63,7 @@ const LazyLibros = () => {
       {modal && <dialog open className='modal-reseña' >
         <header>
           <h4>{infoPresentacion[0]}</h4>
-          <span style={{ position: "absolute", right: "0px", top: "0px", padding: "0.5vw", cursor: "pointer" }}
+          <span style={{ position: "absolute", right: "0px", top: "0px", padding: "0.5rem", cursor: "pointer" }}
             onClick={() => {
               setModal(!modal)
             }}
@@ -75,8 +75,8 @@ const LazyLibros = () => {
           <p>{infoPresentacion[1]}</p>
         </section>
       </dialog>}
-      <div className='row r-filtros-biblioteca' style={{ height: "70px", width: "100vw" }}>
-        <div className="col filtros-biblioteca" style={{ display: "flex", flexDirection: "row", justifyContent: 'center', gap: "3vw", padding: "1vh 1vw" }}>
+      <div className='row r-filtros-biblioteca' style={{ height: "70px", width: "100&" }}>
+        <div className="col filtros-biblioteca" style={{ display: "flex", flexDirection: "row", justifyContent: 'center', gap: "3rem", padding: "1rem" }}>
           <select className='form-select'
             style={{ width: "230px", height: "50px" }}
             value={selectedType}
@@ -118,12 +118,12 @@ const LazyLibros = () => {
 
         </div>
       </div>
-      <div className='row' style={{ width: "100vw", height: "100px" }}>
-        <div className="col abecedario" style={{ width: "100vw", display: "flex", justifyContent: "center" }}>
+      <div className='row' style={{ width: "100%", height: "100px" }}>
+        <div className="col abecedario" style={{ width: "100%", display: "flex", justifyContent: "center" }}>
           {Array.from({ length: 26 }, (_, index) => {
             const letter = String.fromCharCode(65 + index);
             return (
-              <button key={letter} onClick={() => handleLetterClick(letter)} style={{ border: "none", width: "3vw", color: "#91583B" }} className='letter'>
+              <button key={letter} onClick={() => handleLetterClick(letter)} style={{ border: "none", width: "3rem", color: "#91583B" }} className='letter'>
                 {letter}
               </button>
             );
@@ -132,12 +132,12 @@ const LazyLibros = () => {
         </div>
       </div>
 
-      <div className='row' style={{ width: "100vw", height: "auto" }}>
-        <div className="col" style={{ height: "auto", display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "center", gap: "3vw" }}>
+      <div className='row' style={{ width: "100%", height: "auto" }}>
+        <div className="col" style={{ height: "auto", display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "center", gap: "3rem" }}>
           {selectedType !== "Presentaciones SMOB" && filteredData.map((item) => {
             return (
               <div className='card card-b' key={item.id} style={{ height: "auto", marginBottom: "3vh", backgroundColor: "transparent", alignItems: "center" }}>
-                <img src={item.url_image} alt={item.title} style={{ height: "45vh", width: "20vw", marginBottom: "1vh" }} className='image-b' />
+                <img src={item.url_image} alt={item.title} style={{ height: "45vh", width: "20%", marginBottom: "1vh" }} className='image-b' />
                 <spam className="publicaciones-card-title">{item.title}</spam>
                 <address className="publicaciones-card-title">{item.autor}</address>
                 <a href={item.link} target='_blank' className='publicaciones-verMas'>Ver más</a>
@@ -187,8 +187,8 @@ const LazyLibros = () => {
           {selectedType === "Presentaciones SMOB" && filteredData.map((item) => {
             return (
 
-              <div className='card pdf-b' key={item.id} style={{ height: "auto", marginBottom: "3vh", backgroundColor: "transparent", alignItems: "center" }}>
-                <iframe src={item.url_image} alt={item.title} style={{ height: "45vh", width: "40vw", marginBottom: "1vh" }} className='pdf-b' />
+              <div className='card pdf-b' key={item.id} style={{width:"50%", height: "auto", marginBottom: "3vh", backgroundColor: "transparent", alignItems: "center" }}>
+                <iframe src={item.url_image} alt={item.title} style={{ height: "45vh", width: "50%", marginBottom: "1vh",}} className='pdf-b' />
                 <spam className="publicaciones-card-title">{item.title}</spam>
                 <button className='publicaciones-verMas' onClick={() => {
                   setInfoPresentacion([item.title, item.link])

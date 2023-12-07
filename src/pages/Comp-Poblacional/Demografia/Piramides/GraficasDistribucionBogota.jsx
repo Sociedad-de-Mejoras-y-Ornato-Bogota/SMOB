@@ -8,7 +8,7 @@ var categories = [
 
 export default function GraficasDistribucionBogota() {
     return (
-        <div className='graficas' style={{backgroundColor:"#F4F1EE"}}>
+        <div className='grafica-middle'style={{backgroundColor:"#F4F1EE"}}>
             <HighchartsReact
                 highcharts={Highcharts}
                 options={{

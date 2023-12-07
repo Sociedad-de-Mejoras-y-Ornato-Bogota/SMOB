@@ -23,8 +23,9 @@ var options = {
     height: 600,
   },
   title: {
-    text: "Crecimiento de la población de Bogotá 1900 - 2025 con Planes de Desarrollo y Ordenamiento",
+    // text: "Crecimiento de la población de Bogotá 1900 - 2025 con Planes de Desarrollo y Ordenamiento",
     align: "center",
+    text:""
   },
   plotOptions: { line: { marker: { enabled: false } } },
   yAxis: {
@@ -51,6 +52,7 @@ var options = {
     gridLineWidth: 0,
   },
   xAxis: {
+    tickInterval:5,
     tickPixelInterval: "1",
     categories: [
       "1900",

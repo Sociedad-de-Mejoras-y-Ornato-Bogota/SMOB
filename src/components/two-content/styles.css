@@ -1,0 +1,19 @@
+.two_content{
+    min-height: 65vh;
+    display: flex;
+    flex-direction: row;
+}
+.iframe_content{
+    width: 50%;
+    height: 90vh;
+}
+
+@media only screen and (max-width: 1099px) {
+    .two_content{
+        flex-direction: column;
+    }
+    .iframe_content{
+        width: 100%;
+        height: 50vh;
+    }
+}

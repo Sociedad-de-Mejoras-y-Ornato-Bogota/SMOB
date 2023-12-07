@@ -1,0 +1,50 @@
+@import url("../../assets/styles/colors.css");
+@import url("../../assets/styles/fonts.css");
+
+.page_t1 {
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_page {
+    color: var(--clr-primary);
+    font-size: var(--font-size-1);
+    font-weight: bold;
+    display: flex;
+    font-family: var(--font-principal);
+    z-index: 9;
+    margin: 2rem;
+}
+
+.content_page {
+    width: 40vw;
+    height: 50vh;
+}
+
+.content_full_page {
+    width: 99VW;
+    height: 95vh;
+}
+
+@media only screen and (max-width: 1099px) {
+    .page_t1 {
+        min-height: 50vh;
+        margin-top: 10vh;
+    }
+
+    .title_page {
+        font-size: var(--font-size-4);
+    }
+
+    .content_page {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .content_full_page {
+        width: 99VW;
+        height: 70vh;
+    }
+}

@@ -1,0 +1,71 @@
+@import url("../../assets/styles/colors.css");
+@import url("../../assets/styles/fonts.css");
+
+.page_principal {
+    padding: 3rem;
+    display: flex;
+    gap: 3rem;
+    height: 65vh;
+}
+
+.left_section {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_section {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_componente {
+    width: 30rem;
+    height: 30rem
+}
+
+.name_component {
+    color: var(--clr-primary);
+    font-size: var(--font-size-1);
+    font-family: var(--font-principal);
+    font-weight: 700;
+    text-align: center;
+}
+
+.description_component {
+    color: #762f0b;
+    width: 80%;
+    font-size: var(--font-size-2);
+}
+
+@media only screen and (max-width: 1099px) {
+    .page_principal {
+        margin-top: 10vh;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left_section,
+    .right_section {
+        width: 100%;
+    }
+
+    .img_componente {
+        width: 20rem;
+        height: 20rem
+    }
+    .description_component{
+        width: 90%;
+        text-align: center;
+        font-size: var(--font-size-5);
+    }
+    .name_component {
+    font-size: var(--font-size-4);
+    }
+}
