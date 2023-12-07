@@ -137,7 +137,6 @@
     display: flex;
     margin-left: calc((100vw/8)*0);
     align-items: center;
-    background-color: #f4f1ee;
 }
 .svg.highcharts-root{
     width: 80%;

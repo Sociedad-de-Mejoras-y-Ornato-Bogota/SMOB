@@ -5,6 +5,7 @@ import fb from "../../assets/icons/fb.png";
 import locationImg from "../../assets/icons/location.png";
 import phoneImg from "../../assets/icons/phone.png";
 import mailImg from "../../assets/icons/mail.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -51,19 +52,24 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-logos" style={{ display: "flex" }}>
+          <Link to="/">
+            <img
+              src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png"
+              alt="logo"
+              height="60px"
+              width="60px"
+            />
+          </Link>
+          <Link to="construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
+            <img
+              src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png"
+              alt="logo"
+              height="60px"
+              width="60px"
+            />
+          </Link>
 
-          <img
-            src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png"
-            alt="logo"
-            height="60px"
-            width="60px"
-          />
-          <img
-            src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png"
-            alt="logo"
-            height="60px"
-            width="60px"
-          />
+
         </div>
       </div>
       <div
