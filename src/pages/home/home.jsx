@@ -45,7 +45,7 @@ const Home = () => {
         <div
           className="home-content-video"
         >
-          <video controls  >
+          <video controls  style={{objectFit:"cover"}}>
             <source src={videoSrc} type="video/mp4" />
             Tu navegador no admite la reproducción de video.
           </video>
