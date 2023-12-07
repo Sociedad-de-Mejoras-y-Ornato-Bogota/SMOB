@@ -42,7 +42,7 @@ function Layout({ children }) {
   return (
     <div className='layout' style={{ display: "flex", flexDirection: "column", width: "100%" }}>
 
-      {windowWidth < 1100 ? <NavbarResponsive /> : <NavbarS/>}
+      {windowWidth < 800 ? <NavbarResponsive /> : <NavbarS/>}
       {/*<Breadcrumbs /> */}
       {/* {(firstSegment === '/Componente poblacional' && windowWidth > 1100) && <Menu />}
       {(firstSegment === '/marco institucional' && windowWidth > 1100) && <MenuGeneral />}
