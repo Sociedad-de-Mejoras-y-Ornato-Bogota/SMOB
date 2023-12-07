@@ -4,7 +4,7 @@ return(
     <>
       <div className="page_principal">
             <section className='left_section'>
-            <img src={props.url_imagen} className="img_componente"></img>
+            <img src={props.url_imagen} className="img_componente" alt='Imagen circulo por componente'></img>
 
             </section>
             <section className='right_section'>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Page_principal from "../../components/page-principal/page-principal";
+import Page_full_description from "../../components/page-full-description/page-full-description"
 
 import Graph from "../../components/graphics/graph";
 import Graph2 from "../../components/graphics/graph2";
@@ -25,12 +26,18 @@ export default function Bienestar() {
 
 
       {windowWidth > 800 && (
-        <div style={{height:"90vh"}} className="grafica-top">
+        <div style={{ height: "90vh" }} className="grafica-top">
+          <center style={{ color: "#762f0b", fontSize: "1.2vw", marginBottom: "-6vw", fontWeight: "bold" }}>
+            Población de Bogotá 1902 a 2025 con Planes de Desarrollo y Ordenamiento
+          </center>
           <Graph2 />
         </div>
       )}
       {windowWidth > 800 && (
-        <div style={{height:"90vh"}} className="grafica-dowm">
+        <div style={{ height: "90vh" }} className="grafica-dowm">
+          <center style={{ color: "#762f0b", fontSize: "1.2vw", marginBottom: "-6vw", fontWeight: "bold" }}>
+            Tasas de crecimiento, vegetativa y migración de Bogotá 1923 a 2023 con Planes de Desarrollo y Ordenamiento
+          </center>
           <Graph />
         </div>
       )}
