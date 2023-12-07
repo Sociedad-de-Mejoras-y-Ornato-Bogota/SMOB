@@ -69,7 +69,6 @@
 .home-content-text {
   padding-right: 3rem;
   width: 45%;
-  height: 93vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +84,6 @@
 .home-content-video {
   padding-left: 3rem;
   width: 55%;
-  height: 93vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +91,7 @@
 
 .home-content-video video {
   width: 100%;
-  height: auto;
+  height: 80%;
 }
 
 .home-panels{
