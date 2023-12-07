@@ -1,33 +1,15 @@
 import data from "./ods.json";
 import { useState } from "react";
+import Page_principal from '../../components/page-principal/page-principal'
 
 export default function AgendaYods() {
   const [modal, setModal] = useState(false);
   const [infoPresentacion, setinfoPresentacion] = useState(false);
   return (
     <>
-      <div className="general-container">
-        <div className="row responsive-columna">
-          <div className="col-lg-12" >
-            <div className="text-responsive" style={{padding:"2vw 2vw", color:"#762f0b", fontWeight:"bold", fontSize:"24px"}}>
-              Nueva agenda urbana y los Objetivos de Desarrollo Sostenible
-            </div>
+    <Page_principal url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente%20Marco%20Institucional/0.1.%C2%A0ODS-01.png" name_component="Nueva agenda urbana y los Objetivos de Desarrollo Sostenible" description_component="Las herramientas de planificación de la ciudad y los propiosmecanismos de participación ciudadana, tal vez como nunca antes en la historia, están enfrentados a fuerzas poderosas -domésticas y mundiales-, que desatan dinámicas urbanas signadas por la incertidumbre y el sufrimiento humano. ¿Cómo entender y manejar la complejidad acuciante de la ciudad moderna, ante los objetivos inaplazables de desarrollo sostenible?"/>
 
-            <div
-              className=""
-              style={{ textAlign: "justify", padding:"0 2vw", color:"#762f0b", fontSize:"18px" }}
-            >
-              Las herramientas de planificación de la ciudad y los propios
-              mecanismos de participación ciudadana, tal vez como nunca antes en
-              la historia, están enfrentados a fuerzas poderosas -domésticas y
-              mundiales-, que desatan dinámicas urbanas signadas por la
-              incertidumbre y el sufrimiento humano. ¿Cómo entender y manejar la
-              complejidad acuciante de la ciudad moderna, ante los objetivos
-              inaplazables de desarrollo sostenible?
-            </div>
-          </div>
-        </div>
-        <div className="row" style={{ height: "auto", marginTop: "-40vh" }}>
+        <div  style={{ height: "auto" }}>
           <div
             style={{
               display: "flex",
@@ -35,6 +17,7 @@ export default function AgendaYods() {
               flexWrap: "wrap",
               justifyContent: "center",
               gap: "5vw",
+              padding:"3rem"
             }}
           >
             {modal && (
@@ -93,6 +76,7 @@ export default function AgendaYods() {
                     marginBottom: "3vh",
                     backgroundColor: "transparent",
                     alignItems: "center",
+                    border:"none"
                   }}
                 >
                   <img
@@ -122,7 +106,6 @@ export default function AgendaYods() {
             })}
           </div>
         </div>
-      </div>
     </>
   );
 }

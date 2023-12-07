@@ -1,29 +1,11 @@
-import './infraestructura.css';
-
-
+import Page_principal from "../../../components/page-principal/page-principal"
 const Infraestructura = () => {
-  return (
-    <>
-    <div className="general-container">
-        <div className="row responsive-columna">
-
-            <div className="col-lg-6">
-                <img src="https://www.arcgis.com/sharing/rest/content/items/abe14da626d643b4988da215fd0d494c/resources/images/widget_1799/1685057348575.png" style={{width:"400px", height:"400px"}}className='imagen-responsive'></img>
-            </div>
-
-            <div className="col-lg-6">
-                <div className="general-title">
-                    Infraestructura
-                </div>
-
-                <div className="general-content text-responsive" style={{textAlign:"justify"}}>
-{/* Texto */}
-                </div>
-            </div>
-        </div>
-    </div>
-
-</>
-  );
+    return (
+        <>
+            <Page_principal
+                name_component="Infraestructura" description_component=""
+                url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente+Bienestar/3.1.+Infraestructura-01.png" />
+        </>
+    );
 };
 export default Infraestructura;

@@ -1,16 +1,19 @@
-.panels-civilidad{
+@import url('../../assets/styles/colors.css');
+@import url('../../assets/styles/fonts.css');
+.panels-civilidad {
     position: absolute;
-    font-size: 4VW;
+    font-size: var(--font-size-4);
+    font-family: var(--font-principal);
     opacity: .3;
     color: white;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     margin-top: 100px;
     letter-spacing: 0.4vw;
 }
+
 .panels-container {
     height: 43vw;
-    width: 100vw;
     display: flex;
 }
 
@@ -38,43 +41,50 @@
     text-decoration: none;
     color: white;
     line-height: 1em;
-    /* display: none; */
+    font-size: var(--font-size-1);
+    font-family: var(--font-principal);
 }
-.panel-title span{
+
+.panel-title span {
     display: block;
 }
 
-.panel-boton{
+.panel-boton {
     position: absolute;
     margin-top: 35vw;
     margin-left: 30px;
-    /* display: none; */
 }
 
-.panel-boton button{
+.panel-boton button {
     width: auto;
     height: auto;
     padding: 5px;
     font-size: 1vw;
     font-weight: bold;
     border-radius: 15px;
-}
-.last .panel-info{
-    position: absolute;
-    margin-top: 30.5vw;
-    margin-left: 30px;
-    font-size: 1vw;
+    background-color: transparent;
     color: white;
+    border-color:white ;
 }
-.panel-info{
+
+.last .panel-info {
     position: absolute;
     margin-top: 31vw;
     margin-left: 30px;
-    font-size: 1vw;
+    color: white;
+}
+
+.panel-info {
+    position: absolute;
+    margin-top: 31.4vw;
+    margin-left: 30px;
+    font-size: var(--font-size-2);
+    font-family: var(--font-principal);
     color: white;
     line-height: 1em;
 }
-.panel-info:nth-child(4){
+
+.panel-info:nth-child(4) {
     margin-top: 580px;
 }
 
@@ -101,34 +111,40 @@
 
 
 @media only screen and (max-width: 1024px) {
-    
-    .panels-container{
-        width: 100vw;
+
+    .panels-container {
+        width: 100%;
         height: 100vh;
         display: flex;
         flex-wrap: wrap;
-    }  
-    .panels{
-        width: 50vw;
+    }
+
+    .panels {
+        width: 50%;
         height: 50vh;
     }
-    .panels-civilidad{
+
+    .panels-civilidad {
         display: none;
     }
+
     .panel-title {
         margin-top: 13vh;
         margin-left: 3vw;
-        font-size:4vw
+        font-size: 4vw
     }
-    .panel-boton{
+
+    .panel-boton {
         margin-top: 35vh;
         margin-left: 3vw;
     }
-    .panel-boton button{
+
+    .panel-boton button {
         font-size: 2vw;
-        /* margin-top: 32vh; */
     }
-    .panel-info, .last .panel-info{
+
+    .panel-info,
+    .last .panel-info {
         margin-top: 25vh;
         margin-left: 3vw;
         font-size: 2vw;
@@ -140,17 +156,17 @@
         background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-1.jpg");
         background-size: cover;
     }
-    
+
     #panel2-frontal {
         background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-2.jpg");
         background-size: cover;
     }
-    
+
     #panel3-frontal {
         background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-3.jpg");
         background-size: cover;
     }
-    
+
     #panel4-frontal {
         background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-4.jpg");
         background-size: cover;

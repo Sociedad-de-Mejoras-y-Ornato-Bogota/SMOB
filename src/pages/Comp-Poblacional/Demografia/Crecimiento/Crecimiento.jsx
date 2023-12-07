@@ -1,67 +1,17 @@
-import './Crecimiento.css';
-
-
+import Page_full_Description from "../../../../components/page-full-description/page-full-description";
+import Page_tipe_full from "../../../../components/page-tipe-full/page-tipe-full";
+import Two_content from "../../../../components/two-content/two-content"
 function Crecimiento() {
   return (
-    <div className='general-container' style={{ backgroundColor: "#F4F1EE" }}>
-      <div className='row responsive-columna' style={{ height: "12.5vh", width: "100vw", color: "black" }}>
-        <div className='col-lg-12' style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", fontWeight: "bold", fontSize: "24px" }}>
-          <p style={{ color: "#762f0b" }} className="text-responsive">
-            Crecimiento de la población (1970 - 2035)
-          </p>
-
-        </div>
-      </div>
-
-      <div className='row' style={{ height: "12.5vh", width: "100vw", color: "black", marginBottom: "5vh" }}>
-        <div className='col-lg-12' style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", color: "#762f0b", fontSize: "18px" }}>
-          <p className="text-responsive">Crecimiento de población:</p>
-          <p className="text-responsive" style={{ textAlign: "justify", padding: "1vw" }}>
-            El crecimiento poblacional se refiere al incremento del número de habitantes en un espacio y tiempo determinado, el cual se puede medir a través de una fórmula matemática. También se puede emplear como sinónimo el término crecimiento demográfico.
-          </p>
-        </div>
-
-      </div>
-
-      <div className='row responsive-row' style={{ width: "100vw", height: "auto" }}>
-        <div className="col-lg-6 todo">
-          <iframe
-            src='https://geogeeks2.maps.arcgis.com/apps/dashboards/586d8531b4d6443fbeb0caea786b6dcb'
-            className='dashboards'
-            style={{ width: "100%", height: "80vh" }}
-          ></iframe>
-        </div>
-        <div className="col-lg-6 todo">
-          <iframe
-            src='https://geogeeks2.maps.arcgis.com/apps/dashboards/3ccec03e3cdc4ac9862aaf38fcf30106'
-            className='dashboards'
-            style={{ width: "100%", height: "80vh" }}
-          ></iframe>
-        </div>
-      </div>
-
-
-      <div className='row' style={{ height: "25vh", width: "100vw", color: "black" }}>
-        <div className='col-lg-12' style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", color: "#762f0b", fontSize: "18px" }}>
-          <p className="text-responsive">Porcentaje de concentración de la población:</p>
-          <p style={{ textAlign: "justify", padding: "1vw" }} className="text-responsive">
-            El porcentaje de concentración de la población de Colombia en la ciudad capital de Bogotá. La concentración de la población esta relacionada con del nivel de urbanización del país, teniendo un efecto directo en la migración interna, la agricultura, la concentración de la propiedad rural y el escaso dinamismo del sector agrícola tradicional, las ventajas comparativas sociales y económicas entre el campo y la ciudad, así como entre las áreas menores y las grandes capitales.
-          </p>
-        </div>
-
-      </div>
-
-      <div className='row' style={{ width: "100vw", height: "auto" }}>
-        <div className="col-lg-12">
-          <iframe
-            src='https://geogeeks2.maps.arcgis.com/apps/dashboards/d2b67f4294a14f64a7c936b9c20b01d0'
-            className='todo'
-            style={{ width: "100vw", height: "80vh" }}
-          ></iframe>
-        </div>
-
-      </div>
-    </div>
+    <>
+      <section style={{display:"flex", justifyContent:"center", paddingTop:"3rem"}}>
+        <h2 className='title_page'>Crecimiento de la población (1970 - 2035)</h2>
+      </section>
+      <Page_full_Description title="Crecimiento de población:" description="El crecimiento poblacional se refiere al incremento del número de habitantes en un espacio y tiempo determinado, el cual se puede medir a través de una fórmula matemática. También se puede emplear como sinónimo el término crecimiento demográfico." />
+      <Two_content link_1="https://geogeeks2.maps.arcgis.com/apps/dashboards/586d8531b4d6443fbeb0caea786b6dcb" link_2="https://geogeeks2.maps.arcgis.com/apps/dashboards/3ccec03e3cdc4ac9862aaf38fcf30106"></Two_content>
+      <Page_full_Description title="Porcentaje de concentración de la población:" description="El porcentaje de concentración de la población de Colombia en la ciudad capital de Bogotá. La concentración de la población esta relacionada con del nivel de urbanización del país, teniendo un efecto directo en la migración interna, la agricultura, la concentración de la propiedad rural y el escaso dinamismo del sector agrícola tradicional, las ventajas comparativas sociales y económicas entre el campo y la ciudad, así como entre las áreas menores y las grandes capitales." />
+      <Page_tipe_full content_url="https://geogeeks2.maps.arcgis.com/apps/dashboards/d2b67f4294a14f64a7c936b9c20b01d0" />
+    </>
   )
 }
 

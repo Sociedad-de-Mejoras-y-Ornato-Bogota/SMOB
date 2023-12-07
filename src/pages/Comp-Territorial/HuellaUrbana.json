@@ -170,7 +170,7 @@
     "titulo":"Plano de Bogotá de 2006",
     "año": 2006,
     "layers": ["Manzanas 2006", "Perímetro Urbano 2006"],
-    "img_url":[-74.121750, 4.634800 ],
+    "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2006.png",
     "map_id":"ef1b1d8359404e219e971bfe48d796e4",
     "iframe_url":"https://experience.arcgis.com/experience/05d923964bdd4c2cae205dd7873c60f0/",
     "zoom":"12",

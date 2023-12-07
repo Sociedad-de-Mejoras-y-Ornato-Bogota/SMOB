@@ -1,10 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './app.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 import Layout from './layout/layout';
-
 import Home from './pages/home/home';
 
 import ConstruyendoCivilidad from './pages/Civilidad/ConstruyendoCivilidad'
@@ -27,7 +23,7 @@ import Evolucion from './pages/Marco-Institucional/EstructuraAdmin/Evolucion';
 
 import Poblacional from './pages/Comp-Poblacional/Poblacional';
 import Conflicto from './pages/Comp-Poblacional/Conflicto-Civilidad/Conflicto';
-import BogotaAscediada from './pages/Comp-Poblacional/Conflicto-Civilidad/BogotaAcedidad'
+import BogotaAscediada from './pages/Comp-Poblacional/Conflicto-Civilidad/bogota_asediada'
 import Discordia from './pages/Comp-Poblacional/Conflicto-Civilidad/Discordia'
 import CaminoIndependencia from './pages/Comp-Poblacional/Conflicto-Civilidad/CaminoIndependencia'
 import Demografiavu from './pages/Comp-Poblacional/Conflicto-Civilidad/Demografia';

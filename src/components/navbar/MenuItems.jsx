@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Link } from 'react-router-dom';
 import DropDown from "./DropDown";
 import { auto } from "@popperjs/core";
-import './NavbarS.css';
+import './Navbar.css';
 
 const MenuItems = ({items,dephtlevel}) =>{
     const [dropdown,setDropDown] =useState(false);
