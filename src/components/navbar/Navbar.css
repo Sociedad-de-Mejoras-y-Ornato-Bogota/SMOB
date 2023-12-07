@@ -41,6 +41,8 @@
   width: 100%;
   /* Ocupa el 100% de ancho */
   z-index: 999;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-area {

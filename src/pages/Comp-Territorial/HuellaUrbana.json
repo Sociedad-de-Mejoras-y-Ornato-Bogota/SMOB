@@ -47,7 +47,7 @@
     "center":[-74.071750, 4.604800 ]
   },
   {
-    "titulo":"Plano de Bogotá de 1886. Versión de Juan Carrasquilla Botero",
+    "titulo":"Plano de Bogotá de 1885. Versión de Juan Carrasquilla Botero",
     "año": 1885,
     "layers": ["Huella urbana 1885", "Cuerpos lénticos 1885", "Cuerpos hídricos 1885", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1885.png",

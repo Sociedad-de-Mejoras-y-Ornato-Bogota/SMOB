@@ -1236,7 +1236,7 @@ const Graph2 = () => {
             <p>
               <h3></h3>
               <h3 className="h3-c-1">
-                <strong>-6.653</strong>
+                <strong>6.653</strong>
               </h3>
               <h3 className="h3-c-1">
                 <strong>ha</strong>

@@ -179,7 +179,7 @@ function EvolucionHuella() {
             </div>
           }
 
-          {(year !== 2023 && year !== "Historia de la huella urbana" && year !== 1991 && year !== 1985) &&
+          {(year !== 2023 && year !== "Historia de la huella urbana" && year !== 1991 && year !== 1885) &&
             <div
               style={{
                 width: "100%",
@@ -246,6 +246,7 @@ function EvolucionHuella() {
               </i>
               <img
                 className="img-responsive"
+                alt="Plano escaneado"
                 onClick={() => {
                   setOpacity(true);
                   setOpen(!open);
@@ -294,12 +295,12 @@ function EvolucionHuella() {
                 console.log(Data[gifI + 1])
                 setYear(gif?.link_url);
               }}>
-                <img src={gif?.img_url} style={{ width: "40vw", height: "50vh", margin: "1vh 1vw" }}></img>
+                <img src={gif?.img_url} style={{ width: "40vw", height: "50vh", margin: "1vh 1vw" }} alt="plano escaneado"></img>
               </Link>
             </div>
           )}
 
-          {year == 1985 && <div
+          {year == 1885 && <div
             style={{
               width: "100%",
               display: "flex",
@@ -379,10 +380,12 @@ function EvolucionHuella() {
                       cursor: "pointer",
     
                     }}
+                    alt="plano escaneado"
                   ></img>
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                  alt="plano escaneado"
                     className="img-responsive"
                     onClick={() => {
                       setOpacity(true);

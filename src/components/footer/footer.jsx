@@ -38,15 +38,15 @@ const Footer = () => {
         <div className="footer-info">
           <ul style={{ listStyle: "none" }} className="footer-ul">
             <li className="s">
-              <img src={locationImg} className="social-media" />
+              <img src={locationImg} className="social-media" alt="Icono de ubicación"/>
               Cra 7 # 93 - 01
             </li>
             <li className="s">
-              <img src={phoneImg} className="social-media"></img>
+              <img src={phoneImg} className="social-media" alt="Icono de télefono"></img>
               601 623 1066
             </li>
             <li className="s">
-              <img src={mailImg} className="social-media"></img>{" "}
+              <img src={mailImg} className="social-media" alt="Icono de mail"></img>{" "}
               info@sosmejorasbogota.org
             </li>
           </ul>
@@ -55,7 +55,7 @@ const Footer = () => {
           <Link to="/">
             <img
               src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png"
-              alt="logo"
+              alt="logo Plataforma Construyendo Civilidad"
               height="60px"
               width="60px"
             />
@@ -63,7 +63,7 @@ const Footer = () => {
           <Link to="construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
             <img
               src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png"
-              alt="logo"
+              alt="logo Sociedad de Mejoras y Ornato Bogotá"
               height="60px"
               width="60px"
             />
@@ -91,22 +91,23 @@ const Footer = () => {
             href="https://twitter.com/mejoras_bogota"
             target="_blank"
             rel="noreferrer"
+            className="logo"
           >
-            <img src={tw} className="social-media" />
+            <img src={tw} className="social-media" alt="Twitter Sociedad de Mejoras Y Ornato Bogotá"/>
           </a>
           <a
             href="https://www.facebook.com/mejorasbogota/?locale=es_LA"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={fb} className="social-media" />
+            <img src={fb} className="social-media" alt="Facebook Sociedad de Mejoras Y Ornato Bogotá"/>
           </a>
           <a
             href="https://www.youtube.com/channel/UC_mabSU7fDU3dw0TTc79l-A"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={yt} className="social-media" />
+            <img src={yt} className="social-media" alt="Youtube Sociedad de Mejoras Y Ornato Bogotá"/>
           </a>
         </div>
         <div className="footer-derechos">

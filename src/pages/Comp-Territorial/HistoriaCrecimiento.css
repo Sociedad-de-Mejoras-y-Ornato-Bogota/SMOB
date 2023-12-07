@@ -2,3 +2,14 @@
   display: flex !important;
   justify-content: center !important;
 }
+.selected-year{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.pegar{
+  z-index: 9;
+    top: 6.25vh;
+    height: 6.25vh;
+    opacity: 1;
+    position: fixed;
+}
