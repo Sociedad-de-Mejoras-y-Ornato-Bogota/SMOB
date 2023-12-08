@@ -74,13 +74,13 @@ export const archivo = [
                     }, {
                         title: "Bogotá asediada Siglo XIX",
                         ruta: "/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX"
-                    }, , {
+                    },  {
                         title: "Demografía: violencia y urbanización",
                         ruta: "/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización"
                     }, {
                         title: "¿Por qué tanta discordia?",
                         ruta: "/Componente poblacional/Conflicto - civilidad/ ¿Por qué tanta discordia?"
-                    },
+                    }
                 ],
             }, {
                 title: "Estructura demográfica",
