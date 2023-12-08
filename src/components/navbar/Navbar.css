@@ -141,3 +141,8 @@
   top: -7px;
   width: 14vw;
 }
+
+#a a{
+  color: #000;
+  text-decoration: none;
+}

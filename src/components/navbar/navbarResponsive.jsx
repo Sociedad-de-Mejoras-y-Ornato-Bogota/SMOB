@@ -100,7 +100,7 @@ const NavbarResponsive = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.navbarBrand}>
-                <div className='' style={{display:"flex", alignItems:"center", gap:"1vw"}}>
+                <div className='' style={{ display: "flex", alignItems: "center", gap: "1vw" }}>
                     <Link to="/">
                         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="Logo plataforma Construyendo Civilidad" style={{ width: '30px', height: '30px' }} />
                     </Link>
@@ -207,7 +207,7 @@ const NavbarResponsive = () => {
                     </div>
 
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá" >La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá</Link>
+                        <Link to="/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá" >La  Sociedad de Mejoras y Ornato de Bogotá</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" onClick={() => {
                         setCivilidad(false)
@@ -235,6 +235,9 @@ const NavbarResponsive = () => {
                             Ciudad y ciudadanía
                         </span>
                     </div>
+                    <li className={styles.navbarItem} id="a">
+                        <Link to="/construyendo civilidad/Cuidad y cuidadanía">Ciudad y ciudadanía</Link>
+                    </li>
                     <li className={styles.navbarItem} id="a">
                         <Link to="/construyendo civilidad/Cuidad y cuidadanía/Orígenes de la civilidad en Colombia">Orígenes de la civilidad en Colombia</Link>
                     </li>
@@ -264,10 +267,6 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a"
-                    // onClick={() => {
-                    //     setGeneral(false)
-                    //     setGeneral_ods(true)
-                    // }}
                     >
                         <Link to="/marco institucional/Nueva agenda urbana y los ODS">Nueva agenda urbana y los ODS</Link>
                         {/* <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -288,9 +287,7 @@ const NavbarResponsive = () => {
                         setGeneral_estructura(true)
                     }}>
                         <Link to="/marco institucional/Estructura administrativa de Bogotá" >Estructura administrativa de Bogotá</Link>
-                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
-                        </svg>
+
 
                     </li>
                 </ul>}
@@ -331,10 +328,9 @@ const NavbarResponsive = () => {
                             Leyes de ordenamiento territorial
                         </span>
                     </div>
-                    {/* <li className={styles.navbarItem} id="a">
+                    <li className={styles.navbarItem} id="a">
                         <Link to="/marco institucional/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997">Antecedes de la Ley 388 de 1997</Link>
-
-                    </li> */}
+                    </li>
                     <li className={styles.navbarItem} id="a">
                         <Link to="/marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997" >Esquema de  Ley 388 de 1997</Link>
 
@@ -492,12 +488,11 @@ const NavbarResponsive = () => {
                             Conflicto - Civilidad
                         </span>
                     </div>
-
-                    <li className={styles.navbarItem} id="a" >
-                        <Link to="/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX" >Bogotá asediada siglo XIX</Link>
-                    </li>
                     <li className={styles.navbarItem} id="a" >
                         <Link to="/Componente poblacional/Conflicto - civilidad/Caminos hacia la Independencia" >Caminos hacia la Independencia</Link>
+                    </li>
+                    <li className={styles.navbarItem} id="a" >
+                        <Link to="/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX" >Bogotá asediada siglo XIX</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
                         <Link to="/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización" >Demografía: violencia y urbanización</Link>
@@ -546,22 +541,11 @@ const NavbarResponsive = () => {
                         <Link to="/Componente poblacional/Demografía/Indices demográficos" >índices demograficos</Link>
                     </li>
                     <li className={styles.navbarItem} id="a"
-                    //  onClick={() => {
-                    //     setDemografia(false)
-                    //     setProyecciones(true)
-                    // }}
+
                     >
                         <Link to="/Componente poblacional/Demografía/Proyecciones de población" >Proyecciones de población</Link>
-                        {/* <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
-                        </svg> */}
+
                     </li>
-                    {/* <li className={styles.navbarItem} id="a" >
-                        <Link to="/" >Evaluación demográfica de Colombia y Bogotá (1938 - 2018)</Link>
-                    </li>
-                    <li className={styles.navbarItem} id="a" >
-                        <Link to="/" >Demografía Violencia y Urbanización</Link>
-                    </li> */}
                 </ul>}
                 {/* poblacional pobreza*/}
                 {estructura && <ul >
@@ -594,7 +578,7 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá" >Ánálisis de pobreza en Colombia y Bogotá 2018</Link>
+                        <Link to="/Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá" >Pobreza en Colombia y Bogotá</Link>
                     </li>
                 </ul>}
 
