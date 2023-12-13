@@ -364,7 +364,7 @@ function EvolucionHuella() {
               poder ver el plano digitalizado por la Sociedad de Mejoras y
               Ornato de Bogotá.
             </i>
-            <div style={{width:"100%", display:"flex", justifyContent:"center", alignItems:"center", padding:"3rem"}}>
+            <div style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center", padding: "3rem" }}>
               <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                 <SwiperSlide>
                   <img
@@ -378,14 +378,14 @@ function EvolucionHuella() {
                       width: "40vw",
                       height: "50vh",
                       cursor: "pointer",
-    
+
                     }}
                     alt="plano escaneado"
                   ></img>
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                  alt="plano escaneado"
+                    alt="plano escaneado"
                     className="img-responsive"
                     onClick={() => {
                       setOpacity(true);
@@ -409,6 +409,18 @@ function EvolucionHuella() {
       {year != "Historia de la huella urbana" && (
         <div style={{ height: "auto", marginTop: "5vh" }}>
           <div >
+            <center>
+              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold", padding:"3rem" }} className="text-responsive">
+                Indicadores urbanísticos
+              </h4>
+            </center>
+            <iframe
+              className={` ${opacity ? "opacity" : " "}`}
+              id="frame"
+              src={dataFilter.dash}
+              style={{ width: "99vw", height: "90vh" }}
+              sandbox="allow-scripts allow-same-origin allow-popups"
+            ></iframe>
             <iframe
               className={` ${opacity ? "opacity" : " "}`}
               id="frame"

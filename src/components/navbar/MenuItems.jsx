@@ -48,7 +48,7 @@ const MenuItems = ({items,dephtlevel}) =>{
         {
         items.submenu ? (
             <>
-            <Link style={{ color: null, padding: 0, height:auto, margin:null, width: null}} to={`${items.ruta}`}>
+            <Link style={{ color: null, padding: 0, height:auto, margin:null, width: null}} to={`${items.ruta}` }>
             <button type="button"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
