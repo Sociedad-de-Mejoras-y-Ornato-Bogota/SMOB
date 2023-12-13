@@ -14,7 +14,8 @@
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1600/",
     "zoom":"14",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1600"
   },
   {
     "titulo":"    Plano geométrico de Santafé de Bogotá en 1791 elaborado por Domingo Esquiaqui",
@@ -24,7 +25,8 @@
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1791/",
     "zoom":"14",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1791"
   },
   {
     "titulo":"Plano geométrico de Santafé de Bogotá en 1816 elaborado por Domingo Esquiaqui",
@@ -34,7 +36,8 @@
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1816/",
     "zoom":"14",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1816"
   },
   {
     "titulo":"Plano topográfico de Bogotá y sus alrededores en 1849 elaborado por Agustín Codazzi",
@@ -44,7 +47,8 @@
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1849/?draft=true",
     "zoom":"14",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1849"
   },
   {
     "titulo":"Plano de Bogotá de 1885. Versión de Juan Carrasquilla Botero",
@@ -54,7 +58,8 @@
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1885/?draft=true",
     "zoom":"14",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1885"
   },
   {
     "titulo":"Plano de Bogotá 1906 elaborado por Francisco Javier Vergara y Velasco",
@@ -64,7 +69,8 @@
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
     "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1906/?draft=true",
     "zoom":"13",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1906"
   },
   {
     "titulo":"Plano de Bogotá 1913 elaborado por la Oficina de Longitudes y Gregorio Hernández ",
@@ -74,7 +80,8 @@
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/200045e70aa84465a0dbd2464e5f7a4e/",
     "zoom":"13",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1913"
   },
   {
     "titulo":"Plano de Bogotá 1923 elaborado por Manuel Rincón ",
@@ -84,7 +91,8 @@
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/767a452dc557419e95913787e0fb0c83/",
     "zoom":"13",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1923"
   },
   {
     "titulo":"Plano editado de Bogotá de 1932  ",
@@ -94,7 +102,8 @@
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe",
     "zoom":"13",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1932"
   },
   {
     "titulo":"Plano de Bogotá Acuerdo 21 de 1944 de la Secretaría de Obras Públicas Municipales",
@@ -104,7 +113,8 @@
     "map_id":"5c4135bc52d040068bbca6bab390709b",
     "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1944",
     "zoom":"13",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1944"
   },
   {
     "titulo":"Plano de Bogotá de 1954 elaborado por el Instituto Geográfico Agustín Codazzi",
@@ -114,7 +124,8 @@
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1954",
     "zoom":"13",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1954"
   },
   {
     "titulo":"Plano de Bogotá de 1965 elaborado por Carvajal & Cía.",
@@ -124,7 +135,8 @@
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1965",
     "zoom":"12",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://www.arcgis.com/apps/dashboards/b188b6dca979417c8ed62eca8db704ca"
   },
   {
     "titulo":"Plano de Bogotá de 1976",
@@ -134,7 +146,8 @@
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1976",
     "zoom":"12",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://www.arcgis.com/apps/dashboards/b188b6dca979417c8ed62eca8db704ca"
   },
   {
     "titulo":"Plano de Bogotá de 1985",
@@ -144,7 +157,8 @@
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
     "iframe_url":"https://experience.arcgis.com/experience/8c9113bcb1244b5f99a368514b97b06f",
     "zoom":"12",
-    "center":[-74.071750, 4.604800 ]
+    "center":[-74.071750, 4.604800 ],
+    "dash":"https://www.arcgis.com/apps/dashboards/6c5d295ede1f4ada8e30ffcef4c69a7d"
   },
   {
     "titulo":"Plano de Bogotá de 1991",
@@ -154,7 +168,8 @@
     "map_id":"80fef7b6a55643479f80f79e6d8cceea",
     "iframe_url":"https://experience.arcgis.com/experience/31eccb3fccd64309a11a53959ad79a29",
     "zoom":"12",
-    "center":[-74.121750, 4.634800 ]
+    "center":[-74.121750, 4.634800 ],
+    "dash":"https://www.arcgis.com/apps/dashboards/12b85c7dc579494787ccd4ec897640ea"
   },
   {
     "titulo":"Plano de Bogotá de 2000",
@@ -164,7 +179,8 @@
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
     "iframe_url":"https://experience.arcgis.com/experience/c1640fe1880a4191b9baf9f491c44dee",
     "zoom":"12",
-    "center":[-74.121750, 4.634800 ]
+    "center":[-74.121750, 4.634800 ],
+    "dash":"https://www.arcgis.com/apps/dashboards/99de7f05108a4d54b7bc8f8e8a819377"
   },
   {
     "titulo":"Plano de Bogotá de 2006",
@@ -174,7 +190,8 @@
     "map_id":"ef1b1d8359404e219e971bfe48d796e4",
     "iframe_url":"https://experience.arcgis.com/experience/05d923964bdd4c2cae205dd7873c60f0/",
     "zoom":"12",
-    "center":[-74.121750, 4.634800 ]
+    "center":[-74.121750, 4.634800 ],
+    "dash":"https://www.arcgis.com/apps/dashboards/6e5178af319f4ee9bff6b01d18e97fdd"
   },
   {
     "titulo":"Plano de Bogotá de 2023",
@@ -184,6 +201,7 @@
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
     "iframe_url":"https://experience.arcgis.com/experience/57f7f80b8c5b487a8ac399a7553f1dae/",
     "zoom":"12",
-    "center":[-74.121750, 4.634800 ]
+    "center":[-74.121750, 4.634800 ],
+    "dash":"https://www.arcgis.com/apps/dashboards/b71e7a0e86504aa69ced438a261d7b19"
   }
 ]
