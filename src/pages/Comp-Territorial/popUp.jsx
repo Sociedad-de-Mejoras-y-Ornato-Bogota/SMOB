@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-// import './popUp.css';
 
 const Popup = ({ onClose }) => {
     const [page, setPage] = useState(1)
