@@ -1,0 +1,58 @@
+.linetime-container {
+    display: flex;
+    cursor: pointer;
+}
+
+.era {
+    border-radius: 10%;
+    color: white;
+    font-weight: bolder;
+    padding: 1rem;
+    height: 3rem;
+    min-width: 3rem;
+
+}
+
+.line-circle {
+    position: relative;
+    width: 20px;
+    /* Ancho de la línea */
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30px;
+    /* Altura de la línea */
+    width: 2px;
+    /* Ancho de la línea */
+}
+
+.circle {
+    position: absolute;
+    top: 30px;
+    /* Ajustar la posición del círculo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12px;
+    /* Diámetro del círculo */
+    height: 12px;
+    /* Diámetro del círculo */
+    border-radius: 50%;
+    /* Hacer que sea un círculo */
+}
+
+.content-lineTime{
+    margin-top: 0.5rem;
+    position: absolute;
+    text-align: center;
+}
+.content-lineTime h6{
+font-weight: bold;
+}
+.content-lineTime p,.content-lineTime h6{
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
