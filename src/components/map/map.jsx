@@ -5,6 +5,7 @@ import Legend from "@arcgis/core/widgets/Legend.js";
 import ScaleBar from "@arcgis/core/widgets/ScaleBar.js";
 import Home from "@arcgis/core/widgets/Home.js";
 import Compass from "@arcgis/core/widgets/Compass.js";
+import Expand from "@arcgis/core/widgets/Expand.js";
 import LayerList from "@arcgis/core/widgets/LayerList.js";
 import './map.css'
 const Map = ({ map_id, layers, zoom, center }) => {
@@ -46,10 +47,19 @@ const Map = ({ map_id, layers, zoom, center }) => {
       view: view.current,
     });
 
+    view.current.ui.add(compass, "top-left");
+  
+ let layerList = new LayerList({
+      view: view.current,
+    })
 
-  
-    view.current.ui.add(layerListRef.current, "top-left");
-  
+    let layerListExpand = new Expand({
+      expandIcon: "layers",  // see https://developers.arcgis.com/calcite-design-system/icons/
+      // expandTooltip: "Expand LayerList", // optional, defaults to "Expand" for English locale
+      view: view.current,
+      content: layerList
+    });
+    view.current.ui.add(layerListExpand, "top-left");
 
     webmap.load().then(() => {
       webmap.layers.forEach((layer) => {
@@ -62,11 +72,6 @@ const Map = ({ map_id, layers, zoom, center }) => {
     });
 
     view.current.container = mapElement.current;
-
-    view.current.ui.add(new LayerList({
-      view: view.current,
-    }), "top-left");
-
 
 
     return () => {
