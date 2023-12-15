@@ -410,7 +410,7 @@ function EvolucionHuella() {
         <div style={{ height: "auto", marginTop: "5vh" }}>
           <div >
             <center>
-              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold", padding:"3rem" }} className="text-responsive">
+              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold", padding: "3rem" }} className="text-responsive">
                 Indicadores urbanísticos
               </h4>
             </center>
@@ -421,13 +421,15 @@ function EvolucionHuella() {
               style={{ width: "99vw", height: "90vh" }}
               sandbox="allow-scripts allow-same-origin allow-popups"
             ></iframe>
-            <iframe
+            {year != 1600 && <iframe
               className={` ${opacity ? "opacity" : " "}`}
               id="frame"
               src={dataFilter.iframe_url}
               style={{ width: "99vw", height: "90vh" }}
               sandbox="allow-scripts allow-same-origin allow-popups"
-            ></iframe>
+            ></iframe>}
+
+
           </div>
         </div>
       )}
