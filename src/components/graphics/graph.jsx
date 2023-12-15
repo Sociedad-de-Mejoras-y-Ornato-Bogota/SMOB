@@ -599,7 +599,7 @@
                 <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick9} />
               </button>
               <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/s/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick9E} />
+                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick9E} />
               </button>
             </p>
             </div>
@@ -631,7 +631,7 @@
               </button>
             </p>
             </div>
-            <section style={{width:'100%'}}>
+            <section style={{width:'100%',marginTop:'5vh'}}>
             <HighchartsReact
      highcharts={Highcharts}
      options={options}
