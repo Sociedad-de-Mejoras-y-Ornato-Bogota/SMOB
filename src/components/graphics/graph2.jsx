@@ -2,25 +2,41 @@ import HighchartsReact from "highcharts-react-official";
 import Highcharts from "highcharts";
 import "./graph.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Popup from "./pupUp";
 import Popup2 from "./popUp2";
 import "reactjs-popup/dist/index.css";
 // import icono from '../../assets/icons/imagen.png';
 // import icono1 from '../../assets/icons/pdf.png';
 
-let tama;
-if (window.innerWidth > 1024) {
-  tama = (window.innerWidth / 8) * 6;
-} else {
-  tama = (window.innerWidth / 8) * 6.5;
-}
 
-var options = {
+
+const Graph2 = () => {
+  const d1=((window.innerWidth/10)*8);
+  const d2=((window.innerHeight/10)*8); 
+  const [chartWidth, setChartWidth] = useState(d1); // Ancho inicial del gráfico
+const [chartHeight, setChartHeight] = useState(d2); // Alto inicial del gráfico
+
+useEffect(() => {
+  const handleResize = () => {
+    setChartWidth((window.innerWidth/10)*8); // Ajustar el ancho según el tamaño de la ventana
+    setChartHeight((window.innerHeight/10)*8); // Ajustar el alto según el tamaño de la ventana
+  };
+
+  window.addEventListener('resize', handleResize);
+
+  return () => {
+    window.removeEventListener('resize', handleResize);
+  };
+}, []);
+
+
+
+const options = {
   chart: {
-    type: "line",
-    width: tama,
-    height: 600,
+    type: 'line',
+    width: chartWidth,
+    height: chartHeight,
   },
   title: {
     // text: "Crecimiento de la población de Bogotá 1900 - 2025 con Planes de Desarrollo y Ordenamiento",
@@ -353,8 +369,6 @@ var options = {
     ],
   },
 };
-
-const Graph2 = () => {
   //primero
   const [showPopup, setShowPopup] = useState(false);
   const [showPopup1, setShowPopup1] = useState(false);
@@ -689,6 +703,7 @@ const Graph2 = () => {
           url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 555 DE 2021.pdf"
         />
       )}
+      <div className="contentG">
       <div className="graphs">
         <div className="graphs-2">
           <div className="linea1G2"></div>
@@ -1246,6 +1261,7 @@ const Graph2 = () => {
           <hr></hr>
           <HighchartsReact highcharts={Highcharts} options={options} />
         </div>
+      </div>
       </div>
     </>
   );
