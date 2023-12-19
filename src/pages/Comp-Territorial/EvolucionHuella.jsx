@@ -126,16 +126,16 @@ function EvolucionHuella() {
           <ul
             style={{
               backgroundColor: "#762f0b",
-              height: "60px",
+              height: "40px",
               width: " 100%",
               display: "flex",
               color: "white",
               justifyContent: "space-between",
               alignItems: "center",
               listStyle: "none",
-              fontSize: ".8vw",
+              fontSize: ".7vw",
               cursor: "pointer",
-              padding:"1rem"
+              padding:"1rem 2rem"
             }}
             className={`menu-huella-responsive ${opacity ? "opacity" : " "}`}
             id="nav-huella"
