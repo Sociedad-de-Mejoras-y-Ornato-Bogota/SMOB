@@ -41,7 +41,7 @@
   width: 100%;
   /* Ocupa el 100% de ancho */
   z-index: 999;
-  justify-content: center;
+  justify-content: space-between;
   /* align-items: center; */
 }
 
@@ -63,6 +63,8 @@
 .menus {
   display: flex;
   list-style: none;
+  width: 100%;
+  gap: 1vw;
 }
 
 .menu-items {

@@ -12,11 +12,15 @@
     align-items: center;
     padding-top: 50px;
 }
-
+.div-graph-button{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
 .cus {
-    position: absolute;
+    /* position: absolute;
     top: calc((100%/4)*3);
-    left: calc((100%/4)*1);
+    left: calc((100%/4)*1); */
     /* Alinea a la izquierda */
     padding: 1px 1px;
     background-color: transparent;
@@ -28,9 +32,9 @@
 }
 
 .cus2 {
-    position: absolute;
+    /* position: absolute;
     top: calc((100%/4)*3);
-    left: calc((100%/4)*2.5);
+    left: calc((100%/4)*2.5); */
     /* Alinea a la izquierda */
     padding: 1px 1px;
     background-color: transparent;
@@ -42,9 +46,9 @@
 }
 
 .cu {
-    position: absolute;
+    /* position: absolute;
     top: calc((100%/4)*2.7);
-    left: calc((100%/4)*.5);
+    left: calc((100%/4)*.5); */
     /* Alinea a la izquierda */
     padding: 1px 1px;
     background-color: transparent;
@@ -56,9 +60,9 @@
 }
 
 .cu2 {
-    position: absolute;
+    /* position: absolute;
     top: calc((100%/4)*2.7);
-    left: calc((100%/4)*2.5);
+    left: calc((100%/4)*2.5); */
     /* Alinea a la izquierda */
     padding: 1px 1px;
     background-color: transparent;
@@ -70,9 +74,9 @@
 }
 
 .cu-e {
-    position: absolute;
+    /* position: absolute;
     top: calc((100%/4)*3);
-    left: calc((100%/4)*.5);
+    left: calc((100%/4)*.5); */
     /* Alinea a la izquierda */
     padding: 1px 1px;
     background-color: transparent;
@@ -84,9 +88,9 @@
 }
 
 .cu2-e {
-    position: absolute;
+    /* position: absolute;
     top: calc((100%/4)*3);
-    left: calc((100%/4)*2.5);
+    left: calc((100%/4)*2.5); */
     /* Alinea a la izquierda */
     padding: 1px 1px;
     background-color: transparent;
@@ -98,9 +102,9 @@
 }
 
 .cus-e {
-    position: absolute;
+    /* position: absolute;
     top: calc((100%/4)*3);
-    left: calc((100%/4)*1);
+    left: calc((100%/4)*1); */
     /* Alinea a la izquierda */
     padding: 1px 1px;
     background-color: transparent;
@@ -112,9 +116,9 @@
 }
 
 .cus2-e {
-    position: absolute;
+    /* position: absolute;
     top: calc((100%/4)*3);
-    left: calc((100%/4)*2.5);
+    left: calc((100%/4)*2.5); */
     /* Alinea a la izquierda */
     padding: 1px 1px;
     background-color: transparent;
@@ -1228,6 +1232,6 @@ hr {
     width: 90vw !important;
 }
 
-.grafica-top text:nth-child(18),.grafica-top text:nth-child(24), .grafica-dowm text:nth-child(20), .grafica-dowm text:nth-child(14) {
+.grafica-top text:nth-child(18),.grafica-top text:nth-child(22), .grafica-dowm text:nth-child(18), .grafica-dowm text:nth-child(14) {
     fill: red !important;
 }
