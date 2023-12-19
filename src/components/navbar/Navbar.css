@@ -64,7 +64,8 @@
   display: flex;
   list-style: none;
   width: 100%;
-  gap: 1vw;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 .menu-items {
