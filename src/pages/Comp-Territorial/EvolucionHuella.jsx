@@ -130,11 +130,12 @@ function EvolucionHuella() {
               width: " 100%",
               display: "flex",
               color: "white",
-              justifyContent: "space-evenly",
+              justifyContent: "space-between",
               alignItems: "center",
               listStyle: "none",
               fontSize: ".8vw",
               cursor: "pointer",
+              padding:"1rem"
             }}
             className={`menu-huella-responsive ${opacity ? "opacity" : " "}`}
             id="nav-huella"

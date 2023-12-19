@@ -1,25 +1,25 @@
-  import HighchartsReact from "highcharts-react-official";
-  import Highcharts from "highcharts";
-  import './graph.css'
-  import 'bootstrap/dist/css/bootstrap.min.css';
-  import { useState, useEffect } from "react";
-  import Popup from './pupUp';
-  import Popup2 from "./popUp2";
-  import 'reactjs-popup/dist/index.css';
-  // import icono from '../../assets/icons/imagen.png';
-  // import icono1 from '../../assets/icons/pdf.png';
+import HighchartsReact from "highcharts-react-official";
+import Highcharts from "highcharts";
+import './graph.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState, useEffect } from "react";
+import Popup from './pupUp';
+import Popup2 from "./popUp2";
+import 'reactjs-popup/dist/index.css';
+// import icono from '../../assets/icons/imagen.png';
+// import icono1 from '../../assets/icons/pdf.png';
 
-  const Graph = () => {
+const Graph = () => {
 
-    const d1=((window.innerWidth/10)*8);
-    const d2=((window.innerHeight/10)*8); 
-    const [chartWidth, setChartWidth] = useState(d1); // Ancho inicial del gráfico
+  const d1 = ((window.innerWidth / 10) * 8);
+  const d2 = ((window.innerHeight / 10) * 8);
+  const [chartWidth, setChartWidth] = useState(d1); // Ancho inicial del gráfico
   const [chartHeight, setChartHeight] = useState(d2); // Alto inicial del gráfico
 
   useEffect(() => {
     const handleResize = () => {
-      setChartWidth((window.innerWidth/10)*8); // Ajustar el ancho según el tamaño de la ventana
-      setChartHeight((window.innerHeight/10)*8); // Ajustar el alto según el tamaño de la ventana
+      setChartWidth((window.innerWidth / 10) * 8); // Ajustar el ancho según el tamaño de la ventana
+      setChartHeight((window.innerHeight / 10) * 8); // Ajustar el alto según el tamaño de la ventana
     };
 
     window.addEventListener('resize', handleResize);
@@ -106,361 +106,362 @@
     }
   }
 
-    //primero
-    const [showPopup, setShowPopup] = useState(false);
-    const [showPopup1, setShowPopup1] = useState(false);
-    const [showPopup2, setShowPopup2] = useState(false);
-    const [showPopup3, setShowPopup3] = useState(false);
-    const [showPopup4, setShowPopup4] = useState(false);
-    const [showPopup5, setShowPopup5] = useState(false);
-    const [showPopup6, setShowPopup6] = useState(false);
-    const [showPopup7, setShowPopup7] = useState(false);
-    const [showPopup8, setShowPopup8] = useState(false);
-    const [showPopup9, setShowPopup9] = useState(false);
-    const [showPopup10, setShowPopup10] = useState(false);
-    const [showPopup11, setShowPopup11] = useState(false);
-    //segundo
-    const [showPopupE, setShowPopupE] = useState(false);
-    const [showPopup1E, setShowPopup1E] = useState(false);
-    const [showPopup2E, setShowPopup2E] = useState(false);
-    const [showPopup3E, setShowPopup3E] = useState(false);
-    const [showPopup4E, setShowPopup4E] = useState(false);
-    const [showPopup5E, setShowPopup5E] = useState(false);
-    const [showPopup6E, setShowPopup6E] = useState(false);
-    const [showPopup7E, setShowPopup7E] = useState(false);
-    const [showPopup8E, setShowPopup8E] = useState(false);
-    const [showPopup9E, setShowPopup9E] = useState(false);
-    const [showPopup10E, setShowPopup10E] = useState(false);
-    const [showPopup11E, setShowPopup11E] = useState(false);
-    //primero
-    const handleDivClick = () => {
-      setShowPopup(true);
-    };
-    const handleDivClick1 = () => {
-      setShowPopup1(true);
-    };
-    const handleDivClick2 = () => {
-      setShowPopup2(true);
-    };
-    const handleDivClick3 = () => {
-      setShowPopup3(true);
-    };
-    const handleDivClick4 = () => {
-      setShowPopup4(true);
-    };
-    const handleDivClick5 = () => {
-      setShowPopup5(true);
-    };
-    const handleDivClick6 = () => {
-      setShowPopup6(true);
-    };
-    const handleDivClick7 = () => {
-      setShowPopup7(true);
-    };
-    const handleDivClick8 = () => {
-      setShowPopup8(true);
-    };
-    const handleDivClick9 = () => {
-      setShowPopup9(true);
-    };
-    const handleDivClick10 = () => {
-      setShowPopup10(true);
-    };
-    const handleDivClick11 = () => {
-      setShowPopup11(true);
-    };
-    //segundo
-    const handleDivClickE = () => {
-      setShowPopupE(true);
-    };
-    const handleDivClick1E = () => {
-      setShowPopup1E(true);
-    };
-    const handleDivClick2E = () => {
-      setShowPopup2E(true);
-    };
-    const handleDivClick3E = () => {
-      setShowPopup3E(true);
-    };
-    const handleDivClick4E = () => {
-      setShowPopup4E(true);
-    };
-    const handleDivClick5E = () => {
-      setShowPopup5E(true);
-    };
-    const handleDivClick6E = () => {
-      setShowPopup6E(true);
-    };
-    const handleDivClick7E = () => {
-      setShowPopup7E(true);
-    };
-    const handleDivClick8E = () => {
-      setShowPopup8E(true);
-    };
-    const handleDivClick9E = () => {
-      setShowPopup9E(true);
-    };
-    const handleDivClick10E = () => {
-      setShowPopup10E(true);
-    };
-    const handleDivClick11E = () => {
-      setShowPopup11E(true);
-    };
-    //primero
-    const handleClosePopup = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup(false);
-    };
-    const handleClosePopup1 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup1(false);
-    };
-    const handleClosePopup2 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup2(false);
-    };
-    const handleClosePopup3 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup3(false);
-    };
-    const handleClosePopup4 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup4(false);
-    };
-    const handleClosePopup5 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup5(false);
-    };
-    const handleClosePopup6 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup6(false);
-    };
-    const handleClosePopup7 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup7(false);
-    };
-    const handleClosePopup8 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup8(false);
-    };
-    const handleClosePopup9 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup9(false);
-    };
-    const handleClosePopup10 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup10(false);
-    };
-    const handleClosePopup11 = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup11(false);
-    };
-    //segundo
-    const handleClosePopupE = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopupE(false);
-    };
-    const handleClosePopup1E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup1E(false);
-    };
-    const handleClosePopup2E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup2E(false);
-    };
-    const handleClosePopup3E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup3E(false);
-    };
-    const handleClosePopup4E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup4E(false);
-    };
-    const handleClosePopup5E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup5E(false);
-    };
-    const handleClosePopup6E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup6E(false);
-    };
-    const handleClosePopup7E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup7E(false);
-    };
-    const handleClosePopup8E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup8E(false);
-    };
-    const handleClosePopup9E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup9E(false);
-    };
-    const handleClosePopup10E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup10E(false);
-    };
-    const handleClosePopup11E = () => {
-      console.log('Cerrando el pop-up');
-      setShowPopup11E(false);
-    };
-    return (
-      <>
-        {showPopup && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.1-Bogota-futuro.png"
-            onClose={handleClosePopup}
-          />
-        )}
-        {showPopup1 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.2-Brunner.png"
-            onClose={handleClosePopup1}
+  //primero
+  const [showPopup, setShowPopup] = useState(false);
+  const [showPopup1, setShowPopup1] = useState(false);
+  const [showPopup2, setShowPopup2] = useState(false);
+  const [showPopup3, setShowPopup3] = useState(false);
+  const [showPopup4, setShowPopup4] = useState(false);
+  const [showPopup5, setShowPopup5] = useState(false);
+  const [showPopup6, setShowPopup6] = useState(false);
+  const [showPopup7, setShowPopup7] = useState(false);
+  const [showPopup8, setShowPopup8] = useState(false);
+  const [showPopup9, setShowPopup9] = useState(false);
+  const [showPopup10, setShowPopup10] = useState(false);
+  const [showPopup11, setShowPopup11] = useState(false);
+  //segundo
+  const [showPopupE, setShowPopupE] = useState(false);
+  const [showPopup1E, setShowPopup1E] = useState(false);
+  const [showPopup2E, setShowPopup2E] = useState(false);
+  const [showPopup3E, setShowPopup3E] = useState(false);
+  const [showPopup4E, setShowPopup4E] = useState(false);
+  const [showPopup5E, setShowPopup5E] = useState(false);
+  const [showPopup6E, setShowPopup6E] = useState(false);
+  const [showPopup7E, setShowPopup7E] = useState(false);
+  const [showPopup8E, setShowPopup8E] = useState(false);
+  const [showPopup9E, setShowPopup9E] = useState(false);
+  const [showPopup10E, setShowPopup10E] = useState(false);
+  const [showPopup11E, setShowPopup11E] = useState(false);
+  //primero
+  const handleDivClick = () => {
+    setShowPopup(true);
+  };
+  const handleDivClick1 = () => {
+    setShowPopup1(true);
+  };
+  const handleDivClick2 = () => {
+    setShowPopup2(true);
+  };
+  const handleDivClick3 = () => {
+    setShowPopup3(true);
+  };
+  const handleDivClick4 = () => {
+    setShowPopup4(true);
+  };
+  const handleDivClick5 = () => {
+    setShowPopup5(true);
+  };
+  const handleDivClick6 = () => {
+    setShowPopup6(true);
+  };
+  const handleDivClick7 = () => {
+    setShowPopup7(true);
+  };
+  const handleDivClick8 = () => {
+    setShowPopup8(true);
+  };
+  const handleDivClick9 = () => {
+    setShowPopup9(true);
+  };
+  const handleDivClick10 = () => {
+    setShowPopup10(true);
+  };
+  const handleDivClick11 = () => {
+    setShowPopup11(true);
+  };
+  //segundo
+  const handleDivClickE = () => {
+    setShowPopupE(true);
+  };
+  const handleDivClick1E = () => {
+    setShowPopup1E(true);
+  };
+  const handleDivClick2E = () => {
+    setShowPopup2E(true);
+  };
+  const handleDivClick3E = () => {
+    setShowPopup3E(true);
+  };
+  const handleDivClick4E = () => {
+    setShowPopup4E(true);
+  };
+  const handleDivClick5E = () => {
+    setShowPopup5E(true);
+  };
+  const handleDivClick6E = () => {
+    setShowPopup6E(true);
+  };
+  const handleDivClick7E = () => {
+    setShowPopup7E(true);
+  };
+  const handleDivClick8E = () => {
+    setShowPopup8E(true);
+  };
+  const handleDivClick9E = () => {
+    setShowPopup9E(true);
+  };
+  const handleDivClick10E = () => {
+    setShowPopup10E(true);
+  };
+  const handleDivClick11E = () => {
+    setShowPopup11E(true);
+  };
+  //primero
+  const handleClosePopup = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup(false);
+  };
+  const handleClosePopup1 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup1(false);
+  };
+  const handleClosePopup2 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup2(false);
+  };
+  const handleClosePopup3 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup3(false);
+  };
+  const handleClosePopup4 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup4(false);
+  };
+  const handleClosePopup5 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup5(false);
+  };
+  const handleClosePopup6 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup6(false);
+  };
+  const handleClosePopup7 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup7(false);
+  };
+  const handleClosePopup8 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup8(false);
+  };
+  const handleClosePopup9 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup9(false);
+  };
+  const handleClosePopup10 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup10(false);
+  };
+  const handleClosePopup11 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup11(false);
+  };
+  //segundo
+  const handleClosePopupE = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopupE(false);
+  };
+  const handleClosePopup1E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup1E(false);
+  };
+  const handleClosePopup2E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup2E(false);
+  };
+  const handleClosePopup3E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup3E(false);
+  };
+  const handleClosePopup4E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup4E(false);
+  };
+  const handleClosePopup5E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup5E(false);
+  };
+  const handleClosePopup6E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup6E(false);
+  };
+  const handleClosePopup7E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup7E(false);
+  };
+  const handleClosePopup8E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup8E(false);
+  };
+  const handleClosePopup9E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup9E(false);
+  };
+  const handleClosePopup10E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup10E(false);
+  };
+  const handleClosePopup11E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup11E(false);
+  };
+  return (
+    <>
+      {showPopup && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.1-Bogota-futuro.png"
+          onClose={handleClosePopup}
+        />
+      )}
+      {showPopup1 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.2-Brunner.png"
+          onClose={handleClosePopup1}
 
-          />
-        )}
-        {showPopup2 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.3-Le-Corbusier.png"
-            onClose={handleClosePopup2}
-          />
-        )}
-        {showPopup3 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.4-Fase-2-1972.png"
-            onClose={handleClosePopup3}
+        />
+      )}
+      {showPopup2 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.3-Le-Corbusier.png"
+          onClose={handleClosePopup2}
+        />
+      )}
+      {showPopup3 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.4-Fase-2-1972.png"
+          onClose={handleClosePopup3}
 
-          />
-        )}
-        {showPopup4 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.5-plan-desarrollo-urbano-1975.png"
-            onClose={handleClosePopup4}
+        />
+      )}
+      {showPopup4 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.5-plan-desarrollo-urbano-1975.png"
+          onClose={handleClosePopup4}
 
-          />
-        )}
-        {showPopup5 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.6-Acuerdo-7-1979.png"
-            onClose={handleClosePopup5}
+        />
+      )}
+      {showPopup5 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.6-Acuerdo-7-1979.png"
+          onClose={handleClosePopup5}
 
-          />
-        )}
-        {showPopup6 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.7-Acuerdo-6-1990.png"
-            onClose={handleClosePopup6}
+        />
+      )}
+      {showPopup6 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.7-Acuerdo-6-1990.png"
+          onClose={handleClosePopup6}
 
-          />
-        )}
-        {showPopup7 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.8-Decreto-619-2000.png"
-            onClose={handleClosePopup7}
+        />
+      )}
+      {showPopup7 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.8-Decreto-619-2000.png"
+          onClose={handleClosePopup7}
 
-          />
-        )}
-        {showPopup8 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.9-Decreto-190-2004.png"
-            onClose={handleClosePopup8}
+        />
+      )}
+      {showPopup8 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.9-Decreto-190-2004.png"
+          onClose={handleClosePopup8}
 
-          />
-        )}
-        {showPopup9 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.10-Mepot-2013.png"
-            onClose={handleClosePopup9}
+        />
+      )}
+      {showPopup9 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.10-Mepot-2013.png"
+          onClose={handleClosePopup9}
 
-          />
-        )}
-        {showPopup10 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.11-proyecto-POT-2019.png"
-            onClose={handleClosePopup10}
+        />
+      )}
+      {showPopup10 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.11-proyecto-POT-2019.png"
+          onClose={handleClosePopup10}
 
-          />
-        )}{showPopup11 && (
-          <Popup
-            imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.12-Decreto-555-2021.png"
-            onClose={handleClosePopup11}
+        />
+      )}{showPopup11 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.12-Decreto-555-2021.png"
+          onClose={handleClosePopup11}
 
-          />
-        )}
-        {showPopupE && (
-          <Popup2
-            onClose={handleClosePopupE}
-            url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 74 DE 1925 BOGOTA FUTURO.pdf"
-          />
-        )}
-        {showPopup1E && (
-          <Popup2
-            onClose={handleClosePopup1E}
-            url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 28 DE 1933-BRUNNER.pdf"
-          />
-        )}
-        {showPopup2E && (
-          <Popup2
-            onClose={handleClosePopup2E}
-            url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 185 DE 1951-LE CORBUSIER.pdf"
-          />
-        )}
-        {showPopup3E && (
-          <Popup2
-            onClose={handleClosePopup3E}
-            url=""
-          />
-        )}
-        {showPopup4E && (
-          <Popup2
-            onClose={handleClosePopup4E}
-            url=""
-          />
-        )}
-        {showPopup5E && (
-          <Popup2
-            onClose={handleClosePopup5E}
-            url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 7 1979.pdf"
-          />
-        )}
-        {showPopup6E && (
-          <Popup2
-            onClose={handleClosePopup6E}
-            url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/Acuerdo 6 de 1990.pdf"
-          />
-        )}
-        {showPopup7E && (
-          <Popup2
-            onClose={handleClosePopup7E}
-            url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 619 DE 2000.pdf"
-          />
-        )}
-        {showPopup8E && (
-          <Popup2
-            onClose={handleClosePopup8E}
-            url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO190 DE 2004.pdf"
-          />
-        )}
-        {showPopup9E && (
-          <Popup2
-            onClose={handleClosePopup9E}
-            url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 364 DE 2013.pdf"
-          />
-        )}
-        {showPopup10E && (
-          <Popup2
-            onClose={handleClosePopup10E}
-            url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/PROYECTO DE ACUERDO POT BOGOTA 2019.pdf"
-          />
-        )}{showPopup11E && (
-          <Popup2
-            onClose={handleClosePopup11E}
-            url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 555 DE 2021.pdf"
-          />
-        )}
-        <div className="contentG">
+        />
+      )}
+      {showPopupE && (
+        <Popup2
+          onClose={handleClosePopupE}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 74 DE 1925 BOGOTA FUTURO.pdf"
+        />
+      )}
+      {showPopup1E && (
+        <Popup2
+          onClose={handleClosePopup1E}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 28 DE 1933-BRUNNER.pdf"
+        />
+      )}
+      {showPopup2E && (
+        <Popup2
+          onClose={handleClosePopup2E}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 185 DE 1951-LE CORBUSIER.pdf"
+        />
+      )}
+      {showPopup3E && (
+        <Popup2
+          onClose={handleClosePopup3E}
+          url=""
+        />
+      )}
+      {showPopup4E && (
+        <Popup2
+          onClose={handleClosePopup4E}
+          url=""
+        />
+      )}
+      {showPopup5E && (
+        <Popup2
+          onClose={handleClosePopup5E}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 7 1979.pdf"
+        />
+      )}
+      {showPopup6E && (
+        <Popup2
+          onClose={handleClosePopup6E}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/Acuerdo 6 de 1990.pdf"
+        />
+      )}
+      {showPopup7E && (
+        <Popup2
+          onClose={handleClosePopup7E}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 619 DE 2000.pdf"
+        />
+      )}
+      {showPopup8E && (
+        <Popup2
+          onClose={handleClosePopup8E}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO190 DE 2004.pdf"
+        />
+      )}
+      {showPopup9E && (
+        <Popup2
+          onClose={handleClosePopup9E}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 364 DE 2013.pdf"
+        />
+      )}
+      {showPopup10E && (
+        <Popup2
+          onClose={handleClosePopup10E}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/PROYECTO DE ACUERDO POT BOGOTA 2019.pdf"
+        />
+      )}{showPopup11E && (
+        <Popup2
+          onClose={handleClosePopup11E}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 555 DE 2021.pdf"
+        />
+      )}
+      <div className="contentG">
         <div className="graphs">
           <div className="graphs-2">
+            <span style={{position:"absolute", zIndex:"9", fontSize:"0.7vw", marginLeft:"53vw", color:"red", marginTop:"79vh"}}>Años de censo</span>
             <div className="linea1"></div>
             <div className="cuadro1">
               <p><h1 className="h1-c"> 1925</h1>
@@ -468,12 +469,14 @@
                 <h3 className="h3-c">- Crecimiento: <strong className="str">3,76</strong></h3>
                 <h3 className="h3-c">- Vegetativa: <strong className="str">1,76</strong></h3>
                 <h3 className="h3-c">- Migración: <strong className="str">2,01</strong></h3>
-                <button className="cus">
-                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick} />
-                </button>
-                <button className="cus2">
-                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClickE} />
-                </button>
+                <div className="div-graph-button">
+                  <button className="cus">
+                    <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick} />
+                  </button>
+                  <button className="cus2">
+                    <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClickE} />
+                  </button>
+                </div>
               </p>
             </div>
             <div className="linea2"></div>
@@ -482,12 +485,15 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">3,88</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,00</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">1,88</strong></h3>
-              <button className="cus">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick1} />
-              </button>
-              <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick1E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick1} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick1E} />
+                </button>
+              </div>
+
             </p>
             </div>
             <div className="linea3"></div>
@@ -496,12 +502,15 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">6,73</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,82</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">3,91</strong></h3>
-              <button className="cus">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick2} />
-              </button>
-              <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick2E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick2} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick2E} />
+                </button>
+              </div>
+
             </p>
             </div>
             <div className="linea4"></div>
@@ -511,12 +520,14 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">4,60</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,84</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">1,76</strong></h3>
-              <button className="cus-e">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick3} />
-              </button>
-              <button className="cus2-e">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick3E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus-e">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick3} />
+                </button>
+                <button className="cus2-e">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick3E} />
+                </button>
+              </div>
             </p>
             </div>
             <div className="linea5"></div>
@@ -525,12 +536,14 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">4,03</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,52</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">1,55</strong></h3>
-              <button className="cus">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4} />
-              </button>
-              <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E} />
+                </button>
+              </div>
             </p>
             </div>
             <div className="linea6"></div>
@@ -539,12 +552,14 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">3,55</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,02</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">1,34</strong></h3>
-              <button className="cus">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick5} />
-              </button>
-              <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick5E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick5} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick5E} />
+                </button>
+              </div>
             </p>
             </div>
             <div className="linea7"></div>
@@ -553,12 +568,14 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">2,52</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">1,50</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">0,90</strong></h3>
-              <button className="cus">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick6} />
-              </button>
-              <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick6E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick6} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick6E} />
+                </button>
+              </div>
             </p>
             </div>
             <div className="linea8"></div>
@@ -567,12 +584,14 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">1,92</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">1,34</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">0,63</strong></h3>
-              <button className="cus">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick7} />
-              </button>
-              <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick7E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick7} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick7E} />
+                </button>
+              </div>
             </p>
             </div>
             <div className="linea9"></div>
@@ -581,12 +600,14 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">1,70</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">1,22</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">0,51</strong></h3>
-              <button className="cus">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick8} />
-              </button>
-              <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick8E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick8} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick8E} />
+                </button>
+              </div>
             </p>
             </div>
             <div className="linea10"></div>
@@ -595,12 +616,15 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">0,48</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">0,91</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">-0,43</strong></h3>
-              <button className="cus">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick9} />
-              </button>
-              <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick9E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick9} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick9E} />
+                </button>
+              </div>
+
             </p>
             </div>
             <div className="linea11"></div>
@@ -609,12 +633,14 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">0,22</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">0,66</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">-0,66</strong></h3>
-              <button className="cus">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick10} />
-              </button>
-              <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick10E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick10} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick10E} />
+                </button>
+              </div>
             </p>
             </div>
             <div className="linea12"></div>
@@ -623,23 +649,25 @@
               <h3 className="h3-c">- Crecimiento: <strong className="str">1,17</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">0,25</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">0,92</strong></h3>
-              <button className="cus">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick11} />
-              </button>
-              <button className="cus2">
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick11E} />
-              </button>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick11} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick11E} />
+                </button>
+              </div>
             </p>
             </div>
-            <section style={{width:'100%',marginTop:'5vh'}}>
-            <HighchartsReact
-     highcharts={Highcharts}
-     options={options}
-   /></section>
+            <section style={{ width: '100%', marginTop: '5vh' }}>
+              <HighchartsReact
+                highcharts={Highcharts}
+                options={options}
+              /></section>
           </div>
         </div>
-        </div></>
-    )
-  }
+      </div></>
+  )
+}
 
-  export default Graph;
+export default Graph;
