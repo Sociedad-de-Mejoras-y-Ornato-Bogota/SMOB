@@ -571,67 +571,67 @@ const Graph2 = () => {
     <>
       {showPopup && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.1-Bogota-futuro.png"
+          imageUrl=""
           onClose={handleClosePopup}
         />
       )}
       {showPopup1 && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.2-Brunner.png"
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.1-Bogota-futuro.png"
           onClose={handleClosePopup1}
         />
       )}
       {showPopup2 && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.3-Le-Corbusier.png"
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.2-Brunner.png"
           onClose={handleClosePopup2}
         />
       )}
       {showPopup3 && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.4-Fase-2-1972.png"
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.3-Le-Corbusier.png"
           onClose={handleClosePopup3}
         />
       )}
       {showPopup4 && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.5-plan-desarrollo-urbano-1975.png"
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.4-Fase-2-1972.png"
           onClose={handleClosePopup4}
         />
       )}
       {showPopup5 && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.6-Acuerdo-7-1979.png"
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.5-plan-desarrollo-urbano-1975.png"
           onClose={handleClosePopup5}
         />
       )}
       {showPopup6 && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.7-Acuerdo-6-1990.png"
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.6-Acuerdo-7-1979.png"
           onClose={handleClosePopup6}
         />
       )}
       {showPopup7 && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.8-Decreto-619-2000.png"
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.7-Acuerdo-6-1990.png"
           onClose={handleClosePopup7}
         />
       )}
       {showPopup8 && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.9-Decreto-190-2004.png"
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.8-Decreto-619-2000.png"
           onClose={handleClosePopup8}
         />
       )}
       {showPopup9 && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.10-Mepot-2013.png"
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.9-Decreto-190-2004.png"
           onClose={handleClosePopup9}
         />
       )}
       {showPopup10 && (
         <Popup
-          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.11-proyecto-POT-2019.png"
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.10-Mepot-2013.png"
           onClose={handleClosePopup10}
         />
       )}
@@ -644,57 +644,57 @@ const Graph2 = () => {
       {showPopupE && (
         <Popup2
           onClose={handleClosePopupE}
-          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 74 DE 1925 BOGOTA FUTURO.pdf"
+          url=""
         />
       )}
       {showPopup1E && (
         <Popup2
           onClose={handleClosePopup1E}
-          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 28 DE 1933-BRUNNER.pdf"
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO%2074%20DE%201925%20BOGOTA%20FUTURO.pdf"
         />
       )}
       {showPopup2E && (
         <Popup2
           onClose={handleClosePopup2E}
-          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 185 DE 1951-LE CORBUSIER.pdf"
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO%2028%20DE%201933-BRUNNER.pdf"
         />
       )}
-      {showPopup3E && <Popup2 onClose={handleClosePopup3E} url="" />}
+      {showPopup3E && <Popup2 onClose={handleClosePopup3E} url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO%20185%20DE%201951-LE%20CORBUSIER.pdf" />}
       {showPopup4E && <Popup2 onClose={handleClosePopup4E} url="" />}
       {showPopup5E && (
         <Popup2
           onClose={handleClosePopup5E}
-          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 7 1979.pdf"
+          url=""
         />
       )}
       {showPopup6E && (
         <Popup2
           onClose={handleClosePopup6E}
-          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/Acuerdo 6 de 1990.pdf"
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO 7 1979.pdf"
         />
       )}
       {showPopup7E && (
         <Popup2
           onClose={handleClosePopup7E}
-          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 619 DE 2000.pdf"
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/Acuerdo 6 de 1990.pdf"
         />
       )}
       {showPopup8E && (
         <Popup2
           onClose={handleClosePopup8E}
-          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO190 DE 2004.pdf"
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 619 DE 2000.pdf"
         />
       )}
       {showPopup9E && (
         <Popup2
           onClose={handleClosePopup9E}
-          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 364 DE 2013.pdf"
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO190 DE 2004.pdf"
         />
       )}
       {showPopup10E && (
         <Popup2
           onClose={handleClosePopup10E}
-          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/PROYECTO DE ACUERDO POT BOGOTA 2019.pdf"
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO 364 DE 2013.pdf"
         />
       )}
       {showPopup11E && (
