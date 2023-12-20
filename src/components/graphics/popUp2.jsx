@@ -27,7 +27,7 @@ const Popup2 = ({ onClose, url }) => {
       <div className="popup-content">
         <button className="close-button" onClick={onClose}></button>
         {showIframe && url !== '' ? (
-          <iframe src={url} title="Contenido del enlace" width="100%" height="400"></iframe>
+          <iframe src={url} title="Contenido del enlace" width="100%" height="760"></iframe>
         ) : null}
       </div>
     </div>
