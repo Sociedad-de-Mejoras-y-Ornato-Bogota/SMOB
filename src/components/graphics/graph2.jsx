@@ -706,7 +706,7 @@ const Graph2 = () => {
       <div className="contentG">
         <div className="graphs">
           <div className="graphs-2">
-          <span style={{position:"absolute", zIndex:"9", fontSize:"0.7vw", marginLeft:"45vw", color:"red", marginTop:"74vh"}}>Años de censo</span>
+          <span style={{position:"absolute", zIndex:"9", fontSize:"0.8vw",width:"80%", textAlign:"center",color:"red", marginBottom:"-78vh"}}>*Los años marcados en color rojo corresponden a años censales</span>
             <div className="linea1G2"></div>
             <div className="cuadro1G2">
               <p>

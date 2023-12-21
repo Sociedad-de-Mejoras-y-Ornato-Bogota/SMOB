@@ -35,7 +35,7 @@ export default function Bienestar() {
       )}
       {windowWidth > 800 && (
         <div style={{ height: "auto" }} className="grafica-dowm">
-          <center style={{ color: "#762f0b", fontSize: "1.2vw", marginBottom: "-6vw", fontWeight: "bold" }}>
+          <center style={{ color: "#762f0b", fontSize: "1.2vw", marginBottom: "-8vw", fontWeight: "bold" }}>
             Tasas de crecimiento, vegetativa y migración de Bogotá 1923 a 2023 con Planes de Desarrollo y de  Ordenamiento
           </center>
           <Graph />
