@@ -4,7 +4,6 @@ const Vivienda = () =>{
         <>
            <Pronto />
         </>
-    
     )
 }
 export default Vivienda
