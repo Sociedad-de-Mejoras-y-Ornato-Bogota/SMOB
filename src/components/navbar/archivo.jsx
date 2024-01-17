@@ -74,7 +74,7 @@ export const archivo = [
                     }, {
                         title: "Bogotá asediada Siglo XIX",
                         ruta: "/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX"
-                    },  {
+                    }, {
                         title: "Demografía: violencia y urbanización",
                         ruta: "/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización"
                     }, {
@@ -218,10 +218,26 @@ export const archivo = [
                     submenu: [
                         {
                             title: "Historia de la vivienda",
-                            ruta: "/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda ",
+                            ruta: "/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda",
+                            submenu: [{
+                                title: "Vivienda informal",
+                                ruta:"/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal"
+                            },
+                            {
+                                title: "Vivienda obrera",
+                                ruta:"/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal"
+                            }]
                         }, {
                             title: "Desarrollos urbanísticos",
                             ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos ",
+                            submenu: [{
+                                title: "Barrios generales",
+                                ruta:"/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Barrios generales"
+                            },
+                            {
+                                title: "Estudio de caso de barrios",
+                                ruta:"/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Estudio de caso de barrios"
+                            }]
                         },
                     ],
                 }, {
