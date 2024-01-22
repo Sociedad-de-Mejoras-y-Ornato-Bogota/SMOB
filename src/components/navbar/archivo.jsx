@@ -274,7 +274,7 @@ export const archivo = [
             },
         ],
     }, {
-        title: "Modelos urbanos",
+        title: "Modelos de ciudad",
         ruta: "/Modelos Urbanos",
         color: "white",
         submenu: [

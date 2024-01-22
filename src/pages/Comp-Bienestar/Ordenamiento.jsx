@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Page_principal from "../../components/page-principal/page-principal";
-import Page_full_description from "../../components/page-full-description/page-full-description"
 
 import Graph from "../../components/graphics/graph";
 import Graph2 from "../../components/graphics/graph2";
@@ -30,7 +29,16 @@ espacios públicos, esparcimiento y seguridad, y condiciones de habitabilidad
 apropiadas, entre otros elementos vitales para lograr una vida plena y digna. En
 este proceso, la capital del país ha sido entendida de diversas maneras, con
 diversas ópticas, como lo reflejan las normas, acuerdos y decretos que en cada
-etapa han sido desarrollados." />
+etapa han sido desarrollados.
+En consecuencia, es indispensable que quien estudia estos asuntos
+conozca el proceso histórico que atravesó Bogotá para lograr albergar a millones
+y millones de personas a lo largo de los últimos 100 años. En este caso específico,
+se trata de la historia de la planeación en Bogotá, de cómo en cada momento de
+la vida de la ciudad se tomaron las providencias y se dispusieron los recursos
+técnicos, humanos e institucionales para hacerles frente a los inmensos desafíos
+que surgían a cada paso. En cuáles elementos se hizo el énfasis, qué visiones de
+ciudad se privilegiaron, qué tipo de futuro se entreveía o era dable anticipar, son
+el tipo de preguntas que se busca responder en esta sección." />
 
 
       {windowWidth > 800 && (
