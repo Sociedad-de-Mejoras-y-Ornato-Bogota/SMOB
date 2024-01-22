@@ -25,4 +25,10 @@
     color: #393939;
   }
   
+  @media screen and (max-width: 768px) {
+    .pdf-responsive{
+      width: 100vw !important;
+    }
+  }
+  
   

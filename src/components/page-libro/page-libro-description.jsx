@@ -9,7 +9,7 @@ const Page_libro_description = (props) => {
 
                 </section>
                 <section className='right_section'>
-                    <iframe src={props.url_book} className='content_book' allowFullScreen ></iframe>
+                    <iframe src={props.url_book} className='content_book pdf-responsive' allowFullScreen ></iframe>
                 </section>
             </div>
         </>

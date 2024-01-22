@@ -1,0 +1,27 @@
+.div-pronto {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-pronto_text {
+    color: black;
+    font-size: 1vw
+}
+
+.div-pronto_div-logos {
+    display: flex;
+}
+
+.div-pronto_div-logos_logos {
+    width: 4rem;
+    height: 4rem
+}
+
+@media screen and (max-width: 768px) {
+    .div-pronto_text {
+        font-size: 3vw
+    }
+}
