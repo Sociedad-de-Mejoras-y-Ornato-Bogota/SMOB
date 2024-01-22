@@ -1,6 +1,7 @@
 import data from "./ods.json";
 import { useState } from "react";
 import Page_principal from '../../components/page-principal/page-principal'
+import './agendayods.css'
 
 export default function AgendaYods() {
   const [modal, setModal] = useState(false);
@@ -9,15 +10,16 @@ export default function AgendaYods() {
     <>
     <Page_principal url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente%20Marco%20Institucional/0.1.%C2%A0ODS-01.png" name_component="Nueva agenda urbana y los Objetivos de Desarrollo Sostenible" description_component="Las herramientas de planificación de la ciudad y los propiosmecanismos de participación ciudadana, tal vez como nunca antes en la historia, están enfrentados a fuerzas poderosas -domésticas y mundiales-, que desatan dinámicas urbanas signadas por la incertidumbre y el sufrimiento humano. ¿Cómo entender y manejar la complejidad acuciante de la ciudad moderna, ante los objetivos inaplazables de desarrollo sostenible?"/>
 
-        <div  style={{ height: "auto" }}>
+        <div   className="ods-div">
           <div
             style={{
               display: "flex",
               flexDirection: "row",
               flexWrap: "wrap",
               justifyContent: "center",
-              gap: "5vw",
-              padding:"3rem"
+              gap: "3rem",
+              padding:"2rem",
+              width:"100%"
             }}
           >
             {modal && (
@@ -60,7 +62,7 @@ export default function AgendaYods() {
                   </span>
                 </header>
                 <section>
-                  <p style={{ fontSize:"18px"}}>{infoPresentacion[1]}</p>
+                  <p style={{ fontSize:"1rem"}}>{infoPresentacion[1]}</p>
                 </section>
                 </div>
 
@@ -69,15 +71,8 @@ export default function AgendaYods() {
             {data.map((item) => {
               return (
                 <div
-                  className="card card-b"
                   key={item.text}
-                  style={{
-                    height: "auto",
-                    marginBottom: "3vh",
-                    backgroundColor: "transparent",
-                    alignItems: "center",
-                    border:"none"
-                  }}
+                  className="card-ods"
                 >
                   <img
                     src={item.url}
@@ -93,7 +88,7 @@ export default function AgendaYods() {
                     {item.title}
                   </address>
                   <button
-                    className="publicaciones-verMas"
+                    className="mas-ods"
                     onClick={() => {
                       setinfoPresentacion([item.title, item.text]);
                       setModal(true);

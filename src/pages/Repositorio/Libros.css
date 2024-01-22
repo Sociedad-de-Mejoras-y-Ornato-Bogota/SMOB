@@ -102,7 +102,15 @@
 .card{
   border:none;
   width: 25%;
+
 }
 iframe.pdf-b{
 width: 100% !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .card{
+    border:none;
+    width: auto;
+  }
 }

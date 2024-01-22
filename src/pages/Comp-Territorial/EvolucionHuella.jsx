@@ -144,7 +144,7 @@ function EvolucionHuella() {
               return (
                 <li
                   key={item.año}
-                  className={`${item.año == year ? "selected-year" : ""}`}
+                  className={`${item.año == year ? "selected-year" : ""} `}
                   onClick={() => {
                     setYear(item.año);
                     setFilter(item);
@@ -192,17 +192,9 @@ function EvolucionHuella() {
             >
               {open && (
                 <dialog
-                  className="modal-responsive"
+                  className="modal-huella"
                   open
-                  style={{
-                    width: "80vw",
-                    height: "600px",
-                    position: "absolute",
-                    left: "10%",
-                    top: "40%",
-                    border: "none",
-                    zIndex: "9",
-                  }}
+
                 >
                   <Map
                     map_id={dataFilter?.map_id}
@@ -211,19 +203,7 @@ function EvolucionHuella() {
                     center={dataFilter?.center}
                   />
                   <button
-                    className="boton-modal-responsive"
-                    style={{
-                      position: "absolute",
-                      top: "0",
-                      right: "0",
-                      backgroundColor: "#91583b",
-                      border: "none",
-                      color: "#fff",
-                      width: "10vw",
-                      height: "5vh",
-                      padding: "10px",
-                      fontSize: "14px",
-                    }}
+                    className="boton-modal-huella"
                     onClick={() => {
                       setOpen(false);
                       setOpacity(false);
@@ -237,28 +217,23 @@ function EvolucionHuella() {
                 </dialog>
               )}
 
-              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold" }} className="text-responsive">
+              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold", padding:"1rem" }}>
                 {dataFilter?.titulo}
               </h4>
-              <i style={{ color: "#762f0b" }} className="text-responsive">
+              <i style={{ color: "#762f0b", padding:"1rem" }} >
                 Haga clic en la imagen del plano escaneado del año {year} para
                 poder ver el plano digitalizado por la Sociedad de Mejoras y
                 Ornato de Bogotá.
               </i>
               <img
-                className="img-responsive"
+                className="plano-escaneado"
                 alt="Plano escaneado"
                 onClick={() => {
                   setOpacity(true);
                   setOpen(!open);
                 }}
                 src={dataFilter?.img_url}
-                style={{
-                  width: "40vw",
-                  height: "50vh",
-                  margin: "1vh 1vw",
-                  cursor: "pointer",
-                }}
+
               ></img>
             </div>
           }
@@ -312,17 +287,8 @@ function EvolucionHuella() {
           >
             {open && (
               <dialog
-                className="modal-responsive"
+                className="modal-huella"
                 open
-                style={{
-                  width: "80vw",
-                  height: "600px",
-                  position: "absolute",
-                  left: "10%",
-                  top: "40%",
-                  border: "none",
-                  zIndex: "9",
-                }}
               >
                 <Map
                   map_id={dataFilter?.map_id}
@@ -331,19 +297,8 @@ function EvolucionHuella() {
                   center={dataFilter?.center}
                 />
                 <button
-                  className="boton-modal-responsive"
-                  style={{
-                    position: "absolute",
-                    top: "0",
-                    right: "0",
-                    backgroundColor: "#91583b",
-                    border: "none",
-                    color: "#fff",
-                    width: "10vw",
-                    height: "5vh",
-                    padding: "10px",
-                    fontSize: "14px",
-                  }}
+                  className="boton-modal-huella"
+
                   onClick={() => {
                     setOpen(false);
                     setOpacity(false);
@@ -357,10 +312,10 @@ function EvolucionHuella() {
               </dialog>
             )}
 
-            <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold" }} className="text-responsive">
+            <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold",padding:"1rem"  }} className="text-responsive">
               {dataFilter?.titulo}
             </h4>
-            <i style={{ color: "#762f0b" }} className="text-responsive">
+            <i style={{ color: "#762f0b", padding:"1rem" }} className="text-responsive">
               Haga clic en la imagen del plano escaneado del año {year} para
               poder ver el plano digitalizado por la Sociedad de Mejoras y
               Ornato de Bogotá.
@@ -369,7 +324,7 @@ function EvolucionHuella() {
               <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                 <SwiperSlide>
                   <img
-                    className="img-responsive"
+                    className="img-huella-swipe"
                     onClick={() => {
                       setOpacity(true);
                       setOpen(!open);
@@ -387,7 +342,7 @@ function EvolucionHuella() {
                 <SwiperSlide>
                   <img
                     alt="plano escaneado"
-                    className="img-responsive"
+                    className="img-huella-swipe "
                     onClick={() => {
                       setOpacity(true);
                       setOpen(!open);

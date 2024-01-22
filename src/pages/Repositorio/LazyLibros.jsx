@@ -128,7 +128,7 @@ const LazyLibros = () => {
               </button>
             );
           })}
-          <hr />
+
         </div>
       </div>
 
@@ -161,7 +161,6 @@ const LazyLibros = () => {
                   <div className={`filtro-p ${selectedPresentacion === "Componente Bienestar" ? "filtro-p-select" : ""}`} onClick={() => {
                     setSelectedPresentacion("Componente Bienestar")
                   }}>Componente Bienestar</div></div>
-                <hr />
               </div>
             </div>}
 
@@ -179,7 +178,6 @@ const LazyLibros = () => {
                     setSelectedPresentacion2("Estructura socioeconómica")
                   }}>Estructura socioeconómica</div>
                   </div>
-                <hr />
               </div>
             </div>}
             

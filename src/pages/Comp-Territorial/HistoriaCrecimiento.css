@@ -13,3 +13,58 @@
     opacity: 1;
     position: fixed;
 }
+.plano-escaneado{
+    width: 40vw;
+    height: 50vh;
+    margin: 1vh 1vw;
+    cursor: pointer;
+}
+.modal-huella{
+  width: 80vw;
+  height: 600px;
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  border: none;
+  z-index: "9";
+}
+.boton-modal-huella{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #91583b;
+  border: none;
+  color: #fff;
+  width: 10vw;
+  height: 5vh;
+  padding: 10px;
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  .plano-escaneado{
+  width: 100vw !important;
+  }
+  .menu-huella-responsive{
+    margin-top: 5vh;
+    padding: 1vw !important;
+  }
+  .menu-huella-responsive > li {
+    font-size: 1.5vw;
+  }
+  .img-huella-swipe{
+    width: 70vw !important;
+  }
+  .swiper{
+    width: 100vw;
+  }
+  .modal-huella{
+    height: 40%;
+    width: 100vw;
+    left: 0;
+  }
+  .boton-modal-huella{
+    width: 25vw;
+    font-size: 2vw;
+  }
+}
+
