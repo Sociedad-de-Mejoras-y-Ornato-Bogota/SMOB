@@ -19,7 +19,7 @@
 
 
 .panels {
-    width: 25vw;
+    width: 16.6vw;
     height: 100%;
 }
 
@@ -34,7 +34,7 @@
 
 .panel-title {
     position: absolute;
-    margin-top: 20vw;
+    margin-top: 27vw;
     margin-left: 30px;
     font-size: 2.2vw;
     font-weight: bolder;
@@ -51,7 +51,7 @@
 
 .panel-boton {
     position: absolute;
-    margin-top: 35vw;
+    margin-top: 38vw;
     margin-left: 30px;
 }
 
@@ -67,17 +67,11 @@
     border-color:white ;
 }
 
-.last .panel-info {
-    position: absolute;
-    margin-top: 31vw;
-    margin-left: 30px;
-    color: white;
-}
 
 .panel-info {
     position: absolute;
-    margin-top: 31.4vw;
-    margin-left: 30px;
+    margin-top: 34.5vw;
+    margin-left: 20px;
     font-size: var(--font-size-2);
     font-family: var(--font-principal);
     color: white;
@@ -89,23 +83,32 @@
 }
 
 #panel1-frontal {
-    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-1.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-14.png");
     background-size: cover;
 
 }
 
 #panel2-frontal {
-    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-2.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-15.png");
     background-size: cover;
 }
 
 #panel3-frontal {
-    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-3.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-16.png");
     background-size: cover;
 }
 
 #panel4-frontal {
-    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-4.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-17.png");
+    background-size: cover;
+}
+#panel5-frontal {
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-18.png");
+    background-size: cover;
+}
+
+#panel6-frontal {
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-19.png");
     background-size: cover;
 }
 
@@ -114,14 +117,14 @@
 
     .panels-container {
         width: 100%;
-        height: 100vh;
+        height: 120vh;
         display: flex;
         flex-wrap: wrap;
     }
 
     .panels {
         width: 50%;
-        height: 50vh;
+        height: 40vh;
     }
 
     .panels-civilidad {
@@ -129,14 +132,15 @@
     }
 
     .panel-title {
-        margin-top: 13vh;
+        margin-top: 23vh;
         margin-left: 3vw;
         font-size: 4vw
     }
 
     .panel-boton {
-        margin-top: 35vh;
-        margin-left: 3vw;
+        display: none;
+        /* margin-top: 35vh; */
+        /* margin-left: 3vw; */
     }
 
     .panel-boton button {
@@ -145,7 +149,7 @@
 
     .panel-info,
     .last .panel-info {
-        margin-top: 25vh;
+        margin-top: 30vh;
         margin-left: 3vw;
         font-size: 2vw;
     }
@@ -153,22 +157,31 @@
 
 @media only screen and (max-width: 645px) {
     #panel1-frontal {
-        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-1.jpg");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-19.png");
         background-size: cover;
     }
 
     #panel2-frontal {
-        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-2.jpg");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-20.png");
         background-size: cover;
     }
 
     #panel3-frontal {
-        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-3.jpg");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-21.png");
         background-size: cover;
     }
 
     #panel4-frontal {
-        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/panel-r-4.jpg");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-22.png");
+        background-size: cover;
+    }
+    #panel5-frontal {
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-23.png");
+        background-size: cover;
+    }
+
+    #panel6-frontal {
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-24.png");
         background-size: cover;
     }
 }

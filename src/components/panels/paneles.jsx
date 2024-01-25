@@ -11,10 +11,10 @@ const Panels = () => {
                 <Link to="/marco institucional">
                     <div className="panels-face">
                         <p className='panel-title'>
-                            Marco  <span >Institucional</span>
+                            Complejidad<span >y Civilidad</span>
                         </p>
                         <p className="panel-info">
-                            CIUDADANÍA Y CIVILIDAD
+                            EL CIUDADANO
                         </p>
                         <p className="panel-boton">
                             <button className="btn-cards">Explorar</button>
@@ -27,10 +27,10 @@ const Panels = () => {
                 <Link to="/Componente poblacional">
                     <div className="panels-face">
                         <p className='panel-title'>
-                            Componente <span>Poblacional</span>
+                            Marco <span>Institucional</span>
                         </p>
                         <p className="panel-info">
-                            CONFLICTOS Y CIVILIDAD
+                            CIUDADANÍA Y CIVILIDAD
                         </p>
                         <p className="panel-boton">
                             <button className="btn-cards">Explorar</button>
@@ -43,10 +43,10 @@ const Panels = () => {
                 <Link to="/Componente territorial">
                     <div className="panels-face">
                         <p className='panel-title'>
-                            Componente <span>Territorial</span>
+                            Componente <span>Poblacional</span>
                         </p>
                         <p className="panel-info">
-                            CLASIFICACIÓN DEL TERRITORIO
+                            CONFLICTO Y CIVILIDAD
                         </p>
                         <p className="panel-boton">
                             <button className="btn-cards">Explorar</button>
@@ -55,7 +55,23 @@ const Panels = () => {
                     </div>
                 </Link>
             </div>
-            <div className="panels last">
+            <div className="panels">
+                <Link to="/componente bienestar">
+                    <div className="panels-face">
+                        <p className='panel-title'>
+                            Componente <span>Territorial</span>
+                        </p>
+                        <p className="panel-info">
+                           CLASIFICACIÓN  <br /> DEL TERRITORIO
+                        </p>
+                        <p className="panel-boton">
+                            <button className="btn-cards">Explorar</button>
+                        </p>
+                        <div className='image-panel' id='panel4-frontal' />
+                    </div>
+                </Link>
+            </div>
+            <div className="panels">
                 <Link to="/componente bienestar">
                     <div className="panels-face">
                         <p className='panel-title'>
@@ -67,7 +83,23 @@ const Panels = () => {
                         <p className="panel-boton">
                             <button className="btn-cards">Explorar</button>
                         </p>
-                        <div className='image-panel' id='panel4-frontal' />
+                        <div className='image-panel' id='panel5-frontal' />
+                    </div>
+                </Link>
+            </div>
+            <div className="panels">
+                <Link to="/componente bienestar">
+                    <div className="panels-face">
+                        <p className='panel-title'>
+                          Modelos<span>de ciudad</span>
+                        </p>
+                        <p className="panel-info">
+                            EL CAMBIO
+                        </p>
+                        <p className="panel-boton">
+                            <button className="btn-cards">Explorar</button>
+                        </p>
+                        <div className='image-panel' id='panel6-frontal' />
                     </div>
                 </Link>
             </div>
