@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import NavbarResponsive from '../components/navbar/navbarResponsive';
+import NvRes from '../components/navbar/NvRes';
 import NavbarS from '../components/navbar/Navbar';
 import Footer from '../components/footer/footer';
 import './layout.css'
@@ -42,7 +43,7 @@ function Layout({ children }) {
   return (
     <div className='layout' style={{ display: "flex", flexDirection: "column", width: "100%" }}>
 
-      {windowWidth < 800 ? <NavbarResponsive /> : <NavbarS/>}
+      {windowWidth < 800 ? <NvRes /> : <NavbarS/>}
       {/*<Breadcrumbs /> */}
       {/* {(firstSegment === '/Componente poblacional' && windowWidth > 1100) && <Menu />}
       {(firstSegment === '/marco institucional' && windowWidth > 1100) && <MenuGeneral />}
