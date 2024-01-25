@@ -6,7 +6,7 @@ import './Navbar.css';
 const NavbarS = () => {
     return (
         <>
-            <header id='header'>
+            <header id='header1'>
                 <div className='header-img' >
                     <Link to="/">
                         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="Logo plataforma Construyendo Civilidad" style={{ width: '3.3rem' }} />
