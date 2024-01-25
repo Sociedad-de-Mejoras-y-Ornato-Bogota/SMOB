@@ -204,6 +204,10 @@ export const archivo = [
                             {
                                 title: "Equipamientos",
                                 ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos/Equipamentos",
+                            },
+                            {
+                                title: "Salud en Bogotá",
+                                ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos/Salud en Bogotá",
                             }, {
                                 title: "Historia de las Iglesias",
                                 ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos/Iglesias",

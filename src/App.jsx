@@ -90,6 +90,7 @@ import BogotaRepublicana from './pages/ModelosUrbanos/BogotaRepublicana'
 import Noticias from './pages/Noticias/Noticias';
 import Libros from './pages/Repositorio/Libros';
 import SistemaEquipamientos from './pages/Comp-Bienestar/Estructura/SistemaEquipamientos';
+import SaludBogota from './pages/Comp-Bienestar/Estructura/SaludBogota';
 
 
 
@@ -168,6 +169,7 @@ const App = () => {
           <Route path="componente bienestar/Estructura urbana" Component={EstructuraUrb} />
           <Route path="componente bienestar/Estructura urbana/Sistema de equipamientos" Component={SistemaEquipamientos} />
           <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Equipamentos" Component={Equipamientos} />
+          <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Salud en Bogotá" Component={SaludBogota} />
           <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Iglesias" Component={Iglesias} />
           <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)" Component={SisUrbanos} />
           <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios" Component={HistoriaBarrios} />
