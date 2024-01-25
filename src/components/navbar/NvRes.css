@@ -1,0 +1,168 @@
+.navbar {
+    position: fixed;
+    height: 10vh;
+    right: 0; /* Ajusta el espacio a la derecha según sea necesario */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; /* Alinea el contenido al final del contenedor */
+    z-index: 1000;
+  }
+  .navbarToggleContainer {
+    position: sticky;
+    top: 0;
+    z-index: 1500;
+    
+  }
+  
+  .navbarToggleWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  .navbarToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #5e2609;
+    font-size: 30px;
+    
+  }
+  
+  .navbar.scrolled .navbarToggleContainer {
+    top: 1rem;
+  }
+  
+  .navbarMenuContainer {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #e3d6c9;
+    width: 100vw;
+    height: 100vh;
+    text-decoration: none;
+  }
+
+  .submenuContainer {
+  position: relative;
+}
+  
+  /* Resto de estilos... */
+  
+  
+  .navbar.scrolled .navbarToggleContainer {
+    top: 1rem;
+  }
+  .navbarMenuContainer {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f4f1ee;
+    width: 100vw;
+    height: 100vh;
+    text-decoration: none;
+  }
+  
+  .open {
+    display: block;
+    
+  }
+  
+  .navbarMenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: calc(100vh - 10vh); /* Altura máxima (100% del altura de la ventana menos la altura del encabezado) */
+  overflow-y: auto;
+  }
+  
+  .navbarItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+    max-height: calc(100vh - 10vh); /* Altura máxima (100% del altura de la ventana menos la altura del encabezado) */
+  overflow-y: auto;
+  }
+  
+  .unique {
+    position: absolute;
+    top: 10%; /* Coloca el contenedor debajo del elemento padre */
+    left: 0;
+    width: 100vw;
+  }
+  .submenu {
+    position: relative;
+    background-color: #f4f1ee;
+    width: 100%;
+    padding: 10px;
+    list-style: none;
+    
+  }
+  
+  .navbarItem.expanded .submenu {
+    display: block; /* Muestra el submenú cuando el elemento principal está expandido */
+    transform: translateY(0);
+    
+  }
+  
+  .submenuItem {
+    margin-bottom: 5px;
+    
+  }
+  
+  .submenuContainer {
+    position: relative;
+  }
+  #header.scrolled {
+    height: 10vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+
+  }
+  
+  .header-title h1 {
+    margin: 0;
+    font-size: 3.2rem;
+    color: #333;
+  }
+  
+
+
+  
+  .header-title h1 {
+    color: #333; /* Ajusta el color del texto en el encabezado desplazado */
+  }
+
+  #header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 60%;
+    font-family: var(--font-headers);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 10vh;
+  }
+  
+  .expandIcon,
+.collapseIcon {
+  color: #5e2609;
+  cursor: pointer;
+  font-size: 16px; /* Ajusta el tamaño del icono según tus preferencias */
+}
+  /* Resto de estilos... */
+  
