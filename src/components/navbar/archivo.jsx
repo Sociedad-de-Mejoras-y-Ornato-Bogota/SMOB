@@ -182,79 +182,88 @@ export const archivo = [
                     ],
                 },
                 {
-                    title: "Sistema de espacio público y equipamientos",
-                    ruta: "/componente bienestar/infraestructura/Sistema de espacio público y equipamientos",
+                    title: "Sistema de espacio público",
+                    ruta: "/componente bienestar/infraestructura/Sistema de espacio público",
                     submenu: [
                         {
                             title: "Parques, plazas, plazoletas y monumentos",
                             ruta: "/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Plazas",
-                        }, {
-                            title: "Equipamientos",
-                            ruta: "/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Equipamentos",
-                        }, {
-                            title: "Historia de las Iglesias",
-                            ruta: "/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Iglesias",
-                        },
+                        }
                     ],
                 },
                 ],
             }, {
                 title: "Estructura urbana",
                 ruta: "/componente bienestar/Estructura urbana",
-                submenu: [{
-                    title: "Sistemas urbanos (subdivisón y lotificación)",
-                    ruta: "/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)",
-                    submenu: [{
-                        title: "Historia de barrios",
-                        ruta: "/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios",
-                    }, {
-                        title: "Condiciones de habitabilidad UPZ",
-                        ruta: "/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ",
-                    }
-                    ],
-                }, {
-                    title: "Vivienda, comercio e industria",
-                    ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria",
-                    submenu: [
-                        {
-                            title: "Historia de la vivienda",
-                            ruta: "/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda",
-                            submenu: [{
-                                title: "Vivienda informal",
-                                ruta:"/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal"
-                            },
+                submenu: [
+
+                    {
+                        title: "Sistema de equipamientos",
+                        ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos",
+                        submenu: [
                             {
-                                title: "Vivienda obrera",
-                                ruta:"/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal"
-                            }]
+                                title: "Equipamientos",
+                                ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos/Equipamentos",
+                            }, {
+                                title: "Historia de las Iglesias",
+                                ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos/Iglesias",
+                            },
+                        ]
+                    },
+                    {
+                        title: "Sistemas urbanos (subdivisón y lotificación)",
+                        ruta: "/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)",
+                        submenu: [{
+                            title: "Historia de barrios",
+                            ruta: "/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios",
                         }, {
-                            title: "Desarrollos urbanísticos",
-                            ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos ",
-                            submenu: [{
-                                title: "Barrios generales",
-                                ruta:"/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Barrios generales"
-                            },
+                            title: "Condiciones de habitabilidad UPZ",
+                            ruta: "/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ",
+                        }
+                        ],
+                    }, {
+                        title: "Vivienda, comercio e industria",
+                        ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria",
+                        submenu: [
                             {
-                                title: "Estudio de caso de barrios",
-                                ruta:"/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Estudio de caso de barrios"
-                            }]
-                        },
-                    ],
-                }, {
-                    title: "Tratamientos y normas urbanísticas",
-                    ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas",
-                    submenu: [{
-                        title: "Conservación",
-                        ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación",
+                                title: "Historia de la vivienda",
+                                ruta: "/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda",
+                                submenu: [{
+                                    title: "Vivienda informal",
+                                    ruta: "/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal"
+                                },
+                                {
+                                    title: "Vivienda obrera",
+                                    ruta: "/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal"
+                                }]
+                            }, {
+                                title: "Desarrollos urbanísticos",
+                                ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos ",
+                                submenu: [{
+                                    title: "Barrios generales",
+                                    ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Barrios generales"
+                                },
+                                {
+                                    title: "Estudio de caso de barrios",
+                                    ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Estudio de caso de barrios"
+                                }]
+                            },
+                        ],
                     }, {
-                        title: "Renovación",
-                        ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación ",
-                    }, {
-                        title: "Desarrollo",
-                        ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo ",
-                    }
-                    ],
-                },
+                        title: "Tratamientos y normas urbanísticas",
+                        ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas",
+                        submenu: [{
+                            title: "Conservación",
+                            ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación",
+                        }, {
+                            title: "Renovación",
+                            ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación ",
+                        }, {
+                            title: "Desarrollo",
+                            ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo ",
+                        }
+                        ],
+                    },
                 ],
             }, {
                 title: "Instrumentos",

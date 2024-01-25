@@ -89,6 +89,7 @@ import BogotaRepublicana from './pages/ModelosUrbanos/BogotaRepublicana'
 
 import Noticias from './pages/Noticias/Noticias';
 import Libros from './pages/Repositorio/Libros';
+import SistemaEquipamientos from './pages/Comp-Bienestar/Estructura/SistemaEquipamientos';
 
 
 
@@ -161,30 +162,31 @@ const App = () => {
           <Route path="componente bienestar/infraestructura/Sistema de servicios públicos/Gas" Component={SGas} />
           <Route path="componente bienestar/infraestructura/Sistema de servicios públicos/Telecomunicaciones" Component={Telecomunicaciones} />
           <Route path="componente bienestar/infraestructura/Sistema de servicios públicos/Basuras" Component={Basuras} />
-          <Route path="componente bienestar/infraestructura/Sistema de espacio público y equipamientos" Component={SistemaEP} />
-          <Route path="componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Equipamentos" Component={Equipamientos} />
-          <Route path="componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Iglesias" Component={Iglesias} />
+          <Route path="componente bienestar/infraestructura/Sistema de espacio público" Component={SistemaEP} />
           <Route path="componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Plazas" Component={Pppym} />
 
-          <Route path="componente bienestar/Estructura urbana" Component={EstructuraUrb}/> 
-          <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)" Component={SisUrbanos}/>
-          <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios" Component={HistoriaBarrios}/>
-          <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ" Component={CondicionesHab}/>
-          <Route path="componente bienestar/Estructura urbana/Vivienda, comercio e industria" Component={Vivienda}/>
-          <Route path="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Informal}/>
-          <Route path="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Obrera}/>
-          <Route path="componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos" Component={DesarrolloUrb}/>
-          <Route path="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Estudio de caso de barrios" Component={Estudios}/>
-          <Route path="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Barrios generales" Component={Barrios}/>
-          <Route path="componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda" Component={LineaTiempo}/>
-          <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas" Component={Tratamientos}/>
-          <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación" Component={TraConservacion}/>
-          <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación" Component={TraRenovacion}/>
-          <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo" Component={TraDesarrollo}/>
-          <Route path="componente bienestar/instrumentos" Component={Instrumentos}/>
-          <Route path="componente bienestar/instrumentos/Planificación" Component={Planificacion}/>
-          <Route path="componente bienestar/instrumentos/Gestión" Component={Gestion}/>
-          <Route path="componente bienestar/instrumentos/Financiación" Component={Financiacion}/>
+          <Route path="componente bienestar/Estructura urbana" Component={EstructuraUrb} />
+          <Route path="componente bienestar/Estructura urbana/Sistema de equipamientos" Component={SistemaEquipamientos} />
+          <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Equipamentos" Component={Equipamientos} />
+          <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Iglesias" Component={Iglesias} />
+          <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)" Component={SisUrbanos} />
+          <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios" Component={HistoriaBarrios} />
+          <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ" Component={CondicionesHab} />
+          <Route path="componente bienestar/Estructura urbana/Vivienda, comercio e industria" Component={Vivienda} />
+          <Route path="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Informal} />
+          <Route path="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Obrera} />
+          <Route path="componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos" Component={DesarrolloUrb} />
+          <Route path="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Estudio de caso de barrios" Component={Estudios} />
+          <Route path="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Barrios generales" Component={Barrios} />
+          <Route path="componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda" Component={LineaTiempo} />
+          <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas" Component={Tratamientos} />
+          <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación" Component={TraConservacion} />
+          <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación" Component={TraRenovacion} />
+          <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo" Component={TraDesarrollo} />
+          <Route path="componente bienestar/instrumentos" Component={Instrumentos} />
+          <Route path="componente bienestar/instrumentos/Planificación" Component={Planificacion} />
+          <Route path="componente bienestar/instrumentos/Gestión" Component={Gestion} />
+          <Route path="componente bienestar/instrumentos/Financiación" Component={Financiacion} />
 
 
           {/* Rutas Componente modelos urbanos */}
@@ -198,7 +200,7 @@ const App = () => {
           {/* Rutas Componente biblioteca */}
 
           <Route path="Repositorio/Libros" Component={Libros} />
- 
+
 
         </Routes>
       </Layout>
