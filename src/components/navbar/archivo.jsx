@@ -297,6 +297,9 @@ export const archivo = [
             }, {
                 title: "Bogotá: Ciudad Republicana",
                 ruta: "/Modelos Urbanos/Bogotá Republicana",
+            },{
+               title:"Bogota: Ciudad futura", 
+               ruta:"Modelos Urbanos/Bogotá futura" 
             }
         ],
     }, {
