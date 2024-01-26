@@ -8,7 +8,7 @@ const Panels = () => {
             </Link>
 
             <div className="panels">
-                <Link to="/marco institucional">
+                <Link to="/construyendo civilidad">
                     <div className="panels-face">
                         <p className='panel-title'>
                             Complejidad<span >y Civilidad</span>
@@ -24,7 +24,7 @@ const Panels = () => {
                 </Link>
             </div>
             <div className="panels">
-                <Link to="/Componente poblacional">
+                <Link to="/marco institucional">
                     <div className="panels-face">
                         <p className='panel-title'>
                             Marco <span>Institucional</span>
@@ -40,7 +40,7 @@ const Panels = () => {
                 </Link>
             </div>
             <div className="panels">
-                <Link to="/Componente territorial">
+                <Link to="/Componente poblacional">
                     <div className="panels-face">
                         <p className='panel-title'>
                             Componente <span>Poblacional</span>
@@ -56,7 +56,7 @@ const Panels = () => {
                 </Link>
             </div>
             <div className="panels">
-                <Link to="/componente bienestar">
+                <Link to="/componente territorial">
                     <div className="panels-face">
                         <p className='panel-title'>
                             Componente <span>Territorial</span>
@@ -88,7 +88,7 @@ const Panels = () => {
                 </Link>
             </div>
             <div className="panels">
-                <Link to="/componente bienestar">
+                <Link to="/Modelos Urbanos">
                     <div className="panels-face">
                         <p className='panel-title'>
                           Modelos<span>de ciudad</span>
