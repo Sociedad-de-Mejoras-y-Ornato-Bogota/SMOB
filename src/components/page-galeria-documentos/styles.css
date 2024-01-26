@@ -1,4 +1,6 @@
 @import url("../../assets/styles/fonts.css");
+@import url("../../assets/styles/colors.css");
+
 .page_galery_docs {
     width: 100%;
     min-height: 5vh;
@@ -12,12 +14,22 @@
 .title_section_galery {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.title_section_galery h2 {
+    text-align: center;
+    color: var(--clr-primary);
+    font-size: var(--font-size-1);
+    font-weight: bold;
+    padding: 1rem;
 }
 
 .content_galery {
     min-height: 50vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2%;
 }
 
@@ -36,18 +48,35 @@
 }
 
 .title_galery_content {
- font-family: var(--font-principal);
- font-size: 1vw;
- padding: 1rem;
+    font-family: var(--font-principal);
+    font-size: 1vw;
+    padding: 1rem;
     text-align: center;
     color: #762f0b;
 }
 
+.button-selected {
+    background-color: #762f0b;
+    color: rgb(255 255 255) !important;
+}
+
 @media only screen and (max-width: 768px) {
-    .content_galery article{
+    .menu_galery {
+        display: flex;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    .menu_galery button {
+        width: 90vw;
+        height: 40vw;
+    }
+
+    .content_galery article {
         width: 100vw;
         height: 50vh;
     }
+
     .title_galery_content {
         font-size: var(--font-size-5);
     }
