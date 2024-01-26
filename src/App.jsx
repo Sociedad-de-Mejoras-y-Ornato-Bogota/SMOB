@@ -91,6 +91,7 @@ import Noticias from './pages/Noticias/Noticias';
 import Libros from './pages/Repositorio/Libros';
 import SistemaEquipamientos from './pages/Comp-Bienestar/Estructura/SistemaEquipamientos';
 import SaludBogota from './pages/Comp-Bienestar/Estructura/SaludBogota';
+import BogotaFutura from './pages/ModelosUrbanos/BogotaFutura';
 
 
 
@@ -195,6 +196,7 @@ const App = () => {
           <Route path="Modelos Urbanos" Component={Modelos} />
           <Route path="Modelos Urbanos/Bogotá Colonial" Component={BogotaColonial} />
           <Route path="Modelos Urbanos/Bogotá Republicana" Component={BogotaRepublicana} />
+          <Route path="Modelos Urbanos/Bogotá Futura" Component={BogotaFutura}/>
 
           {/* Rutas Componente noticias */}
           <Route path="noticias" Component={Noticias} />
