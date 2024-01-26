@@ -8,7 +8,7 @@ const Panels = () => {
             </Link>
 
             <div className="panels">
-                <Link to="/construyendo civilidad">
+                <Link to="/construyendo civilidad/Cuidad y cuidadanía/Civilidad y complejidad">
                     <div className="panels-face">
                         <p className='panel-title'>
                             Complejidad<span >y Civilidad</span>
