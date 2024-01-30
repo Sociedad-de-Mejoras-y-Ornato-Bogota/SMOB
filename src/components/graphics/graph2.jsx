@@ -718,7 +718,7 @@ const Graph2 = () => {
                 <h3 className="h3-c">679 ha</h3>
                 <h3 className="h3-c">Pobl. 98.848</h3>
                 <div className="div-graph-button">
-                  <button className="cu">
+                  {/* <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
                       alt="Icono"
@@ -726,7 +726,7 @@ const Graph2 = () => {
                       height="20"
                       onClick={handleDivClick}
                     />
-                  </button>
+                  </button> */}
                   <button className="cu2">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png"
