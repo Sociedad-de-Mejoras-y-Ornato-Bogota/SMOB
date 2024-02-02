@@ -21,11 +21,16 @@
 .panels {
     width: 16.6vw;
     height: 100%;
+    margin: 0; /* Asegúrate de que no haya márgenes */
+    padding: 0; /* Asegúrate de que no haya relleno */
 }
 
 .panels-face {
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegúrate de que el modelo de caja sea border-box */
 }
 
 .image-panel {

@@ -121,6 +121,13 @@ const NvRes = () => {
     };
   }, []);
 
+  useEffect(() => {
+    // Resetear los submenús cuando el menú principal se cierra
+    if (!menuAbierto) {
+      setExpandedSubmenus({});
+    }
+  }, [menuAbierto]);
+
   const toggleMenu = () => {
     setMenuAbierto(!menuAbierto);
   };
@@ -184,10 +191,7 @@ const NvRes = () => {
       <header id='header' className={scrolled ? 'scrolled' : ''}>
         <div className='header-img'>
           <Link to="/">
-            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="Logo plataforma Construyendo Civilidad" className="logo" style={{ width: '30%', height: '30%' }}/>
-          </Link>
-          <Link to="construyendo-civilidad/La-responsabilidad-social-de-la-Sociedad-de-Mejoras-y-Ornato-de-Bogota">
-            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="Logo Sociedad de Mejoras y Ornato de Bogotá" className="logo" style={{ width: '30%', height: '30%' }}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.png" alt="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.pngLogo plataforma Construyendo Civilidad" className="logo" style={{ width: '180%', height: '130%' }}/>
           </Link>
         </div>
         <div className={`navbarToggleContainer ${scrolled ? 'scrolled' : ''}`}>
