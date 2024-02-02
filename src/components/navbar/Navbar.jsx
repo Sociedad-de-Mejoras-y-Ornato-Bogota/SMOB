@@ -9,10 +9,7 @@ const NavbarS = () => {
             <header id='header1'>
                 <div className='header-img' >
                     <Link to="/">
-                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png" alt="Logo plataforma Construyendo Civilidad" style={{ width: '3.3rem' }} />
-                    </Link>
-                    <Link to="construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
-                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png" alt="Logo Sociedad de Mejoras y Ornato de Bogotá" style={{ width: '3.3rem' }} />
+                        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.png" style={{ width: '18rem' }} />
                     </Link>
 
                 </div>
