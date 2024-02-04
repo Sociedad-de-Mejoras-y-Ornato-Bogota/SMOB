@@ -10,12 +10,17 @@
   gap: 1rem;
   font-family: var(--font-headers);
 }
+.header-img{
+  position: absolute;
+  left: 20px;
+}
 
 .header-title{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+  margin-left: 7%;
 }
 .header-title H1{
   margin: 0;

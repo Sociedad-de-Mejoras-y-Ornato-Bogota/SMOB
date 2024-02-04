@@ -14,7 +14,7 @@ const NavbarS = () => {
 
                 </div>
                 <div className='header-title'>
-                    <h1>Construyendo Civilidad
+                    <h1 style={{fontFamily:'serif',fontWeight:'100', fontSize:'3em'}}>DATACIVILIDAD
                     </h1>
                 </div>
             </header>
