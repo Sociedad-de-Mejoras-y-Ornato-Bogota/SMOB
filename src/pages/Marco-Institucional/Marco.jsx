@@ -3,7 +3,7 @@ export default function Marco() {
 
     return (
         <>
-            <Page_principal url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente Marco Institucional/Componente general-01.png" name_component="Marco Institucional" description_component="El eje conceptual a lo largo del cual se desarrolla el Marco Institucional, es
+            <Page_principal url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/MarcoInstitucional/MARCO INSTITUCIONAL 900 PX GENERAL.png" name_component="Marco Institucional" description_component="El eje conceptual a lo largo del cual se desarrolla el Marco Institucional, es
 “Ciudadanía, Participación y Civilidad”. Elementos vitales de la relación entre
 Bogotá y su ciudadanía, como los Objetivos de Desarrollo Sostenible, la Nueva
 Agenda Urbana y el propio Plan Nacional de Desarrollo, son analizados y puestos

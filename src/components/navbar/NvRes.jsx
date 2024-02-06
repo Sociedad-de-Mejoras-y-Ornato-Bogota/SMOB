@@ -191,7 +191,7 @@ const NvRes = () => {
       <header id='header' className={scrolled ? 'scrolled' : ''}>
         <div className='header-img'>
           <Link to="/">
-            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.png" alt="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.pngLogo plataforma Construyendo Civilidad" className="logo" style={{ width: '180%', height: '130%' }}/>
+            <img src="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.png" alt="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.pngLogo plataforma Construyendo Civilidad" className="logo" style={{ width: '60%', height: '60%' }}/>
           </Link>
         </div>
         <div className={`navbarToggleContainer ${scrolled ? 'scrolled' : ''}`}>

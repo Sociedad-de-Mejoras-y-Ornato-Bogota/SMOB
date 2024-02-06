@@ -10,7 +10,7 @@ const SistemaS = () => {
                         etapa en el tiempo, la línea del tiempo permite ver cómo se va dibujando
                         literalmente la ciudad, como se va armando y expandiendo, en su esfuerzo por
                         dotar a los ciudadanos de energía eléctrica, agua potable, acueducto y
-                        alcantarillado, y sistemas de comunicaciones." url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente+Bienestar/3.1.2.+Sistemas+de+servicios+p%C3%BAblicos+ind-01.png"/>
+                        alcantarillado, y sistemas de comunicaciones." url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/Bienestar/3.1.2. Sistema de servios públicos - general.png"/>
         </>
     );
 };
