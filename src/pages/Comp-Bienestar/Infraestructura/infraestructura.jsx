@@ -4,7 +4,7 @@ const Infraestructura = () => {
         <>
             <Page_principal
                 name_component="Infraestructura" description_component=""
-                url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente+Bienestar/3.1.+Infraestructura-01.png" />
+                url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/Bienestar/3.1. Infraestructura  - general.png" />
         </>
     );
 };

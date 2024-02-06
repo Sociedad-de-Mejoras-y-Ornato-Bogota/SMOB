@@ -88,32 +88,32 @@
 }
 
 #panel1-frontal {
-    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-14.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesEscritorio/Diseño paneles ordenador V3 - DATA CIVILIDAD-30.png");
     background-size: cover;
 
 }
 
 #panel2-frontal {
-    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-15.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesEscritorio/Diseño paneles ordenador V3 - DATA CIVILIDAD-25.png");
     background-size: cover;
 }
 
 #panel3-frontal {
-    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-16.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesEscritorio/Diseño paneles ordenador V3 - DATA CIVILIDAD-26.png");
     background-size: cover;
 }
 
 #panel4-frontal {
-    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-17.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesEscritorio/Diseño paneles ordenador V3 - DATA CIVILIDAD-27.png");
     background-size: cover;
 }
 #panel5-frontal {
-    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-18.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesEscritorio/Diseño paneles ordenador V3 - DATA CIVILIDAD-29.png");
     background-size: cover;
 }
 
 #panel6-frontal {
-    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20inicio%20V3%20-%20DATA%20CIVILIDAD-19.png");
+    background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesEscritorio/Diseño paneles ordenador V3 - DATA CIVILIDAD-28.png");
     background-size: cover;
 }
 
@@ -162,31 +162,31 @@
 
 @media only screen and (max-width: 645px) {
     #panel1-frontal {
-        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-19.png");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesMovil/Diseño mobile  V3 - DATA CIVILIDAD-19.png");
         background-size: cover;
     }
 
     #panel2-frontal {
-        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-20.png");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesMovil/Diseño mobile  V3 - DATA CIVILIDAD-20.png");
         background-size: cover;
     }
 
     #panel3-frontal {
-        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-21.png");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesMovil/Diseño mobile  V3 - DATA CIVILIDAD-21.png");
         background-size: cover;
     }
 
     #panel4-frontal {
-        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-22.png");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesMovil/Diseño mobile  V3 - DATA CIVILIDAD-22.png");
         background-size: cover;
     }
     #panel5-frontal {
-        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-23.png");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesMovil/Diseño mobile  V3 - DATA CIVILIDAD-23.png");
         background-size: cover;
     }
 
     #panel6-frontal {
-        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/paneles/Dise%C3%B1o%20paneles%20de%20incio%20versi%C3%B3n%20mobile-24.png");
+        background-image: url("https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/PanelesMovil/Diseño mobile  V3 - DATA CIVILIDAD-24.png");
         background-size: cover;
     }
 }

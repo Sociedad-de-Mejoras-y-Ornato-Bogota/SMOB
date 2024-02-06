@@ -8,7 +8,7 @@ export default function AgendaYods() {
   const [infoPresentacion, setinfoPresentacion] = useState(false);
   return (
     <>
-    <Page_principal url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente%20Marco%20Institucional/0.1.%C2%A0ODS-01.png" name_component="Nueva agenda urbana y los Objetivos de Desarrollo Sostenible" description_component="Las herramientas de planificación de la ciudad y los propiosmecanismos de participación ciudadana, tal vez como nunca antes en la historia, están enfrentados a fuerzas poderosas -domésticas y mundiales-, que desatan dinámicas urbanas signadas por la incertidumbre y el sufrimiento humano. ¿Cómo entender y manejar la complejidad acuciante de la ciudad moderna, ante los objetivos inaplazables de desarrollo sostenible?"/>
+    <Page_principal url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/MarcoInstitucional/0.1. ODS, NUEVA AGENDA URBANA, PLAN NACIONAL DE DESARROLLO, IDENTIDAD Y MEMORIA COLECTIVA..png" name_component="Nueva agenda urbana y los Objetivos de Desarrollo Sostenible" description_component="Las herramientas de planificación de la ciudad y los propiosmecanismos de participación ciudadana, tal vez como nunca antes en la historia, están enfrentados a fuerzas poderosas -domésticas y mundiales-, que desatan dinámicas urbanas signadas por la incertidumbre y el sufrimiento humano. ¿Cómo entender y manejar la complejidad acuciante de la ciudad moderna, ante los objetivos inaplazables de desarrollo sostenible?"/>
 
         <div   className="ods-div">
           <div

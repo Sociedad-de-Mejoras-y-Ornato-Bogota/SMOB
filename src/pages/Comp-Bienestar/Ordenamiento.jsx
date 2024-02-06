@@ -21,7 +21,7 @@ export default function Bienestar() {
 
   return (
     <>
-      <Page_principal url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/circulos/Componente Bienestar/3. Componente Ordenamiento Territorial-01.png" name_component="Componente Bienestar" description_component="Los instrumentos de ordenamiento territorial que históricamente se han
+      <Page_principal url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/Bienestar/Componente Bienestar.png" name_component="Componente Bienestar" description_component="Los instrumentos de ordenamiento territorial que históricamente se han
 concebido, tienen el propósito de hacer de la Bogotá del presente una metrópolis
 moderna capaz de albergar a millones de colombianos. Es imprescindible que la
 ciudad les proporcione servicios públicos, salud, vivienda, movilidad y vías,

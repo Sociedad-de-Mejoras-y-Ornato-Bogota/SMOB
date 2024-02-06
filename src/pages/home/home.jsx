@@ -9,7 +9,7 @@ const Home = () => {
     <div className="Home" id="Home">
       <div className="home-main-background">
         <div className="home-main-title-overlay">
-          <p className="bienvenido"> Bienvenidos a la Plataforma<br></br><span>Construyendo Civilidad</span></p>
+          <p className="bienvenido"> Bienvenidos a<br></br><span>DATACIVILIDAD</span></p>
         </div>
         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/FondoJ.png" alt="marca de agua Construyendo Civilidad"></img>
       </div>
