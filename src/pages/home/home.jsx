@@ -18,24 +18,11 @@ const Home = () => {
           <p
             className="text-principal"
           >
-            La trayectoria de la organización cívica más antigua, la Sociedad de Mejoras y
-            Ornato de Bogotá, que está inmersa en la historia misma de la ciudad encuentra en
-            la memoria colectiva una fuerza poderosa capaz de tejer lazos profundos de respeto
-            y solidaridad, esencia de la civilidad, entendida como la relación armónica entre
-            ciudadanos.
+            La trayectoria de la organización cívica más antigua de la ciudad, la Sociedad de Mejoras y Ornato de Bogotá, se entreteje con la historia misma de la ciudad. La SMOB halla en la memoria colectiva la razón para crear lazos profundos de fraternidad y solidaridad en la ciudadanía, cuyo ademán ideal es la civilidad. Llevamos más de un siglo empeñados en fortalecer una ciudadanía responsable, participativa e incidente, en el ámbito de una ciudad compleja y en permanente cambio, de manera que prevalezca la civilidad como el camino a una vida plena, digna y sostenible.
             <br/> <br/>
-            Con el más profundo respeto por el pasado trabajamos para fortalecer una
-            ciudadanía responsable, participativa e incidente, en el entorno de una ciudad
-            compleja y en permanente cambio, donde prevalezca la civilidad como garante de
-            un hábitat digno, sostenible y satisfactorio. La Sociedad de Mejoras apelando a
-            novedosas tecnologías digitales ha diseñado esta plataforma interactiva, que
-            permite organizar información, objetiva, ordenada y contrastada.
-            En el marco de la lógica de los procesos del ordenamiento del territorio vistos desde
-            la óptica del pensamiento complejo se elaboró una metodología que permite
-            caracterizar la dinámica y los cambios en los Modelos Urbanos, constituidos por tres
-            componentes que interactúan entorno a un marco institucional, conformados por
-            grupos de estructuras, que a vez se subdividen en sistemas que orbitan entre sí en
-            un proceso continuo y cambiante, como se ilustra en el siguiente esquema.
+            En ese propósito, la SMOB se ha valido de novedosas tecnologías digitales para construir esta plataforma interactiva llamada Data Civilidad, que contiene información suficiente para conocer la historia de la ciudad y permite organizarla de manera objetiva y contrastada.
+            <br/><br/>
+            ¡Bienvenidos!
           </p>
         </div>
         <div
