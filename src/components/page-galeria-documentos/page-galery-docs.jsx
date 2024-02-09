@@ -35,7 +35,7 @@ const Page_galery_docs = (props) => {
                 {documents?.map((document, index) => {
                     if(selected == index){                    return (
                         <article key={index}>
-                            <iframe className="galery_content" src={document.url} ></iframe>
+                            <iframe className="galery_content" src={document.url} width={100} height={100}></iframe>
                             <span className="title_galery_content">{document.title}</span>
                         </article>
                     )}
