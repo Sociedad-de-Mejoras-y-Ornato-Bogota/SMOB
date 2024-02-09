@@ -660,7 +660,7 @@ const Graph2 = () => {
         />
       )}
       {showPopup3E && <Popup2 onClose={handleClosePopup3E} url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO%20185%20DE%201951-LE%20CORBUSIER.pdf" />}
-      {showPopup4E && <Popup2 onClose={handleClosePopup4E} url="" />}
+      {showPopup4E && <Popup2 onClose={handleClosePopup4E} url="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/Bienestar/DECRETO 159 DE 1974.pdf" />}
       {showPopup5E && (
         <Popup2
           onClose={handleClosePopup5E}

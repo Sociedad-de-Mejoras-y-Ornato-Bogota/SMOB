@@ -77,9 +77,6 @@ export const archivo = [
                     }, {
                         title: "Demografía: violencia y urbanización",
                         ruta: "/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización"
-                    }, {
-                        title: "¿Por qué tanta discordia?",
-                        ruta: "/Componente poblacional/Conflicto - civilidad/ ¿Por qué tanta discordia?"
                     }
                 ],
             }, {
@@ -90,7 +87,7 @@ export const archivo = [
                         title: "Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018",
                         ruta: "/Componente poblacional/demografía/Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018",
                     }, {
-                        title: "Series de población",
+                        title: "Series y proyecciones de población",
                         ruta: "/Componente poblacional/demografía/Series de población",
                     }, {
                         title: "Crecimiento de la población (1790-2035)",
@@ -113,10 +110,7 @@ export const archivo = [
                     }, {
                         title: "Índices demográficos",
                         ruta: "/Componente poblacional/Demografía/Indices demográficos",
-                    }, {
-                        title: "Proyecciones de población",
-                        ruta: "/Componente poblacional/Demografía/Proyecciones de población",
-                    },
+                    }
                 ],
             }, {
                 title: "Estructura socioespacial",
