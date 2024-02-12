@@ -639,6 +639,14 @@ const Graph = () => {
               <h3 className="h3-c">- Crecimiento: <strong className="str">0,22</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">0,66</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">-0,66</strong></h3>
+              <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick10} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick10E} />
+                </button>
+              </div>
               {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick10} />
