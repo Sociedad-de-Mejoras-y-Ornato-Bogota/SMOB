@@ -1,60 +1,45 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import NavbarResponsive from '../components/navbar/navbarResponsive';
+import NavbarPrincipal from '../components/navbar/NavBarPrincipal';
 import NvRes from '../components/navbar/NvRes';
 import NavbarS from '../components/navbar/Navbar';
 import Footer from '../components/footer/footer';
-import './layout.css'
-
-// import { useLocation } from 'react-router-dom';
-// import Breadcrumbs from '../components/breadcrumbs/Breadcrumbs';
-// import Menu from '../components/aside/aside-poblacional';
-// import MenuCivilidad from '../components/aside/aside-civilidad';
-// import MenuGeneral from '../components/aside/aside-general';
-// import MenuTerritorial from '../components/aside/aside-territorial';
-// import MenuOrdenamiento from '../components/aside/aside-ordenamiento';
-
-
-
-
-
-
+import './layout.css';
 
 function Layout({ children }) {
-
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [isPaginaPrincipal, setIsPaginaPrincipal] = useState(false);
 
-  // const location = useLocation();
-  // let url = decodeURI(location.pathname);
-  // let firstSegment = `/${url.split('/')[2]}`;
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
 
+    const handleRouteChange = () => {
+      setIsPaginaPrincipal(location.pathname === '/');
+    };
+
     window.addEventListener('resize', handleResize);
+    handleRouteChange(); // Verificación inicial para la ruta actual
 
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
-
+  }, [location]);
 
   return (
-    <div className='layout' style={{ display: "flex", flexDirection: "column", width: "100%" }}>
-
-      {windowWidth < 800 ? <NvRes /> : <NavbarS/>}
-      {/*<Breadcrumbs /> */}
-      {/* {(firstSegment === '/Componente poblacional' && windowWidth > 1100) && <Menu />}
-      {(firstSegment === '/marco institucional' && windowWidth > 1100) && <MenuGeneral />}
-      {(firstSegment == '/componente bienestar' && windowWidth > 1100) && <MenuOrdenamiento />}
-      {(firstSegment === '/construyendo civilidad' && windowWidth > 1100) && <MenuCivilidad />}
-      {(firstSegment == '/Componente territorial' && windowWidth > 1100) && <MenuTerritorial />} */}
-
-      <main style={{ minHeight: "calc((100vh/8)*6))" }} className='main-project'>{children}</main>
-
-      <Footer style={{ alignSelf: "flex-end" }} />
+    <div className='layout' style={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
+      {windowWidth < 800 ? <NvRes /> : (isPaginaPrincipal ? <NavbarPrincipal /> : <NavbarS />)}
+      <main style={{ minHeight: 'calc((100vh/8)*6))' }} className='main-project'>
+        {children}
+      </main>
+      <Footer style={{ alignSelf: 'flex-end' }} />
     </div>
-  )
+  );
 }
+
 export default Layout;

@@ -43,7 +43,7 @@ el tipo de preguntas que se busca responder en esta sección." />
 
       {windowWidth > 800 && (
         <div style={{ height: "auto" }} className="grafica-top">
-          <center style={{ color: "#762f0b", fontSize: "1.2vw", marginBottom: "-6vw", fontWeight: "bold" }}>
+          <center style={{ color: "#762f0b", fontSize: "1.2vw", marginTop:'5vh', marginBottom: "-6vw", fontWeight: "bold" }}>
             Población de Bogotá 1902 a 2025 con Planes de Desarrollo y de Ordenamiento
           </center>
           <Graph2 />
@@ -51,7 +51,7 @@ el tipo de preguntas que se busca responder en esta sección." />
       )}
       {windowWidth > 800 && (
         <div style={{ height: "auto" }} className="grafica-dowm">
-          <center style={{ color: "#762f0b", fontSize: "1.2vw", marginBottom: "-8vw", fontWeight: "bold" }}>
+          <center style={{ color: "#762f0b", fontSize: "1.2vw", marginBottom: "-13vh", fontWeight: "bold" }}>
             Tasas de crecimiento, vegetativa y migración de Bogotá 1923 a 2023 con Planes de Desarrollo y de  Ordenamiento
           </center>
           <Graph />

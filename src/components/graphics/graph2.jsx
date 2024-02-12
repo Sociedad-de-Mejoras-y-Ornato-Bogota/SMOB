@@ -12,15 +12,15 @@ import "reactjs-popup/dist/index.css";
 
 
 const Graph2 = () => {
-  const d1 = ((window.innerWidth / 10) * 8);
-  const d2 = ((window.innerHeight / 10) * 8);
+  const d1 = ((window.innerWidth / 10) * 9.2);
+  const d2 = ((window.innerHeight / 10) * 8.5);
   const [chartWidth, setChartWidth] = useState(d1); // Ancho inicial del gráfico
   const [chartHeight, setChartHeight] = useState(d2); // Alto inicial del gráfico
 
   useEffect(() => {
     const handleResize = () => {
-      setChartWidth((window.innerWidth / 10) * 8); // Ajustar el ancho según el tamaño de la ventana
-      setChartHeight((window.innerHeight / 10) * 8); // Ajustar el alto según el tamaño de la ventana
+      setChartWidth((window.innerWidth / 10) * 9.2); // Ajustar el ancho según el tamaño de la ventana
+      setChartHeight((window.innerHeight / 10) * 8.5); // Ajustar el alto según el tamaño de la ventana
     };
 
     window.addEventListener('resize', handleResize);
@@ -70,6 +70,7 @@ const Graph2 = () => {
     xAxis: {
       tickInterval: 5,
       tickPixelInterval: "1",
+      gridLineWidth: 0,
       categories: [
         "1900",
         "1901",
@@ -706,10 +707,10 @@ const Graph2 = () => {
       <div className="contentG">
         <div className="graphs">
           <div className="graphs-2">
-          <span style={{position:"absolute", zIndex:"9", fontSize:"0.8vw",width:"80%", textAlign:"center",color:"red", marginBottom:"-78vh"}}>*Los años marcados en color rojo corresponden a años censales</span>
+          <span style={{position:"absolute", zIndex:"9", fontSize:"0.8vw",width:"97%", textAlign:"center",color:"red", marginBottom:"-83vh"}}>*Los años marcados en color rojo corresponden a años censales</span>
             <div className="linea1G2"></div>
             <div className="cuadro1G2">
-              <p>
+              <p style={{width:'100%'}}>
                 <h1 className="h1-c">
                   {" "}
                   <strong>1902</strong>
@@ -731,8 +732,7 @@ const Graph2 = () => {
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png"
                       alt="Icono"
-                      width="20"
-                      height="20"
+                      className="tamañoimagen"
                       onClick={handleDivClickE}
                     />
                   </button>
@@ -741,7 +741,7 @@ const Graph2 = () => {
             </div>
             <div className="linea2G2"></div>
             <div className="cuadro2G2">
-              <p>
+              <p style={{width:'100%'}}>
                 <h1 className="h1-c">
                   {" "}
                   <strong>1925</strong>
@@ -754,8 +754,7 @@ const Graph2 = () => {
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
                       alt="Icono"
-                      width="20"
-                      height="20"
+                      className="tamañoimagen"
                       onClick={handleDivClick1}
                     />
                   </button>
@@ -763,8 +762,7 @@ const Graph2 = () => {
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png"
                       alt="Icono"
-                      width="20"
-                      height="20"
+                      className="tamañoimagen"
                       onClick={handleDivClick1E}
                     />
                   </button>
@@ -879,7 +877,9 @@ const Graph2 = () => {
                 <h1 className="h1-c">
                   <strong>1975</strong>
                 </h1>
-                <h3 className="h3-c">Plan de desarrollo urbano</h3>
+                <h3 className="h3-c">Plan de</h3>
+                <h3 className="h3-c">desarrollo</h3>
+                <h3 className="h3-c">urbano</h3>
                 <h3 className="h3-c">26.526 ha</h3>
                 <h3 className="h3-c">Pobl. 3.075.832</h3>
                 <div className="div-graph-button">

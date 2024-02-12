@@ -1,8 +1,9 @@
 @import url("../../assets/styles/fonts.css");
 .contentG{
-    height: auto;
+    height: 110vh;
     width: 98vw;
     display: block;
+   
 }
 .contentG h1, .contentG h3{
     font-family:var(--font-principal) !important ;
@@ -152,7 +153,7 @@
 .graphs-2 {
     margin-top: calc((100vh/10)*1);
     margin-bottom: calc((100vh/10)*1);
-    width: 80vw;
+    width: 95vw;
     display: flex;
     margin-left: calc((100vw/8)*0);
     align-items: center;
@@ -163,12 +164,26 @@
     height: 800px;
 }
 
-.linea1G2 {
+/* .linea1G2 {
     opacity: .5;
     border-left: 1px solid #df5d5d;
-    bottom: calc((100vh/10)*.3);;
+    bottom: calc((100vh/10)*.3);
     height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*0.5));
+    left: calc(94px + .5%);
+    position: relative;
+    z-index: 6;
+
+} */
+.tamañoimagen{
+    width: 1.3em;
+    height: 1.3em;
+}
+.linea1G2 {
+    opacity: .5;
+    border-left: 2px solid #df5d5d;
+    bottom: 10vh;
+    height: 65vh;
+    left: calc(94px + 1%);
     position: relative;
     z-index: 6;
 
@@ -177,47 +192,50 @@
 .cuadro1G2 {
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*.4));
-    margin-top: -120px;
+    margin-left: calc(64px + 2%);
+    margin-top: calc(18vh + 8.5%);
     z-index: 10;
-    width: 80px;
-    height: 100px;
-    background-color: white;
+    width: 3.5rem;
     justify-content: center;
+    height: 5rem;
+    background-color: white;
+
     border: 1px solid #df5d5d;
     cursor: pointer;
 }
 
 .linea2G2 {
     opacity: .5;
-    border-left: 1px solid green;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*1.64));
+    border-left: 2px solid green;
+    bottom: 12vh;
+    height: 61vh;
+    left: calc(50px + 21.6%);
     position: relative;
     z-index: 6;
 }
+
 
 .cuadro2G2 {
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*1.7));
-    margin-top: 0px;
+    margin-left: calc(20px + 21%);
+    margin-top: calc(10vh + 10%);
     z-index: 10;
-    width: 90px;
-    height: 90px;
+    width: 3.5rem;
+    height: 5rem;
     background-color: white;
     justify-content: center;
     border: 1px solid green;
+    
 }
 
 .linea3G2 {
     opacity: .5;
-    border-left: 1px solid #ced83f;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*2.18));
+    border-left: 2px solid #ced83f;
+    bottom: 15vh;
+    height: 55vh;
+    left: calc(28px + 31%);
     position: relative;
     z-index: 6;
 }
@@ -226,11 +244,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*2.5));
-    margin-top: -230px;
+    margin-left: calc(10px + 29%);
+    margin-top: calc(7vh + 10%);
     z-index: 10;
-    width: 90px;
-    height: 85px;
+    width: 3.7rem;
+    height: 5rem;
     background-color: white;
     justify-content: center;
     border: 1px solid #ced83f;
@@ -238,10 +256,10 @@
 
 .linea4G2 {
     opacity: .5;
-    border-left: 1px solid purple;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*2.83));
+    border-left: 2px solid purple;
+    bottom: 15vh;
+    height: 55vh;
+    left: calc(20px + 42.1%);
     position: relative;
     z-index: 6;
 }
@@ -250,11 +268,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*3.3));
-    margin-top: -150px;
+    margin-left: calc(10px + 39.2%);
+    margin-top: calc(5vh + 8.5%);
     z-index: 10;
-    width: 90px;
-    height: 85px;
+    width: 3.7rem;
+    height: 5rem;
     background-color: white;
     justify-content: center;
     border: 1px solid purple;
@@ -262,10 +280,10 @@
 
 .linea5G2 {
     opacity: .4;
-    border-left: 1px solid #df5d5d;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*3.8));
+    border-left: 2px solid #df5d5d;
+    bottom: 17vh;
+    height: 51vh;
+    left: calc(15px + 56.5%);
     position: relative;
     z-index: 6;
 }
@@ -274,11 +292,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*4.5));
-    margin-top: 10px;
+    margin-left: calc(7px + 53.5%);
+    margin-top: calc(1vh + 6%);
     z-index: 10;
-    width: 70px;
-    height: 120px;
+    width: 3.7rem;
+    height: 6.7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid #df5d5d;
@@ -286,10 +304,10 @@
 
 .linea6G2 {
     opacity: .4;
-    border-left: 1px solid darkgoldenrod;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*3.98));
+    border-left: 2px solid darkgoldenrod;
+    bottom: 24vh;
+    height: 37vh;
+    left: calc(12px + 59.5%);
     position: relative;
     z-index: 6;
 }
@@ -298,11 +316,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*4.6));
-    margin-top: -200px;
+    margin-left: calc(5px + 56.2%);
+    margin-top: calc(-3vh - 9%);
     z-index: 10;
-    width: 130px;
-    height: 85px;
+    width: 3.7rem;
+    height: 5.9rem;
     background-color: white;
     justify-content: center;
     border: 1px solid darkgoldenrod;
@@ -310,10 +328,10 @@
 
 .linea7G2 {
     opacity: .4;
-    border-left: 1px solid #5263af;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*4.17));
+    border-left: 2px solid #5263af;
+    bottom: 17vh;
+    height: 51vh;
+    left: calc(10px + 62.5%);
     position: relative;
     z-index: 6;
 }
@@ -322,11 +340,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*5.05));
-    margin-top: 260px;
+    margin-left: calc(5px + 59%);
+    margin-top: calc(6vh + 6%);
     z-index: 10;
-    width: 70px;
-    height: 85px;
+    width: 3.7rem;
+    height: 4.7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid #5263af;
@@ -334,10 +352,10 @@
 
 .linea8G2 {
     opacity: .4;
-    border-left: 1px solid greenyellow;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*4.66));
+    border-left: 2px solid greenyellow;
+    bottom: 18vh;
+    height: 49vh;
+    left: calc(7px + 70.1%);
     position: relative;
     z-index: 6;
 }
@@ -346,11 +364,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*5.6));
-    margin-top: 40px;
+    margin-left: calc(4px + 66.5%);
+    margin-top: calc(6vh + 5%);
     z-index: 10;
-    width: 70px;
-    height: 85px;
+    width: 3.7rem;
+    height: 4.7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid greenyellow;
@@ -358,10 +376,10 @@
 
 .linea9G2 {
     opacity: .4;
-    border-left: 1px solid blue;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*5.15));
+    border-left: 2px solid blue;
+    bottom: 18vh;
+    height: 49vh;
+    left: calc(7px + 77.1%);
     position: relative;
     z-index: 6;
 }
@@ -370,11 +388,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*6.25));
-    margin-top: 220px;
+    margin-left: calc(4px + 73.5%);
+    margin-top: calc(3vh + 3%);
     z-index: 10;
-    width: 70px;
-    height: 85px;
+    width: 3.7rem;
+    height: 4.7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid blue;
@@ -382,10 +400,10 @@
 
 .linea10G2 {
     opacity: .4;
-    border-left: 1px solid #df5d5d;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*5.26));
+    border-left: 2px solid #df5d5d;
+    bottom: 24vh;
+    height: 37vh;
+    left: calc(7px + 80.1%);
     position: relative;
     z-index: 6;
 }
@@ -394,11 +412,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*6.35));
-    margin-top: -50px;
+    margin-left: calc(4px + 76.5%);
+    margin-top: calc(-6vh - 6%);
     z-index: 10;
-    width: 80px;
-    height: 85px;
+    width: 3.7rem;
+    height: 4.7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid #df5d5d;
@@ -406,10 +424,10 @@
 
 .linea11G2 {
     opacity: .4;
-    border-left: 1px solid aquamarine;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*5.68));
+    border-left: 2px solid aquamarine;
+    bottom: 26vh;
+    height: 33vh;
+    left: calc(7px + 85.1%);
     position: relative;
     z-index: 6;
 }
@@ -418,11 +436,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*6.95));
-    margin-top: 140px;
+    margin-left: calc(4px + 81.5%);
+    margin-top: calc(-6vh - 12%);
     z-index: 10;
-    width: 70px;
-    height: 85px;
+    width: 3.7rem;
+    height: 4.7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid aquamarine;
@@ -430,10 +448,10 @@
 
 .linea12G2 {
     opacity: .4;
-    border-left: 1px solid violet;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*6.1));
+    border-left: 2px solid violet;
+    bottom: 30vh;
+    height: 25vh;
+    left: calc(7px + 91.1%);
     position: relative;
     z-index: 6;
 }
@@ -442,11 +460,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*7.5));
-    margin-top: -160px;
+    margin-left: calc(4px + 87.5%);
+    margin-top: calc(-6vh - 16%);
     z-index: 10;
-    width: 70px;
-    height: 85px;
+    width: 3.7rem;
+    height: 4.7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid violet;
@@ -458,19 +476,19 @@ hr {
     z-index: 6;
     height: 2px;
     background-color: black;
-    width: calc(((100vw/8)*5.4));
-    margin-left: calc((100vw/8)*.6);
-    margin-bottom: calc((100vh/10)*6.5);;
+    width: calc(84px + 82%);
+    margin-left: calc(84px + .5%);
+    margin-bottom: calc((100vh/10)*8);;
 }
 
 .m1G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*1);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(96px + 7%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -479,11 +497,11 @@ hr {
 .m2G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*1.7);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 25.5%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -492,11 +510,11 @@ hr {
 .m3G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*2.25);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 34%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -505,11 +523,11 @@ hr {
 .m4G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*3);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 46%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -518,12 +536,12 @@ hr {
 .m5G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*3.55);
     transform: rotate(270deg);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 54.5%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -532,12 +550,12 @@ hr {
 .m6G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*3.68);
     transform: rotate(270deg);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 57.5%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -546,11 +564,11 @@ hr {
 .m7G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*4);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 62%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -559,11 +577,11 @@ hr {
 .m8G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*4.45);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 69%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -572,12 +590,12 @@ hr {
 .m9G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*4.75);
     transform: rotate(270deg);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 74.5%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -586,11 +604,11 @@ hr {
 .m10G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*5.03);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 78%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -599,11 +617,11 @@ hr {
 .m11G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*5.4);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 83.5%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 50px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -612,11 +630,11 @@ hr {
 .m12G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*5.75);
-    margin-bottom: calc((100vh/10)*6.3);
+    margin-left: calc(20px + 90%);
+    margin-top: calc(-20vh - 28%);
     z-index: 10;
-    width: 40px;
-    height: 10px;
+    width: 3rem;
+    height: .7rem;
     background-color: white;
     justify-content: center;
     border: 1px solid transparent;
@@ -625,12 +643,12 @@ hr {
 .circulo1G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*1.03);
-    margin-bottom: calc((100vh/10)*5.5);
+    margin-left: calc(96px + 7.5%);
+    margin-top: calc(-19vh - 24%);
     z-index: 10;
-    width: 40px;
+    width: 2rem;
     border-radius: 100%;
-    height: 40px;
+    height: 2rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -639,12 +657,12 @@ hr {
 .circulo2G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*1.73);
-    margin-bottom: calc((100vh/10)*5.5);
+    margin-left: calc(20px + 26%);
+    margin-top: calc(-19vh - 24%);
     z-index: 10;
-    width: 40px;
+    width: 2rem;
     border-radius: 100%;
-    height: 40px;
+    height: 2rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -653,12 +671,12 @@ hr {
 .circulo3G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*2.27);
-    margin-bottom: calc((100vh/10)*5.5);
+    margin-left: calc(20px + 34.5%);
+    margin-top: calc(-19vh - 24%);
     z-index: 10;
-    width: 40px;
+    width: 2rem;
     border-radius: 100%;
-    height: 40px;
+    height: 2rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -667,12 +685,12 @@ hr {
 .circulo4G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*3.04);
-    margin-bottom: calc((100vh/10)*5.5);
+    margin-left: calc(20px + 46.5%);
+    margin-top: calc(-19vh - 24%);
     z-index: 10;
-    width: 40px;
+    width: 2rem;
     border-radius: 100%;
-    height: 40px;
+    height: 2rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -681,12 +699,12 @@ hr {
 .circulo5G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*3.57);
-    margin-bottom: calc((100vh/10)*5.5);
+    margin-left: calc(20px + 55%);
+    margin-top: calc(-19vh - 23%);
     z-index: 10;
-    width: 30px;
+    width: 1.7rem;
     border-radius: 100%;
-    height: 30px;
+    height: 1.7rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -695,12 +713,12 @@ hr {
 .circulo6G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*3.75);
-    margin-bottom: calc((100vh/10)*5.5);
+    margin-left: calc(20px + 58%);
+    margin-top: calc(-19vh - 23%);
     z-index: 10;
-    width: 30px;
+    width: 1.7rem;
     border-radius: 100%;
-    height: 30px;
+    height: 1.7rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -709,12 +727,12 @@ hr {
 .circulo7G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*4.04);
-    margin-bottom: calc((100vh/10)*5.5);
+    margin-left: calc(20px + 62.5%);
+    margin-top: calc(-19vh - 24%);
     z-index: 10;
-    width: 40px;
+    width: 2rem;
     border-radius: 100%;
-    height: 40px;
+    height: 2rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -723,12 +741,12 @@ hr {
 .circulo8G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*4.48);
-    margin-bottom: calc((100vh/10)*5.5);
+    margin-left: calc(20px + 69.5%);
+    margin-top: calc(-19vh - 24%);
     z-index: 10;
-    width: 40px;
+    width: 2rem;
     border-radius: 100%;
-    height: 40px;
+    height: 2rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -737,12 +755,12 @@ hr {
 .circulo9G2 {
     position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*4.8);
-    margin-bottom: calc((100vh/10)*5.3);
+    margin-left: calc(20px + 75%);
+    margin-top: calc(-19vh - 23%);
     z-index: 10;
-    width: 30px;
+    width: 1.7rem;
     border-radius: 100%;
-    height: 30px;
+    height: 1.7rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -750,13 +768,14 @@ hr {
 
 .circulo10G2 {
     position: absolute;
+    position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*5.07);
-    margin-bottom: calc((100vh/10)*2.5);
+    margin-left: calc(20px + 78.5%);
+    margin-top: calc(-19vh - 24%);
     z-index: 10;
-    width: 40px;
+    width: 2rem;
     border-radius: 100%;
-    height: 40px;
+    height: 2rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -764,13 +783,14 @@ hr {
 
 .circulo11G2 {
     position: absolute;
+    position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*5.45);
-    margin-bottom: calc((100vh/10)*3.7);
+    margin-left: calc(20px + 84%);
+    margin-top: calc(-19vh - 24%);
     z-index: 10;
-    width: 40px;
+    width: 2rem;
     border-radius: 100%;
-    height: 40px;
+    height: 2rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -778,13 +798,14 @@ hr {
 
 .circulo12G2 {
     position: absolute;
+    position: absolute;
     display: flex;
-    margin-left: calc((100vw/8)*5.75);
-    margin-bottom: calc((100vh/10)*4.3);
+    margin-left: calc(20px + 90%);
+    margin-top: calc(-19vh - 24%);
     z-index: 10;
-    width: 40px;
+    width: 2rem;
     border-radius: 100%;
-    height: 40px;
+    height: 2rem;
     background-color: rgb(226, 225, 225);
     justify-content: center;
     border: 1px solid rgb(226, 225, 225);
@@ -793,10 +814,10 @@ hr {
 
 .linea1 {
     opacity: .5;
-    border-left: 1px solid #df5d5d;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/8)*0.6));
+    border-left: 2px solid #df5d5d;
+    bottom: 36vh;
+    height: 13vh;
+    left: calc(94px + 3.2%);
     position: relative;
     z-index: 6;
 }
@@ -804,23 +825,23 @@ hr {
 .cuadro1 {
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*.4));
-    margin-top: -440px;
+    margin-left: calc(50px + 3.3%);
+    margin-top: calc(-6vh - 24%);
     z-index: 10;
-    width: 110px;
-    height: 90px;
-    background-color: white;
+    width: 4.8rem;
     justify-content: center;
+    height: 4.5rem;
+    background-color: white;
     border: 1px solid #df5d5d;
     cursor: pointer;
 }
 
 .linea2 {
     opacity: .4;
-    border-left: 1px solid green;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*1.7));
+    border-left: 2px solid green;
+    bottom: 36vh;
+    height: 13vh;
+    left: calc(50px + 15.5%);
     position: relative;
     z-index: 5;
 }
@@ -828,23 +849,23 @@ hr {
 .cuadro2 {
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*1.4));
-    margin-top: -250px;
+    margin-left: calc(20px + 14.5%);
+    margin-top: calc(-6vh - 24%);
     z-index: 10;
-    width: 110px;
-    height: 90px;
-    background-color: white;
+    width: 4.9rem;
     justify-content: center;
+    height: 4.5rem;
+    background-color: white;
     border: 1px solid green;
     cursor: pointer;
 }
 
 .linea3 {
     opacity: .4;
-    border-left: 1px solid #ced83f;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*2.8));
+    border-left: 2px solid #ced83f;
+    bottom: 36vh;
+    height: 13vh;
+    left: calc(50px + 28.1%);
     position: relative;
     z-index: 5;
 }
@@ -853,23 +874,23 @@ hr {
     opacity: 1;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*2.3));
-    margin-top: -480px;
+    margin-left: calc(20px + 26.7%);
+    margin-top: calc(-6vh - 24%);
     z-index: 5;
-    width: 150px;
-    height: 90px;
     background-color: white;
+    width: 5rem;
     justify-content: center;
+    height: 5rem;
     border: 1px solid #ced83f;
     cursor: pointer;
 }
 
 .linea4 {
     opacity: .4;
-    border-left: 1px solid purple;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*4.2));
+    border-left: 2px solid purple;
+    bottom: 36vh;
+    height: 13vh;
+    left: calc(50px + 45.5%);
     position: relative;
     z-index: 5;
 }
@@ -878,23 +899,23 @@ hr {
     opacity: 1;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*3.3));
-    margin-top: -300px;
+    margin-left: calc(20px + 43%);
+    margin-top: calc(-6vh - 25%);
     z-index: 10;
-    width: 170px;
-    height: 100px;
     background-color: white;
+    width: 5rem;
     justify-content: center;
+    height: 5.7rem;
     border: 1px groove rgb(146, 69, 146);
     cursor: pointer;
 }
 
 .linea5 {
     opacity: .4;
-    border-left: 1px solid #df5d5d;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*4.5));
+    border-left: 2px solid #df5d5d;
+    bottom: 24vh;
+    height: 37vh;
+    left: calc(50px + 49%);
     position: relative;
     z-index: 6;
 }
@@ -903,23 +924,23 @@ hr {
     opacity: 1;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*4));
-    margin-top: -515px;
+    margin-left: calc(20px + 47%);
+    margin-top: calc(-2vh - 10%);
     z-index: 10;
-    width: 180px;
-    height: 85px;
-    background-color: white;
+    width: 5rem;
     justify-content: center;
+    height: 5.7rem;
+    background-color: white;
     border: 1px solid #df5d5d;
     cursor: pointer;
 }
 
 .linea6 {
     opacity: .4;
-    border-left: 1px solid darkgoldenrod;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*4.8));
+    border-left: 2px solid darkgoldenrod;
+    bottom: 36vh;
+    height: 13vh;
+    left: calc(50px + 52.8%);
     position: relative;
     z-index: 6;
 }
@@ -929,22 +950,22 @@ hr {
     opacity: 1;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*4.6));
-    margin-top: -140px;
+    margin-left: calc(20px + 51%);
+    margin-top: calc(-6vh - 24%);
     z-index: 10;
-    width: 110px;
-    height: 90px;
-    background-color: white;
+    width: 5rem;
     justify-content: center;
+    height: 5rem;
+    background-color: white;
     border: 1px solid darkgoldenrod;
 }
 
 .linea7 {
     opacity: .4;
-    border-left: 1px solid #5263af;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*5.6));
+    border-left: 2px solid #5263af;
+    bottom: 24vh;
+    height: 37vh;
+    left: calc(50px + 61.6%);
     position: relative;
     z-index: 6;
 }
@@ -954,22 +975,22 @@ hr {
     opacity: 1;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*5.3));
-    margin-top: -340px;
+    margin-left: calc(20px + 59.4%);
+    margin-top: calc(-2vh - 10%);
     z-index: 10;
-    width: 110px;
-    height: 90px;
-    background-color: white;
+    width: 5rem;
     justify-content: center;
+    height: 5rem;
+    background-color: white;
     border: 1px solid #5263af;
 }
 
 .linea8 {
     opacity: .4;
-    border-left: 1px solid greenyellow;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*6.3));
+    border-left: 2px solid greenyellow;
+    bottom: 36vh;
+    height: 13vh;
+    left: calc(50px + 69.5%);
     position: relative;
     z-index: 6;
 }
@@ -979,22 +1000,22 @@ hr {
     opacity: 1;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*6));
-    margin-top: -150px;
+    margin-left: calc(20px + 67%);
+    margin-top: calc(-6vh - 24%);
     z-index: 10;
-    width: 110px;
-    height: 90px;
-    background-color: white;
+    width: 5rem;
     justify-content: center;
+    height: 5rem;
+    background-color: white;
     border: 1px solid greenyellow;
 }
 
 .linea9 {
     opacity: .4;
-    border-left: 1px solid blue;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*6.6));
+    border-left: 2px solid blue;
+    bottom: 24vh;
+    height: 37vh;
+    left: calc(50px + 73.5%);
     position: relative;
     z-index: 6;
 }
@@ -1004,22 +1025,22 @@ hr {
     opacity: 1;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*6.3));
-    margin-top: -440px;
+    margin-left: calc(20px + 71%);
+    margin-top: calc(-2vh - 10%);
     z-index: 10;
-    width: 110px;
-    height: 90px;
-    background-color: white;
+    width: 5rem;
     justify-content: center;
+    height: 5rem;
+    background-color: white;
     border: 1px solid blue;
 }
 
 .linea10 {
     opacity: .4;
-    border-left: 1px solid #df5d5d;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*7.2));
+    border-left: 2px solid #df5d5d;
+    bottom: 36vh;
+    height: 13vh;
+    left: calc(50px + 80%);
     position: relative;
     z-index: 6;
 }
@@ -1029,22 +1050,22 @@ hr {
     opacity: 1;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*6.9));
-    margin-top: 40px;
+    margin-left: calc(20px + 77.7%);
+    margin-top: calc(-6vh - 24%);
     z-index: 10;
-    width: 110px;
-    height: 90px;
-    background-color: white;
+    width: 5rem;
     justify-content: center;
+    height: 5rem;
+    background-color: white;
     border: 1px solid #df5d5d;
 }
 
 .linea11 {
     opacity: .4;
-    border-left: 1px solid aquamarine;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*7.65));
+    border-left: 2px solid aquamarine;
+    bottom: 36vh;
+    height: 13vh;
+    left: calc(50px + 86%);
     position: relative;
     z-index: 6;
 }
@@ -1054,22 +1075,22 @@ hr {
     opacity: 1;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*7.2));
-    margin-top: -230px;
+    margin-left: calc(20px + 84.5%);
+    margin-top: calc(-6vh - 24%);
     z-index: 10;
-    width: 140px;
-    height: 90px;
-    background-color: white;
+    width: 5rem;
     justify-content: center;
+    height: 5rem;
+    background-color: white;
     border: 1px solid aquamarine;
 }
 
 .linea12 {
     opacity: .4;
-    border-left: 1px solid violet;
-    bottom: calc((100vh/10)*.3);;
-    height: calc((100vh/10)*6.5);
-    left: calc(((100vw/10)*7.8));
+    border-left: 2px solid violet;
+    bottom: 24vh;
+    height: 37vh;
+    left: calc(50px + 87.7%);
     position: relative;
     z-index: 6;
 }
@@ -1079,13 +1100,13 @@ hr {
     opacity: 1;
     position: absolute;
     display: flex;
-    margin-left: calc(((100vw/10)*7.35));
-    margin-top: -500px;
+    margin-left: calc(20px + 85.4%);
+    margin-top: calc(-2vh - 10%);
     z-index: 10;
-    width: 120px;
-    height: 90px;
-    background-color: white;
+    width: 5rem;
     justify-content: center;
+    height: 5rem;
+    background-color: white;
     border: 1px solid violet;
 }
 
@@ -1189,24 +1210,23 @@ hr {
 
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: .6rem;
     font-weight: 500;
-
 }
 
 .h2-c {
 
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 13px;
+    font-size: .6rem;
     font-weight: 600;
-    line-height: 20%;
+    line-height: 25%;
 }
 
 .h3-c {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: .5rem;
     font-weight: 100;
     line-height: 25%;
 }
@@ -1234,7 +1254,7 @@ hr {
 
 .highcharts-container {
     background-color: white;
-    width: 90vw !important;
+    width: 95vw !important;
 }
 
 .grafica-top text:nth-child(18),.grafica-top text:nth-child(22), .grafica-dowm text:nth-child(18), .grafica-dowm text:nth-child(14) {

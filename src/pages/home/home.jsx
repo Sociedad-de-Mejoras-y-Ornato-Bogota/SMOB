@@ -11,6 +11,7 @@ const Home = () => {
         <div className="home-main-title-overlay">
           <p className="bienvenido"> Bienvenidos a<br></br><span>DATACIVILIDAD</span></p>
         </div>
+        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.png" style={{ width: '22rem', position:'absolute', height:'5rem', top:'10vh'}} />
         <img src="https://smob-storage.s3.us-east-2.amazonaws.com/FondoJ.png" alt="marca de agua Construyendo Civilidad"></img>
       </div>
       <div className="home-content">
