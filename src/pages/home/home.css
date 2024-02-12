@@ -109,6 +109,10 @@
     justify-content: center;
   }
 
+  .ocultarImg{
+    display: none;
+  }
+
   .home-main {
     width: 99vw;
     display: flex;
