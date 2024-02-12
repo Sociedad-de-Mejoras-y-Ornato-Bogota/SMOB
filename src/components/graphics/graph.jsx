@@ -11,15 +11,15 @@ import 'reactjs-popup/dist/index.css';
 
 const Graph = () => {
 
-  const d1 = ((window.innerWidth / 10) * 8);
-  const d2 = ((window.innerHeight / 10) * 8);
+  const d1 = ((window.innerWidth / 10) * 9.2);
+  const d2 = ((window.innerHeight / 10) * 8.5);
   const [chartWidth, setChartWidth] = useState(d1); // Ancho inicial del gráfico
   const [chartHeight, setChartHeight] = useState(d2); // Alto inicial del gráfico
 
   useEffect(() => {
     const handleResize = () => {
-      setChartWidth((window.innerWidth / 10) * 8); // Ajustar el ancho según el tamaño de la ventana
-      setChartHeight((window.innerHeight / 10) * 8); // Ajustar el alto según el tamaño de la ventana
+      setChartWidth((window.innerWidth / 10) * 9.2); // Ajustar el ancho según el tamaño de la ventana
+      setChartHeight((window.innerHeight / 10) * 8.5);  // Ajustar el alto según el tamaño de la ventana
     };
 
     window.addEventListener('resize', handleResize);
@@ -57,7 +57,8 @@ const Graph = () => {
     xAxis: {
       tickInterval: 5,
       tickPixelInterval: 1,
-      categories: ['1920', '1921', '1922', '1923', '1924', '1925', '1926', '1927', '1928', '1929', '1930', '1931', '1932', '1933', '1934', '1935', '1936', '1937', '1938', '1939', '1940', '1941', '1942', '1943', '1944', '1945', '1946', '1947', '1948', '1949', '1950', '1951', '1952', '1953', '1954', '1955', '1956', '1957', '1958', '1959', '1960', '1961', '1962', '1963', '1964', '1965', '1966', '1967', '1968', '1969', '1970', '1971', '1972', '1973', '1974', '1975', '1976', '1977', '1978', '1979', '1980', '1981', '1982', '1983', '1984', '1985', '1986', '1987', '1988', '1989', '1990', '1991', '1992', '1993', '1994', '1995', '1996', '1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'],
+      gridLineWidth: 0,
+      categories: ['1920', '1921', '1922', '1923', '1924', '1925', '1926', '1927', '1928', '1929', '1930', '1931', '1932', '1933', '1934', '1935', '1936', '1937', '1938', '1939', '1940', '1941', '1942', '1943', '1944', '1945', '1946', '1947', '1948', '1949', '1950', '1951', '1952', '1953', '1954', '1955', '1956', '1957', '1958', '1959', '1960', '1961', '1962', '1963', '1964', '1965', '1966', '1967', '1968', '1969', '1970', '1971', '1972', '1973', '1974', '1975', '1976', '1977', '1978', '1979', '1980', '1981', '1982', '1983', '1984', '1985', '1986', '1987', '1988', '1989', '1990', '1991', '1992', '1993', '1994', '1995', '1996', '1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025','2026'],
       labels: {
         format: '{value}',
         style: {
@@ -70,7 +71,7 @@ const Graph = () => {
 
       {
         name: 'Tasa de crecimiento',
-        data: [3.74, 3.75, 3.76, 3.76, 3.76, 3.77, 3.78, 3.79, 3.81, 3.82, 3.83, 3.84, 3.85, 3.88, 3.92, 3.98, 4.1, 4.37, 4.58, 4.86, 5.04, 5.29, 5.54, 5.92, 6.21, 6.38, 6.53, 6.65, 6.73, 6.7, 6.65, 6.58, 6.5, 6.42, 6.34, 6.25, 6.18, 6.14, 6.06, 5.94, 5.85, 5.8, 5.73, 5.56, 5.5, 5.3, 5.15, 4.97, 4.81, 4.6, 4.42, 4.24, 4.08, 3.94, 3.8, 3.67, 3.55, 3.43, 3.33, 3.22, 3.12, 3.01, 2.9, 2.83, 2.75, 2.67, 2.6, 2.52, 2.45, 2.39, 2.32, 2.26, 2.21, 2.15, 2.08, 2.03, 1.99, 1.92, 1.87, 1.8, 1.76, 1.7, 1.62, 1.53, 1.36, 1.24, 1.13, 0.96, 0.79, 0.65, 0.48, 0.33, 0.23, 0.14, 0.05, 0.02, 0.02, 0.02, 1.17, 0.63, 0.43, 0.28, ''
+        data: [3.74, 3.75, 3.76, 3.76, 3.76, 3.77, 3.78, 3.79, 3.81, 3.82, 3.83, 3.84, 3.85, 3.88, 3.92, 3.98, 4.1, 4.37, 4.58, 4.86, 5.04, 5.29, 5.54, 5.92, 6.21, 6.38, 6.53, 6.65, 6.73, 6.7, 6.65, 6.58, 6.5, 6.42, 6.34, 6.25, 6.18, 6.14, 6.06, 5.94, 5.85, 5.8, 5.73, 5.56, 5.5, 5.3, 5.15, 4.97, 4.81, 4.6, 4.42, 4.24, 4.08, 3.94, 3.8, 3.67, 3.55, 3.43, 3.33, 3.22, 3.12, 3.01, 2.9, 2.83, 2.75, 2.67, 2.6, 2.52, 2.45, 2.39, 2.32, 2.26, 2.21, 2.15, 2.08, 2.03, 1.99, 1.92, 1.87, 1.8, 1.76, 1.7, 1.62, 1.53, 1.36, 1.24, 1.13, 0.96, 0.79, 0.65, 0.48, 0.33, 0.23, 0.14, 0.05, 0.02, 0.02, 0.02, 1.17, 0.63, 0.43, 0.28, '','','','',''
         ],
         color: 'rgb(42, 121, 75)',
         zIndex: 5
@@ -461,7 +462,7 @@ const Graph = () => {
       <div className="contentG">
         <div className="graphs">
           <div className="graphs-2">
-          <span style={{position:"absolute", zIndex:"9", fontSize:"0.8vw",width:"80%", textAlign:"center",color:"red", marginBottom:"-83vh"}}>*Los años marcados en color rojo corresponden a años censales</span>
+          <span style={{position:"absolute", zIndex:"9", fontSize:"0.8vw",width:"97%", textAlign:"center",color:"red", marginBottom:"-83vh"}}>*Los años marcados en color rojo corresponden a años censales</span>
             <div className="linea1"></div>
             <div className="cuadro1">
               <p><h1 className="h1-c"> 1925</h1>
@@ -469,14 +470,14 @@ const Graph = () => {
                 <h3 className="h3-c">- Crecimiento: <strong className="str">3,76</strong></h3>
                 <h3 className="h3-c">- Vegetativa: <strong className="str">1,76</strong></h3>
                 <h3 className="h3-c">- Migración: <strong className="str">2,01</strong></h3>
-                <div className="div-graph-button">
+                {/* <div className="div-graph-button">
                   <button className="cus">
                     <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick} />
                   </button>
                   <button className="cus2">
                     <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClickE} />
                   </button>
-                </div>
+                </div> */}
               </p>
             </div>
             <div className="linea2"></div>
@@ -485,65 +486,70 @@ const Graph = () => {
               <h3 className="h3-c">- Crecimiento: <strong className="str">3,88</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,00</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">1,88</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick1} />
                 </button>
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick1E} />
                 </button>
-              </div>
+              </div> */}
 
             </p>
             </div>
             <div className="linea3"></div>
             <div className="cuadro3"><p><h1 className="h1-c"> 1951</h1>
-              <h2 className="h2-c">Decreto 185. Plan Piloto</h2>
+              <h2 className="h2-c">Decreto 185.</h2>
+              <h2 className="h2-c">Plan Piloto</h2>
               <h3 className="h3-c">- Crecimiento: <strong className="str">6,73</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,82</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">3,91</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick2} />
                 </button>
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick2E} />
                 </button>
-              </div>
+              </div> */}
 
             </p>
             </div>
             <div className="linea4"></div>
             <div className="cuadro4"><p><h1 className="h1-c"> 1972</h1>
-              <h2 className="h2-c">Fase II (Ciudades entre</h2>
+              <h2 className="h2-c">Fase II</h2>
+              <h2 className="h2-c">(Ciudades</h2>
+              <h2 className="h2-c">entre</h2>
               <h2 className="h2-c">Ciudades)</h2>
               <h3 className="h3-c">- Crecimiento: <strong className="str">4,60</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,84</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">1,76</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus-e">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick3} />
                 </button>
                 <button className="cus2-e">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick3E} />
                 </button>
-              </div>
+              </div> */}
             </p>
             </div>
             <div className="linea5"></div>
             <div className="cuadro5"><p><h1 className="h1-c"> 1975</h1>
-              <h2 className="h2-c">Plan de desarrollo urbano</h2>
+              <h2 className="h2-c">Plan de</h2>
+              <h2 className="h2-c">desarrollo</h2>
+              <h2 className="h2-c">urbano</h2>
               <h3 className="h3-c">- Crecimiento: <strong className="str">4,03</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,52</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">1,55</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4} />
                 </button>
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E} />
                 </button>
-              </div>
+              </div> */}
             </p>
             </div>
             <div className="linea6"></div>
@@ -552,14 +558,14 @@ const Graph = () => {
               <h3 className="h3-c">- Crecimiento: <strong className="str">3,55</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,02</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">1,34</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick5} />
                 </button>
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick5E} />
                 </button>
-              </div>
+              </div> */}
             </p>
             </div>
             <div className="linea7"></div>
@@ -568,14 +574,14 @@ const Graph = () => {
               <h3 className="h3-c">- Crecimiento: <strong className="str">2,52</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">1,50</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">0,90</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick6} />
                 </button>
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick6E} />
                 </button>
-              </div>
+              </div> */}
             </p>
             </div>
             <div className="linea8"></div>
@@ -584,14 +590,14 @@ const Graph = () => {
               <h3 className="h3-c">- Crecimiento: <strong className="str">1,92</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">1,34</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">0,63</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick7} />
                 </button>
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick7E} />
                 </button>
-              </div>
+              </div> */}
             </p>
             </div>
             <div className="linea9"></div>
@@ -600,14 +606,14 @@ const Graph = () => {
               <h3 className="h3-c">- Crecimiento: <strong className="str">1,70</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">1,22</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">0,51</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick8} />
                 </button>
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick8E} />
                 </button>
-              </div>
+              </div> */}
             </p>
             </div>
             <div className="linea10"></div>
@@ -616,14 +622,14 @@ const Graph = () => {
               <h3 className="h3-c">- Crecimiento: <strong className="str">0,48</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">0,91</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">-0,43</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick9} />
                 </button>
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick9E} />
                 </button>
-              </div>
+              </div> */}
 
             </p>
             </div>
@@ -633,14 +639,14 @@ const Graph = () => {
               <h3 className="h3-c">- Crecimiento: <strong className="str">0,22</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">0,66</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">-0,66</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick10} />
                 </button>
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick10E} />
                 </button>
-              </div>
+              </div> */}
             </p>
             </div>
             <div className="linea12"></div>
@@ -649,21 +655,22 @@ const Graph = () => {
               <h3 className="h3-c">- Crecimiento: <strong className="str">1,17</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">0,25</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">0,92</strong></h3>
-              <div className="div-graph-button">
+              {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick11} />
                 </button>
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick11E} />
                 </button>
-              </div>
+              </div> */}
             </p>
             </div>
-            <section style={{ width: '100%', marginTop: '5vh' }}>
+            
+            <hr></hr>
               <HighchartsReact
                 highcharts={Highcharts}
                 options={options}
-              /></section>
+              />
           </div>
         </div>
       </div></>
