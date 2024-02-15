@@ -139,6 +139,9 @@ export const archivo = [
         }, {
             title: "Indicadores urbanísticos",
             ruta: "/Componente territorial/Indicadores urbanísticos",
+        },{
+            title: "Estructura ecológica principal",
+            ruta: "/Componente territorial/Estructura ecológica principal",
         },
         ],
     }, {

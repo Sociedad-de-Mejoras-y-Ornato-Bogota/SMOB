@@ -46,6 +46,7 @@ import AnalisisPob from './pages/Comp-Poblacional/EstructuraSocioEconomica/Anali
 import Territorial from './pages/Comp-Territorial/Territorial';
 import EvolucionHuella from './pages/Comp-Territorial/EvolucionHuella'
 import IndicadoresUrban from './pages/Comp-Territorial/IndicadoresUrban';
+import EstructuraEP from './pages/Comp-Territorial/EstructuraEP';
 
 import Bienestar from './pages/Comp-Bienestar/Ordenamiento';
 import Infraestructura from './pages/Comp-Bienestar/Infraestructura/infraestructura';
@@ -153,6 +154,7 @@ const App = () => {
           <Route path="Componente territorial" Component={Territorial} />
           <Route path="Componente territorial/Evokución de la huella urbana" Component={EvolucionHuella} />
           <Route path="Componente territorial/Indicadores urbanísticos" Component={IndicadoresUrban} />
+          <Route path="Componente territorial/Estructura ecológica principal" Component={EstructuraEP} />
 
           {/* Rutas Componente Bienestar */}
           <Route path="componente bienestar" Component={Bienestar} />
