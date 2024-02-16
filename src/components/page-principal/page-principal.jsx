@@ -81,7 +81,7 @@ const Page_principal = (props) => {
           {props.audio && (
             <div className="button-container">
               <button onClick={() => handlePlayPause()}>{reproduciendo ? '⫾⫾' : '⧐'}</button>
-              <audio ref={audioRef} src={props.audio} type="audio/mp3" controls={false} autoPlay />
+              <audio ref={audioRef} src={props.audio} type="audio/mp3" controls={false} />
             </div>
           )}
           <p className="name_component">{props.name_component}</p>

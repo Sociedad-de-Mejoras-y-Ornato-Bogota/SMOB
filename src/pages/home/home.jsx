@@ -48,7 +48,7 @@ const Home = () => {
       <div className="home-content-text">
         <div className="button-container">
         <button  onClick={() => handlePlayPause()}>{reproduciendo ? '⫾⫾' : '⧐'}</button>
-        <audio ref={audioRef} src={audio} type="audio/mp3" controls={false} autoPlay/>
+        <audio ref={audioRef} src={audio} type="audio/mp3" controls={false} />
         </div>
           <p
             className="text-principal"
