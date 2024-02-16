@@ -77,8 +77,8 @@
 
 .button-container {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 80% !important;
+  right: 0px;
   margin: 10px; /* Ajusta el margen según sea necesario */
   display: flex;
   justify-content: center;
