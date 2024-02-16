@@ -14,7 +14,7 @@
 
 .home-main-background {
   width: 100%;
-  height: 83vh;
+  height: auto;
   align-items: center;
   display: flex;
 }
@@ -53,14 +53,14 @@
 }
 
 .home-main-background img {
-  height: 105vh;
+  height: 95vh;
   width: 100%
 }
 
 
 .home-content {
   padding: 3rem;
-  height: 93vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -72,6 +72,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px; /* Ajusta el margen según sea necesario */
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  font-size: 2.4em; /* Tamaño del texto */
+  font-weight: 600;
+  padding-left: 15px;
+   padding-right: 10px;
+   padding-bottom: 5px;
+  border: none; /* Sin borde */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  transition: transform 0.2s ease;
+  background-color: transparent;
+  color: #762f0b;;
+}
+
+.button-container button:hover {
+  transform: scale(1.05);
 }
 
 .home-content-text p {
@@ -177,6 +204,15 @@ text-align: center;
   .home-main-background img, .bienvenido,  .home-main-background {
     margin-top:1vh;
     height: 18.25rem!important;
+  }
+
+  .button-container {
+    position: absolute;
+    top: 78%;
+    right: 0;
+    margin: 10px; /* Ajusta el margen según sea necesario */
+    display: flex;
+    justify-content: center;
   }
 
 }
