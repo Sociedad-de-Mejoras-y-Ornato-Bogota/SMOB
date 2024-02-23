@@ -1,5 +1,7 @@
 import Page_principal from "../../../components/page-principal/page-principal"
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './Demografia.css';
 function demografia() {
   const navigateTo = useNavigate(); 
     const navigate = (path) => {
@@ -14,9 +16,20 @@ function demografia() {
             <area shape="rect" coords="80,240,385,280" href='#' alt="Page1" onClick={() => { navigate('Conflicto%20-%20civilidad') }} />,
             <area shape="circle" coords="130,180,105" href='#' alt="Page2" onClick={() => { navigate('demograf%C3%ADa') }} />,
             <area shape="circle" coords="340,180,105" href='#' alt="Page2" onClick={() => { navigate('Estructura%20socioecon%C3%B3mica') }} />,
-            <area shape="circle" coords="235,360,105" href='#' alt="Page2" onClick={() => { navigate('Estructura%20socioespacial') }} />
+            <area shape="circle" coords="235,360,105" href='#' alt="Page2" onClick={() => { navigate('Estructura%20socioespacial') }} />,
+            <area shape="circle" coords="230,245,235" href='#' alt="Page5" onClick={() => {navigate('')}}/>
           ]
         } />
+        <div className="contenedorD">
+        <div className="botonesD">
+          <Link to={`/Componente poblacional/demografía/Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018`} className="botonD" style={{fontSize:'0.5em'}}>Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018</Link>
+          <Link to={`/Componente poblacional/demografía/Series de población`} className="botonD">Series y proyecciones de población</Link>
+          <Link to={`/Componente poblacional/Demografía/Crecimiento de la población (1790 - 2035)`} className="botonD">Crecimiento de la población (1790-2035)</Link>
+          <Link to={`/Componente poblacional/Demografía/Ecuación compensadora de Bogotá`} className="botonD">Ecuación compensadora de Bogotá (1905-2035)</Link>
+          <Link to={`/Componente poblacional/Demografía/Pirámides de distribución por edad y sexo`} className="botonD">Pirámides de distribución por edad y sexo</Link>
+          <Link to={`/Componente poblacional/Demografía/Indices demográficos`} className="botonD">Índices demográficos</Link>
+        </div>
+    </div>
     </>
   )
 }

@@ -38,6 +38,19 @@ const Graph2 = () => {
       width: chartWidth,
       height: chartHeight,
     },
+    tooltip: {
+      enabled: true,
+      backgroundColor: 'rgba(255, 255, 255, 0.9)', // Color de fondo del tooltip
+      borderColor: '#000', // Color del borde del tooltip
+      borderRadius: 5, // Radio de borde del tooltip
+      borderWidth: 1, // Ancho del borde del tooltip
+      style: {
+          color: '#333', // Color del texto del tooltip
+          fontSize: '12px' // Tamaño de fuente del texto del tooltip
+      },
+      zIndex: 9000 // Establecer el zIndex para el tooltip
+      // Otras configuraciones del tooltip...
+  },
     title: {
       // text: "Crecimiento de la población de Bogotá 1900 - 2025 con Planes de Desarrollo y Ordenamiento",
       align: "center",
@@ -352,7 +365,7 @@ const Graph2 = () => {
           "",
         ],
         color: "rgb(42, 121, 75)",
-        zIndex: 5,
+        
       },
     ],
     responsive: {
@@ -645,7 +658,7 @@ const Graph2 = () => {
       {showPopupE && (
         <Popup2
           onClose={handleClosePopupE}
-          url=""
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/recursos_15_02_2024/ACUERDO NUMERO 10 DE 1902.pdf"
         />
       )}
       {showPopup1E && (
@@ -661,7 +674,7 @@ const Graph2 = () => {
         />
       )}
       {showPopup3E && <Popup2 onClose={handleClosePopup3E} url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/DECRETO%20185%20DE%201951-LE%20CORBUSIER.pdf" />}
-      {showPopup4E && <Popup2 onClose={handleClosePopup4E} url="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/Bienestar/DECRETO 159 DE 1974.pdf" />}
+      {showPopup4E && <Popup2 onClose={handleClosePopup4E} url="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/recursos_15_02_2024/Breve reseña de la Fase II.pdf" />}
       {showPopup5E && (
         <Popup2
           onClose={handleClosePopup5E}
@@ -842,10 +855,8 @@ const Graph2 = () => {
                 <h1 className="h1-c">
                   <strong> 1972</strong>
                 </h1>
-                <h3 className="h3-c">Fase II </h3>
-                <h3 className="h3-c">(ciudades</h3>
+                <h3 className="h3-c">Fase II (ciudades ciudades)</h3>
                 <h3 className="h3-c">entre</h3>
-                <h3 className="h3-c"> ciudades)</h3>
                 <h3 className="h3-c">5.558 ha</h3>
                 <h3 className="h3-c">Pobl. 759.227</h3>
                 <div className="div-graph-button">
@@ -892,7 +903,7 @@ const Graph2 = () => {
                       onClick={handleDivClick5}
                     />
                   </button>
-                  <button className="cu2">
+                  {/* <button className="cu2">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png"
                       alt="Icono"
@@ -900,7 +911,7 @@ const Graph2 = () => {
                       height="20"
                       onClick={handleDivClick5E}
                     />
-                  </button>
+                  </button> */}
                 </div>
 
               </p>

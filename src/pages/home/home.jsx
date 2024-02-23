@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Panels from "../../components/panels/paneles";
 import "./home.css";
+import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
@@ -34,19 +35,43 @@ const Home = () => {
     };
   }, []);
   
+
+    const [linkTo, setLinkTo] = useState('/');
+    const [isLeftSide, setIsLeftSide] = useState(true);
+
+    useEffect(() => {
+        // Actualizar el destino del enlace según la posición del puntero
+        setLinkTo(isLeftSide ? '/' : '/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá');
+    }, [isLeftSide]);
+    const handleMouseMove = (event) => {
+        const image = event.target;
+        const clickX = event.clientX - image.getBoundingClientRect().left;
+        const threshold = image.width / 1.65;
+
+        setIsLeftSide(clickX <= threshold);
+    };
+
+    const handleMouseLeave = () => {
+        setIsLeftSide(true); // Restaurar al salir del área de la imagen
+    };
+
   return (
     
     <div className="Home" id="Home">
       <div className="home-main-background">
         <div className="home-main-title-overlay">
-          <p className="bienvenido"> Bienvenidos a<br></br><span>DATACIVILIDAD</span></p>
+          <p className="bienvenido"> Bienvenidos a<br></br><span><span style={{fontWeight:'bold'}}>DATA</span>CIVILIDAD</span></p>
         </div>
-        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.png" className="ocultarImg" style={{ width: '22rem', position:'absolute', height:'5rem', top:'10vh'}} />
-        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/FondoJ.png" alt="marca de agua Construyendo Civilidad"></img>
+        <Link to={linkTo} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} style={{background:'black', zIndex:'100'}}>
+        <div style={{width: '100%', position:'absolute',display:'flex', justifyContent:'center', top:'10vh', height:'15vh !important'}}>
+        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.png" className="ocultarImg" style={{ width:'22rem'}} />
+        </div>
+        </Link>
+        <img src="https://smob-storage.s3.us-east-2.amazonaws.com/BACKGROUND+DATACIVILIDAD+BOGOTA.png" alt="marca de agua Construyendo Civilidad"></img>
       </div>
       <div className="home-content">
       <div className="home-content-text">
-        <div className="button-container">
+        <div className="button-container-n">
         <button  onClick={() => handlePlayPause()}>{reproduciendo ? '⫾⫾' : '⧐'}</button>
         <audio ref={audioRef} src={audio} type="audio/mp3" controls={false} autoPlay/>
         </div>
@@ -65,7 +90,7 @@ const Home = () => {
         <div
           className="home-content-video"
         >
-          <video controls style={{ objectFit: "cover" }}>
+          <video controls style={{ objectFit: "contain" }}>
             <source src={videoSrc} type="video/mp4" />
             Tu navegador no admite la reproducción de video.
           </video>

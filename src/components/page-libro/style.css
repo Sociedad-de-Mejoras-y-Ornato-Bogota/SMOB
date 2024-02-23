@@ -26,6 +26,11 @@
     width: 80%;
     height: 100%;
 }
+.ver_mas{
+    color: rgb(118, 47, 11);
+    text-decoration: none;
+    font-weight: 600;
+}
 
 @media only screen and (max-width: 1099px) {
     .page_book{

@@ -39,7 +39,7 @@ function Modelos() {
             <div className='modelos-div'>
             <div className="button-container">
                 <button  onClick={() => handlePlayPause()}>{reproduciendo ? '⫾⫾' : '⧐'}</button>
-                <audio ref={audioRef} src={audio} type="audio/mp3" controls={false} autoplay/>
+                <audio ref={audioRef} src={audio} type="audio/mp3" controls={false} autoPlay/>
             </div>
                 <p className='title_modelos'>Modelos de ciudad</p>
                 <p className='modelos_text'>La SMOB ha construido la noción de “modelo de ciudad”, que reúne la

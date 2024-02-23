@@ -1,4 +1,4 @@
-.contenedorP {
+.contenedorC {
     position: relative;
     top: 0;
     left: 0;
@@ -11,13 +11,13 @@
     margin-left: 48%;
   }
   
-  .botonesP {
+  .botonesC {
     margin: 20px;
     display: flex;
     flex-direction: row;
   }
   
-  .botonP {
+  .botonC {
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -33,21 +33,21 @@
     margin-bottom:55% ;
   }
   
-  .botonP:hover {
+  .botonC:hover {
     background-color: #5c2409;
   }
   @media screen and (max-width: 768px) {
-    .contenedorP {
+    .contenedorC {
       width: 100%;
       margin-bottom: 10%; /* Ajusta el ancho del contenedor en pantallas más pequeñas */
       margin-left: 0;
     }
   
-    .botonesP {
-      flex-direction: column; /* Pambia la dirección a columna en pantallas más pequeñas */
+    .botonesC {
+      flex-direction: column; /* Cambia la dirección a columna en pantallas más pequeñas */
     }
   
-    .botonP {
+    .botonC {
       width: 100%; /* Hace que los botones ocupen todo el ancho en pantallas más pequeñas */
       border-radius: 10px; /* Restaura las esquinas redondeadas en pantallas más pequeñas */
       border-radius: 10px; /* Restaura las esquinas redondeadas en pantallas más pequeñas */

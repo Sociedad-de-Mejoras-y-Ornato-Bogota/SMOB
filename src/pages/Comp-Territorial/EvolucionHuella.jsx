@@ -2,7 +2,7 @@ import Map from "../../components/map/map";
 import Data from "./HuellaUrbana.json";
 import Gif from "./Gif.json"
 import Popup from './popUp';
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,6 +15,69 @@ import 'swiper/scss/pagination';
 import './HistoriaCrecimiento.css'
 
 function EvolucionHuella() {
+  //audios
+  const audioRef = useRef(null);
+    const [reproduciendo, setReproduciendo] = useState(false);
+    const [audioCargado, setAudioCargado] = useState(false);
+  
+    const handlePlayPause = async () => {
+      const audioElement = audioRef.current;
+  
+      if (!audioCargado) {
+        await cargarAudio(); // Esperar hasta que el audio esté completamente cargado
+      }
+  
+      if (audioElement && audioElement.paused) {
+        audioElement.play().catch(error => {
+          console.error('Error al reproducir audio:', error);
+        });
+      } else if (audioElement) {
+        audioElement.pause();
+      }
+    };
+  
+    const cargarAudio = async () => {
+      const audioElement = audioRef.current;
+  
+      if (audioElement && audioElement.readyState < 2) {
+        // El estado 2 indica que el audio está completamente cargado
+        await new Promise((resolve) => {
+          const handleCanPlayThrough = () => {
+            setAudioCargado(true);
+            resolve();
+          };
+  
+          audioElement.addEventListener('canplaythrough', handleCanPlayThrough);
+  
+          // Si el audio ya está cargado, resolver de inmediato
+          if (audioElement.readyState >= 2) {
+            setAudioCargado(true);
+            resolve();
+          }
+        });
+      }
+    };
+  
+    useEffect(() => {
+      const audioElement = audioRef.current;
+  
+      if (audioElement) {
+        const handleStateChange = () => {
+          setReproduciendo(!audioElement.paused);
+        };
+  
+        audioElement.addEventListener('play', handleStateChange);
+        audioElement.addEventListener('pause', handleStateChange);
+  
+        return () => {
+          audioElement.removeEventListener('play', handleStateChange);
+          audioElement.removeEventListener('pause', handleStateChange);
+        };
+      }
+    }, []);
+
+  //fin
+
   const [scrollTop, setScrollTop] = useState(0)
   const [opacity, setOpacity] = useState(false);
   const [open, setOpen] = useState(false);
@@ -106,7 +169,6 @@ function EvolucionHuella() {
         <diV
           style={{
             display: "flex",
-            flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
             fontWeight: "bold",
@@ -114,11 +176,15 @@ function EvolucionHuella() {
           }}
         >
           <p
-            style={{ color: "#762f0b", paddingTop: "3vh" }}
+            style={{ color: "#762f0b", paddingTop: "3vh"}}
             className="general-title"
           >
             Evolución de la huella urbana
           </p>
+          <div className="button-container1">
+              <button onClick={() => handlePlayPause()}>{reproduciendo ? '⫾⫾' : '⧐'}</button>
+              <audio ref={audioRef} src={'https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/recursos_15_02_2024/Audio Apuntes sobre demografía.mp3'} type="audio/mp3" controls={false} autoPlay/>
+            </div>
         </diV>
       </div>
       <div style={{ height: "auto" }}>

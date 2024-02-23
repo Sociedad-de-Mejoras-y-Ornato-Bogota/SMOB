@@ -17,7 +17,8 @@ const Poblacional = () => {
         <area shape="rect" coords="80,240,385,280" href='#' alt="Page1" onClick={() => {navigate('Conflicto%20-%20civilidad')}}/>,
         <area shape="circle" coords="130,180,105" href='#' alt="Page2" onClick={() => {navigate('demograf%C3%ADa')}}/>,
         <area shape="circle" coords="340,180,105" href='#' alt="Page3" onClick={() => {navigate('Estructura%20socioecon%C3%B3mica')}}/>,
-        <area shape="circle" coords="235,360,105" href='#' alt="Page4" onClick={() => {navigate('Estructura%20socioespacial')}}/>
+        <area shape="circle" coords="235,360,105" href='#' alt="Page4" onClick={() => {navigate('Estructura%20socioespacial')}}/>,
+        <area shape="circle" coords="230,245,235" href='#' alt="Page5" onClick={() => {navigate('')}}/>
         ]
     }/>
 </>

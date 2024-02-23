@@ -12,12 +12,9 @@ export const archivo = [
                 title: "La Sociedad de Mejoras y Ornato de Bogotá",
                 ruta: "/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá"
             }, {
-                title: "Cuidad y cuidadanía",
-                ruta: "/construyendo civilidad/Cuidad y cuidadanía",
+                title: "Ciudadanía y civilidad",
+                ruta: "/construyendo civilidad/Cuidad y cuidadanía/Cuidadanía y civilidad",
                 submenu: [{
-                    title: "Ciudadanía y civilidad",
-                    ruta: "/construyendo civilidad/Cuidad y cuidadanía/Cuidadanía y civilidad"
-                }, {
                     title: "Orígenes de la civilidad en Colombia",
                     ruta: "/construyendo civilidad/Cuidad y cuidadanía/Orígenes de la civilidad en Colombia"
                 }, {
