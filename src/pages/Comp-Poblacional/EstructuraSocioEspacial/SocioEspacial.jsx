@@ -1,6 +1,8 @@
 
 import Page_principal from "../../../components/page-principal/page-principal"
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './SE.css'
 export default function SocioEspacial() {
     const navigateTo = useNavigate(); 
     const navigate = (path) => {
@@ -13,12 +15,17 @@ export default function SocioEspacial() {
 areas={
     [
     <area shape="rect" coords="80,240,385,280" href='#' alt="Page1" onClick={() => {navigate('Conflicto%20-%20civilidad')}}/>,
-    <area shape="circle" coords="130,180,105" href='#' alt="Page2" onClick={() => {navigate('demograf%C3%ADa')}}/>,
+    <area shape="circle" coords="128,180,105" href='#' alt="Page2" onClick={() => {navigate('demograf%C3%ADa')}}/>,
     <area shape="circle" coords="340,180,105" href='#' alt="Page2" onClick={() => {navigate('Estructura%20socioecon%C3%B3mica')}}/>,
-    <area shape="circle" coords="235,360,105" href='#' alt="Page2" onClick={() => {navigate('Estructura%20socioespacial')}}/>
+    <area shape="circle" coords="235,360,105" href='#' alt="Page2" onClick={() => {navigate('Estructura%20socioespacial')}}/>,
+    <area shape="circle" coords="230,245,235" href='#' alt="Page5" onClick={() => {navigate('')}}/>
     ]
 }/>
-
+     <div className="contenedorSE">
+        <div className="botonesSE">
+          <Link to={`/Componente poblacional/Estructura socioespacial/Segregación espacial por Localidades`} className="botonSE">Segregación espacial por localidades</Link>
+        </div>
+      </div>
         </>
     )
 }

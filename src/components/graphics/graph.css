@@ -193,7 +193,7 @@
     position: absolute;
     display: flex;
     margin-left: calc(64px + 2%);
-    margin-top: calc(18vh + 8.5%);
+    margin-top: calc(10vh + 10%);
     z-index: 10;
     width: 3.5rem;
     justify-content: center;
@@ -269,7 +269,7 @@
     position: absolute;
     display: flex;
     margin-left: calc(10px + 39.2%);
-    margin-top: calc(5vh + 8.5%);
+    margin-top: calc(5vh + 7.5%);
     z-index: 10;
     width: 3.7rem;
     height: 5rem;
@@ -281,8 +281,8 @@
 .linea5G2 {
     opacity: .4;
     border-left: 2px solid #df5d5d;
-    bottom: 17vh;
-    height: 51vh;
+    bottom: 21vh;
+    height: 43vh;
     left: calc(15px + 56.5%);
     position: relative;
     z-index: 6;
@@ -292,11 +292,11 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    margin-left: calc(7px + 53.5%);
-    margin-top: calc(1vh + 6%);
+    margin-left: calc(-50px + 52.5%);
+    margin-top: calc(-5vh - 1%);
     z-index: 10;
-    width: 3.7rem;
-    height: 6.7rem;
+    width: 6.5rem;
+    height: 5.3rem;
     background-color: white;
     justify-content: center;
     border: 1px solid #df5d5d;
@@ -305,8 +305,8 @@
 .linea6G2 {
     opacity: .4;
     border-left: 2px solid darkgoldenrod;
-    bottom: 24vh;
-    height: 37vh;
+    bottom: 28vh;
+    height: 29vh;
     left: calc(12px + 59.5%);
     position: relative;
     z-index: 6;
@@ -317,7 +317,7 @@
     position: absolute;
     display: flex;
     margin-left: calc(5px + 56.2%);
-    margin-top: calc(-3vh - 9%);
+    margin-top: calc(-3vh - 17%);
     z-index: 10;
     width: 3.7rem;
     height: 5.9rem;
@@ -341,7 +341,7 @@
     position: absolute;
     display: flex;
     margin-left: calc(5px + 59%);
-    margin-top: calc(6vh + 6%);
+    margin-top: calc(6vh + 6.8%);
     z-index: 10;
     width: 3.7rem;
     height: 4.7rem;
@@ -909,6 +909,54 @@ hr {
     border: 1px groove rgb(146, 69, 146);
     cursor: pointer;
 }
+
+.linea5_1 {
+    opacity: .4;
+    border-left: 2px solid rgb(63, 109, 71);;
+    bottom: 10vh;
+    height: 65vh;
+    left: calc(50px + 41.2%);
+    position: relative;
+    z-index: 6;
+}
+.cuadro5_1 {
+    opacity: 1;
+    position: absolute;
+    display: flex;
+    margin-left: calc(20px + 36.9%);
+    margin-top: calc(10vh + 15%);
+    z-index: 10;
+    background-color: white;
+    width: 5.4rem;
+    justify-content: center;
+    height: 5.3rem;
+    border: 1px groove rgb(63, 109, 71);
+    cursor: pointer;
+}
+.linea5_2 {
+    opacity: .4;
+    border-left: 2px solid #df5d5d;
+    bottom: 10vh;
+    height: 65vh;
+    left: calc(50px + 43.5%);
+    position: relative;
+    z-index: 6;
+}
+.cuadro5_2 {
+    opacity: 1;
+    position: absolute;
+    display: flex;
+    margin-left: calc(20px + 44.2%);
+    margin-top: calc(10vh + 15.9%);
+    z-index: 10;
+    background-color: white;
+    width: 5.5rem;
+    justify-content: center;
+    height: 5.5rem;
+    border: 1px groove rgb(146, 69, 146);
+    cursor: pointer;
+}
+
 
 .linea5 {
     opacity: .4;

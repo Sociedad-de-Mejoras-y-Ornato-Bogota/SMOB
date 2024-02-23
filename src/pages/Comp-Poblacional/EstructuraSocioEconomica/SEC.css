@@ -1,4 +1,4 @@
-.contenedorP {
+.contenedorSEC {
     position: relative;
     top: 0;
     left: 0;
@@ -11,13 +11,13 @@
     margin-left: 48%;
   }
   
-  .botonesP {
+  .botonesSEC {
     margin: 20px;
     display: flex;
     flex-direction: row;
   }
   
-  .botonP {
+  .botonSEC {
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -30,24 +30,24 @@
     border-radius: 10px 10px 0 0; /* Esquinas redondeadas solo en la parte superior */
     transition: background-color 0.3s ease-in-out;
     font-size: x-small;
-    margin-bottom:55% ;
+    margin-bottom:120% ;
   }
   
-  .botonP:hover {
+  .botonSEC:hover {
     background-color: #5c2409;
   }
   @media screen and (max-width: 768px) {
-    .contenedorP {
+    .contenedorSEC {
       width: 100%;
       margin-bottom: 10%; /* Ajusta el ancho del contenedor en pantallas más pequeñas */
       margin-left: 0;
     }
   
-    .botonesP {
-      flex-direction: column; /* Pambia la dirección a columna en pantallas más pequeñas */
+    .botonesSEC {
+      flex-direction: column; /* Cambia la dirección a columna en pantallas más pequeñas */
     }
   
-    .botonP {
+    .botonSEC {
       width: 100%; /* Hace que los botones ocupen todo el ancho en pantallas más pequeñas */
       border-radius: 10px; /* Restaura las esquinas redondeadas en pantallas más pequeñas */
       border-radius: 10px; /* Restaura las esquinas redondeadas en pantallas más pequeñas */

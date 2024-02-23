@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import Popup from './pupUp';
 import Popup2 from "./popUp2";
 import 'reactjs-popup/dist/index.css';
+import PopupSlide from "./popUpSlide";
 // import icono from '../../assets/icons/imagen.png';
 // import icono1 from '../../assets/icons/pdf.png';
 
@@ -15,6 +16,11 @@ const Graph = () => {
   const d2 = ((window.innerHeight / 10) * 8.5);
   const [chartWidth, setChartWidth] = useState(d1); // Ancho inicial del gráfico
   const [chartHeight, setChartHeight] = useState(d2); // Alto inicial del gráfico
+
+  const images = [
+    'https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/recursos_15_02_2024/E.1.4-Decreto-1119-1968.png',
+    'https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/recursos_15_02_2024/PLANO 1968.PNG',
+  ];
 
   useEffect(() => {
     const handleResize = () => {
@@ -113,6 +119,8 @@ const Graph = () => {
   const [showPopup2, setShowPopup2] = useState(false);
   const [showPopup3, setShowPopup3] = useState(false);
   const [showPopup4, setShowPopup4] = useState(false);
+  const [showPopup4_1, setShowPopup4_1] = useState(false);
+  const [showPopup4_2, setShowPopup4_2] = useState(false);
   const [showPopup5, setShowPopup5] = useState(false);
   const [showPopup6, setShowPopup6] = useState(false);
   const [showPopup7, setShowPopup7] = useState(false);
@@ -125,6 +133,8 @@ const Graph = () => {
   const [showPopup1E, setShowPopup1E] = useState(false);
   const [showPopup2E, setShowPopup2E] = useState(false);
   const [showPopup3E, setShowPopup3E] = useState(false);
+  const [showPopup4_1E, setShowPopup4_1E] = useState(false);
+  const [showPopup4_2E, setShowPopup4_2E] = useState(false);
   const [showPopup4E, setShowPopup4E] = useState(false);
   const [showPopup5E, setShowPopup5E] = useState(false);
   const [showPopup6E, setShowPopup6E] = useState(false);
@@ -145,6 +155,12 @@ const Graph = () => {
   };
   const handleDivClick3 = () => {
     setShowPopup3(true);
+  };
+  const handleDivClick4_1 = () => {
+    setShowPopup4_1(true);
+  };
+  const handleDivClick4_2 = () => {
+    setShowPopup4_2(true);
   };
   const handleDivClick4 = () => {
     setShowPopup4(true);
@@ -182,6 +198,12 @@ const Graph = () => {
   };
   const handleDivClick3E = () => {
     setShowPopup3E(true);
+  };
+  const handleDivClick4_1E = () => {
+    setShowPopup4_1E(true);
+  };
+  const handleDivClick4_2E = () => {
+    setShowPopup4_2E(true);
   };
   const handleDivClick4E = () => {
     setShowPopup4E(true);
@@ -223,6 +245,14 @@ const Graph = () => {
   const handleClosePopup3 = () => {
     console.log('Cerrando el pop-up');
     setShowPopup3(false);
+  };
+  const handleClosePopup4_1 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup4_1(false);
+  };
+  const handleClosePopup4_2 = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup4_2(false);
   };
   const handleClosePopup4 = () => {
     console.log('Cerrando el pop-up');
@@ -272,6 +302,14 @@ const Graph = () => {
   const handleClosePopup3E = () => {
     console.log('Cerrando el pop-up');
     setShowPopup3E(false);
+  };
+  const handleClosePopup4_1E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup4_1E(false);
+  };
+  const handleClosePopup4_2E = () => {
+    console.log('Cerrando el pop-up');
+    setShowPopup4_2E(false);
   };
   const handleClosePopup4E = () => {
     console.log('Cerrando el pop-up');
@@ -331,6 +369,21 @@ const Graph = () => {
           imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.4-Fase-2-1972.png"
           onClose={handleClosePopup3}
 
+        />
+      )}
+      {showPopup4_1 && (
+        <Popup
+          imageUrl="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/E.1.5-plan-desarrollo-urbano-1975.png"
+          onClose={handleClosePopup4_1}
+
+        />
+      )}
+      
+      
+      {showPopup4_2 && (
+        <PopupSlide
+          imageUrls={images}
+          onClose={handleClosePopup4_2}
         />
       )}
       {showPopup4 && (
@@ -410,6 +463,18 @@ const Graph = () => {
         <Popup2
           onClose={handleClosePopup3E}
           url=""
+        />
+      )}
+      {showPopup4_1E && (
+        <Popup2
+          onClose={handleClosePopup4_1E}
+          url=""
+        />
+      )}
+      {showPopup4_2E && (
+        <Popup2
+          onClose={handleClosePopup4_2E}
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/recursos_15_02_2024/DECRETO+1119+DE+1968.pdf"
         />
       )}
       {showPopup4E && (
@@ -542,6 +607,51 @@ const Graph = () => {
               <h3 className="h3-c">- Crecimiento: <strong className="str">4,03</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">2,52</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">1,55</strong></h3>
+              {/* <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E} />
+                </button>
+              </div> */}
+            </p>
+            </div>
+            <div className="linea5_1"></div>
+            <div className="cuadro5_1"><p><h1 className="h1-c"> 1967</h1>
+              <h2 className="h2-c">Acuerdo 65 de 1967</h2>
+              <h3 className="h3-c">Crecimiento: <strong className="str">5,80</strong></h3>
+              <h3 className="h3-c">Vegetativa: <strong className="str">2,63</strong></h3>
+              <h3 className="h3-c">Migración: <strong className="str">2,85</strong></h3>
+              <div className="div-graph-button">
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4_1E} />
+                </button>
+              </div>
+              {/* <div className="div-graph-button">
+                <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E} />
+                </button>
+              </div> */}
+            </p>
+            </div>
+            <div className="linea5_2"></div>
+            <div className="cuadro5_2"><p><h1 className="h1-c">1968</h1>
+              <h2 className="h2-c">Decreto 1119 de 1968</h2>
+              <h3 className="h3-c">Crecimiento: <strong className="str">5,72</strong></h3>
+              <h3 className="h3-c">Vegetativa: <strong className="str">2,58</strong></h3>
+              <h3 className="h3-c">Migración: <strong className="str">2,83</strong></h3>
+              <div className="div-graph-button">
+              <button className="cus">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4_2} />
+                </button>
+                <button className="cus2">
+                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4_2E} />
+                </button>
+              </div>
               {/* <div className="div-graph-button">
                 <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4} />

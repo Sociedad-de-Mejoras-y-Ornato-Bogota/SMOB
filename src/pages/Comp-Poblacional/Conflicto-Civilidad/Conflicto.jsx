@@ -1,5 +1,7 @@
 import Page_principal from "../../../components/page-principal/page-principal"
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './conflicto.css'
 const Conflicto = () => {
     const navigateTo = useNavigate(); 
     const navigate = (path) => {
@@ -14,9 +16,17 @@ const Conflicto = () => {
                         <area shape="rect" coords="80,240,385,280" href='#' alt="Page1" onClick={() => { navigate('Conflicto%20-%20civilidad') }} />,
                         <area shape="circle" coords="130,180,105" href='#' alt="Page2" onClick={() => { navigate('demograf%C3%ADa') }} />,
                         <area shape="circle" coords="340,180,105" href='#' alt="Page2" onClick={() => { navigate('Estructura%20socioecon%C3%B3mica') }} />,
-                        <area shape="circle" coords="235,360,105" href='#' alt="Page2" onClick={() => { navigate('Estructura%20socioespacial') }} />
+                        <area shape="circle" coords="235,360,105" href='#' alt="Page2" onClick={() => { navigate('Estructura%20socioespacial') }} />,
+                        <area shape="circle" coords="230,245,235" href='#' alt="Page5" onClick={() => {navigate('')}}/>
                     ]
                 } />
+    <div className="contenedorC">
+        <div className="botonesC">
+          <Link to={`/Componente poblacional/Conflicto - civilidad/Caminos hacia la Independencia`} className="botonC">Caminos hacia la independencia</Link>
+          <Link to={`/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX`} className="botonC">Bogotá asediada Siglo XIX</Link>
+          <Link to={`/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización`} className="botonC">Demografía: violencia y urbanización</Link>
+        </div>
+    </div>
         </>
     )
 }

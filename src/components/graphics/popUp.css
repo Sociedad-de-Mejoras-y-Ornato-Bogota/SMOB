@@ -13,15 +13,37 @@
   /* Coloca el pop-up por encima de todo */
 }
 
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.arrow-button {
+  font-size: 24px;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  z-index: 100;
+  
+}
+
 .popup-content {
   z-index: 999;
   background: white;
-  width: 80vw;
+  width: 85vw;
   height: 80vh;
   padding: 20px;
   border-radius: 5px;
   position: relative;
-  max-width: 80vw;
+  max-width: 85vw;
   /* Ajusta el ancho máximo del pop-up según sea necesario */
   max-height: 80vh;
   /* Ajusta la altura máxima del pop-up según sea necesario */
@@ -33,7 +55,7 @@
   max-width: 100%;
   /* Ajusta el ancho máximo de la imagen para que se ajuste al contenedor */
   height: 95%;
-  width: 100%;
+  width: 90%;
   /* Asegura que la altura se ajuste automáticamente al ancho */
   display: block;
   /* Evita el espacio adicional debajo de la imagen */

@@ -131,6 +131,24 @@ import { Link } from "react-router-dom";
 
 
 const Footer = () => {
+    const [linkTo, setLinkTo] = useState('/');
+    const [isLeftSide, setIsLeftSide] = useState(true);
+
+    useEffect(() => {
+        // Actualizar el destino del enlace según la posición del puntero
+        setLinkTo(isLeftSide ? '/' : '/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá');
+    }, [isLeftSide]);
+    const handleMouseMove = (event) => {
+        const image = event.target;
+        const clickX = event.clientX - image.getBoundingClientRect().left;
+        const threshold = image.width / 1.65;
+
+        setIsLeftSide(clickX <= threshold);
+    };
+
+    const handleMouseLeave = () => {
+        setIsLeftSide(true); // Restaurar al salir del área de la imagen
+    };
   return (
     <footer className="footer" style={{ backgroundColor: "#F4F1EE" }}>
       <div
@@ -218,7 +236,7 @@ const Footer = () => {
       
         <div className="footer-derechos">
         <div className="footer-logos" style={{ display: "flex", justifyContent:'center',padding:'20px'}}>
-        <Link to="construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
+        <Link to={linkTo} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
             <img
               src="https://smob-storage.s3.us-east-2.amazonaws.com/aplicaci%C3%B3n+de+logotipos+DATA+CIVILIDAD_Mesa+de+trabajo+1_Mesa+de+trabajo+1.png"
               alt="logo Plataforma Construyendo Civilidad"
