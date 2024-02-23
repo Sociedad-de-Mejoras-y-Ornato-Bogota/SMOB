@@ -23,7 +23,7 @@ export default function SocioEconomica() {
                 } />
              <div className="contenedorSE">
         <div className="botonesSE">
-          <Link to={`/Componente poblacional/Estructura socioespacial/Segregación espacial por Localidades`} className="botonSE">Pobreza en Colombia y Bogotá</Link>
+          <Link to={`/Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá`} className="botonSE">Pobreza en Colombia y Bogotá</Link>
         </div>
       </div>
         </>
