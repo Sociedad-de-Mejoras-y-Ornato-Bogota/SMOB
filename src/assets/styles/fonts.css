@@ -3,7 +3,8 @@
 
 :root{
     --font-headers: 'Instrument Serif', serif;
-    --font-principal: 'Lora', serif;     --font-headers: 'Instrument Serif', serif;
+    --font-principal: 'Lora', serif;     
+    --font-headers: 'Instrument Serif', serif;
     --font-size-1:1.5vw;
     --font-size-2:0.9vw;
     --font-size-3:.7vw;

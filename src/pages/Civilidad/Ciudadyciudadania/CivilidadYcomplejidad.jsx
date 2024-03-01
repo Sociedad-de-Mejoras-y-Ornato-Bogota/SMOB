@@ -3,7 +3,7 @@ function CivilidadYComplejidad() {
 
   return (
     <>
-      <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/4.pdf" name_component="Civilidad y complejidad" />
+      <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/SMOB_Ciudadania y civilidad_Civilidad y complejidad.pdf" name_component="Civilidad y complejidad" />
     </>
   );
 }

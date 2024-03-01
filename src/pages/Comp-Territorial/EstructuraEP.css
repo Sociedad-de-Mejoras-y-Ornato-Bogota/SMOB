@@ -1,0 +1,10 @@
+@import url('../../assets/styles/fonts.css');
+body{
+    font-family: var(--font-principal) !important;
+}
+.root{
+    font-family: var(--font-principal) !important;
+}
+#app{
+    font-family: var(--font-principal) !important;
+}

@@ -21,7 +21,7 @@
     color: white;
     padding: 10px;
     margin: 5px;
-    background-color: #762f0b;
+    background-color: #6a5a41;
     border: none;
     cursor: pointer;
     flex: 1; /* Hace que todos los botones tengan la misma altura */
@@ -33,7 +33,7 @@
   }
   
   .botonCC:hover {
-    background-color: #5c2409;
+    background-color: #463c2c;
   }
   @media screen and (max-width: 768px) {
     .contenedorCC {

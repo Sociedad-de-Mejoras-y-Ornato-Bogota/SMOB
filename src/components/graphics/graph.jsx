@@ -42,7 +42,21 @@ const Graph = () => {
       type: 'line',
       width: chartWidth,
       height: chartHeight,
+      backgroundColor:'#00FF0000',
     },
+    tooltip: {
+      enabled: true,
+      backgroundColor: 'rgba(255, 255, 255, 0.9)', // Color de fondo del tooltip
+      borderColor: '#000', // Color del borde del tooltip
+      borderRadius: 5, // Radio de borde del tooltip
+      borderWidth: 1, // Ancho del borde del tooltip
+      style: {
+          color: '#333', // Color del texto del tooltip
+          fontSize: '12px' // Tamaño de fuente del texto del tooltip
+      },
+      zIndex: 9000 // Establecer el zIndex para el tooltip
+      // Otras configuraciones del tooltip...
+  },
     title: {
       text: '',
       align: 'center'
@@ -783,12 +797,13 @@ const Graph = () => {
               </div> */}
             </p>
             </div>
-            
             <hr></hr>
+             <div className="divHigcharts">
               <HighchartsReact
                 highcharts={Highcharts}
                 options={options}
               />
+              </div>
           </div>
         </div>
       </div></>

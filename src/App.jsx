@@ -69,6 +69,7 @@ import Vivienda from './pages/Comp-Bienestar/Estructura/Vivienda/Vivienda';
 import Informal from './pages/Comp-Bienestar/Estructura/Vivienda/vivienda/informal';
 import Obrera from './pages/Comp-Bienestar/Estructura/Vivienda/vivienda/obrera';
 import DesarrolloUrb from './pages/Comp-Bienestar/Estructura/Vivienda/DesarrollosUrb';
+import ViviendaPP from './pages/Comp-Bienestar/Estructura/Vivienda/Desarrollos/viviendaporperiodos';
 import Estudios from './pages/Comp-Bienestar/Estructura/Vivienda/Desarrollos/estudio';
 import Barrios from './pages/Comp-Bienestar/Estructura/Vivienda/Desarrollos/barrios';
 import LineaTiempo from './pages/Comp-Bienestar/Estructura/Vivienda/LineaTiempo';
@@ -181,6 +182,7 @@ const App = () => {
           <Route path="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Informal} />
           <Route path="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Obrera} />
           <Route path="componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos" Component={DesarrolloUrb} />
+          <Route path="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Vivienda por periodos" Component={ViviendaPP} />
           <Route path="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Estudio de caso de barrios" Component={Estudios} />
           <Route path="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Barrios generales" Component={Barrios} />
           <Route path="componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda" Component={LineaTiempo} />

@@ -148,7 +148,14 @@ const NvRes = () => {
       {submenu.map((subitem, subindex) => (
         <li key={subindex} className="submenuItem">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Link to={subitem.ruta} style={{ textDecoration: 'none', color: 'black' }}>
+            <Link
+              to={subitem.ruta}
+              style={{ textDecoration: 'none', color: 'black' }}
+              onClick={() => {
+                toggleMenu(); // Cierra el menú al hacer clic en el enlace del submenú
+                toggleSubMenu(`${parentIndex}-${subindex}`);
+              }}
+            >
               {subitem.title}
             </Link>
             {subitem.submenu && (
@@ -169,7 +176,7 @@ const NvRes = () => {
   const MenuItem = ({ item, index }) => (
     <li className="navbarItem" key={index}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <Link to={item.ruta} style={{ color: 'black', textDecoration: 'none' }}>
+        <Link to={item.ruta} style={{ color: 'black', textDecoration: 'none' }} onClick={toggleMenu}>
           {item.title}
         </Link>
         {item.submenu && (

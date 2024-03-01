@@ -3,7 +3,7 @@ function Responsabilidad() {
 
   return (
     <>
-      <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/5.pdf" name_component="La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá" />
+      <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/SMOB_Ciudadania+y+civilidad_La+responsabilidad+social+de+la+SMOB.pdf" name_component="La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá" />
     </>
     // <div className="general-container">
     //   <div className="row responsive-columna">
