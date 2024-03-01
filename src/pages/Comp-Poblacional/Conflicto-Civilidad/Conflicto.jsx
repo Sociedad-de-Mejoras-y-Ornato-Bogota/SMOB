@@ -23,7 +23,7 @@ const Conflicto = () => {
     <div className="contenedorC">
         <div className="botonesC">
           <Link to={`/Componente poblacional/Conflicto - civilidad/Caminos hacia la Independencia`} className="botonC">Caminos hacia la independencia</Link>
-          <Link to={`/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX`} className="botonC">Bogotá asediada Siglo XIX</Link>
+          <Link to={`/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX`} className="botonC">Bogotá asediada siglo XIX</Link>
           <Link to={`/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización`} className="botonC">Demografía: violencia y urbanización</Link>
         </div>
     </div>

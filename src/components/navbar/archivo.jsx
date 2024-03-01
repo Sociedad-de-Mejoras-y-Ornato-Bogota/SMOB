@@ -66,10 +66,10 @@ export const archivo = [
                 ruta: "/Componente poblacional/Conflicto - civilidad",
                 submenu: [
                     {
-                        title: "Caminos hacia la Independencia",
+                        title: "Caminos hacia la independencia",
                         ruta: "/Componente poblacional/Conflicto - civilidad/Caminos hacia la Independencia"
                     }, {
-                        title: "Bogotá asediada Siglo XIX",
+                        title: "Bogotá asediada siglo XIX",
                         ruta: "/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX"
                     }, {
                         title: "Demografía: violencia y urbanización",
@@ -113,7 +113,7 @@ export const archivo = [
                 title: "Estructura socioespacial",
                 ruta: "/Componente poblacional/Estructura socioespacial",
                 submenu: [{
-                    title: "Segregación espacial por Localidades",
+                    title: "Segregación espacial por localidades",
                     ruta: "/Componente poblacional/Estructura socioespacial/Segregación espacial por Localidades",
                 },
                 ],
@@ -134,7 +134,7 @@ export const archivo = [
             title: "Evolución de la huella urbana",
             ruta: "/Componente territorial/Evokución de la huella urbana",
         }, {
-            title: "Indicadores urbanísticos",
+            title: "Comparativo de indicadores urbanísticos",
             ruta: "/Componente territorial/Indicadores urbanísticos",
         },{
             title: "Estructura ecológica principal",
@@ -162,7 +162,7 @@ export const archivo = [
                         title: "Historia de la energía eléctrica",
                         ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos/Energia",
                     }, {
-                        title: "Historia del Gas natural",
+                        title: "Historia del gas natural",
                         ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos/Gas",
                     },
                     {
@@ -203,7 +203,7 @@ export const archivo = [
                                 title: "Salud en Bogotá",
                                 ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos/Salud en Bogotá",
                             }, {
-                                title: "Historia de las Iglesias",
+                                title: "Historia de las iglesias",
                                 ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos/Iglesias",
                             },
                         ]
@@ -291,13 +291,13 @@ export const archivo = [
         color: "white",
         submenu: [
             {
-                title: "Bogotá: Ciudad Colonial",
+                title: "Bogotá: ciudad colonial",
                 ruta: "/Modelos Urbanos/Bogotá Colonial",
             }, {
-                title: "Bogotá: Ciudad Republicana",
+                title: "Bogotá: ciudad republicana",
                 ruta: "/Modelos Urbanos/Bogotá Republicana",
             },{
-               title:"Bogota: Ciudad futura", 
+               title:"Bogota: ciudad futura", 
                ruta:"Modelos Urbanos/Bogotá futura" 
             }
         ],
