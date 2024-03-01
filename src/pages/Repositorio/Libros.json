@@ -18,7 +18,7 @@
   {
     "id": 3,
     "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/3.jpg",
-    "title": "La estratificación en Bogotá. Impacto social y alternativas para asignar subsidios",
+    "title": "La estratificación en Bogotá. Impacto social y alternativas para asignar subsidios.",
     "autor": "Alcaldía Mayor de Bogotá",
     "link": "https://www.sdp.gov.co/sites/default/files/estratificacionbogota2016.pdf",
     "type": "Biblioteca"
@@ -1312,6 +1312,22 @@
     "link": "Las dinámicas poblacionales van definiendo los modelos de ocupación del territorio. Qué se puede predecir y planear, qué sucede a tal ritmo que lo que se impone son la contingencia y la precariedad, son fenómenos que hay que estudiar detenidamente. El concepto de Bogotá Región, por ejemplo, cómo ha respondido a fenómenos como las variaciones en las tasas de fecundidad o mortalidad, los flujos migratorios, el crecimiento y envejecimiento de la población, la aglomeración y la pobreza, y por último, el desarrollo institucional y normativo. Presentación realizada en la Comisión Cuidad (mesa convocada por la Alcaldesa Mayor de Bogotá, Claudia López, en el proceso de formulación del POT 2020), en el marco de la discusión para el fortalecimiento de la estructura ecológica principal, la defensa de la reserva Thomas Van der Hammen y el análisis de la vivienda de interés social. ",
     "type": "Presentaciones SMOB",
     "subtype":"Estructura demográfica"
+  },
+  {
+    "id": 167,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/imagen.png",
+    "title": "Boletín No. 9: Bogotá ciudad de estadísticas.",
+    "autor": "Secretaria Distrital de Planeación",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 168,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/imagen+(1).png",
+    "title": "Boletín No.31: Población, viviendas y hogares a junio 30 de 2011, en relación con la estratificación socioeconómica vigente en el 2011 vigente en el 2011",
+    "autor": "Secretaria Distrital de Planeación",
+    "link": "",
+    "type": "Biblioteca"
   }
 
 ]

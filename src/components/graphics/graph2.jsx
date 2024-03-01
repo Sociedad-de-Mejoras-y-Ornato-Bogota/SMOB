@@ -37,6 +37,7 @@ const Graph2 = () => {
       type: 'line',
       width: chartWidth,
       height: chartHeight,
+      backgroundColor:'#00FF0000',
     },
     tooltip: {
       enabled: true,
@@ -849,6 +850,74 @@ const Graph2 = () => {
 
               </p>
             </div>
+
+            <div className="linea5_1G2"></div>
+            <div className="cuadro5_1G2">
+              <p>
+                <h1 className="h1-c">
+                  <strong>1967</strong>
+                </h1>
+                <h3 className="h3-c">Acuerdo 65</h3>
+                <h3 className="h3-c">de 1967</h3>
+                <h3 className="h3-c">26.526 ha</h3>
+                <h3 className="h3-c">Pobl. 3.075.832</h3>
+                {/* <div className="div-graph-button">
+                  <button className="cu">
+                    <img
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
+                      alt="Icono"
+                      width="20"
+                      height="20"
+                      onClick={handleDivClick5}
+                    />
+                  </button>
+                <button className="cu2">
+                    <img
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png"
+                      alt="Icono"
+                      width="20"
+                      height="20"
+                      onClick={handleDivClick5E}
+                    />
+                  </button>
+                </div> */}
+
+              </p>
+            </div>
+
+            <div className="linea5_2G2"></div>
+            <div className="cuadro5_2G2">
+              <p>
+                <h1 className="h1-c">
+                  <strong>1968</strong>
+                </h1>
+                <h3 className="h3-c">Decreto 1119</h3>
+                <h3 className="h3-c">de 1968</h3>
+                <h3 className="h3-c">26.526 ha</h3>
+                <h3 className="h3-c">Pobl. 3.075.832</h3>
+                {/* <div className="div-graph-button">
+                  <button className="cu">
+                    <img
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
+                      alt="Icono"
+                      width="20"
+                      height="20"
+                      onClick={handleDivClick5}
+                    />
+                  </button>
+                <button className="cu2">
+                    <img
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png"
+                      alt="Icono"
+                      width="20"
+                      height="20"
+                      onClick={handleDivClick5E}
+                    />
+                  </button>
+                </div> */}
+
+              </p>
+            </div>
             <div className="linea5G2"></div>
             <div className="cuadro5G2">
               <p>
@@ -1115,62 +1184,62 @@ const Graph2 = () => {
             </div>
             <div className="m1G2">
               <p>
-                <h3 className="h3-c">118.405</h3>
+                <h3 className="h3-c1">118.405</h3>
               </p>
             </div>
             <div className="m2G2">
               <p>
-                <h3 className="h3-c">115.804</h3>
+                <h3 className="h3-c1">115.804</h3>
               </p>
             </div>
             <div className="m3G2">
               <p>
-                <h3 className="h3-c">426.170</h3>
+                <h3 className="h3-c1">426.170</h3>
               </p>
             </div>
             <div className="m4G2">
               <p>
-                <h3 className="h3-c">1.940.914</h3>
+                <h3 className="h3-c1">1.940.914</h3>
               </p>
             </div>
             <div className="m5G2">
               <p>
-                <h3 className="h3-c">375. 691</h3>
+                <h3 className="h3-c1">375. 691</h3>
               </p>
             </div>
             <div className="m6G2">
               <p>
-                <h3 className="h3-c">506.154</h3>
+                <h3 className="h3-c1">506.154</h3>
               </p>
             </div>
             <div className="m7G2">
               <p>
-                <h3 className="h3-c">1.393.545</h3>
+                <h3 className="h3-c1">1.393.545</h3>
               </p>
             </div>
             <div className="m8G2">
               <p>
-                <h3 className="h3-c">93.545</h3>
+                <h3 className="h3-c1">93.545</h3>
               </p>
             </div>
             <div className="m9G2">
               <p>
-                <h3 className="h3-c">463. 519</h3>
+                <h3 className="h3-c1">463. 519</h3>
               </p>
             </div>
             <div className="m10G2">
               <p>
-                <h3 className="h3-c">688.529</h3>
+                <h3 className="h3-c1">688.529</h3>
               </p>
             </div>
             <div className="m11G2">
               <p>
-                <h3 className="h3-c">688.529</h3>
+                <h3 className="h3-c1">688.529</h3>
               </p>
             </div>
             <div className="m12G2">
               <p>
-                <h3 className="h3-c">375.691</h3>
+                <h3 className="h3-c1">375.691</h3>
               </p>
             </div>
             <div className="circulo1G2">
@@ -1306,7 +1375,9 @@ const Graph2 = () => {
               </p>
             </div>
             <hr></hr>
+            <div className="divHigcharts">
             <HighchartsReact highcharts={Highcharts} options={options} />
+            </div>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
-import Page_tipe_full from '../../components/page-tipe-full/page-tipe-full'
+import Page_tipe_full from '../../components/page-tipe-full/page-tipe-full';
+import './EstructuraEP.css';
 function EstructuraEP() {
   return (
     <>

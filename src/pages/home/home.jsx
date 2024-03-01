@@ -9,6 +9,7 @@ const Home = () => {
   const audio = "https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/recursos_15_02_2024/Audio%20reseña%20INICIO.mp3";
 
   const audioRef = useRef(null);
+  const videoRef = useRef(null);
   const [reproduciendo, setReproduciendo] = useState(false);
 
   const handlePlayPause = () => {
@@ -17,6 +18,15 @@ const Home = () => {
     } else {
       audioRef.current.pause();
     }
+  };
+
+  const handleVideoPlay = () => {
+    audioRef.current.pause();
+    setReproduciendo(false);
+  };
+
+  const handleAudioPlay = () => {
+    videoRef.current.pause();
   };
 
   useEffect(() => {
@@ -87,14 +97,12 @@ const Home = () => {
             ¡Bienvenidos!
           </p>
         </div>
-        <div
-          className="home-content-video"
-        >
-          <video controls style={{ objectFit: "contain" }}>
-            <source src={videoSrc} type="video/mp4" />
-            Tu navegador no admite la reproducción de video.
-          </video>
-        </div>
+        <div className="home-content-video">
+        <video controls style={{ objectFit: "contain" }} onPlay={handleVideoPlay} ref={videoRef}>
+          <source src={videoSrc} type="video/mp4" />
+          Tu navegador no admite la reproducción de video.
+        </video>
+      </div>
       </div>
       <div className="home-panels">
         <Panels />

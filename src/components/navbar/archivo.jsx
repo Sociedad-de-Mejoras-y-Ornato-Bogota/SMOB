@@ -237,14 +237,19 @@ export const archivo = [
                             }, {
                                 title: "Desarrollos urbanísticos",
                                 ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos ",
-                                submenu: [{
+                                submenu: [
+                                    {
+                                    title: "Vivienda por periodos",
+                                    ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Vivienda por periodos"
+                                    }
+                                    ,{
                                     title: "Barrios generales",
                                     ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Barrios generales"
-                                },
-                                {
-                                    title: "Estudio de caso de barrios",
-                                    ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Estudio de caso de barrios"
-                                }]
+                                    },
+                                    {
+                                        title: "Estudio de caso de barrios",
+                                        ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Estudio de caso de barrios"
+                                    }]
                             },
                         ],
                     }, {

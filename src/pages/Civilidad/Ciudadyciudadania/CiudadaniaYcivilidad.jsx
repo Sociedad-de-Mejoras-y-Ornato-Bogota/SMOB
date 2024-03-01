@@ -5,7 +5,7 @@ export default function CiudaniaYCivilidad() {
 
   return (
     <>
-      <Page_libro url_ver_mas="https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/1.pdf" url_book="https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/1.pdf" name_component="Ciudadanía y civilidad" />
+      <Page_libro url_ver_mas="https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/SMOB_Ciudadania y civilidad_web.pdf" url_book="https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/1.pdf" name_component="Ciudadanía y civilidad" />
       <div className="contenedorCC">
         <div className="botonesCC">
           <Link to={`/construyendo civilidad/Cuidad y cuidadanía/Orígenes de la civilidad en Colombia`} className="botonCC">Orígenes de la civilidad en Colombia</Link>

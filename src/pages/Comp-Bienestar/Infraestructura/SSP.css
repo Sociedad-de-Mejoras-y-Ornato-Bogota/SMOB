@@ -22,7 +22,7 @@
     color: white;
     padding: 10px;
     margin: 5px;
-    background-color: #762f0b;
+    background-color: #ba912b;
     border: none;
     cursor: pointer;
     flex: 1; /* Hace que todos los botones tengan la misma altura */
@@ -34,7 +34,7 @@
   }
   
   .botonSSP:hover {
-    background-color: #5c2409;
+    background-color: #8a6c20;
   }
   @media screen and (max-width: 768px) {
     .contenedorSSP {
