@@ -130,15 +130,38 @@ export const archivo = [
         title: "Componente territorial",
         ruta: "/Componente territorial",
         color: "white",
+        // submenu: [{
+        //     title: "Evolución de la huella urbana",
+        //     ruta: "/Componente territorial/Evolución de la huella urbana",
+        // }, {
+        //     title: "Comparativo de indicadores urbanísticos",
+        //     ruta: "/Componente territorial/Indicadores urbanísticos",
+        // },{
+        //     title: "Estructura ecológica principal",
+        //     ruta: "/Componente territorial/Estructura ecológica principal",
+        // },
+        // ],
         submenu: [{
-            title: "Evolución de la huella urbana",
-            ruta: "/Componente territorial/Evokución de la huella urbana",
+            title: "Municipio, estructura rural, y región metropolitana",
+            ruta: "/Componente territorial/Municipio estructura rural y region metropolitana",
         }, {
-            title: "Comparativo de indicadores urbanísticos",
-            ruta: "/Componente territorial/Indicadores urbanísticos",
-        },{
             title: "Estructura ecológica principal",
-            ruta: "/Componente territorial/Estructura ecológica principal",
+            ruta: "/Componente territorial/Estructura ecológica principal"
+            //ruta: "/Componente territorial/Indicadores urbanísticos",
+        }, {
+            title: "Estructura de la huella urbanística",
+            ruta: "#",
+            submenu: [
+                {
+                    title: "Evolución de la huella urbana",
+                    ruta: "/Componente territorial/Evolución de la huella urbana",
+                },
+                {
+                    title: "Comparativo de indicadores urbanísticos",
+                    ruta: "/Componente territorial/Indicadores urbanísticos",
+                }
+
+            ]
         },
         ],
     }, {
@@ -239,12 +262,12 @@ export const archivo = [
                                 ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos ",
                                 submenu: [
                                     {
-                                    title: "Vivienda por periodos",
-                                    ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Vivienda por periodos"
+                                        title: "Vivienda por periodos",
+                                        ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Vivienda por periodos"
                                     }
-                                    ,{
-                                    title: "Barrios generales",
-                                    ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Barrios generales"
+                                    , {
+                                        title: "Barrios generales",
+                                        ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Barrios generales"
                                     },
                                     {
                                         title: "Estudio de caso de barrios",
@@ -296,9 +319,9 @@ export const archivo = [
             }, {
                 title: "Bogotá: ciudad republicana",
                 ruta: "/Modelos Urbanos/Bogotá Republicana",
-            },{
-               title:"Bogota: ciudad futura", 
-               ruta:"Modelos Urbanos/Bogotá futura" 
+            }, {
+                title: "Bogota: ciudad futura",
+                ruta: "Modelos Urbanos/Bogotá futura"
             }
         ],
     }, {

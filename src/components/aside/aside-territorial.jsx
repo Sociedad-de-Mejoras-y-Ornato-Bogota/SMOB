@@ -58,7 +58,7 @@ return () => {
 
         <div className='component1' >
           <div >
-            <Link to='Componente territorial/Evokución de la huella urbana'><span  onClick={() => {
+            <Link to='Componente territorial/Evolución de la huella urbana'><span  onClick={() => {
             handleToggle()
             setterritorial(!territorial)
             }} style={{ marginLeft: "20px", fontSize:"16px" }}>Evolución de la huella urbana</span></Link>

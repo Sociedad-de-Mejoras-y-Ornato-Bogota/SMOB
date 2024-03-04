@@ -13,9 +13,9 @@ const Territorial = () => {
                      audio='https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/recursos_15_02_2024/Audio Componente territorial.mp3'
                      areas={
                         [
-                        <area shape="circle" coords="130,180,105" href='#' alt="Page2" onClick={() => {navigate('Indicadores urbanísticos')}}/>,
+                        <area shape="circle" coords="130,180,105" href='#' alt="Page2" onClick={() => {navigate('Municipio estructura rural y region metropolitana')}}/>,
                         <area shape="circle" coords="340,180,105" href='#' alt="Page3" onClick={() => {navigate('Estructura ecológica principal')}}/>,
-                        <area shape="circle" coords="235,360,105" href='#' alt="Page4" onClick={() => {navigate('Evokución de la huella urbana')}}/>,
+                        <area shape="circle" coords="235,360,105" href='#' alt="Page4" onClick={() => {navigate('Evolución de la huella urbana')}}/>,
                         <area shape="circle" coords="230,245,235" href='#' alt="Page5" onClick={() => {navigate('')}}/>
                         ]
                     }/>
