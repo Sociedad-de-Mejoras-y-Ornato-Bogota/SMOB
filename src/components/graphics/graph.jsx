@@ -42,7 +42,7 @@ const Graph = () => {
       type: 'line',
       width: chartWidth,
       height: chartHeight,
-      backgroundColor:'#00FF0000',
+      backgroundColor: '#00FF0000',
     },
     tooltip: {
       enabled: true,
@@ -51,12 +51,12 @@ const Graph = () => {
       borderRadius: 5, // Radio de borde del tooltip
       borderWidth: 1, // Ancho del borde del tooltip
       style: {
-          color: '#333', // Color del texto del tooltip
-          fontSize: '12px' // Tamaño de fuente del texto del tooltip
+        color: '#333', // Color del texto del tooltip
+        fontSize: '12px' // Tamaño de fuente del texto del tooltip
       },
       zIndex: 9000 // Establecer el zIndex para el tooltip
       // Otras configuraciones del tooltip...
-  },
+    },
     title: {
       text: '',
       align: 'center'
@@ -78,7 +78,7 @@ const Graph = () => {
       tickInterval: 5,
       tickPixelInterval: 1,
       gridLineWidth: 0,
-      categories: ['1920', '1921', '1922', '1923', '1924', '1925', '1926', '1927', '1928', '1929', '1930', '1931', '1932', '1933', '1934', '1935', '1936', '1937', '1938', '1939', '1940', '1941', '1942', '1943', '1944', '1945', '1946', '1947', '1948', '1949', '1950', '1951', '1952', '1953', '1954', '1955', '1956', '1957', '1958', '1959', '1960', '1961', '1962', '1963', '1964', '1965', '1966', '1967', '1968', '1969', '1970', '1971', '1972', '1973', '1974', '1975', '1976', '1977', '1978', '1979', '1980', '1981', '1982', '1983', '1984', '1985', '1986', '1987', '1988', '1989', '1990', '1991', '1992', '1993', '1994', '1995', '1996', '1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025','2026'],
+      categories: ['1920', '1921', '1922', '1923', '1924', '1925', '1926', '1927', '1928', '1929', '1930', '1931', '1932', '1933', '1934', '1935', '1936', '1937', '1938', '1939', '1940', '1941', '1942', '1943', '1944', '1945', '1946', '1947', '1948', '1949', '1950', '1951', '1952', '1953', '1954', '1955', '1956', '1957', '1958', '1959', '1960', '1961', '1962', '1963', '1964', '1965', '1966', '1967', '1968', '1969', '1970', '1971', '1972', '1973', '1974', '1975', '1976', '1977', '1978', '1979', '1980', '1981', '1982', '1983', '1984', '1985', '1986', '1987', '1988', '1989', '1990', '1991', '1992', '1993', '1994', '1995', '1996', '1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026'],
       labels: {
         format: '{value}',
         style: {
@@ -91,7 +91,7 @@ const Graph = () => {
 
       {
         name: 'Tasa de crecimiento',
-        data: [3.74, 3.75, 3.76, 3.76, 3.76, 3.77, 3.78, 3.79, 3.81, 3.82, 3.83, 3.84, 3.85, 3.88, 3.92, 3.98, 4.1, 4.37, 4.58, 4.86, 5.04, 5.29, 5.54, 5.92, 6.21, 6.38, 6.53, 6.65, 6.73, 6.7, 6.65, 6.58, 6.5, 6.42, 6.34, 6.25, 6.18, 6.14, 6.06, 5.94, 5.85, 5.8, 5.73, 5.56, 5.5, 5.3, 5.15, 4.97, 4.81, 4.6, 4.42, 4.24, 4.08, 3.94, 3.8, 3.67, 3.55, 3.43, 3.33, 3.22, 3.12, 3.01, 2.9, 2.83, 2.75, 2.67, 2.6, 2.52, 2.45, 2.39, 2.32, 2.26, 2.21, 2.15, 2.08, 2.03, 1.99, 1.92, 1.87, 1.8, 1.76, 1.7, 1.62, 1.53, 1.36, 1.24, 1.13, 0.96, 0.79, 0.65, 0.48, 0.33, 0.23, 0.14, 0.05, 0.02, 0.02, 0.02, 1.17, 0.63, 0.43, 0.28, '','','','',''
+        data: [3.74, 3.75, 3.76, 3.76, 3.76, 3.77, 3.78, 3.79, 3.81, 3.82, 3.83, 3.84, 3.85, 3.88, 3.92, 3.98, 4.1, 4.37, 4.58, 4.86, 5.04, 5.29, 5.54, 5.92, 6.21, 6.38, 6.53, 6.65, 6.73, 6.7, 6.65, 6.58, 6.5, 6.42, 6.34, 6.25, 6.18, 6.14, 6.06, 5.94, 5.85, 5.8, 5.73, 5.56, 5.5, 5.3, 5.15, 4.97, 4.81, 4.6, 4.42, 4.24, 4.08, 3.94, 3.8, 3.67, 3.55, 3.43, 3.33, 3.22, 3.12, 3.01, 2.9, 2.83, 2.75, 2.67, 2.6, 2.52, 2.45, 2.39, 2.32, 2.26, 2.21, 2.15, 2.08, 2.03, 1.99, 1.92, 1.87, 1.8, 1.76, 1.7, 1.62, 1.53, 1.36, 1.24, 1.13, 0.96, 0.79, 0.65, 0.48, 0.33, 0.23, 0.14, 0.05, 0.02, 0.02, 0.02, 1.17, 0.63, 0.43, 0.28, '', '', '', '', ''
         ],
         color: 'rgb(42, 121, 75)',
         zIndex: 5
@@ -392,8 +392,8 @@ const Graph = () => {
 
         />
       )}
-      
-      
+
+
       {showPopup4_2 && (
         <PopupSlide
           imageUrls={images}
@@ -455,6 +455,7 @@ const Graph = () => {
 
         />
       )}
+
       {showPopupE && (
         <Popup2
           onClose={handleClosePopupE}
@@ -541,7 +542,7 @@ const Graph = () => {
       <div className="contentG">
         <div className="graphs">
           <div className="graphs-2">
-          <span style={{position:"absolute", zIndex:"9", fontSize:"0.8vw",width:"97%", textAlign:"center",color:"red", marginBottom:"-83vh"}}>*Los años marcados en color rojo corresponden a años censales</span>
+            <span style={{ position: "absolute", zIndex: "9", fontSize: "0.8vw", width: "97%", textAlign: "center", color: "red", marginBottom: "-83vh" }}>*Los años marcados en color rojo corresponden a años censales</span>
             <div className="linea1"></div>
             <div className="cuadro1">
               <p><h1 className="h1-c"> 1925</h1>
@@ -631,7 +632,7 @@ const Graph = () => {
               </div> */}
             </p>
             </div>
-            <div className="linea5_1"></div>
+            {/* <div className="linea5_1"></div>
             <div className="cuadro5_1"><p><h1 className="h1-c"> 1967</h1>
               <h2 className="h2-c">Acuerdo 65 de 1967</h2>
               <h3 className="h3-c">Crecimiento: <strong className="str">5,80</strong></h3>
@@ -649,17 +650,17 @@ const Graph = () => {
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E} />
                 </button>
-              </div> */}
+              </div>
             </p>
-            </div>
-            <div className="linea5_2"></div>
+            </div> */}
+            {/* <div className="linea5_2"></div>
             <div className="cuadro5_2"><p><h1 className="h1-c">1968</h1>
               <h2 className="h2-c">Decreto 1119 de 1968</h2>
               <h3 className="h3-c">Crecimiento: <strong className="str">5,72</strong></h3>
               <h3 className="h3-c">Vegetativa: <strong className="str">2,58</strong></h3>
               <h3 className="h3-c">Migración: <strong className="str">2,83</strong></h3>
               <div className="div-graph-button">
-              <button className="cus">
+                <button className="cus">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4_2} />
                 </button>
                 <button className="cus2">
@@ -673,9 +674,9 @@ const Graph = () => {
                 <button className="cus2">
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E} />
                 </button>
-              </div> */}
+              </div>
             </p>
-            </div>
+            </div> */}
             <div className="linea6"></div>
             <div className="cuadro6"><p><h1 className="h1-c"> 1979</h1>
               <h2 className="h2-c">Acuerdo 7</h2>
@@ -798,12 +799,12 @@ const Graph = () => {
             </p>
             </div>
             <hr></hr>
-             <div className="divHigcharts">
+            <div className="divHigcharts">
               <HighchartsReact
                 highcharts={Highcharts}
                 options={options}
               />
-              </div>
+            </div>
           </div>
         </div>
       </div></>
