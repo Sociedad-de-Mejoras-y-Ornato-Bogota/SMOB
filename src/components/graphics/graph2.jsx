@@ -52,7 +52,7 @@ const Graph2 = () => {
         color: '#333', // Color del texto del tooltip
         fontSize: '12px' // Tamaño de fuente del texto del tooltip
       },
-      zIndex: 9000 // Establecer el zIndex para el tooltip
+      zIndex: 9000, // Establecer el zIndex para el tooltip
       // Otras configuraciones del tooltip...
     },
     title: {
@@ -841,14 +841,6 @@ const Graph2 = () => {
                   <strong>1925</strong>
                 </h1>
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Bogotá futuro.", "1.120 ha", "Pobl. 217.253"])}
-                    />
-                  </button>
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -867,6 +859,16 @@ const Graph2 = () => {
                   </button>
 
                 </div>
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Bogotá futuro.", "1.120 ha", "Pobl. 217.253"])}
+                    />
+                  </button>
+                </div>
 
               </p>
             </div>
@@ -878,14 +880,6 @@ const Graph2 = () => {
                   <strong>1936</strong>
                 </h1>
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Plan Brunner.", "1.609 ha", "Pobl. 333.057"])}
-                    />
-                  </button>
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -905,7 +899,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
-
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Plan Brunner.", "1.609 ha", "Pobl. 333.057"])}
+                    />
+                  </button>
+                </div>
               </p>
             </div>
             <div className="linea4G2"></div>
@@ -915,14 +918,6 @@ const Graph2 = () => {
                   <strong>1951</strong>
                 </h1>
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Plan Piloto.", "5.558 ha", "Pobl. 759.227"])}
-                    />
-                  </button>
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -942,7 +937,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
-
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Plan Piloto.", "5.558 ha", "Pobl. 759.227"])}
+                    />
+                  </button>
+                </div>
               </p>
             </div>
 
@@ -966,27 +970,6 @@ const Graph2 = () => {
                     <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClickPDF67} />
                   </button>
                 </div>
-                {/* <div className="div-graph-button">
-                  <button className="cu">
-                    <img
-                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
-                      alt="Icono"
-                      width="20"
-                      height="20"
-                      onClick={handleDivClick5}
-                    />
-                  </button>
-                <button className="cu2">
-                    <img
-                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png"
-                      alt="Icono"
-                      width="20"
-                      height="20"
-                      onClick={handleDivClick5E}
-                    />
-                  </button>
-                </div> */}
-
               </p>
             </div>
 
@@ -998,15 +981,6 @@ const Graph2 = () => {
                 </h1>
 
                 <div className="div-graph-button">
-
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Decreto 1119", "de 1968", "26.526 ha", "Pobl. 3.075.832"])}
-                    />
-                  </button>
                   <button className="cus">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -1026,6 +1000,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Decreto 1119", "de 1968", "26.526 ha", "Pobl. 3.075.832"])}
+                    />
+                  </button>
+                </div>
 
               </p>
             </div>
@@ -1036,14 +1020,6 @@ const Graph2 = () => {
                   <strong> 1972</strong>
                 </h1>
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Fase II (ciudades ciudades)", "entre", "5.558 ha", "Pobl. 759.227"])}
-                    />
-                  </button>
                   <button className="cu-e">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -1063,7 +1039,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
-
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Fase II (ciudades ciudades)", "entre", "5.558 ha", "Pobl. 759.227"])}
+                    />
+                  </button>
+                </div>
               </p>
             </div>
             <div className="linea6G2"></div>
@@ -1111,14 +1096,6 @@ const Graph2 = () => {
                   <strong>1979</strong>
                 </h1>
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Acuerdo 7.", "28.961 ha", "Pobl. 3.581.986"])}
-                    />
-                  </button>
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -1138,6 +1115,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Acuerdo 7.", "28.961 ha", "Pobl. 3.581.986"])}
+                    />
+                  </button>
+                </div>
 
               </p>
             </div>
@@ -1149,14 +1136,6 @@ const Graph2 = () => {
                   <strong>1990</strong>
                 </h1>
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Acuerdo 6.", "29.564 ha", "Pobl. 4.975.531"])}
-                    />
-                  </button>
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -1176,7 +1155,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
-
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Acuerdo 6.", "29.564 ha", "Pobl. 4.975.531"])}
+                    />
+                  </button>
+                </div>
               </p>
             </div>
             <div className="linea9G2"></div>
@@ -1187,14 +1175,6 @@ const Graph2 = () => {
                   <strong>2000</strong>
                 </h1>
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Decreto 619.", "39.395 ha", "Pobl. 6.203.175"])}
-                    />
-                  </button>
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -1214,7 +1194,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
-
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Decreto 619.", "39.395 ha", "Pobl. 6.203.175"])}
+                    />
+                  </button>
+                </div>
               </p>
             </div>
             <div className="linea10G2"></div>
@@ -1225,14 +1214,6 @@ const Graph2 = () => {
                   <strong>2004</strong>
                 </h1>
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Decreto 190.", "40.958 ha", "Pobl. 6.666.694"])}
-                    />
-                  </button>
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -1252,7 +1233,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
-
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Decreto 190.", "40.958 ha", "Pobl. 6.666.694"])}
+                    />
+                  </button>
+                </div>
               </p>
             </div>
             <div className="linea11G2"></div>
@@ -1263,14 +1253,6 @@ const Graph2 = () => {
                   <strong>2013</strong>
                 </h1>
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["MePOT.", "41.598 ha", "Pobl. 7.355.223"])}
-                    />
-                  </button>
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -1290,6 +1272,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["MePOT.", "41.598 ha", "Pobl. 7.355.223"])}
+                    />
+                  </button>
+                </div>
               </p>
             </div>
             <div className="linea12G2"></div>
@@ -1301,14 +1293,6 @@ const Graph2 = () => {
                 </h1>
 
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Decreto 555.", "39.405 ha", "Pobl. 7.823.334"])}
-                    />
-                  </button>
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -1328,7 +1312,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
-
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Decreto 555.", "39.405 ha", "Pobl. 7.823.334"])}
+                    />
+                  </button>
+                </div>
               </p>
             </div>
             <div className="m1G2">
@@ -1351,9 +1344,15 @@ const Graph2 = () => {
                 <h3 className="h3-c1">1.940.914</h3>
               </p>
             </div>
+            {/* AQUÍI */}
+            <div className="m13G2">
+              <p>
+                <h3 className="h3-c1">117.211</h3>
+              </p>
+            </div>
             <div className="m5G2">
               <p>
-                <h3 className="h3-c1">375. 691</h3>
+                <h3 className="h3-c1">375.691</h3>
               </p>
             </div>
             <div className="m6G2">
@@ -1373,7 +1372,7 @@ const Graph2 = () => {
             </div>
             <div className="m9G2">
               <p>
-                <h3 className="h3-c1">463. 519</h3>
+                <h3 className="h3-c1">463.519</h3>
               </p>
             </div>
             <div className="m10G2">
@@ -1425,6 +1424,17 @@ const Graph2 = () => {
               </p>
             </div>
             <div className="circulo4G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>10.910</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo13G2">
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
