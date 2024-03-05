@@ -94,6 +94,7 @@ import Libros from './pages/Repositorio/Libros';
 import SistemaEquipamientos from './pages/Comp-Bienestar/Estructura/SistemaEquipamientos';
 import SaludBogota from './pages/Comp-Bienestar/Estructura/SaludBogota';
 import BogotaFutura from './pages/ModelosUrbanos/BogotaFutura';
+import Municipio from './pages/Comp-Territorial/Municipio';
 
 
 
@@ -153,9 +154,10 @@ const App = () => {
 
           {/* Rutas Componente territorial */}
           <Route path="Componente territorial" Component={Territorial} />
-          <Route path="Componente territorial/Evokución de la huella urbana" Component={EvolucionHuella} />
+          <Route path="Componente territorial/Evolución de la huella urbana" Component={EvolucionHuella} />
           <Route path="Componente territorial/Indicadores urbanísticos" Component={IndicadoresUrban} />
           <Route path="Componente territorial/Estructura ecológica principal" Component={EstructuraEP} />
+          <Route path="Componente territorial/Municipio estructura rural y region metropolitana" Component={Municipio} />
 
           {/* Rutas Componente Bienestar */}
           <Route path="componente bienestar" Component={Bienestar} />

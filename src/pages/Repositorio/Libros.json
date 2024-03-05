@@ -1315,17 +1315,361 @@
   },
   {
     "id": 167,
-    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/imagen.png",
-    "title": "Boletín No. 9: Bogotá ciudad de estadísticas.",
-    "autor": "Secretaria Distrital de Planeación",
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/138.jpg",
+    "title": "Bogotá un museo a cielo abierto: guía de esculturas y monumentos conmemorativos en el espacio público.",
+    "autor": "Torres, María Clara; Mariño, Margarita; Delgadillo, Hugo.",
     "link": "",
     "type": "Biblioteca"
   },
   {
     "id": 168,
-    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/imagen+(1).png",
-    "title": "Boletín No.31: Población, viviendas y hogares a junio 30 de 2011, en relación con la estratificación socioeconómica vigente en el 2011 vigente en el 2011",
-    "autor": "Secretaria Distrital de Planeación",
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/139.jpg",
+    "title": "La vida privada de los parques y jardines públicos. Bogotá 1886-1938.",
+    "autor": "Cendales, Claudia.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 169,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/140.jpg",
+    "title": "Guía para recorrer los parques y jardines públicos de Bogotá 1886-1938.",
+    "autor": "Cendales, Claudia.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 170,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/141.jpg",
+    "title": "Guía Bogotá Centro. Guías El Arca arquitectura. Tomo IV. ",
+    "autor": "Escovar, Alberto.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 171,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/142.jpg",
+    "title": "Historia del desarrollo urbano del centro de Bogotá.",
+    "autor": "Cardeño Mejía, Fredy Arturo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 172,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/143.jpg",
+    "title": "Representaciones e imaginarios en los lugares de memoria: el caso de la plaza de Los Mártires en Bogotá 1880-1930.",
+    "autor": "Castiblanco, Roldán, Andrés.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 173,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/144.jpg",
+    "title": "Transporte y desarrollo urbano en Colombia: Los tranvías de Bogotá y Medellín.",
+    "autor": "Correa Restrepo, Juan Santiago.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 174,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/145.png",
+    "title": "El tranvía de Bogotá, 1882-1951.",
+    "autor": "Correa Restrepo, Juan Santiago; Jimeno León, Santiago; Villamizar Bacca, Marianela.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 175,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/146.png",
+    "title": "Presente y perspectivas de corto plazo en el sector edificador de Bogotá y la región.",
+    "autor": "Camacol Bogotá & Cundinamarca.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 176,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/147.png",
+    "title": "La humanización de la ciudad.",
+    "autor": "Samper, Germán.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 177,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/148.png",
+    "title": "Vivienda social, modernidad e informalidad en Bogotá (19911-1982).",
+    "autor": "Forero Suárez, Fabio Enrique; Forero Forero, Jenny Alexandra.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 178,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/149.jpg",
+    "title": "Ciudad en la sombra. Barrios y luchas populares en Bogotá 1950-1977.",
+    "autor": "Torres Carrillo, Alfonso.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 179,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/150.png",
+    "title": "El sector de la vivienda descripción desarrollo y bases de política.",
+    "autor": "Departamento Nacional de Planeación.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 180,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/151.jpg",
+    "title": "Organización Luis Carlos Sarmiento Angulo Ltda. (1979). Breve Reseña de 20 Años.",
+    "autor": "Torres Eddy, y Asociados.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 181,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/152.png",
+    "title": "Unidad central de vivienda en Colombia. Programa Hábitat de Asistencia al Sector.",
+    "autor": "Ministerio de Desarrollo económico; Departamento de Planeación Centro de las Naciones Unidas para los Asentamientos Humanos (HABITAT).",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 182,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/153.png",
+    "title": "La calidad de la oferta reciente de vivienda de interés social en Bogotá. La medición de la calidad desde la perspectiva de los actores públicos y privados involucrados en su producción y demanda.",
+    "autor": "Concha Serrano, María Carolina.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 183,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/154.png",
+    "title": "La vivienda de interés social.",
+    "autor": "Fondo de ahorro y vivienda distrital.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 184,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/155.png",
+    "title": "La vivienda en Colombia. Legislación, circulares y doctrinas.",
+    "autor": "Cuestas Cuellar, Gabriel.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 185,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/156.png",
+    "title": "El futuro de la capital. Estudio prospectivo de la vivienda.",
+    "autor": "Misión Bogotá siglo XXI.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 186,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/157.png",
+    "title": "Memoria de actividades 1994.",
+    "autor": "Fundación de viviendas del hogar de cristo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 187,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/158.png",
+    "title": "De la casa patriarcal a la casa nuclear. En el municipio cafetero de Sevilla.",
+    "autor": "García Moreno, Beatriz.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 188,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/159.png",
+    "title": "Estado, ciudad y vivienda. Urbanismo y arquitectura de la vivienda estatal en Colombia, 1918-1990.",
+    "autor": "Corporación colegio de Villa de Leyva Cehap, Medellín, Cali.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 189,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/160.png",
+    "title": "Vivienda de interés social: inventario de sistemas constructivos.",
+    "autor": "Departamento de Ingeniería Civil y Ambiental de la Universidad de los Andes.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 190,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/161.png",
+    "title": "Calidad de la vivienda dirigida a los sectores de bajos ingresos en Bogotá.",
+    "autor": "Tarchópolus Sierra, Doris;  Ceballos Ramos, Olga Lucia.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 191,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/162.png",
+    "title": "PATRONES URBANISTICOS Y ARQUITECTONICOS EN la vivienda dirigida a los sectores de bajos ingresos en Bogotá.",
+    "autor": "Tarchópolus Sierra, Doris;  Ceballos Ramos, Olga Lucia.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 192,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/163.png",
+    "title": "La evolución de la vivienda.",
+    "autor": "Samper, Germán.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 193,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/164.png",
+    "title": "Vivienda Social ANTECEDENTES  Y PTOPUESTAS DE DESARROLLO PROGRESIVO.",
+    "autor": "Echeverry Campos, Diego: Anzellini Fajardo, Stefano; Rubio Vollert, Rodrigo.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 194,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/165.png",
+    "title": "VIVIENDA SOCIAL miradas actuales a retos recientes.",
+    "autor": "Tarchópolus Sierra, Doris.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 195,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/166.png",
+    "title": "Cuadernos PNUD - UN Hábitat . Investigaciones sobre desarrollo humano.",
+    "autor": "PNUD - UN Hábitat.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 196,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/167.png",
+    "title": "Hábitat y el Derecho a la vivienda digna.",
+    "autor": "Pontificia Universidad Javeriana.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 197,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/168.png",
+    "title": "Fronteras borrosas en la construcción conceptual y fáctica del habitar.",
+    "autor": "Arboleda Guzmán, Elizabeth.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 198,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/169.png",
+    "title": "Ciudad, espacio y población: el proceso de urbanización en Colombia.",
+    "autor": "Universidad Externado de Colombia Centro de Investigación sobre Dinámica Social.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 199,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/170.png",
+    "title": "Vivienda social en Colombia. Una mirada desde su legislación 1918-2005.",
+    "autor": "Ceballos Ramos, Olga Lucia.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 200,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/171.png",
+    "title": "Ciudad informal colombiana: barrios construidos por la gente.",
+    "autor": "Torres Tovar, Carlos Alberto.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 201,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/172.png",
+    "title": "Pasados presentes. La vivienda en Colombia.",
+    "autor": "Saldarriaga Roa, Alberto.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 202,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/173.png",
+    "title": "Calidad de la vivienda. Municipios de la Sabana de Occidente: Facatativá, Bojacá, Madrid, Mosquera y Funza.",
+    "autor": "Escallón Gartner, Clemencia; Quiñones Jaramillo, Paula.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 203,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/174.jpg",
+    "title": "Casa + casa + casa = ¿ciudad?",
+    "autor": "Samper, Germán.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 204,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/175.png",
+    "title": "La vivienda social. Alianzas que construyen conocimiento.",
+    "autor": "Escallón Gartner, Clemencia; Caicedo Medina, Victoria.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 205,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/176.jpg",
+    "title": "VIVIENDA SOCIAL EN COLOMBIA: metodología para su evaluación integral.",
+    "autor": "Bedoya Ruiz, Ángela.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 206,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/177.png",
+    "title": "Cuadernos de vivienda y urbanismo. (11va ed., Vol.6).",
+    "autor": "Pontificia Universidad Javeriana.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 207,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/178.png",
+    "title": "La planificación participativa para lograr un cambio estructural con igualdad.",
+    "autor": "Sandoval Carlos; Sanhuesa Andrea.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 208,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/179.png",
+    "title": "Hacia una política de gestión integral del hábitat Bogotá D.C 2030.",
+    "autor": "ONU Hábitat.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 209,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/180.png",
+    "title": "DTS- POT Decreto 619 de 2000.",
+    "autor": "Alcaldía de Bogotá",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 210,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/181.png",
+    "title": "Urbanismo, Arquitectura, patrimonio.",
+    "autor": "Ospinas 75 años.",
+    "link": "",
+    "type": "Biblioteca"
+  },
+  {
+    "id": 211,
+    "url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/182.jpg",
+    "title": "Quinta Sion. Los judíos y la conformación del espacio urbano de Bogotá.",
+    "autor": "Martínez Ruiz, Enrique.",
     "link": "",
     "type": "Biblioteca"
   }

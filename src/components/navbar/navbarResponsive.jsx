@@ -372,10 +372,10 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/Componente territorial/Evokución de la huella urbana">Evolución de la huella urbana</Link>
+                        <Link to="/Componente territorial/Evolución de la huella urbana">Evolución de la huella urbana</Link>
                     </li>
                     <li className={styles.navbarItem} id="a">
-                        <Link to="/Componente territorial/Indicadores urbanísticos" >Indicadores urbanísticos</Link>
+                        <Link to="/Componente territorial/Indicadores urbanísticos" >Comparativo de indicadores urbanísticos</Link>
                     </li>
                 </ul>}
 

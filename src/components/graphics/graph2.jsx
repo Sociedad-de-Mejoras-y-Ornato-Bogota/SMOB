@@ -245,128 +245,128 @@ const Graph2 = () => {
           98848,
           99908,
           100988,
-          103778,
-          107431,
-          111255,
-          115238,
-          119410,
-          123757,
-          128311,
-          133058,
-          138048,
-          143266,
-          148710,
-          154379,
-          160279,
-          166434,
-          172842,
-          179514,
-          186461,
-          193695,
-          201230,
-          209078,
-          217253,
-          225750,
-          234578,
-          243780,
-          253350,
-          263325,
-          273750,
-          284628,
-          295977,
-          307790,
-          320123,
-          333057,
-          346658,
-          361032,
-          376459,
-          393654,
-          412532,
-          433618,
-          456615,
-          482113,
-          510390,
-          542527,
-          578424,
-          617874,
-          661026,
-          708139,
-          759227,
-          813739,
-          871698,
-          933126,
-          997993,
-          1066460,
-          1138618,
-          1214544,
-          1294515,
-          1379142,
-          1468145,
-          1560911,
-          1657855,
-          1759954,
-          1866846,
-          1977912,
-          2093021,
-          2210232,
-          2330135,
-          2452015,
-          2575981,
-          2700141,
-          2825125,
-          2950241,
-          3075832,
-          3201841,
-          3328164,
-          3454966,
-          3581986,
-          3709114,
-          3836722,
-          3964513,
-          4092162,
-          4218993,
-          4344995,
-          4471624,
-          4597845,
-          4723948,
-          4849900,
-          4975531,
-          5100589,
-          5225574,
-          5349677,
-          5473625,
-          5597162,
-          5720138,
-          5841838,
-          5962880,
-          6083860,
-          6203175,
-          6321544,
-          6437668,
-          6553211,
-          6666694,
-          6776691,
-          6881787,
-          6976654,
-          7064548,
-          7145212,
-          7214673,
-          7272166,
-          7319643,
-          7355223,
-          7379697,
-          7396539,
-          7407099,
-          7411099,
-          7412566,
-          7592871,
-          7732161,
-          7823334,
-          7873316,
-          7907281,
-          7929539,
-          7937898,
-          "",
+          106745,
+          110289,
+          113973,
+          117802,
+          121807,
+          125973,
+          130332,
+          134867,
+          139615,
+          144557,
+          149703,
+          155063,
+          160645,
+          166460,
+          172519,
+          178834,
+          185415,
+          192275,
+          199428,
+          206886,
+          214665,
+          222780,
+          231290,
+          240171,
+          249490,
+          259270,
+          269537,
+          280372,
+          291868,
+          304068,
+          316960,
+          330653,
+          345334,
+          361012,
+          377691,
+          395744,
+          415215,
+          436640,
+          460131,
+          485807,
+          514275,
+          546160,
+          581715,
+          620806,
+          663394,
+          709566,
+          759093,
+          812382,
+          869249,
+          929922,
+          994459,
+          1063076,
+          1135578,
+          1212116,
+          1293085,
+          1378429,
+          1467751,
+          1561394,
+          1659449,
+          1762335,
+          1869485,
+          1980533,
+          2095403,
+          2214841,
+          2337987,
+          2465407,
+          2596567,
+          2730030,
+          2865440,
+          2998396,
+          3131525,
+          3259917,
+          3383794,
+          3506964,
+          3630409,
+          3753117,
+          3876219,
+          4000258,
+          4125066,
+          4250881,
+          4376707,
+          4503632,
+          4629733,
+          4755662,
+          4882163,
+          5009197,
+          5135929,
+          5263300,
+          5390988,
+          5518215,
+          5645134,
+          5771303,
+          5894809,
+          6017421,
+          6137769,
+          6255614,
+          6370718,
+          6484116,
+          6593050,
+          6695901,
+          6790992,
+          6873842,
+          6945389,
+          7009432,
+          7062402,
+          7102952,
+          7136774,
+          7169750,
+          7201046,
+          7233450,
+          7268171,
+          7304512,
+          7352743,
+          7428317,
+          7615712,
+          7760096,
+          7839641,
+          7889727,
+          7923763,
+          7946067,
+          7954444,
+          7952295
         ],
         color: "rgb(42, 121, 75)",
 
@@ -840,6 +840,9 @@ const Graph2 = () => {
                   {" "}
                   <strong>1925</strong>
                 </h1>
+                <h3 className="h3-c">Bogotá futuro.</h3>
+                <h3 className="h3-c">1.120 ha</h3>
+                <h3 className="h3-c">Pobl. 214.665</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -879,6 +882,9 @@ const Graph2 = () => {
                   {" "}
                   <strong>1936</strong>
                 </h1>
+                <h3 className="h3-c">Plan Brunner.</h3>
+                <h3 className="h3-c">1.609 ha</h3>
+                <h3 className="h3-c">Pobl. 330.653</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -917,6 +923,9 @@ const Graph2 = () => {
                 <h1 className="h1-c">
                   <strong>1951</strong>
                 </h1>
+                <h3 className="h3-c">Plan Piloto.</h3>
+                <h3 className="h3-c">5.558 ha</h3>
+                <h3 className="h3-c">Pobl. 759.093</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -956,9 +965,12 @@ const Graph2 = () => {
                 <h1 className="h1-c">
                   <strong>1967</strong>
                 </h1>
-                <div className="div-graph-button">
-
-                  <button className="cu2">
+                <h3 className="h3-c">Acuerdo 65</h3>
+                <h3 className="h3-c">de 1967</h3>
+                <h3 className="h3-c">26.526 ha</h3>
+                <h3 className="h3-c">Pobl. 2.095.403</h3>
+                {/* <div className="div-graph-button">
+                  <button className="cu">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
@@ -979,9 +991,12 @@ const Graph2 = () => {
                 <h1 className="h1-c">
                   <strong>1968</strong>
                 </h1>
-
-                <div className="div-graph-button">
-                  <button className="cus">
+                <h3 className="h3-c">Decreto 1119</h3>
+                <h3 className="h3-c">de 1968</h3>
+                <h3 className="h3-c">26.526 ha</h3>
+                <h3 className="h3-c">Pobl. 2.214.841</h3>
+                {/* <div className="div-graph-button">
+                  <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
                       alt="Icono"
@@ -1019,6 +1034,10 @@ const Graph2 = () => {
                 <h1 className="h1-c">
                   <strong> 1972</strong>
                 </h1>
+                <h3 className="h3-c">Fase II (ciudades ciudades)</h3>
+                <h3 className="h3-c">entre</h3>
+                <h3 className="h3-c">5.558 ha</h3>
+                <h3 className="h3-c">Pobl. 2.730.030</h3>
                 <div className="div-graph-button">
                   <button className="cu-e">
                     <img
@@ -1057,6 +1076,11 @@ const Graph2 = () => {
                 <h1 className="h1-c">
                   <strong>1975</strong>
                 </h1>
+                <h3 className="h3-c">Plan de</h3>
+                <h3 className="h3-c">desarrollo</h3>
+                <h3 className="h3-c">urbano</h3>
+                <h3 className="h3-c">26.526 ha</h3>
+                <h3 className="h3-c">Pobl. 3.131.525</h3>
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
@@ -1095,6 +1119,9 @@ const Graph2 = () => {
                   {" "}
                   <strong>1979</strong>
                 </h1>
+                <h3 className="h3-c">Acuerdo 7.</h3>
+                <h3 className="h3-c">28.961 ha</h3>
+                <h3 className="h3-c">Pobl. 3.630.409</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1135,6 +1162,9 @@ const Graph2 = () => {
                   {" "}
                   <strong>1990</strong>
                 </h1>
+                <h3 className="h3-c">Acuerdo 6.</h3>
+                <h3 className="h3-c">29.564 ha</h3>
+                <h3 className="h3-c">Pobl. 5.009.197</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1174,6 +1204,9 @@ const Graph2 = () => {
                   {" "}
                   <strong>2000</strong>
                 </h1>
+                <h3 className="h3-c">Decreto 619.</h3>
+                <h3 className="h3-c">39.395 ha</h3>
+                <h3 className="h3-c">Pobl. 6.255.614</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1213,6 +1246,9 @@ const Graph2 = () => {
                   {" "}
                   <strong>2004</strong>
                 </h1>
+                <h3 className="h3-c">Decreto 190.</h3>
+                <h3 className="h3-c">40.958 ha</h3>
+                <h3 className="h3-c">Pobl. 6.695.901</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1252,6 +1288,9 @@ const Graph2 = () => {
                   {" "}
                   <strong>2013</strong>
                 </h1>
+                <h3 className="h3-c">MePOT</h3>
+                <h3 className="h3-c">41.598 ha</h3>
+                <h3 className="h3-c">Pobl. 7.201.046</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1291,7 +1330,9 @@ const Graph2 = () => {
                   {" "}
                   <strong>2021</strong>
                 </h1>
-
+                <h3 className="h3-c">Decreto 555.</h3>
+                <h3 className="h3-c">39.405 ha</h3>
+                <h3 className="h3-c">Pobl. 7.839.641</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1312,36 +1353,27 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
-                <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Decreto 555.", "39.405 ha", "Pobl. 7.823.334"])}
-                    />
-                  </button>
-                </div>
+
               </p>
             </div>
             <div className="m1G2">
               <p>
-                <h3 className="h3-c1">118.405</h3>
+                <h3 className="h3-c1">115.817</h3>
               </p>
             </div>
             <div className="m2G2">
               <p>
-                <h3 className="h3-c1">115.804</h3>
+                <h3 className="h3-c1">115.988</h3>
               </p>
             </div>
             <div className="m3G2">
               <p>
-                <h3 className="h3-c1">426.170</h3>
+                <h3 className="h3-c1">428.440</h3>
               </p>
             </div>
             <div className="m4G2">
               <p>
-                <h3 className="h3-c1">1.940.914</h3>
+                <h3 className="h3-c1">1.970.937</h3>
               </p>
             </div>
             {/* AQUÍI */}
@@ -1352,42 +1384,42 @@ const Graph2 = () => {
             </div>
             <div className="m5G2">
               <p>
-                <h3 className="h3-c1">375.691</h3>
+                <h3 className="h3-c1">401.495</h3>
               </p>
             </div>
             <div className="m6G2">
               <p>
-                <h3 className="h3-c1">506.154</h3>
+                <h3 className="h3-c1">498.884</h3>
               </p>
             </div>
             <div className="m7G2">
               <p>
-                <h3 className="h3-c1">1.393.545</h3>
+                <h3 className="h3-c1">1.378.788</h3>
               </p>
             </div>
             <div className="m8G2">
               <p>
-                <h3 className="h3-c1">93.545</h3>
+                <h3 className="h3-c1">1.246.617</h3>
               </p>
             </div>
             <div className="m9G2">
               <p>
-                <h3 className="h3-c1">463.519</h3>
+                <h3 className="h3-c1">440.287</h3>
               </p>
             </div>
             <div className="m10G2">
               <p>
-                <h3 className="h3-c1">688.529</h3>
+                <h3 className="h3-c1">505.147</h3>
               </p>
             </div>
             <div className="m11G2">
               <p>
-                <h3 className="h3-c1">688.529</h3>
+                <h3 className="h3-c1">638.595</h3>
               </p>
             </div>
             <div className="m12G2">
               <p>
-                <h3 className="h3-c1">375.691</h3>
+                <h3 className="h3-c1">112.654</h3>
               </p>
             </div>
             <div className="circulo1G2">
