@@ -801,7 +801,7 @@ const Graph = () => {
       {showPopup4_1E && (
         <Popup2
           onClose={handleClosePopup4_1E}
-          url=""
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO+65+DE+1967.pdf"
         />
       )}
       {showPopup4_2E && (
