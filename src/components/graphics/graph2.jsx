@@ -801,7 +801,7 @@ const Graph2 = () => {
       {showPopupPDF67 && (
         <Popup2
           onClose={handleClosePopupPDF67}
-          url=""
+          url="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/pdf/ACUERDO+65+DE+1967.pdf"
         />
       )}
       {showPopupPDF68 && (
@@ -874,7 +874,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Acuerdo 10.", "679 ha", "Pobl. 98.848"])}
@@ -919,7 +919,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Bogotá futuro.", "1.120 ha", "Pobl. 214.665"])}
@@ -958,7 +958,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Plan Brunner.", "1.609 ha", "Pobl. 330.653"])}
@@ -995,7 +995,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Plan Piloto.", "5.558 ha", "Pobl. 759.093"])}
@@ -1012,7 +1012,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Acuerdo 65", "de 1967", "26.526 ha", "Pobl. 2.095.403"])}
@@ -1053,7 +1053,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Decreto 1119", "de 1968", "26.526 ha", "Pobl. 2.214.841"])}
@@ -1091,7 +1091,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Fase II (ciudades ciudades)", "entre", "5.558 ha", "Pobl. 2.730.030"])}
@@ -1117,7 +1117,7 @@ const Graph2 = () => {
                   </button>
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Plan de", "desarrollo", "urbano", "26.526 ha", "Pobl. 3.131.525"])}
@@ -1156,7 +1156,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Acuerdo 7.", "28.961 ha", "Pobl. 3.630.409"])}
@@ -1195,7 +1195,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Acuerdo 6.", "29.564 ha", "Pobl. 5.009.197"])}
@@ -1233,7 +1233,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Decreto 619.", "39.395 ha", "Pobl. 6.255.614"])}
@@ -1271,7 +1271,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Decreto 190.", "40.958 ha", "Pobl. 6.695.901"])}
@@ -1309,7 +1309,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["MePOT.", "41.598 ha", "Pobl. 7.201.046"])}
@@ -1347,7 +1347,7 @@ const Graph2 = () => {
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
                       onClick={() => handleDivClickInfo(["Decreto 555.", "39.405 ha", "Pobl. 7.839.641"])}
