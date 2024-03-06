@@ -187,9 +187,9 @@
 .cuadro1G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(64px + 3%);
-  margin-top: calc(10vh + 10%);
-  width: 4rem;
+  margin-left: calc(64px + 1.5%);
+  margin-top: calc(10vh + 10.4%);
+  width: 3.8rem;
   justify-content: center;
   height: 3.5rem;
   background-color: white;
@@ -201,9 +201,9 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 21.1%);
+  margin-left: calc(20px + 19.8%);
   margin-top: calc(10vh + 10%);
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
@@ -214,10 +214,10 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(10px + 28.7%);
+  margin-left: calc(10px + 27.9%);
   margin-top: calc(7vh + 10%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
@@ -228,24 +228,16 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(10px + 39.5%);
+  margin-left: calc(10px + 38.3%);
   margin-top: calc(5vh + 7.5%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
   border: 1px solid purple;
 }
 
-.linea5_1G2 {
-  opacity: 0.4;
-  border-left: 2px solid #2e006d;
-  bottom: 19vh;
-  height: 47vh;
-  left: calc(15px + 53.3%);
-  position: relative;
-}
 .cuadro5_1G2 {
   cursor: pointer;
   position: absolute;
@@ -253,29 +245,21 @@
   margin-left: calc(-50px + 52%);
   margin-top: calc(10vh - 3%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 3.5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid #2e006d;
 }
 
-.linea5_2G2 {
-  opacity: 0.4;
-  border-left: 2px solid #d6dd05;
-  bottom: 25vh;
-  height: 35vh;
-  left: calc(15px + 54%);
-  position: relative;
-}
 .cuadro5_2G2 {
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(10px + 50.9%);
+  margin-left: calc(10px + 50.7%);
   margin-top: calc(10vh - 15%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
@@ -286,10 +270,10 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(-50px + 57%);
+  margin-left: calc(-50px + 55.7%);
   margin-top: calc(14vh + 12%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
@@ -300,10 +284,10 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(5px + 56.3%);
+  margin-left: calc(5px + 55.1%);
   margin-top: calc(-3vh - 17%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 3.5rem;
   background-color: white;
   justify-content: center;
@@ -314,10 +298,10 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(5px + 59%);
+  margin-left: calc(5px + 57.7%);
   margin-top: calc(6vh + 6.8%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
@@ -328,10 +312,10 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(4px + 66.7%);
+  margin-left: calc(4px + 65.4%);
   margin-top: calc(6vh + 5%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
@@ -342,10 +326,10 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(4px + 73.5%);
+  margin-left: calc(4px + 72.3%);
   margin-top: calc(3vh + 3%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
@@ -356,10 +340,10 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(4px + 76.3%);
+  margin-left: calc(4px + 75.1%);
   margin-top: calc(-6vh - 5%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
@@ -370,10 +354,10 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(4px + 82.4%);
+  margin-left: calc(4px + 81.3%);
   margin-top: calc(-6vh - 12%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
@@ -384,10 +368,10 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(4px + 87.8%);
+  margin-left: calc(4px + 86.8%);
   margin-top: calc(-6vh - 16%);
 
-  width: 4rem;
+  width: 3.8rem;
   height: 4.3rem;
   background-color: white;
   justify-content: center;
@@ -401,7 +385,7 @@
   border-left: 2px solid #df5d5d;
   bottom: 15vh;
   height: 55vh;
-  left: calc(94px + 3%);
+  left: calc(60px + 3.3%);
   position: relative;
 }
 
@@ -411,7 +395,7 @@
   opacity: 0.4;
   bottom: 94.9vh;
   height: 53.8vh;
-  left: calc(20px + 24.5%);
+  left: calc(20px + 23.1%);
   position: relative;
 }
 
@@ -420,8 +404,8 @@
   background-color: #ced83f; 
   opacity: 0.4;
   bottom: 148.7vh;
-  height: 52.7vh;
-  left: calc(20px + 31.6%);
+  height: 52.4vh;
+  left: calc(20px + 30.8%);
   position: relative;
 }
 
@@ -430,8 +414,8 @@
   background-color: purple; 
   opacity: 0.4;
   bottom: 201.5vh;
-  height: 48.9vh;
-  left: calc(20px + 42.5%);
+  height: 49.2vh;
+  left: calc(20px + 41.3%);
   position: relative;
 }
 
@@ -461,7 +445,7 @@
   opacity: 0.4;
   bottom: 321.2vh;
   height: 58vh;
-  left: calc(20px + 57.2%);
+  left: calc(20px + 55.7%);
   position: relative;
 }
 
@@ -471,7 +455,7 @@
   opacity: 0.4;
   bottom: 379.1vh;
   height: 21.4vh;
-  left: calc(20px + 59.3%);
+  left: calc(20px + 58%);
   position: relative;
 }
 
@@ -481,7 +465,7 @@
   opacity: 0.4;
   bottom: 400.5vh;
   height: 48.6vh;
-  left: calc(20px + 62%);
+  left: calc(20px + 60.6%);
   position: relative;
 }
 
@@ -491,7 +475,7 @@
   opacity: 0.4;
   bottom: 449.2vh;
   height: 46.9vh;
-  left: calc(20px + 69.7%);
+  left: calc(20px + 68.3%);
   position: relative;
 }
 
@@ -501,7 +485,7 @@
     opacity: 0.4;
     bottom: 496vh;
     height: 43.4vh;
-    left: calc(20px + 76.7%);
+    left: calc(20px + 75.3%);
     position: relative;
 }
 
@@ -511,7 +495,7 @@
     opacity: 0.4;
     bottom: 539.4vh;
     height: 30.9vh;
-    left: calc(20px + 79.5%);
+    left: calc(20px + 78.1%);
     position: relative;
 }
 
@@ -521,7 +505,7 @@
     opacity: 0.4;
     bottom: 570.4vh;
     height: 24.1vh;
-    left: calc(20px + 85.6%);
+    left: calc(20px + 84.4%);
     position: relative;
 }
 
@@ -531,7 +515,7 @@
   opacity: 0.4;
   bottom: 594.5vh;
   height: 20.2vh;
-  left: calc(20px + 91.15%);
+  left: calc(20px + 90%);
   position: relative;
 }
 
@@ -543,15 +527,15 @@ hr {
   display: flex;
   height: 2px;
   background-color: black;
-  width: calc(84px + 82%);
-  margin-left: calc(84px + 3%);
+  width: calc(84px + 83%);
+  margin-left: calc(84px + 1%);
   margin-bottom: calc((103vh / 10) * 8);
 }
 
 .m1G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(96px + 7%);
+  margin-left: calc(96px + 7.5%);
   margin-top: calc(-20vh - 28%);
   width: 3rem;
   height: 0.7rem;
@@ -563,7 +547,7 @@ hr {
 .m2G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 25.5%);
+  margin-left: calc(20px + 24%);
   margin-top: calc(-20vh - 28%);
   width: 3rem;
   height: 0.7rem;
@@ -575,7 +559,7 @@ hr {
 .m3G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 34%);
+  margin-left: calc(20px + 32.8%);
   margin-top: calc(-20vh - 28%);
   width: 3rem;
   height: 0.7rem;
@@ -587,7 +571,7 @@ hr {
 .m4G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 44.5%);
+  margin-left: calc(20px + 43.5%);
   margin-top: calc(-20vh - 28%);
 
   width: 3rem;
@@ -600,8 +584,7 @@ hr {
 .m13G2 {
   position: absolute;
   display: flex;
-  transform: rotate(270deg);
-  margin-left: calc(20px + 50.6%);
+  margin-left: calc(20px + 51%);
   margin-top: calc(-20vh - 28%);
 
   width: 3rem;
@@ -615,7 +598,7 @@ hr {
   position: absolute;
   display: flex;
   transform: rotate(270deg);
-  margin-left: calc(20px + 54.5%);
+  margin-left: calc(20px + 53.6%);
   margin-top: calc(-20vh - 28%);
 
   width: 3rem;
@@ -629,7 +612,7 @@ hr {
   position: absolute;
   display: flex;
   transform: rotate(270deg);
-  margin-left: calc(20px + 57.5%);
+  margin-left: calc(20px + 56.2%);
   margin-top: calc(-20vh - 28%);
 
   width: 3rem;
@@ -642,7 +625,7 @@ hr {
 .m7G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 62%);
+  margin-left: calc(20px + 61%);
   margin-top: calc(-20vh - 28%);
 
   width: 3rem;
@@ -655,7 +638,7 @@ hr {
 .m8G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 69%);
+  margin-left: calc(20px + 68.3%);
   margin-top: calc(-20vh - 28%);
 
   width: 3rem;
@@ -669,7 +652,7 @@ hr {
   position: absolute;
   display: flex;
   transform: rotate(270deg);
-  margin-left: calc(20px + 74.5%);
+  margin-left: calc(20px + 73.3%);
   margin-top: calc(-20vh - 28%);
 
   width: 3rem;
@@ -708,7 +691,7 @@ hr {
 .m12G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 90%);
+  margin-left: calc(20px + 88.9%);
   margin-top: calc(-20vh - 28%);
   width: 3rem;
   height: 0.7rem;
@@ -720,7 +703,7 @@ hr {
 .circulo1G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(96px + 7.5%);
+  margin-left: calc(96px + 7.9%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -733,7 +716,7 @@ hr {
 .circulo2G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 26%);
+  margin-left: calc(20px + 24.4%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -746,7 +729,7 @@ hr {
 .circulo3G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 34.5%);
+  margin-left: calc(20px + 33.2%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -759,7 +742,7 @@ hr {
 .circulo4G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 44.8%);
+  margin-left: calc(20px + 43.8%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -785,7 +768,7 @@ hr {
 .circulo5G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 55%);
+  margin-left: calc(20px + 54%);
   margin-top: calc(-19vh - 23%);
   width: 1.7rem;
   border-radius: 100%;
@@ -798,7 +781,7 @@ hr {
 .circulo6G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 58%);
+  margin-left: calc(20px + 56.5%);
   margin-top: calc(-19vh - 23%);
   width: 1.7rem;
   border-radius: 100%;
@@ -811,7 +794,7 @@ hr {
 .circulo7G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 62.5%);
+  margin-left: calc(20px + 61.4%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -824,7 +807,7 @@ hr {
 .circulo8G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 69.5%);
+  margin-left: calc(20px + 68.7%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -837,7 +820,7 @@ hr {
 .circulo9G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 75%);
+  margin-left: calc(20px + 73.7%);
   margin-top: calc(-19vh - 23%);
   width: 1.7rem;
   border-radius: 100%;
@@ -851,7 +834,7 @@ hr {
   position: absolute;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 78.5%);
+  margin-left: calc(20px + 78.3%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -865,7 +848,7 @@ hr {
   position: absolute;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 84%);
+  margin-left: calc(20px + 83.9%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -879,7 +862,7 @@ hr {
   position: absolute;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 90%);
+  margin-left: calc(20px + 89.3%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -894,14 +877,14 @@ hr {
   border-left: 2px solid #df5d5d;
   bottom: 36vh;
   height: 13vh;
-  left: calc(94px + 3.1%);
+  left: calc(94px + 3.8%);
   position: relative;
 }
 
 .cuadro1 {
   position: absolute;
   display: flex;
-  margin-left: calc(50px + 3.3%);
+  margin-left: calc(50px + 4%);
   margin-top: calc(-6vh - 24%);
   width: 4.8rem;
   justify-content: center;
@@ -916,14 +899,14 @@ hr {
   border-left: 2px solid green;
   bottom: 36vh;
   height: 13vh;
-  left: calc(50px + 15.5%);
+  left: calc(50px + 15.7%);
   position: relative;
 }
 
 .cuadro2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 14.5%);
+  margin-left: calc(20px + 14.7%);
   margin-top: calc(-6vh - 24%);
   width: 4.9rem;
   justify-content: center;
@@ -938,7 +921,7 @@ hr {
   border-left: 2px solid #ced83f;
   bottom: 36vh;
   height: 13vh;
-  left: calc(50px + 28.1%);
+  left: calc(50px + 28.5%);
   position: relative;
 }
 
@@ -946,7 +929,7 @@ hr {
   opacity: 1;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 26.7%);
+  margin-left: calc(20px + 27.1%);
   margin-top: calc(-6vh - 24%);
   background-color: white;
   width: 5rem;
@@ -956,12 +939,57 @@ hr {
   cursor: pointer;
 }
 
+
+.linea13 {
+  opacity: .4;
+  border-left: 2px solid rgb(63, 109, 71);
+  bottom: 19vh;
+  height: 55vh;
+  left: calc(25vh + 70.2%);
+  position: relative;
+}
+.cuadro13 {
+  opacity: 1;
+  position: absolute;
+  display: flex;
+  margin-left: calc(20vh + 30%);
+  margin-top: calc(-21vh + 25%);
+  background-color: white;
+  width: 5.4rem;
+  justify-content: center;
+  height: 5.3rem;
+  border: 1px groove rgb(63, 109, 71);
+  cursor: pointer;
+}
+
+.linea14 {
+  opacity: .4;
+  border-left: 2px solid #df5d5d;
+  bottom: 74.1vh;
+  height: 55.1vh;
+  left: calc(25vh + 90%);
+  position: relative;
+}
+.cuadro14 {
+  opacity: 1;
+  position: absolute;
+  display: flex;
+  margin-left: calc(30vh + 20%);
+  margin-top: calc(-74.5vh + 6%);
+  background-color: white;
+  width: 5.5rem;
+  justify-content: center;
+  height: 5.5rem;
+  border: 1px groove #df5d5d;
+  cursor: pointer;
+}
+
 .linea4 {
   opacity: 0.4;
   border-left: 2px solid purple;
   bottom: 36vh;
   height: 13vh;
-  left: calc(50px + 45.5%);
+  left: calc(50px + 47%);
   position: relative;
 }
 
@@ -969,7 +997,7 @@ hr {
   opacity: 1;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 43%);
+  margin-left: calc(20px + 44.3%);
   margin-top: calc(-6vh - 25%);
   background-color: white;
   width: 5rem;
@@ -1026,8 +1054,8 @@ hr {
 .linea5 {
   opacity: 0.4;
   border-left: 2px solid #df5d5d;
-  bottom: 25vh;
-  height: 35vh;
+  bottom: 31.5vh;
+  height: 22vh;
   left: calc(50px + 49%);
   position: relative;
 }
@@ -1037,7 +1065,7 @@ hr {
   position: absolute;
   display: flex;
   margin-left: calc(20px + 46.8%);
-  margin-top: calc(-2vh - 10%);
+  margin-top: calc(-2vh - 15%);
   width: 5rem;
   justify-content: center;
   height: 5.7rem;
@@ -1074,7 +1102,7 @@ hr {
   border-left: 2px solid #5263af;
   bottom: 25vh;
   height: 35vh;
-  left: calc(50px + 61.6%);
+  left: calc(50px + 62.5%);
   position: relative;
 }
 
@@ -1083,7 +1111,7 @@ hr {
   opacity: 1;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 59.1%);
+  margin-left: calc(20px + 60.1%);
   margin-top: calc(-2vh - 10%);
   width: 5rem;
   justify-content: center;
@@ -1097,7 +1125,7 @@ hr {
   border-left: 2px solid greenyellow;
   bottom: 36vh;
   height: 13vh;
-  left: calc(50px + 69.5%);
+  left: calc(50px + 71.2%);
   position: relative;
 }
 
@@ -1106,7 +1134,7 @@ hr {
   opacity: 1;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 66.8%);
+  margin-left: calc(20px + 68.5%);
   margin-top: calc(-6vh - 24%);
   width: 5rem;
   justify-content: center;
@@ -1120,7 +1148,7 @@ hr {
   border-left: 2px solid blue;
   bottom: 25vh;
   height: 35vh;
-  left: calc(50px + 73.5%);
+  left: calc(50px + 74.4%);
   position: relative;
 }
 
@@ -1129,7 +1157,7 @@ hr {
   opacity: 1;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 70.8%);
+  margin-left: calc(20px + 71.7%);
   margin-top: calc(-2vh - 10%);
   width: 5rem;
   justify-content: center;
@@ -1143,7 +1171,7 @@ hr {
   border-left: 2px solid #df5d5d;
   bottom: 36vh;
   height: 13vh;
-  left: calc(50px + 80%);
+  left: calc(50px + 81.9%);
   position: relative;
 }
 
@@ -1152,7 +1180,7 @@ hr {
   opacity: 1;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 77.1%);
+  margin-left: calc(20px + 79%);
   margin-top: calc(-6vh - 24%);
   width: 5rem;
   justify-content: center;
@@ -1166,7 +1194,7 @@ hr {
   border-left: 2px solid aquamarine;
   bottom: 36vh;
   height: 13vh;
-  left: calc(50px + 86%);
+  left: calc(50px + 87%);
   position: relative;
 }
 
@@ -1175,7 +1203,7 @@ hr {
   opacity: 1;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 82.8%);
+  margin-left: calc(20px + 83.5%);
   margin-top: calc(-6vh - 24%);
   width: 5rem;
   justify-content: center;
@@ -1190,7 +1218,7 @@ hr {
   border-left: 2px solid violet;
   bottom: 25vh;
   height: 35vh;
-  left: calc(50px + 88.2%);
+  left: calc(50px + 88.9%);
   position: relative;
 }
 
@@ -1199,7 +1227,7 @@ hr {
   opacity: 1;
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 85.2%);
+  margin-left: calc(20px + 85.9%);
   margin-top: calc(-2vh - 10%);
   width: 5rem;
   justify-content: center;
@@ -1207,6 +1235,8 @@ hr {
   background-color: white;
   border: 1px solid violet;
 }
+
+
 
 /* .linea1:hover {
     opacity: 0;
@@ -1313,7 +1343,7 @@ hr {
 
 .h1-c-info {
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: var(--font-principal);
   font-size: 0.8rem;
   font-weight: 500;
 }

@@ -833,7 +833,7 @@ const Graph2 = () => {
         <PopupDifference content={'117.211'} valueHA={'Value'} />
       )}
       {activeDivId === 7 && (
-        <PopupDifference content={'El número?'} valueHA={'Value'} />
+        <PopupDifference content={'4.567'} valueHA={'Value'} />
       )}
       {activeDivId === 8 && (
         <PopupDifference content={'401.495'} valueHA={'10.0858'} />
@@ -1356,26 +1356,224 @@ const Graph2 = () => {
                 </div>
               </p>
             </div>
+
+            <div className="m1G2">
+              <p>
+                <h3 className="h3-c1">115.817</h3>
+              </p>
+            </div>
+            <div className="m2G2">
+              <p>
+                <h3 className="h3-c1">115.988</h3>
+              </p>
+            </div>
+            <div className="m3G2">
+              <p>
+                <h3 className="h3-c1">428.440</h3>
+              </p>
+            </div>
+            <div className="m4G2">
+              <p>
+                <h3 className="h3-c1">1.970.937</h3>
+              </p>
+            </div>
+            <div className="m13G2">
+              <p>
+                <h3 className="h3-c1">14.026</h3>
+              </p>
+            </div>
+            <div className="m5G2">
+              <p>
+                <h3 className="h3-c1">401.495</h3>
+              </p>
+            </div>
+            <div className="m6G2">
+              <p>
+                <h3 className="h3-c1">498.884</h3>
+              </p>
+            </div>
+            <div className="m7G2">
+              <p>
+                <h3 className="h3-c1">1.378.788</h3>
+              </p>
+            </div>
+            <div className="m8G2">
+              <p>
+                <h3 className="h3-c1">1.246.617</h3>
+              </p>
+            </div>
+            <div className="m9G2">
+              <p>
+                <h3 className="h3-c1">440.287</h3>
+              </p>
+            </div>
+            <div className="m10G2">
+              <p>
+                <h3 className="h3-c1">505.147</h3>
+              </p>
+            </div>
+            <div className="m11G2">
+              <p>
+                <h3 className="h3-c1">638.595</h3>
+              </p>
+            </div>
+            <div className="m12G2">
+              <p>
+                <h3 className="h3-c1">112.654</h3>
+              </p>
+            </div>
+            <div className="circulo1G2">
+              <p>
+                <h3></h3>
+                <h2 className="h3-c-1">
+                  <strong>541</strong>
+                </h2>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo2G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>489</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo3G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>3.950</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo4G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>10.910</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo5G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-2">
+                  <strong>10.0858</strong>
+                </h3>
+                <h3 className="h3-c-2">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo6G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-2">
+                  <strong>2.435</strong>
+                </h3>
+                <h3 className="h3-c-2">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo7G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>602</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo8G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>9.831</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo9G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>1.563</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo10G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>640</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo11G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>4.460</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo12G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>6.653</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
             <hr></hr>
             <div className="divHigcharts">
               <HighchartsReact highcharts={Highcharts} options={options} />
             </div>
           </div>
-        </div> 
-        <div className="linea2G2" onMouseOver={() => handleDivMouseOver(2)} onMouseOut={handleDivMouseOut}/>
-        <div className="linea3G2" onMouseOver={() => handleDivMouseOver(3)} onMouseOut={handleDivMouseOut} />
-        <div className="linea4G2" onMouseOver={() => handleDivMouseOver(4)} onMouseOut={handleDivMouseOut} />
-        <div className="linea5G2" onMouseOver={() => handleDivMouseOver(5)} onMouseOut={handleDivMouseOut} />
-        <div className="linea6G2" onMouseOver={() => handleDivMouseOver(6)} onMouseOut={handleDivMouseOut} />
-        <div className="linea7G2" onMouseOver={() => handleDivMouseOver(7)} onMouseOut={handleDivMouseOut} />
-        <div className="linea8G2" onMouseOver={() => handleDivMouseOver(8)} onMouseOut={handleDivMouseOut} />
-        <div className="linea9G2" onMouseOver={() => handleDivMouseOver(9)} onMouseOut={handleDivMouseOut} />
-        <div className="linea10G2" onMouseOver={() => handleDivMouseOver(10)} onMouseOut={handleDivMouseOut} />
-        <div className="linea11G2" onMouseOver={() => handleDivMouseOver(11)} onMouseOut={handleDivMouseOut} />
-        <div className="linea12G2" onMouseOver={() => handleDivMouseOver(12)} onMouseOut={handleDivMouseOut} />
-        <div className="linea13G2" onMouseOver={() => handleDivMouseOver(13)} onMouseOut={handleDivMouseOut} />
-        <div className="linea14G2" onMouseOver={() => handleDivMouseOver(14)} onMouseOut={handleDivMouseOut} />
-        <div className="linea15G2" onMouseOver={() => handleDivMouseOver(15)} onMouseOut={handleDivMouseOut} />
+        </div>
+        <div className="linea2G2" />
+        <div className="linea3G2" />
+        <div className="linea4G2" />
+        <div className="linea5G2" />
+        <div className="linea6G2" onMouseOver={() => handleDivMouseOver(7)} onMouseOut={handleDivMouseOut} />
+        <div className="linea7G2" />
+        <div className="linea8G2" />
+        <div className="linea9G2" />
+        <div className="linea10G2" />
+        <div className="linea11G2" />
+        <div className="linea12G2" />
+        <div className="linea13G2" />
+        <div className="linea14G2" />
+        <div className="linea15G2" />
       </div>
     </>
   );
