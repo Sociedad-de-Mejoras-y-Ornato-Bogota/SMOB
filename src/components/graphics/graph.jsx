@@ -773,6 +773,7 @@ const Graph = () => {
 
         />
       )}
+
       {showPopupE && (
         <Popup2
           onClose={handleClosePopupE}
@@ -909,7 +910,22 @@ const Graph = () => {
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick2E} />
                 </button>
               </div> */}
-
+              <div className="linea13"></div>
+              <div className="cuadro13"><p><h1 className="h1-c"> 1967</h1>
+                <h2 className="h2-c">Acuerdo 65 de 1967</h2>
+                <h3 className="h3-c">Crecimiento: <strong className="str">5,80</strong></h3>
+                <h3 className="h3-c">Vegetativa: <strong className="str">2,64</strong></h3>
+                <h3 className="h3-c">Migración: <strong className="str">3,16</strong></h3>
+              </p>
+              </div>
+              <div className="linea14"></div>
+              <div className="cuadro14"><p><h1 className="h1-c">1968</h1>
+                <h2 className="h2-c">Decreto 1119 de 1968</h2>
+                <h3 className="h3-c">Crecimiento: <strong className="str">5,70</strong></h3>
+                <h3 className="h3-c">Vegetativa: <strong className="str">2,62</strong></h3>
+                <h3 className="h3-c">Migración: <strong className="str">3,08</strong></h3>
+              </p>
+              </div>
             </p>
             </div>
             <div className="linea4"></div>
@@ -949,7 +965,7 @@ const Graph = () => {
               </div> */}
             </p>
             </div>
-            <div className="linea5_1"></div>
+            {/* <div className="linea5_1"></div>
             <div className="cuadro5_1"><p><h1 className="h1-c"> 1967</h1>
               <h2 className="h2-c">Acuerdo 65 de 1967</h2>
               <h3 className="h3-c">Crecimiento: <strong className="str">5,80</strong></h3>
@@ -968,32 +984,7 @@ const Graph = () => {
                   <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E} />
                 </button>
               </div> */}
-            </p>
-            </div>
-            <div className="linea5_2"></div>
-            <div className="cuadro5_2"><p><h1 className="h1-c">1968</h1>
-              <h2 className="h2-c">Decreto 1119 de 1968</h2>
-              <h3 className="h3-c">Crecimiento: <strong className="str">5,70</strong></h3>
-              <h3 className="h3-c">Vegetativa: <strong className="str">2,62</strong></h3>
-              <h3 className="h3-c">Migración: <strong className="str">3,08</strong></h3>
-              <div className="div-graph-button">
-                <button className="cus">
-                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4_2} />
-                </button>
-                <button className="cus2">
-                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4_2E} />
-                </button>
-              </div>
-              {/* <div className="div-graph-button">
-                <button className="cus">
-                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png" alt="Icono" width="20" height="20" onClick={handleDivClick4} />
-                </button>
-                <button className="cus2">
-                  <img src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png" alt="Icono" width="20" height="20" onClick={handleDivClick4E} />
-                </button>
-              </div> */}
-            </p>
-            </div>
+
             <div className="linea6"></div>
             <div className="cuadro6"><p><h1 className="h1-c"> 1979</h1>
               <h2 className="h2-c">Acuerdo 7</h2>
@@ -1123,8 +1114,9 @@ const Graph = () => {
               />
             </div>
           </div>
-        </div>
-      </div></>
+        </div >
+      </div >
+    </>
   )
 }
 
