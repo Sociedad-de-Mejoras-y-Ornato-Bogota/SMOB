@@ -5,7 +5,7 @@ const PopupInfo = ({ onClose, text }) => {
   return (
     <div className="popup-info-container">
       {text[0].map((line, index) => (
-        <h3 key={index} className="h3-c">{line}</h3>
+        <h3 key={index} className="h1-c-info">{line}</h3>
       ))}
       <button className="close-button-info" onClick={onClose}></button>
     </div>

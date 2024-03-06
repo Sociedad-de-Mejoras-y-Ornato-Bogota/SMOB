@@ -7,13 +7,16 @@ import Popup from "./pupUp";
 import Popup2 from "./popUp2";
 import PopupSlide from "./popUpSlide";
 import PopupInfo from "./popUpInfo";
+import PopupDiff from "./popUpDifference";
 import "reactjs-popup/dist/index.css";
+import PopupDifference from "./popUpDifference";
 
 const Graph2 = () => {
   const d1 = ((window.innerWidth / 10) * 9.2);
   const d2 = ((window.innerHeight / 10) * 8.5);
   const [chartWidth, setChartWidth] = useState(d1); // Ancho inicial del gráfico
   const [chartHeight, setChartHeight] = useState(d2); // Alto inicial del gráfico
+
 
   const images = [
     'https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/recursos_15_02_2024/E.1.4-Decreto-1119-1968.png',
@@ -33,8 +36,6 @@ const Graph2 = () => {
     };
   }, []);
 
-
-
   const options = {
     chart: {
       type: 'line',
@@ -42,6 +43,7 @@ const Graph2 = () => {
       height: chartHeight,
       backgroundColor: '#00FF0000',
     },
+
     tooltip: {
       enabled: true,
       backgroundColor: 'rgba(255, 255, 255, 0.9)', // Color de fondo del tooltip
@@ -421,10 +423,12 @@ const Graph2 = () => {
   const [showPopupPDF67, setShowPopupPDF67] = useState(false);
   const [showPopupPDF68, setShowPopupPDF68] = useState(false);
 
-
   // USE STATE -- TERCERO -- INFORMACIÓN
   const [showPopupInfo, setShowPopupInfo] = useState(false);
   const [popupText, setPopupText] = useState([]);
+
+  // USE STATE -- CUARTO -- DIFERENCIA
+  const [activeDivId, setActiveDivId] = useState(null);
 
   //primero
   const handleDivClick = () => {
@@ -517,6 +521,11 @@ const Graph2 = () => {
   const handleDivClickInfo = (text) => {
     setShowPopupInfo(true);
     setPopupText(text);
+  };
+
+  /** CUARTO - DIFERENCIAS */
+  const handleDivMouseOver = (divId) => {
+    setActiveDivId(divId);
   };
 
   //primero
@@ -635,10 +644,15 @@ const Graph2 = () => {
     setShowPopupPDF68(false);
   };
 
-  // Cerrar popup -- TECERO -- INFORMACIÓN
+  // Cerrar popup -- TERCERO -- INFORMACIÓN
   const handleClosePopupInfo = () => {
     console.log("Cerrando el pop-up");
     setShowPopupInfo(false);
+  };
+
+  // Cerrar popup -- CUARTO -- DIFERENCIAS
+  const handleDivMouseOut = () => {
+    setActiveDivId(null);
   };
 
   return (
@@ -798,10 +812,54 @@ const Graph2 = () => {
       )}
 
       {showPopupInfo && (
-        <>
-          <PopupInfo onClose={handleClosePopupInfo} text={[popupText]} />
-        </>
+        <PopupInfo onClose={handleClosePopupInfo} text={[popupText]} />
       )}
+
+      {/* POPUPS DIFERENCIA */}
+      {activeDivId === 2 && (
+        <PopupDifference content={'115.817'} valueHA={'541'} />
+      )}
+
+      {activeDivId === 3 && (
+        <PopupDifference content={'115.988'} valueHA={'489'} />
+      )}
+      {activeDivId === 4 && (
+        <PopupDifference content={'428.440'} valueHA={'3.950'} />
+      )}
+      {activeDivId === 5 && (
+        <PopupDifference content={'1.970.937'} valueHA={'10.910'} />
+      )}
+      {activeDivId === 6 && (
+        <PopupDifference content={'117.211'} valueHA={'Value'} />
+      )}
+      {activeDivId === 7 && (
+        <PopupDifference content={'El número?'} valueHA={'Value'} />
+      )}
+      {activeDivId === 8 && (
+        <PopupDifference content={'401.495'} valueHA={'10.0858'} />
+      )}
+      {activeDivId === 9 && (
+        <PopupDifference content={'498.884'} valueHA={'2.435'} />
+      )}
+      {activeDivId === 10 && (
+        <PopupDifference content={'1.378.788'} valueHA={'602'} />
+      )}
+      {activeDivId === 11 && (
+        <PopupDifference content={'1.246.617'} valueHA={'9.831'} />
+      )}
+      {activeDivId === 12 && (
+        <PopupDifference content={'440.287'} />
+      )}
+      {activeDivId === 13 && (
+        <PopupDifference content={'505.147'} />
+      )}
+      {activeDivId === 14 && (
+        <PopupDifference content={'638.595'} />
+      )}
+      {activeDivId === 15 && (
+        <PopupDifference content={'122.654'} />
+      )}
+
       <div className="contentG">
         <div className="graphs">
           <div className="graphs-2">
@@ -833,16 +891,12 @@ const Graph2 = () => {
                 </div>
               </p>
             </div>
-            <div className="linea2G2"></div>
             <div className="cuadro2G2">
               <p style={{ width: '100%' }}>
                 <h1 className="h1-c">
                   {" "}
                   <strong>1925</strong>
                 </h1>
-                <h3 className="h3-c">Bogotá futuro.</h3>
-                <h3 className="h3-c">1.120 ha</h3>
-                <h3 className="h3-c">Pobl. 214.665</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -868,23 +922,19 @@ const Graph2 = () => {
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Bogotá futuro.", "1.120 ha", "Pobl. 217.253"])}
+                      onClick={() => handleDivClickInfo(["Bogotá futuro.", "1.120 ha", "Pobl. 214.665"])}
                     />
                   </button>
                 </div>
 
               </p>
             </div>
-            <div className="linea3G2"></div>
             <div className="cuadro3G2">
               <p>
                 <h1 className="h1-c">
                   {" "}
                   <strong>1936</strong>
                 </h1>
-                <h3 className="h3-c">Plan Brunner.</h3>
-                <h3 className="h3-c">1.609 ha</h3>
-                <h3 className="h3-c">Pobl. 330.653</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -911,21 +961,17 @@ const Graph2 = () => {
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Plan Brunner.", "1.609 ha", "Pobl. 333.057"])}
+                      onClick={() => handleDivClickInfo(["Plan Brunner.", "1.609 ha", "Pobl. 330.653"])}
                     />
                   </button>
                 </div>
               </p>
             </div>
-            <div className="linea4G2"></div>
             <div className="cuadro4G2">
               <p>
                 <h1 className="h1-c">
                   <strong>1951</strong>
                 </h1>
-                <h3 className="h3-c">Plan Piloto.</h3>
-                <h3 className="h3-c">5.558 ha</h3>
-                <h3 className="h3-c">Pobl. 759.093</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -952,30 +998,24 @@ const Graph2 = () => {
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Plan Piloto.", "5.558 ha", "Pobl. 759.227"])}
+                      onClick={() => handleDivClickInfo(["Plan Piloto.", "5.558 ha", "Pobl. 759.093"])}
                     />
                   </button>
                 </div>
               </p>
             </div>
-
-            <div className="linea5_1G2"></div>
             <div className="cuadro5_1G2">
               <p>
                 <h1 className="h1-c">
                   <strong>1967</strong>
                 </h1>
-                <h3 className="h3-c">Acuerdo 65</h3>
-                <h3 className="h3-c">de 1967</h3>
-                <h3 className="h3-c">26.526 ha</h3>
-                <h3 className="h3-c">Pobl. 2.095.403</h3>
-                {/* <div className="div-graph-button">
+                <div className="div-graph-button">
                   <button className="cu">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Acuerdo 65", "de 1967", "26.526 ha", "Pobl. 3.075.832"])}
+                      onClick={() => handleDivClickInfo(["Acuerdo 65", "de 1967", "26.526 ha", "Pobl. 2.095.403"])}
                     />
                   </button>
                   <button className="cu2">
@@ -985,17 +1025,12 @@ const Graph2 = () => {
               </p>
             </div>
 
-            <div className="linea5_2G2"></div>
             <div className="cuadro5_2G2">
               <p>
                 <h1 className="h1-c">
                   <strong>1968</strong>
                 </h1>
-                <h3 className="h3-c">Decreto 1119</h3>
-                <h3 className="h3-c">de 1968</h3>
-                <h3 className="h3-c">26.526 ha</h3>
-                <h3 className="h3-c">Pobl. 2.214.841</h3>
-                {/* <div className="div-graph-button">
+                <div className="div-graph-button">
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -1021,23 +1056,18 @@ const Graph2 = () => {
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Decreto 1119", "de 1968", "26.526 ha", "Pobl. 3.075.832"])}
+                      onClick={() => handleDivClickInfo(["Decreto 1119", "de 1968", "26.526 ha", "Pobl. 2.214.841"])}
                     />
                   </button>
                 </div>
 
               </p>
             </div>
-            <div className="linea5G2"></div>
             <div className="cuadro5G2">
               <p>
                 <h1 className="h1-c">
                   <strong> 1972</strong>
                 </h1>
-                <h3 className="h3-c">Fase II (ciudades ciudades)</h3>
-                <h3 className="h3-c">entre</h3>
-                <h3 className="h3-c">5.558 ha</h3>
-                <h3 className="h3-c">Pobl. 2.730.030</h3>
                 <div className="div-graph-button">
                   <button className="cu-e">
                     <img
@@ -1064,32 +1094,18 @@ const Graph2 = () => {
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Fase II (ciudades ciudades)", "entre", "5.558 ha", "Pobl. 759.227"])}
+                      onClick={() => handleDivClickInfo(["Fase II (ciudades ciudades)", "entre", "5.558 ha", "Pobl. 2.730.030"])}
                     />
                   </button>
                 </div>
               </p>
             </div>
-            <div className="linea6G2"></div>
             <div className="cuadro6G2">
               <p>
                 <h1 className="h1-c">
                   <strong>1975</strong>
                 </h1>
-                <h3 className="h3-c">Plan de</h3>
-                <h3 className="h3-c">desarrollo</h3>
-                <h3 className="h3-c">urbano</h3>
-                <h3 className="h3-c">26.526 ha</h3>
-                <h3 className="h3-c">Pobl. 3.131.525</h3>
                 <div className="div-graph-button">
-                  <button className="cu2">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
-                      alt="Icono"
-                      className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Plan de", "desarrollo", "urbano", "26.526 ha", "Pobl. 3.075.832"])}
-                    />
-                  </button>
                   <button className="cu">
                     <img
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/plano.png"
@@ -1099,29 +1115,24 @@ const Graph2 = () => {
                       onClick={handleDivClick5}
                     />
                   </button>
-                  {/* <button className="cu2">
+                  <button className="cu2">
                     <img
-                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/pdf.png"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
-                      width="20"
-                      height="20"
-                      onClick={handleDivClick5E}
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Plan de", "desarrollo", "urbano", "26.526 ha", "Pobl. 3.131.525"])}
                     />
-                  </button> */}
+                  </button>
                 </div>
 
               </p>
             </div>
-            <div className="linea7G2"></div>
             <div className="cuadro7G2">
               <p>
                 <h1 className="h1-c">
                   {" "}
                   <strong>1979</strong>
                 </h1>
-                <h3 className="h3-c">Acuerdo 7.</h3>
-                <h3 className="h3-c">28.961 ha</h3>
-                <h3 className="h3-c">Pobl. 3.630.409</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1148,23 +1159,19 @@ const Graph2 = () => {
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Acuerdo 7.", "28.961 ha", "Pobl. 3.581.986"])}
+                      onClick={() => handleDivClickInfo(["Acuerdo 7.", "28.961 ha", "Pobl. 3.630.409"])}
                     />
                   </button>
                 </div>
 
               </p>
             </div>
-            <div className="linea8G2"></div>
             <div className="cuadro8G2">
               <p>
                 <h1 className="h1-c">
                   {" "}
                   <strong>1990</strong>
                 </h1>
-                <h3 className="h3-c">Acuerdo 6.</h3>
-                <h3 className="h3-c">29.564 ha</h3>
-                <h3 className="h3-c">Pobl. 5.009.197</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1191,22 +1198,18 @@ const Graph2 = () => {
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Acuerdo 6.", "29.564 ha", "Pobl. 4.975.531"])}
+                      onClick={() => handleDivClickInfo(["Acuerdo 6.", "29.564 ha", "Pobl. 5.009.197"])}
                     />
                   </button>
                 </div>
               </p>
             </div>
-            <div className="linea9G2"></div>
             <div className="cuadro9G2">
               <p>
                 <h1 className="h1-c">
                   {" "}
                   <strong>2000</strong>
                 </h1>
-                <h3 className="h3-c">Decreto 619.</h3>
-                <h3 className="h3-c">39.395 ha</h3>
-                <h3 className="h3-c">Pobl. 6.255.614</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1233,22 +1236,18 @@ const Graph2 = () => {
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Decreto 619.", "39.395 ha", "Pobl. 6.203.175"])}
+                      onClick={() => handleDivClickInfo(["Decreto 619.", "39.395 ha", "Pobl. 6.255.614"])}
                     />
                   </button>
                 </div>
               </p>
             </div>
-            <div className="linea10G2"></div>
             <div className="cuadro10G2">
               <p>
                 <h1 className="h1-c">
                   {" "}
                   <strong>2004</strong>
                 </h1>
-                <h3 className="h3-c">Decreto 190.</h3>
-                <h3 className="h3-c">40.958 ha</h3>
-                <h3 className="h3-c">Pobl. 6.695.901</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1275,22 +1274,18 @@ const Graph2 = () => {
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Decreto 190.", "40.958 ha", "Pobl. 6.666.694"])}
+                      onClick={() => handleDivClickInfo(["Decreto 190.", "40.958 ha", "Pobl. 6.695.901"])}
                     />
                   </button>
                 </div>
               </p>
             </div>
-            <div className="linea11G2"></div>
             <div className="cuadro11G2">
               <p>
                 <h1 className="h1-c">
                   {" "}
                   <strong>2013</strong>
                 </h1>
-                <h3 className="h3-c">MePOT</h3>
-                <h3 className="h3-c">41.598 ha</h3>
-                <h3 className="h3-c">Pobl. 7.201.046</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1317,22 +1312,18 @@ const Graph2 = () => {
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["MePOT.", "41.598 ha", "Pobl. 7.355.223"])}
+                      onClick={() => handleDivClickInfo(["MePOT.", "41.598 ha", "Pobl. 7.201.046"])}
                     />
                   </button>
                 </div>
               </p>
             </div>
-            <div className="linea12G2"></div>
             <div className="cuadro12G2">
               <p>
                 <h1 className="h1-c">
                   {" "}
                   <strong>2021</strong>
                 </h1>
-                <h3 className="h3-c">Decreto 555.</h3>
-                <h3 className="h3-c">39.405 ha</h3>
-                <h3 className="h3-c">Pobl. 7.839.641</h3>
                 <div className="div-graph-button">
                   <button className="cu">
                     <img
@@ -1353,216 +1344,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
-
-              </p>
-            </div>
-            <div className="m1G2">
-              <p>
-                <h3 className="h3-c1">115.817</h3>
-              </p>
-            </div>
-            <div className="m2G2">
-              <p>
-                <h3 className="h3-c1">115.988</h3>
-              </p>
-            </div>
-            <div className="m3G2">
-              <p>
-                <h3 className="h3-c1">428.440</h3>
-              </p>
-            </div>
-            <div className="m4G2">
-              <p>
-                <h3 className="h3-c1">1.970.937</h3>
-              </p>
-            </div>
-            {/* AQUÍI */}
-            <div className="m13G2">
-              <p>
-                <h3 className="h3-c1">117.211</h3>
-              </p>
-            </div>
-            <div className="m5G2">
-              <p>
-                <h3 className="h3-c1">401.495</h3>
-              </p>
-            </div>
-            <div className="m6G2">
-              <p>
-                <h3 className="h3-c1">498.884</h3>
-              </p>
-            </div>
-            <div className="m7G2">
-              <p>
-                <h3 className="h3-c1">1.378.788</h3>
-              </p>
-            </div>
-            <div className="m8G2">
-              <p>
-                <h3 className="h3-c1">1.246.617</h3>
-              </p>
-            </div>
-            <div className="m9G2">
-              <p>
-                <h3 className="h3-c1">440.287</h3>
-              </p>
-            </div>
-            <div className="m10G2">
-              <p>
-                <h3 className="h3-c1">505.147</h3>
-              </p>
-            </div>
-            <div className="m11G2">
-              <p>
-                <h3 className="h3-c1">638.595</h3>
-              </p>
-            </div>
-            <div className="m12G2">
-              <p>
-                <h3 className="h3-c1">112.654</h3>
-              </p>
-            </div>
-            <div className="circulo1G2">
-              <p>
-                <h3></h3>
-                <h2 className="h3-c-1">
-                  <strong>541</strong>
-                </h2>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo2G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>489</strong>
-                </h3>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo3G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>3.950</strong>
-                </h3>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo4G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>10.910</strong>
-                </h3>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo13G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>10.910</strong>
-                </h3>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo5G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-2">
-                  <strong>10.0858</strong>
-                </h3>
-                <h3 className="h3-c-2">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo6G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-2">
-                  <strong>2.435</strong>
-                </h3>
-                <h3 className="h3-c-2">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo7G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>602</strong>
-                </h3>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo8G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>9.831</strong>
-                </h3>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo9G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>1.563</strong>
-                </h3>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo10G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>640</strong>
-                </h3>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo11G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>4.460</strong>
-                </h3>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
-              </p>
-            </div>
-            <div className="circulo12G2">
-              <p>
-                <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>6.653</strong>
-                </h3>
-                <h3 className="h3-c-1">
-                  <strong>ha</strong>
-                </h3>
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Information-icon.svg/2048px-Information-icon.svg.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Decreto 555.", "39.405 ha", "Pobl. 7.839.641"])}
+                    />
+                  </button>
+                </div>
               </p>
             </div>
             <hr></hr>
@@ -1570,7 +1361,21 @@ const Graph2 = () => {
               <HighchartsReact highcharts={Highcharts} options={options} />
             </div>
           </div>
-        </div>
+        </div> 
+        <div className="linea2G2" onMouseOver={() => handleDivMouseOver(2)} onMouseOut={handleDivMouseOut}/>
+        <div className="linea3G2" onMouseOver={() => handleDivMouseOver(3)} onMouseOut={handleDivMouseOut} />
+        <div className="linea4G2" onMouseOver={() => handleDivMouseOver(4)} onMouseOut={handleDivMouseOut} />
+        <div className="linea5G2" onMouseOver={() => handleDivMouseOver(5)} onMouseOut={handleDivMouseOut} />
+        <div className="linea6G2" onMouseOver={() => handleDivMouseOver(6)} onMouseOut={handleDivMouseOut} />
+        <div className="linea7G2" onMouseOver={() => handleDivMouseOver(7)} onMouseOut={handleDivMouseOut} />
+        <div className="linea8G2" onMouseOver={() => handleDivMouseOver(8)} onMouseOut={handleDivMouseOut} />
+        <div className="linea9G2" onMouseOver={() => handleDivMouseOver(9)} onMouseOut={handleDivMouseOut} />
+        <div className="linea10G2" onMouseOver={() => handleDivMouseOver(10)} onMouseOut={handleDivMouseOut} />
+        <div className="linea11G2" onMouseOver={() => handleDivMouseOver(11)} onMouseOut={handleDivMouseOut} />
+        <div className="linea12G2" onMouseOver={() => handleDivMouseOver(12)} onMouseOut={handleDivMouseOut} />
+        <div className="linea13G2" onMouseOver={() => handleDivMouseOver(13)} onMouseOut={handleDivMouseOut} />
+        <div className="linea14G2" onMouseOver={() => handleDivMouseOver(14)} onMouseOut={handleDivMouseOut} />
+        <div className="linea15G2" onMouseOver={() => handleDivMouseOver(15)} onMouseOut={handleDivMouseOut} />
       </div>
     </>
   );
