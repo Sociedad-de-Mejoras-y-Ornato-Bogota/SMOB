@@ -4,7 +4,7 @@ export default function BogotaCiudadCompleja() {
 
     return (
         <>
-            <Page_libro name_component="Bogotá: una ciudad compleja" url_book="https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/SMOB_Ciudadania y civilidad_web.pdf"/>
+            <Page_libro name_component="Bogotá: una ciudad compleja" url_book="https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/SMOB_Ciudadania+y+civilidad_Bogota%CC%81+una+ciudad+compleja.pdf"/>
         </>
     )
 }
