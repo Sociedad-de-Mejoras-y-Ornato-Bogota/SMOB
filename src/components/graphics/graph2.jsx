@@ -833,7 +833,7 @@ const Graph2 = () => {
         <PopupDifference content={'117.211'} valueHA={'Value'} />
       )}
       {activeDivId === 7 && (
-        <PopupDifference content={'4.567'} valueHA={'Value'} />
+        <PopupDifference content={'119.438'} valueHA={'Value'} />
       )}
       {activeDivId === 8 && (
         <PopupDifference content={'401.495'} valueHA={'10.0858'} />
@@ -1387,12 +1387,12 @@ const Graph2 = () => {
             </div>
             <div className="m4G2">
               <p>
-                <h3 className="h3-c1">1.970.937</h3>
+                <h3 className="h3-c1">1.336.310</h3>
               </p>
             </div>
             <div className="m13G2">
               <p>
-                <h3 className="h3-c1">14.026</h3>
+                <h3 className="h3-c1">515.189</h3>
               </p>
             </div>
             <div className="m5G2">
