@@ -55,6 +55,19 @@ export const archivo = [
                 title: "Estructura administrativa de Bogotá",
                 ruta: "/marco institucional/Estructura administrativa de Bogotá",
             }
+            , {
+                title: "Participación ciudadana",
+                ruta: "#",
+                submenu: [
+                    {
+                        title: "Lista de concejo de Bogotá",
+                        ruta: "/marco institucional/Lista concejo"
+                    }, {
+                        title: "Lista de alcaldes de Bogotá",
+                        ruta: "/marco institucional/Lista alcaldes"
+                    }
+                ]
+            }
         ],
     }, {
         title: "Componente poblacional",

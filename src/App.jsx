@@ -20,6 +20,8 @@ import EsquemaLey from './pages/Marco-Institucional/LeyesOrdenamiento/EsquemaLey
 import EstruturaAdmin from './pages/Marco-Institucional/EstructuraAdmin/EstructuraAdmin';
 import LineaTiempoiEA from './pages/Marco-Institucional/EstructuraAdmin/LineaTiempoEA';
 import Evolucion from './pages/Marco-Institucional/EstructuraAdmin/Evolucion';
+import ListaAlcaldes from './pages/Marco-Institucional/ParticipacionCiudadana/listaAlcaldes';
+import ListaConcejales from './pages/Marco-Institucional/ParticipacionCiudadana/listaConcejales';
 
 import Poblacional from './pages/Comp-Poblacional/Poblacional';
 import Conflicto from './pages/Comp-Poblacional/Conflicto-Civilidad/Conflicto';
@@ -123,6 +125,8 @@ const App = () => {
           <Route path="marco institucional/Leyes de ordenamiento territorial" Component={LeyesOrdenamiento} />
           <Route path="marco institucional/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997" Component={AntecentesLey} />
           <Route path="marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997" Component={EsquemaLey} />
+          <Route path="marco institucional/Lista concejo" Component={ListaConcejales} />
+          <Route path="marco institucional/Lista alcaldes" Component={ListaAlcaldes} />
           {/* <Route path="marco institucional/Leyes de ordenamiento territorial/Concepto Plan de Ordenamiento Territorial año 2019" Component={ConceptoLey} /> */}
           <Route path="marco institucional/Estructura administrativa de Bogotá" Component={EstruturaAdmin} />
           <Route path="marco institucional/Estructura administrativa de Bogotá/Evolución de la estructura administrativa de Bogotá desde su fundación hasta el año 2021" Component={Evolucion} />
