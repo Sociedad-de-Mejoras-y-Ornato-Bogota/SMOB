@@ -146,7 +146,7 @@
 .cus-e:hover,
 .cus2-e:hover,
 .cu:hover,
-.cu2:hover,
+.cu2:hover, .cu2:active,
 .cu-e:hover,
 .cu2-e:hover {
   background-color: #762f0b;
@@ -221,7 +221,7 @@
   height: 4.3rem;
   background-color: white;
   justify-content: center;
-  border: 1px solid #ced83f;
+  border: 1px solid #869205;
 }
 
 .cuadro4G2 {
@@ -263,7 +263,7 @@
   height: 4.3rem;
   background-color: white;
   justify-content: center;
-  border: 1px solid #d6dd05;
+  border: 1px solid #E83698;
   z-index: 2;
 }
 
@@ -320,7 +320,7 @@
   height: 4.3rem;
   background-color: white;
   justify-content: center;
-  border: 1px solid greenyellow;
+  border: 1px solid #20C000;
 }
 
 .cuadro9G2 {
@@ -362,7 +362,7 @@
   height: 4.3rem;
   background-color: white;
   justify-content: center;
-  border: 1px solid aquamarine;
+  border: 1px solid #00B1A4;
 }
 
 .cuadro12G2 {
@@ -403,7 +403,7 @@
 
 .linea3G2 {
   opacity: .5;
-  border-left: 2px solid #ced83f;
+  border-left: 2px solid #60680C;
   bottom: 15vh;
   height: 55vh;
   left: calc(28px + 31%);
@@ -432,7 +432,7 @@
 
 .linea6G2 {
   opacity: .4;
-  border-left: 2px solid #d6dd05;
+  border-left: 2px solid #E83698;
   bottom: 94.2vh;
   height: 35vh;
   left: calc(15px + 54.6%);
@@ -471,7 +471,7 @@
 
 .linea10G2 {
   opacity: .4;
-  border-left: 2px solid greenyellow;
+  border-left: 2px solid #20C000;
   bottom: 18vh;
   height: 49vh;
   left: calc(7px + 70.1%);
@@ -504,7 +504,7 @@
 
 .linea13G2 {
   opacity: .4;
-  border-left: 2px solid aquamarine;
+  border-left: 2px solid #00B1A4;
   bottom: 27.5vh;
   height: 30vh;
   left: calc(7px + 86.3%);
@@ -1350,6 +1350,13 @@ hr {
   font-family: var(--font-principal);
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+.h1-c-info-black {
+  text-align: center;
+  font-family: var(--font-principal);
+  font-size: 0.8rem;
+  font-weight: 1000;
 }
 
 .h1-c-circle {
