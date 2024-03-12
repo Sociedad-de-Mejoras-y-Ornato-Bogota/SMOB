@@ -64,3 +64,11 @@
       }
     
 }
+
+h2.title_page-galery {
+    text-align: center;
+    color: var(--clr-primary);
+    font-size: var(--font-size-1);
+    font-weight: bold;
+    padding: 1rem;
+}
