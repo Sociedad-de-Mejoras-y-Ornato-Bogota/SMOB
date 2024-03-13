@@ -861,10 +861,10 @@ const Graph2 = () => {
         <PopupDifference content={'1.970.937'} valueHA={'10.910'} />
       )}
       {activeDivId === 6 && (
-        <PopupDifference content={'117.211'} valueHA={'Value'} />
+        <PopupDifference content={'117.211'} valueHA={'460'} />
       )}
       {activeDivId === 7 && (
-        <PopupDifference content={'119.438'} valueHA={'Value'} />
+        <PopupDifference content={'119.438'} valueHA={'460'} />
       )}
       {activeDivId === 8 && (
         <PopupDifference content={'401.495'} valueHA={'10.0858'} />
@@ -915,6 +915,8 @@ const Graph2 = () => {
                   {" "}
                   <strong>1902</strong>
                 </h1>
+                <h2 className="h2-c">Acuerdo 10 de</h2>
+                <h2 className="h2-c">1902</h2>
                 <div className="div-graph-button">
                   <button className="cu2">
                     <img
@@ -1406,6 +1408,16 @@ const Graph2 = () => {
                     />
                   </button>
                 </div>
+                <div className="div-graph-button">
+                  <button className="cu2">
+                    <img
+                      src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
+                      alt="Icono"
+                      className="tamañoimagen"
+                      onClick={() => handleDivClickInfo(["Proyecto POT", "39.405 ha", "Pobl. 7.615.712"])}
+                    />
+                  </button>
+                </div>
                 {/* <div className="div-graph-button">
                   <button className="cu2">
                     <img
@@ -1478,7 +1490,7 @@ const Graph2 = () => {
                 <h3 className="h3-c1">1.336.310</h3>
               </p>
             </div>
-            <div className="m13G2">
+            <div className="m15G2">
               <p>
                 <h3 className="h3-c1">515.189</h3>
               </p>
@@ -1515,19 +1527,24 @@ const Graph2 = () => {
             </div>
             <div className="m11G2">
               <p>
-                <h3 className="h3-c1">638.595</h3>
+                <h3 className="h3-c1">414.666</h3>
               </p>
             </div>
             <div className="m12G2">
               <p>
-                <h3 className="h3-c1">112.654</h3>
+                <h3 className="h3-c1">84.122</h3>
+              </p>
+            </div>
+            <div className="m14G2">
+              <p>
+                <h3 className="h3-c1">515.189</h3>
               </p>
             </div>
             <div className="circulo1G2">
               <p>
                 <h3></h3>
                 <h2 className="h3-c-1">
-                  <strong>541</strong>
+                  <strong>505,1</strong>
                 </h2>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1538,7 +1555,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>489</strong>
+                  <strong>554,8</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1548,10 +1565,10 @@ const Graph2 = () => {
             <div className="circulo3G2">
               <p>
                 <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>3.950</strong>
+                <h3 className="h3-c-2">
+                  <strong>2.940,9</strong>
                 </h3>
-                <h3 className="h3-c-1">
+                <h3 className="h3-c-2">
                   <strong>ha</strong>
                 </h3>
               </p>
@@ -1560,9 +1577,31 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>10.910</strong>
+                  <strong>6.397</strong>
                 </h3>
                 <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo13G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>1.852</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo14G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-2">
+                  <strong>1.852</strong>
+                </h3>
+                <h3 className="h3-c-2">
                   <strong>ha</strong>
                 </h3>
               </p>
@@ -1571,7 +1610,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-2">
-                  <strong>10.0858</strong>
+                  <strong>1.380</strong>
                 </h3>
                 <h3 className="h3-c-2">
                   <strong>ha</strong>
@@ -1582,7 +1621,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-2">
-                  <strong>2.435</strong>
+                  <strong>2.100</strong>
                 </h3>
                 <h3 className="h3-c-2">
                   <strong>ha</strong>
@@ -1593,7 +1632,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>602</strong>
+                  <strong>7.832</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1604,7 +1643,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>9.831</strong>
+                  <strong>9.411,9</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1614,10 +1653,10 @@ const Graph2 = () => {
             <div className="circulo9G2">
               <p>
                 <h3></h3>
-                <h3 className="h3-c-1">
-                  <strong>1.563</strong>
+                <h3 className="h3-c-2">
+                  <strong>2.872,1</strong>
                 </h3>
-                <h3 className="h3-c-1">
+                <h3 className="h3-c-2">
                   <strong>ha</strong>
                 </h3>
               </p>
@@ -1626,7 +1665,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>640</strong>
+                  <strong>1.312</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1637,7 +1676,18 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>4.460</strong>
+                  <strong>277</strong>
+                </h3>
+                <h3 className="h3-c-1">
+                  <strong>ha</strong>
+                </h3>
+              </p>
+            </div>
+            <div className="circulo13G2">
+              <p>
+                <h3></h3>
+                <h3 className="h3-c-1">
+                  <strong>313</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1648,7 +1698,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>6.653</strong>
+                  <strong>210</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>

@@ -191,7 +191,7 @@
   margin-top: calc(10vh + 10.4%);
   width: 3.8rem;
   justify-content: center;
-  height: 3.5rem;
+  height: 4.2rem;
   background-color: white;
   border: 1px solid #df5d5d;
   cursor: pointer;
@@ -271,8 +271,8 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(-50px + 57.8%);
-  margin-top: calc(14vh + 12.5%);
+  margin-left: calc(-50px + 58.5%);
+  margin-top: calc(14vh + 14.6%);
 
   width: 3.8rem;
   height: 7rem;
@@ -300,7 +300,7 @@
   position: absolute;
   display: flex;
   margin-left: calc(5px + 59.2%);
-  margin-top: calc(6vh + 6.8%);
+  margin-top: calc(6vh + 10.3%);
 
   width: 3.8rem;
   height: 5rem;
@@ -402,7 +402,7 @@
   opacity: .5;
   border-left: 2px solid #df5d5d;
   bottom: 12vh;
-  height: 59vh;
+  height: 61vh;
   left: calc(94px + 1%);
   position: relative;
 
@@ -560,7 +560,7 @@ hr {
   background-color: black;
   width: calc(84px + 83%);
   margin-left: calc(84px + 1%);
-  margin-bottom: calc((103vh / 10) * 8);
+  margin-bottom: calc((106.7vh / 10) * 8);
 }
 
 .m1G2 {
@@ -612,18 +612,7 @@ hr {
   border: 1px solid transparent;
 }
 
-.m13G2 {
-  position: absolute;
-  display: flex;
-  margin-left: calc(20px + 52.2%);
-  margin-top: calc(-20vh - 28%);
 
-  width: 3rem;
-  height: 0.7rem;
-  background-color: transparent;
-  justify-content: center;
-  border: 1px solid transparent;
-}
 
 .m5G2 {
   position: absolute;
@@ -709,7 +698,7 @@ hr {
 .m11G2 {
   position: absolute;
   display: flex;
-  margin-left: calc(20px + 84.4%);
+  margin-left: calc(20px + 83%);
   margin-top: calc(-20vh - 28%);
 
   width: 3rem;
@@ -724,6 +713,34 @@ hr {
   display: flex;
   margin-left: calc(20px + 89.5%);
   margin-top: calc(-20vh - 28%);
+  width: 3rem;
+  height: 0.7rem;
+  background-color: white;
+  justify-content: center;
+  border: 1px solid transparent;
+}
+
+.m14G2 {
+  position: absolute;
+  display: flex;
+  transform: rotate(270deg);
+  margin-left: calc(20px + 86.1%);
+  margin-top: calc(-20vh - 28%);
+
+  width: 3rem;
+  height: 0.7rem;
+  background-color: white;
+  justify-content: center;
+  border: 1px solid transparent;
+}
+
+.m15G2 {
+  position: absolute;
+  display: flex;
+  transform: rotate(270deg);
+  margin-left: calc(20px + 52.4%);
+  margin-top: calc(-20vh - 28%);
+
   width: 3rem;
   height: 0.7rem;
   background-color: white;
@@ -774,19 +791,6 @@ hr {
   position: absolute;
   display: flex;
   margin-left: calc(20px + 45.2%);
-  margin-top: calc(-19vh - 24%);
-  width: 2rem;
-  border-radius: 100%;
-  height: 2rem;
-  background-color: rgb(226, 225, 225);
-  justify-content: center;
-  border: 1px solid rgb(226, 225, 225);
-}
-
-.circulo13G2 {
-  position: absolute;
-  display: flex;
-  margin-left: calc(20px + 52%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -863,7 +867,6 @@ hr {
 
 .circulo10G2 {
   position: absolute;
-  position: absolute;
   display: flex;
   margin-left: calc(20px + 79%);
   margin-top: calc(-19vh - 24%);
@@ -877,9 +880,8 @@ hr {
 
 .circulo11G2 {
   position: absolute;
-  position: absolute;
   display: flex;
-  margin-left: calc(20px + 84.8%);
+  margin-left: calc(20px + 83.7%);
   margin-top: calc(-19vh - 24%);
   width: 2rem;
   border-radius: 100%;
@@ -891,10 +893,35 @@ hr {
 
 .circulo12G2 {
   position: absolute;
-  position: absolute;
   display: flex;
   margin-left: calc(20px + 89.9%);
-  margin-top: calc(-19vh - 24%);
+  margin-top: calc(-19vh - 25%);
+  width: 2rem;
+  border-radius: 100%;
+  height: 2rem;
+  background-color: rgb(226, 225, 225);
+  justify-content: center;
+  border: 1px solid rgb(226, 225, 225);
+}
+
+.circulo13G2 {
+  position: absolute;
+  display: flex;
+  margin-left: calc(20px + 86.35%);
+  margin-top: calc(-19vh - 22.5%);
+  width: 2rem;
+  border-radius: 100%;
+  height: 2rem;
+  background-color: rgb(226, 225, 225);
+  justify-content: center;
+  border: 1px solid rgb(226, 225, 225);
+}
+
+.circulo14G2 {
+  position: absolute;
+  display: flex;
+  margin-left: calc(20px + 52.65%);
+  margin-top: calc(-19vh - 22.8%);
   width: 2rem;
   border-radius: 100%;
   height: 2rem;
