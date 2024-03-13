@@ -1414,7 +1414,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["Proyecto POT", "Pobl. 7.615.712"])}
+                      onClick={() => handleDivClickInfo(["2019", "Proyecto POT", "Pobl. 7.615.712"])}
                     />
                   </button>
                 </div>
