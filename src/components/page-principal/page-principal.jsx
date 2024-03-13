@@ -66,22 +66,23 @@ const Page_principal = (props) => {
     <>
       <div className="page_principal">
         <section className='left_section'>
-          <img src={props.url_imagen} className="img_componente" width="150" height="150" alt='Imagen circulo por componente' useMap="#examplemap" />
+          {props.name_component === "Construyendo civilidad" ? (<img src={props.url_imagen} className="img_componente" width="150" height="150" alt='Imagen circulo por componente' useMap="#examplemap" style={{width: '40rem', height:'40rem'}}/>) : (<img src={props.url_imagen} className="img_componente" width="150" height="150" alt='Imagen circulo por componente' useMap="#examplemap" />)}
+
           {props.areas && (
-                        <map name="examplemap">
-                        {
-                            props.areas.map((area, index) => {
-                                return area
-                            })
-                        }
-                        </map>
-                    )}
+            <map name="examplemap">
+              {
+                props.areas.map((area, index) => {
+                  return area
+                })
+              }
+            </map>
+          )}
         </section>
         <section className='right_section'>
           {props.audio && (
             <div className="button-container">
               <button onClick={() => handlePlayPause()}>{reproduciendo ? '⫾⫾' : '⧐'}</button>
-              <audio ref={audioRef} src={props.audio} type="audio/mp3" controls={false} autoPlay/>
+              <audio ref={audioRef} src={props.audio} type="audio/mp3" controls={false} autoPlay />
             </div>
           )}
           <p className="name_component">{props.name_component}</p>
