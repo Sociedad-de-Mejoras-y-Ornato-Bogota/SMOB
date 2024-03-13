@@ -1051,8 +1051,8 @@ const Graph = () => {
             </p>
             </div>
             <div className="linea10"></div>
-            <div className="cuadro10"><p><h1 className="h1-c"> 2013</h1>
-              <h2 className="h2-c">MePOT</h2>
+            <div className="cuadro10"><p><h1 className="h1-c">2013</h1>
+              <h2 className="h2-c">MEPOT</h2>
               <h3 className="h3-c">- Crecimiento: <strong className="str">0,44</strong></h3>
               <h3 className="h3-c">- Vegetativa: <strong className="str">0,89</strong></h3>
               <h3 className="h3-c">- Migración: <strong className="str">-0,45</strong></h3>

@@ -204,7 +204,7 @@
   margin-left: calc(20px + 20.9%);
   margin-top: calc(10vh + 10%);
   width: 3.8rem;
-  height: 4.3rem;
+  height: 5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid green;
@@ -218,7 +218,7 @@
   margin-top: calc(7vh + 10%);
 
   width: 3.8rem;
-  height: 4.3rem;
+  height: 5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid #869205;
@@ -232,7 +232,7 @@
   margin-top: calc(5vh + 7.5%);
 
   width: 3.8rem;
-  height: 4.3rem;
+  height: 5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid purple;
@@ -242,10 +242,10 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(-50px + 54%);
+  margin-left: calc(-50px + 53.1%);
   margin-top: calc(10vh - 3%);
 
-  width: 3.8rem;
+  width: 5.6rem;
   height: 3.5rem;
   background-color: white;
   justify-content: center;
@@ -256,11 +256,11 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(10px + 50.7%);
+  margin-left: calc(10px + 49.6%);
   margin-top: calc(10vh - 15%);
 
-  width: 3.8rem;
-  height: 4.3rem;
+  width: 5.6rem;
+  height: 5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid #E83698;
@@ -271,11 +271,11 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(-50px + 56.9%);
-  margin-top: calc(14vh + 12%);
+  margin-left: calc(-50px + 57.8%);
+  margin-top: calc(14vh + 12.5%);
 
   width: 3.8rem;
-  height: 4.3rem;
+  height: 7rem;
   background-color: white;
   justify-content: center;
   border: 1px solid #df5d5d;
@@ -289,7 +289,7 @@
   margin-top: calc(-3vh - 17%);
 
   width: 3.8rem;
-  height: 3.5rem;
+  height: 4.8rem;
   background-color: white;
   justify-content: center;
   border: 1px solid darkgoldenrod;
@@ -303,7 +303,7 @@
   margin-top: calc(6vh + 6.8%);
 
   width: 3.8rem;
-  height: 4.3rem;
+  height: 5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid #5263af;
@@ -317,7 +317,7 @@
   margin-top: calc(6vh + 5%);
 
   width: 3.8rem;
-  height: 4.3rem;
+  height: 5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid #20C000;
@@ -331,7 +331,7 @@
   margin-top: calc(3vh + 3%);
 
   width: 3.8rem;
-  height: 4.3rem;
+  height: 5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid blue;
@@ -345,7 +345,7 @@
   margin-top: calc(-6vh - 5%);
 
   width: 3.8rem;
-  height: 4.3rem;
+  height: 5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid #df5d5d;
@@ -359,11 +359,26 @@
   margin-top: calc(-6vh - 12%);
 
   width: 3.8rem;
-  height: 4.3rem;
+  height: 5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid #00B1A4;
 }
+
+.cuadro13G2 {
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  margin-left: calc(4px + 85.5%);
+  margin-top: calc(-6vh + 2%);
+
+  width: 3.8rem;
+  height: 5rem;
+  background-color: white;
+  justify-content: center;
+  border: 1px solid #B64326;
+}
+
 
 .cuadro12G2 {
   cursor: pointer;
@@ -373,11 +388,13 @@
   margin-top: calc(-6vh - 16%);
 
   width: 3.8rem;
-  height: 4.3rem;
+  height: 5rem;
   background-color: white;
   justify-content: center;
   border: 1px solid violet;
 }
+
+
 
 /******************************** LÍNEAS ********************************/
 
@@ -385,7 +402,7 @@
   opacity: .5;
   border-left: 2px solid #df5d5d;
   bottom: 12vh;
-  height: 61vh;
+  height: 59vh;
   left: calc(94px + 1%);
   position: relative;
 
@@ -519,6 +536,16 @@
   bottom: 30vh;
   height: 25vh;
   left: calc(7px + 91.9%);
+  position: relative;
+
+}
+
+.linea15G2 {
+  opacity: .4;
+  border-left: 2px solid #B64326;
+  bottom: 22.5vh;
+  height: 40vh;
+  left: calc(7px + 89.2%);
   position: relative;
 
 }
