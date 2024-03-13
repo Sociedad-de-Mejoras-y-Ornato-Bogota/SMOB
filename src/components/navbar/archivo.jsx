@@ -85,7 +85,7 @@ export const archivo = [
                         title: "Bogotá asediada siglo XIX",
                         ruta: "/Componente poblacional/Conflicto - civilidad/ Bogotá asediada siglo XIX"
                     }, {
-                        title: "Demografía: violencia y urbanización",
+                        title: "Demografía, violencia y urbanización",
                         ruta: "/Componente poblacional/Conflicto - civilidad/ Demografía: violencia y urbanización"
                     }
                 ],
