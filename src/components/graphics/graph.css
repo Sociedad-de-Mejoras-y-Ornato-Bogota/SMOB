@@ -271,11 +271,11 @@
   cursor: pointer;
   position: absolute;
   display: flex;
-  margin-left: calc(-50px + 58.5%);
-  margin-top: calc(14vh + 14.6%);
+  margin-left: calc(-50px + 57.2%);
+  margin-top: calc(14vh + 12.8%);
 
-  width: 3.8rem;
-  height: 7rem;
+  width: 5rem;
+  height: 6.3rem;
   background-color: white;
   justify-content: center;
   border: 1px solid #df5d5d;
