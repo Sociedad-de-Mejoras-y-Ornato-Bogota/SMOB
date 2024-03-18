@@ -21,8 +21,9 @@ const Bogota_Ascediada = () => {
                     {/* <iframe src="https://smob-storage.s3.us-east-2.amazonaws.com/INFOGRAF%C3%8DA+EVOLUCI%C3%93N+DE+LA+CIUDADAN%C3%8DA+CORRECI%C3%93N.pdf" style={{width:"60%", height:"65vh"}}></iframe> */}
                 </div>}
                 {menu == 2 && <div style={{ width: '100%' }}>
-                    <br />
-                    <iframe src="https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/BOGOTA%CC%81+ASEDIADA+SIGLO+XIX_SMOB.pdf" style={{ width: "60%", height: "80vh", display: 'block', margin: '0 auto' }} />
+                    {/* <br />
+                    <iframe src="https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/BOGOTA%CC%81+ASEDIADA+SIGLO+XIX_SMOB.pdf" style={{ width: "60%", height: "80vh", display: 'block', margin: '0 auto' }} /> */}
+                    <Pronto/>
                 </div>}
             </div>
         </>
