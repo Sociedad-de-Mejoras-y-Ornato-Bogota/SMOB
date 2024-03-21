@@ -37,6 +37,11 @@ const Popup = ({ onClose }) => {
                     <br />
                     <center style={{padding:"0 3rem"}}>    <p style={{color:"#762f0b"}}>Para visualizar los puntos de expansión de la huella urbana en los años comparados, desplácese hacia abajo para explorar cada uno de ellos.  </p></center>
                 </>}
+                {page == 7 && <>
+                    <img src="https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/instructivo/huella-step7.gif" alt="Imagen" />
+                    <br />
+                    <center style={{padding:"0 3rem"}}>    <p style={{color:"#762f0b"}}>Puede interactuar con los mapas utilizando las herramientas de capas, mapa base, zoom y norte.  </p></center>
+                </>}
                 <center style={{display:"flex", gap:"3rem", alignItems:"center", justifyContent:"center"}}>
                     <button style={{backgroundColor:"transparent", border:"none", color:"#762f0b", fontWeight:"bold"}} onClick={() => {
                         if (page > 1) {
@@ -45,7 +50,7 @@ const Popup = ({ onClose }) => {
                     }}>{"<"}</button>
                     {page}
                     <button style={{backgroundColor:"transparent", border:"none", color:"#762f0b", fontWeight:"bold"}} onClick={() => {
-                        if (page < 6) {
+                        if (page < 7) {
                             setPage(page + 1)
                         }
                     }}>{">"}</button></center>
