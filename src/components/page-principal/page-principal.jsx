@@ -66,7 +66,7 @@ const Page_principal = (props) => {
     <>
       <div className="page_principal">
         <section className='left_section'>
-          {props.name_component === "Construyendo civilidad" ? (<img src={props.url_imagen} className="img_componente" width="150" height="150" alt='Imagen circulo por componente' useMap="#examplemap" style={{width: '40rem', height:'40rem'}}/>) : (<img src={props.url_imagen} className="img_componente" width="150" height="150" alt='Imagen circulo por componente' useMap="#examplemap" />)}
+          {props.name_component === "Construyendo civilidad" ? (<img src={props.url_imagen} className="img_componente" width="150" height="150" alt='Imagen circulo por componente' useMap="#examplemap" style={{width: '33rem', height:'34rem'}}/>) : (<img src={props.url_imagen} className="img_componente" width="150" height="150" alt='Imagen circulo por componente' useMap="#examplemap" />)}
 
           {props.areas && (
             <map name="examplemap">
