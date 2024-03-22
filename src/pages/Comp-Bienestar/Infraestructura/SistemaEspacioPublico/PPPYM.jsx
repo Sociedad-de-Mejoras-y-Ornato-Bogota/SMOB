@@ -3,7 +3,7 @@ import Page_tipe_full from "../../../../components/page-tipe-full/page-tipe-full
 const Pppym = () => {
   return (
     <>
-    <Page_tipe_full title="Parques, plazas, plazoletas y monumentos"  content_url="https://geoapps.esri.co/portal/apps/experiencebuilder/experience/?id=039a8a08870a4d14a7ec41edb6b2a833"/>
+    <Page_tipe_full title="Parques, plazas, plazoletas y monumentos"  content_url="https://experience.arcgis.com/experience/d530eb788fe34cc89a21ef2d1a02dfe3/"/>
     </>
   );
 };
