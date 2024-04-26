@@ -59,13 +59,10 @@ export const archivo = [
                 title: "Participación ciudadana",
                 ruta: "#",
                 submenu: [
-                    // {
-                    //     title: "Lista de concejo de Bogotá",
-                    //     ruta: "/marco institucional/Lista concejo"
-                    // }, {
-                    //     title: "Lista de alcaldes de Bogotá",
-                    //     ruta: "/marco institucional/Lista alcaldes"
-                    // }
+                    {
+                        title: "Comportamiento electoral",
+                        ruta: "/marco institucional/Comportamiento electoral"
+                    },
                     {
                         title: "Organizaciones sociales",
                         ruta: "/marco institucional/Organizaciones sociales"

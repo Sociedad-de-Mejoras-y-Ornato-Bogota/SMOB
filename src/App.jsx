@@ -20,8 +20,7 @@ import EsquemaLey from './pages/Marco-Institucional/LeyesOrdenamiento/EsquemaLey
 import EstruturaAdmin from './pages/Marco-Institucional/EstructuraAdmin/EstructuraAdmin';
 import LineaTiempoiEA from './pages/Marco-Institucional/EstructuraAdmin/LineaTiempoEA';
 import Evolucion from './pages/Marco-Institucional/EstructuraAdmin/Evolucion';
-import ListaAlcaldes from './pages/Marco-Institucional/ParticipacionCiudadana/listaAlcaldes';
-import ListaConcejales from './pages/Marco-Institucional/ParticipacionCiudadana/listaConcejales';
+import ComportamientoElectoral from './pages/Marco-Institucional/ParticipacionCiudadana/comportamientoElectoral';
 import OrganizacionesSociales from './pages/Marco-Institucional/ParticipacionCiudadana/organizaciones';
 
 import Poblacional from './pages/Comp-Poblacional/Poblacional';
@@ -126,8 +125,7 @@ const App = () => {
           <Route path="marco institucional/Leyes de ordenamiento territorial" Component={LeyesOrdenamiento} />
           <Route path="marco institucional/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997" Component={AntecentesLey} />
           <Route path="marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997" Component={EsquemaLey} />
-          <Route path="marco institucional/Lista concejo" Component={ListaConcejales} />
-          <Route path="marco institucional/Lista alcaldes" Component={ListaAlcaldes} />
+          <Route path="marco institucional/Comportamiento electoral" Component={ComportamientoElectoral} />
           <Route path="marco institucional/Organizaciones sociales" Component={OrganizacionesSociales} />
           {/* <Route path="marco institucional/Leyes de ordenamiento territorial/Concepto Plan de Ordenamiento Territorial año 2019" Component={ConceptoLey} /> */}
           <Route path="marco institucional/Estructura administrativa de Bogotá" Component={EstruturaAdmin} />
