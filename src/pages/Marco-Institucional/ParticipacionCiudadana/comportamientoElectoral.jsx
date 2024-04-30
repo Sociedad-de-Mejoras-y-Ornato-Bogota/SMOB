@@ -8,9 +8,9 @@ export default function ComportamientoElectoral() {
                     <h2 className='title_page'>Comportamiento electoral</h2>
                 </section>
                 <section style={{ display: "flex", gap: "1rem" }}>
-                    <button className={`${menu == 1 ? "button-active" : "button-inactive"}`} onClick={() => setMenu(1)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Elecciones alcaldía Bogotá</button>
-                    <button className={`${menu == 2 ? "button-active" : "button-inactive"}`} onClick={() => setMenu(2)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Elecciones concejo de Bogotá</button>
-                    <button className={`${menu == 3 ? "button-active" : "button-inactive"}`} onClick={() => setMenu(3)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Votación alcaldía vs concejo</button>
+                    <button className={`${menu == 1 ? "button-active" : "button-inactive"}`} onClick={() => setMenu(1)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Elecciones Alcaldía Bogotá</button>
+                    <button className={`${menu == 2 ? "button-active" : "button-inactive"}`} onClick={() => setMenu(2)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Elecciones Concejo de Bogotá</button>
+                    <button className={`${menu == 3 ? "button-active" : "button-inactive"}`} onClick={() => setMenu(3)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Votación Alcaldía vs Concejo</button>
                     <button className={`${menu == 4 ? "button-active" : "button-inactive"}`} onClick={() => setMenu(4)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Concejales 1935 - 1974</button>
                 </section>
                 {menu == 1 && <iframe
