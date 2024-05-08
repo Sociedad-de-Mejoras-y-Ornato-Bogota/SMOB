@@ -24,12 +24,12 @@ export default function ComportamientoElectoral() {
                 {menu == 2 &&
                     <>
                         <section style={{ display: "flex", gap: "1rem", marginTop: "20px" }}>
-                            <button className={`${menu2 == 2 ? "button-active" : "button-inactive"}`} onClick={() => setMenu2(2)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Concejo Bogotá 1935-1970</button>
+                            <button className={`${menu2 == 2 ? "button-active" : "button-inactive"}`} onClick={() => setMenu2(2)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Listado concejales 1935-1970</button>
                             <button className={`${menu2 == 1 ? "button-active" : "button-inactive"}`} onClick={() => setMenu2(1)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Elecciones Concejo de Bogotá</button>
                         </section>
                         {menu2 == 1 &&
                             <iframe
-                                src="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/06fd0f03bc8e4293b9ff6da858871b93"
+                                src="https://geoapps.esri.co/portal/apps/dashboards/ac59d4dab7c74576ad432359e2c3cd0a"
                                 style={{ width: "100%", height: "95vh", marginTop: "3rem", marginBottom: "3rem" }}
                             ></iframe>
                         }
