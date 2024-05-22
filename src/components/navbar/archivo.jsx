@@ -76,7 +76,7 @@ export const archivo = [
         color: "white",
         submenu: [
             {
-                title: "Conflicto-Civilidad",
+                title: "Conflictos y Civilidad",
                 ruta: "/Componente poblacional/Conflicto - civilidad",
                 submenu: [
                     {
@@ -163,7 +163,7 @@ export const archivo = [
             ruta: "/Componente territorial/Estructura ecológica principal"
             //ruta: "/Componente territorial/Indicadores urbanísticos",
         }, {
-            title: "Estructura de la huella urbanística",
+            title: "Estructura de la huella urbana",
             ruta: "#",
             submenu: [
                 {
@@ -217,7 +217,7 @@ export const archivo = [
                     ruta: "/componente bienestar/infraestructura/Sistema de espacio público",
                     submenu: [
                         {
-                            title: "Parques, plazas, plazoletas y monumentos",
+                            title: "Parques, plazas, plazoletas y arte público",
                             ruta: "/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Plazas",
                         }
                     ],
@@ -230,7 +230,8 @@ export const archivo = [
 
                     {
                         title: "Sistema de equipamientos",
-                        ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos",
+                        //ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos",
+                        ruta: "#",
                         submenu: [
                             {
                                 title: "Equipamientos",
@@ -247,7 +248,8 @@ export const archivo = [
                     },
                     {
                         title: "Sistemas urbanos (subdivisón y lotificación)",
-                        ruta: "/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)",
+                        //ruta: "/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)",
+                        ruta: "#",
                         submenu: [{
                             title: "Historia de barrios",
                             ruta: "/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios",
@@ -258,7 +260,8 @@ export const archivo = [
                         ],
                     }, {
                         title: "Vivienda, comercio e industria",
-                        ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria",
+                        //ruta: "/componente bienestar/Estructura urbana/Vivienda, comercio e industria",
+                        ruta: "#",
                         submenu: [
                             {
                                 title: "Historia de la vivienda",
@@ -291,7 +294,8 @@ export const archivo = [
                         ],
                     }, {
                         title: "Tratamientos y normas urbanísticas",
-                        ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas",
+                        //ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas",
+                        ruta: "#",
                         submenu: [{
                             title: "Conservación",
                             ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación",

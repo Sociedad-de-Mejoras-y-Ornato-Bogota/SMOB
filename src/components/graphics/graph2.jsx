@@ -969,7 +969,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1925", "Bogotá futuro.", "Pobl. 214.665"])}
+                      onClick={() => handleDivClickInfo(["1925", "Bogotá futuro.", "Pobl. 214.665", "Área: 6.000 ha"])}
                     />
                   </button>
                 </div>
@@ -1009,7 +1009,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1936", "Plan Brunner.", "Pobl. 330.653"])}
+                      onClick={() => handleDivClickInfo(["1936", "Plan Brunner.", "Pobl. 330.653", "Área: 1.609 ha"])}
                     />
                   </button>
                 </div>
@@ -1047,7 +1047,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1951", "Plan Piloto.", "Pobl. 759.093"])}
+                      onClick={() => handleDivClickInfo(["1951", "Plan Piloto.", "Pobl. 759.093", "Área: 5.558 ha"])}
                     />
                   </button>
                 </div>
@@ -1065,7 +1065,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1967", "Acuerdo 65 de 1967", "Pobl. 2.095.403"])}
+                      onClick={() => handleDivClickInfo(["1967", "Acuerdo 65 de 1967", "Pobl. 2.095.403", "Área: 11.100 ha"])}
                     />
                   </button>
                   <button className="cu2">
@@ -1107,7 +1107,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1968", "Decreto 1119 de 1968", "Pobl. 2.214.841"])}
+                      onClick={() => handleDivClickInfo(["1968", "Decreto 1119 de 1968", "Pobl. 2.214.841", "Área: 12.000 ha"])}
                     />
                   </button>
                 </div>
@@ -1149,7 +1149,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1972", "Fase II (ciudades", "entre ciudades)", "Pobl. 2.730.030"])}
+                      onClick={() => handleDivClickInfo(["1972", "Fase II (ciudades", "entre ciudades)", "Pobl. 2.730.030", "Área: 16.468 ha"])}
                     />
                   </button>
                 </div>
@@ -1178,7 +1178,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1975", "Plan de", "desarrollo", "urbano", "Pobl. 3.131.525"])}
+                      onClick={() => handleDivClickInfo(["1975", "Plan de", "desarrollo", "urbano", "Pobl. 3.131.525", "Área: 26.526 ha"])}
                     />
                   </button>
                 </div>
@@ -1218,7 +1218,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1979", "Acuerdo 7.", "Pobl. 3.630.409"])}
+                      onClick={() => handleDivClickInfo(["1979", "Acuerdo 7.", "Pobl. 3.630.409", "Área: 28.961 ha"])}
                     />
                   </button>
                 </div>
@@ -1258,7 +1258,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1990", "Acuerdo 6.", "Pobl. 5.009.197"])}
+                      onClick={() => handleDivClickInfo(["1990", "Acuerdo 6.", "Pobl. 5.009.197", "Área: 29.564 ha"])}
                     />
                   </button>
                 </div>
@@ -1297,7 +1297,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["2000", "Decreto 619.", "Pobl. 6.255.614"])}
+                      onClick={() => handleDivClickInfo(["2000", "Decreto 619.", "Pobl. 6.255.614", "Área: 39.395 ha"])}
                     />
                   </button>
                 </div>
@@ -1336,7 +1336,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["2004", "Decreto 190.", "Pobl. 6.695.901"])}
+                      onClick={() => handleDivClickInfo(["2004", "Decreto 190.", "Pobl. 6.695.901", "Área: 40.958 ha"])}
                     />
                   </button>
                 </div>
@@ -1375,7 +1375,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["2013", "MEPOT.", "Pobl. 7.201.046"])}
+                      onClick={() => handleDivClickInfo(["2013", "MEPOT.", "Pobl. 7.201.046", "Área: 41.598 ha"])}
                     />
                   </button>
                 </div>
@@ -1414,7 +1414,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["2019", "Proyecto POT", "Pobl. 7.615.712"])}
+                      onClick={() => handleDivClickInfo(["2019", "Proyecto POT", "Pobl. 7.615.712", "Área: 46.058 ha"])}
                     />
                   </button>
                 </div>
@@ -1463,7 +1463,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["2021", "Decreto 555.", "Pobl. 7.839.641"])}
+                      onClick={() => handleDivClickInfo(["2021", "Decreto 555.", "Pobl. 7.839.641", "Área: 39.405 ha"])}
                     />
                   </button>
                 </div>
