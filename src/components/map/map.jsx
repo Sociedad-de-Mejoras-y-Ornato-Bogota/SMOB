@@ -7,13 +7,19 @@ import Home from "@arcgis/core/widgets/Home.js";
 import Compass from "@arcgis/core/widgets/Compass.js";
 import Expand from "@arcgis/core/widgets/Expand.js";
 import LayerList from "@arcgis/core/widgets/LayerList.js";
+import BasemapGallery from "@arcgis/core/widgets/BasemapGallery.js";
+import esriConfig from "@arcgis/core/config.js";
+import DistanceMeasurement2D from "@arcgis/core/widgets/DistanceMeasurement2D.js";
 import './map.css'
 const Map = ({ map_id, layers, zoom, center }) => {
   const mapElement = useRef(null);
   const view = useRef(null);
   const legend = useRef(null);
   const layerListRef = useRef();
+  
+
   useEffect(() => {
+    esriConfig.apiKey = "AAPKb48bcda51f51466da531fada6e3adc1ep53xJznml5LFFadfaZd0AW7wd2tVXz38VJluote0e3sY3B2I-_sNV6Iu1zU9SOVp";
     const webmap = new WebMap({
       portalItem: {
         id: map_id,
@@ -60,6 +66,32 @@ const Map = ({ map_id, layers, zoom, center }) => {
       content: layerList
     });
     view.current.ui.add(layerListExpand, "top-left");
+
+    let basemapGallery = new BasemapGallery({
+      view: view.current
+    });
+
+    let basemapListExpand = new Expand({
+      expandIcon: "basemap",  // see https://developers.arcgis.com/calcite-design-system/icons/
+      // expandTooltip: "Expand LayerList", // optional, defaults to "Expand" for English locale
+      view: view.current,
+      content:basemapGallery
+    });
+
+    view.current.ui.add(basemapListExpand, "top-left");
+
+    let measurement = new DistanceMeasurement2D({
+      view: view.current
+    });
+
+    let measureExpand = new Expand({
+      expandIcon: "measure",  // see https://developers.arcgis.com/calcite-design-system/icons/
+      // expandTooltip: "Expand LayerList", // optional, defaults to "Expand" for English locale
+      view: view.current,
+      content:measurement
+    });
+
+    view.current.ui.add(measureExpand, "top-left");
 
     webmap.load().then(() => {
       webmap.layers.forEach((layer) => {
