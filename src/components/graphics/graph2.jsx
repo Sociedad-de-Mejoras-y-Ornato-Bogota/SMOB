@@ -864,7 +864,7 @@ const Graph2 = () => {
         <PopupDifference content={'117.211'} valueHA={'460'} />
       )}
       {activeDivId === 7 && (
-        <PopupDifference content={'119.438'} valueHA={'460'} />
+        <PopupDifference content={'119.438'} valueHA={'900'} />
       )}
       {activeDivId === 8 && (
         <PopupDifference content={'401.495'} valueHA={'10.0858'} />
@@ -923,7 +923,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1902", "Acuerdo 10.", "Pobl. 98.848"])}
+                      onClick={() => handleDivClickInfo(["1902", "Acuerdo 10.", "Pobl. 98.848", "Área: 540 ha"])}
                     />
                   </button>
                   <button className="cu2">
@@ -969,7 +969,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1925", "Bogotá futuro.", "Pobl. 214.665", "Área: 6.000 ha"])}
+                      onClick={() => handleDivClickInfo(["1925", "Bogotá futuro.", "Pobl. 214.665", "Área: 1.200 ha"])}
                     />
                   </button>
                 </div>
@@ -1009,7 +1009,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1936", "Plan Brunner.", "Pobl. 330.653", "Área: 1.609 ha"])}
+                      onClick={() => handleDivClickInfo(["1936", "Plan Brunner.", "Pobl. 330.653", "Área: 1.750 ha"])}
                     />
                   </button>
                 </div>
@@ -1047,7 +1047,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1951", "Plan Piloto.", "Pobl. 759.093", "Área: 5.558 ha"])}
+                      onClick={() => handleDivClickInfo(["1951", "Plan Piloto.", "Pobl. 759.093", "Área: 4.100 ha"])}
                     />
                   </button>
                 </div>
@@ -1149,7 +1149,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1972", "Fase II (ciudades", "entre ciudades)", "Pobl. 2.730.030", "Área: 16.468 ha"])}
+                      onClick={() => handleDivClickInfo(["1972", "Fase II (ciudades", "entre ciudades)", "Pobl. 2.730.030", "Área: 15.150 ha"])}
                     />
                   </button>
                 </div>
@@ -1178,7 +1178,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1975", "Plan de", "desarrollo", "urbano", "Pobl. 3.131.525", "Área: 26.526 ha"])}
+                      onClick={() => handleDivClickInfo(["1975", "Plan de", "desarrollo", "urbano", "Pobl. 3.131.525", "Área: 16.000 ha"])}
                     />
                   </button>
                 </div>
@@ -1218,7 +1218,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1979", "Acuerdo 7.", "Pobl. 3.630.409", "Área: 28.961 ha"])}
+                      onClick={() => handleDivClickInfo(["1979", "Acuerdo 7.", "Pobl. 3.630.409", "Área: 19.500 ha"])}
                     />
                   </button>
                 </div>
@@ -1258,7 +1258,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["1990", "Acuerdo 6.", "Pobl. 5.009.197", "Área: 29.564 ha"])}
+                      onClick={() => handleDivClickInfo(["1990", "Acuerdo 6.", "Pobl. 5.009.197", "Área: 24.500 ha"])}
                     />
                   </button>
                 </div>
@@ -1297,7 +1297,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["2000", "Decreto 619.", "Pobl. 6.255.614", "Área: 39.395 ha"])}
+                      onClick={() => handleDivClickInfo(["2000", "Decreto 619.", "Pobl. 6.255.614", "Área: 33.600 ha"])}
                     />
                   </button>
                 </div>
@@ -1336,7 +1336,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["2004", "Decreto 190.", "Pobl. 6.695.901", "Área: 40.958 ha"])}
+                      onClick={() => handleDivClickInfo(["2004", "Decreto 190.", "Pobl. 6.695.901", "Área: 35.600 ha"])}
                     />
                   </button>
                 </div>
@@ -1375,7 +1375,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["2013", "MEPOT.", "Pobl. 7.201.046", "Área: 41.598 ha"])}
+                      onClick={() => handleDivClickInfo(["2013", "MEPOT.", "Pobl. 7.201.046", "Área: 37.800 ha"])}
                     />
                   </button>
                 </div>
@@ -1414,7 +1414,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["2019", "Proyecto POT", "Pobl. 7.615.712", "Área: 46.058 ha"])}
+                      onClick={() => handleDivClickInfo(["2019", "Proyecto POT", "Pobl. 7.615.712", "Área: 38.100 ha"])}
                     />
                   </button>
                 </div>
@@ -1463,7 +1463,7 @@ const Graph2 = () => {
                       src="https://smob-storage.s3.us-east-2.amazonaws.com/grafica/imgs/information.png"
                       alt="Icono"
                       className="tamañoimagen"
-                      onClick={() => handleDivClickInfo(["2021", "Decreto 555.", "Pobl. 7.839.641", "Área: 39.405 ha"])}
+                      onClick={() => handleDivClickInfo(["2021", "Decreto 555.", "Pobl. 7.839.641", "Área: 38.600 ha"])}
                     />
                   </button>
                 </div>
@@ -1544,7 +1544,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h2 className="h3-c-1">
-                  <strong>505,1</strong>
+                  <strong>660</strong>
                 </h2>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1555,7 +1555,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>554,8</strong>
+                  <strong>550</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1566,7 +1566,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-2">
-                  <strong>2.940,9</strong>
+                  <strong>2.350</strong>
                 </h3>
                 <h3 className="h3-c-2">
                   <strong>ha</strong>
@@ -1577,7 +1577,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>6.397</strong>
+                  <strong>7.000</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1588,7 +1588,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>1.852</strong>
+                  <strong>900</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1599,7 +1599,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-2">
-                  <strong>1.852</strong>
+                  <strong>3.150</strong>
                 </h3>
                 <h3 className="h3-c-2">
                   <strong>ha</strong>
@@ -1610,7 +1610,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-2">
-                  <strong>1.380</strong>
+                  <strong>850</strong>
                 </h3>
                 <h3 className="h3-c-2">
                   <strong>ha</strong>
@@ -1621,7 +1621,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-2">
-                  <strong>2.100</strong>
+                  <strong>3.500</strong>
                 </h3>
                 <h3 className="h3-c-2">
                   <strong>ha</strong>
@@ -1632,7 +1632,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>7.832</strong>
+                  <strong>5.000</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1643,7 +1643,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>9.411,9</strong>
+                  <strong>9.100</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1654,7 +1654,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-2">
-                  <strong>2.872,1</strong>
+                  <strong>2.000</strong>
                 </h3>
                 <h3 className="h3-c-2">
                   <strong>ha</strong>
@@ -1665,7 +1665,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>1.312</strong>
+                  <strong>2.200</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1676,7 +1676,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>277</strong>
+                  <strong>300</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1687,7 +1687,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>313</strong>
+                  <strong>500</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
