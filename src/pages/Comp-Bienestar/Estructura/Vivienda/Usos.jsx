@@ -1,10 +1,9 @@
 import Pronto from '../../../../components/Not found/ComingSoon'
-const SisUrbanos = () =>{
+const Usos = () =>{
     return(
         <>
            <Pronto />
         </>
-    
     )
 }
-export default SisUrbanos
+export default Usos

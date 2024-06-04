@@ -186,7 +186,7 @@ const MenuOrdenamiento = () => {
 
           {estructura && <div className='dropdown-menu1'>
             <ul >
-              <li style={{ listStyle: "none" }}><Link to="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)"><span style={{fontSize:"14px"}} onClick={() => {
+              <li style={{ listStyle: "none" }}><Link to="componente bienestar/Estructura urbana/Tipologias urbanisticas"><span style={{fontSize:"14px"}} onClick={() => {
                 handleToggle()
                 setSisUrb(!sisUrb)
               }}>Sistemas urbanos </span></Link>
@@ -200,20 +200,20 @@ const MenuOrdenamiento = () => {
               {sisUrb && <div className='dropdown-menu1'>
                 <ul>
                   <li style={{ listStyle: "none" }}>
-                    <Link to="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios"><span style={{fontSize:"14px"}} onClick={() => {
+                    <Link to="componente bienestar/Estructura urbana/Tipologias urbanisticas/Historia de barrios"><span style={{fontSize:"14px"}} onClick={() => {
                       handleToggle()
                       setsisEP(!sisEP)
                     }}>Historia de barrios</span></Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
-                    <Link to="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ"><span style={{fontSize:"14px"}} onClick={() => {
+                    <Link to="componente bienestar/Estructura urbana/Tipologias urbanisticas/Condiciones de habitabilidad UPZ"><span style={{fontSize:"14px"}} onClick={() => {
                       handleToggle()
                       setsisEP(!sisEP)
                     }}>Condiciones de habitabilidad UPZ </span></Link>
                   </li>
                 </ul>
               </div>}
-              <li style={{ listStyle: "none" }}><Link to="componente bienestar/Estructura urbana/Vivienda, comercio e industria"><span style={{fontSize:"14px"}} onClick={() => {
+              <li style={{ listStyle: "none" }}><Link to="componente bienestar/Estructura urbana/Usos"><span style={{fontSize:"14px"}} onClick={() => {
                 handleToggle()
                 setestructura(!estructura)
               }}>Vivienda, comercío e industria</span></Link>
@@ -228,13 +228,13 @@ const MenuOrdenamiento = () => {
               {vivienda && <div className='dropdown-menu1'>
                 <ul>
                   <li style={{ listStyle: "none" }}>
-                    <Link to="componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda"><span style={{fontSize:"14px"}} onClick={() => {
+                    <Link to="componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda"><span style={{fontSize:"14px"}} onClick={() => {
                       handleToggle()
                       setsisEP(!sisEP)
                     }}>Línea de tiempo Historia de la vivienda </span></Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
-                    <Link to="componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos"><span style={{fontSize:"14px"}} onClick={() => {
+                    <Link to="componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos"><span style={{fontSize:"14px"}} onClick={() => {
                       handleToggle()
                       setsisEP(!sisEP)
                     }}>Desarrollos urbanísticos</span></Link>
