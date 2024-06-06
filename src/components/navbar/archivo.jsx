@@ -55,19 +55,20 @@ export const archivo = [
 				title: "Estructura administrativa de Bogotá",
 				ruta: "/marco institucional/Estructura administrativa de Bogotá",
 			}
-			// , {
-			//     title: "Participación ciudadana",
-			//     ruta: "#",
-			//     submenu: [
-			//         {
-			//             title: "Lista de concejo de Bogotá",
-			//             ruta: "/marco institucional/Lista concejo"
-			//         }, {
-			//             title: "Lista de alcaldes de Bogotá",
-			//             ruta: "/marco institucional/Lista alcaldes"
-			//         }
-			//     ]
-			// }
+			, {
+                title: "Participación ciudadana",
+                ruta: "#",
+                submenu: [
+                    {
+                        title: "Comportamiento electoral",
+                        ruta: "/marco institucional/Comportamiento electoral"
+                    },
+                    {
+                        title: "Organizaciones sociales",
+                        ruta: "/marco institucional/Organizaciones sociales"
+                    }
+                ]
+            }
 		],
 	}, {
 		title: "Componente poblacional",
@@ -75,7 +76,7 @@ export const archivo = [
 		color: "white",
 		submenu: [
 			{
-				title: "Conflicto-Civilidad",
+				title: "Conflictos y Civilidad",
 				ruta: "/Componente poblacional/Conflicto - civilidad",
 				submenu: [
 					{
@@ -162,7 +163,7 @@ export const archivo = [
 			ruta: "/Componente territorial/Estructura ecológica principal"
 			//ruta: "/Componente territorial/Indicadores urbanísticos",
 		}, {
-			title: "Estructura de la huella urbanística",
+			title: "Estructura de la huella urbana",
 			ruta: "#",
 			submenu: [
 				{
@@ -216,7 +217,7 @@ export const archivo = [
 					ruta: "/componente bienestar/infraestructura/Sistema de espacio público",
 					submenu: [
 						{
-							title: "Parques, plazas, plazoletas y monumentos",
+							title: "Parques, plazas, plazoletas y arte público",
 							ruta: "/componente bienestar/infraestructura/Sistema de espacio público y equipamientos/Plazas",
 						}
 					],
@@ -228,7 +229,8 @@ export const archivo = [
 				submenu: [
 					{
 						title: "Sistema de equipamientos",
-						ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos",
+						//ruta: "/componente bienestar/Estructura Urbana/Sistema de equipamientos",
+						ruta: "#",
 						submenu: [
 							{
 								title: "Equipamientos",
@@ -245,7 +247,8 @@ export const archivo = [
 					},
 					{
 						title: "Tipologías urbanísticas",
-						ruta: "/componente bienestar/Estructura urbana/Tipologias urbanisticas",
+						//ruta: "/componente bienestar/Estructura urbana/Tipologias urbanisticas",
+						ruta: "#",
 						submenu: [{
 							title: "Historia de barrios",
 							ruta: "/componente bienestar/Estructura urbana/Tipologias urbanisticas/Historia de barrios",
@@ -334,7 +337,8 @@ export const archivo = [
 						],
 					}, {
 						title: "Tratamientos y normas urbanísticas",
-						ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas",
+						//ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas",
+						ruta: "#",
 						submenu: [{
 							title: "Conservación",
 							ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación",
