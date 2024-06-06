@@ -1,9 +1,10 @@
 import Pronto from '../../../../components/Not found/ComingSoon'
-const Vivienda = () =>{
+const TipologiaUrban = () =>{
     return(
         <>
            <Pronto />
         </>
+    
     )
 }
-export default Vivienda
+export default TipologiaUrban

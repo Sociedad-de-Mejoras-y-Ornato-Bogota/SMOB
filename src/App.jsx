@@ -3,13 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from './layout/layout';
 import Home from './pages/home/home';
 
-import ConstruyendoCivilidad from './pages/Civilidad/ConstruyendoCivilidad'
-import ResponsabilidadSocial from './pages/Civilidad/SMOB'
-import CiudadYCiudadania from './pages/Civilidad/Ciudadyciudadania/CiudadyCiudadania'
-import CiudaniaYCivildiad from './pages/Civilidad/Ciudadyciudadania/CiudadaniaYcivilidad'
-import OrigenesCivilidad from './pages/Civilidad/Ciudadyciudadania/Origenesdelacivilidad'
-import CivilidadyComplejidad from './pages/Civilidad/Ciudadyciudadania/CivilidadYcomplejidad'
-import Responsabilidad from './pages/Civilidad/Ciudadyciudadania/Responsabilidad'
+import ConstruyendoCivilidad from './pages/Civilidad/ConstruyendoCivilidad';
+import ResponsabilidadSocial from './pages/Civilidad/SMOB';
+import CiudadYCiudadania from './pages/Civilidad/Ciudadyciudadania/CiudadyCiudadania';
+import CiudaniaYCivildiad from './pages/Civilidad/Ciudadyciudadania/CiudadaniaYcivilidad';
+import OrigenesCivilidad from './pages/Civilidad/Ciudadyciudadania/Origenesdelacivilidad';
+import CivilidadyComplejidad from './pages/Civilidad/Ciudadyciudadania/CivilidadYcomplejidad';
+import Responsabilidad from './pages/Civilidad/Ciudadyciudadania/Responsabilidad';
 import BogotaCiudadCompleja from './pages/Civilidad/Ciudadyciudadania/BogotaCiudadCompleja';
 
 import Marco from './pages/Marco-Institucional/Marco';
@@ -25,28 +25,28 @@ import OrganizacionesSociales from './pages/Marco-Institucional/ParticipacionCiu
 
 import Poblacional from './pages/Comp-Poblacional/Poblacional';
 import Conflicto from './pages/Comp-Poblacional/Conflicto-Civilidad/Conflicto';
-import BogotaAscediada from './pages/Comp-Poblacional/Conflicto-Civilidad/bogota_asediada'
-import Discordia from './pages/Comp-Poblacional/Conflicto-Civilidad/Discordia'
-import CaminoIndependencia from './pages/Comp-Poblacional/Conflicto-Civilidad/CaminoIndependencia'
+import BogotaAscediada from './pages/Comp-Poblacional/Conflicto-Civilidad/bogota_asediada';
+import Discordia from './pages/Comp-Poblacional/Conflicto-Civilidad/Discordia';
+import CaminoIndependencia from './pages/Comp-Poblacional/Conflicto-Civilidad/CaminoIndependencia';
 import Demografiavu from './pages/Comp-Poblacional/Conflicto-Civilidad/Demografia';
-import Demografia from './pages/Comp-Poblacional/Demografia/Demografia'
+import Demografia from './pages/Comp-Poblacional/Demografia/Demografia';
 import EvolucionDemografica from './pages/Comp-Poblacional/Demografia/Evolucion/EvolucionDemografica';
 import Crecimiento from './pages/Comp-Poblacional/Demografia/Crecimiento/Crecimiento';
-import Ecuacion from './pages/Comp-Poblacional/Demografia/Ecuacion/Ecuacion'
+import Ecuacion from './pages/Comp-Poblacional/Demografia/Ecuacion/Ecuacion';
 import Series from './pages/Comp-Poblacional/Demografia/Series/Series';
 import Piramides from './pages/Comp-Poblacional/Demografia/Piramides/Piramides';
 import PiramidesDistribucion from './pages/Comp-Poblacional/Demografia/Piramides/DistribucionSexo';
 import PiramidesComparacion from './pages/Comp-Poblacional/Demografia/Piramides/ComparacionCenso';
 import Indices from './pages/Comp-Poblacional/Demografia/indices/Indices';
 import Proyecciones from './pages/Comp-Poblacional/Demografia/Proyecciones_Poblacion/Proyecciones_Poblacion';
-import SocioEspacial from './pages/Comp-Poblacional/EstructuraSocioEspacial/SocioEspacial'
+import SocioEspacial from './pages/Comp-Poblacional/EstructuraSocioEspacial/SocioEspacial';
 import Espacial from './pages/Comp-Poblacional/EstructuraSocioEspacial/SegregacionEspacial';
-import SocioEconomica from './pages/Comp-Poblacional/EstructuraSocioEconomica/SocioEconomica'
+import SocioEconomica from './pages/Comp-Poblacional/EstructuraSocioEconomica/SocioEconomica';
 import AnalisisPob from './pages/Comp-Poblacional/EstructuraSocioEconomica/AnalisisdePobrezaenColombia';
 
 
 import Territorial from './pages/Comp-Territorial/Territorial';
-import EvolucionHuella from './pages/Comp-Territorial/EvolucionHuella'
+import EvolucionHuella from './pages/Comp-Territorial/EvolucionHuella';
 import IndicadoresUrban from './pages/Comp-Territorial/IndicadoresUrban';
 import EstructuraEP from './pages/Comp-Territorial/EstructuraEP';
 
@@ -64,12 +64,16 @@ import Energia from './pages/Comp-Bienestar/Infraestructura/Energia';
 import Telecomunicaciones from './pages/Comp-Bienestar/Infraestructura/Telecomunicaciones';
 import Basuras from './pages/Comp-Bienestar/Infraestructura/Basuras';
 import EstructuraUrb from './pages/Comp-Bienestar/Estructura/Estructura';
-import SisUrbanos from './pages/Comp-Bienestar/Estructura/SisUrbanos/SisUrbanos';
-import HistoriaBarrios from './pages/Comp-Bienestar/Estructura/SisUrbanos/HistoriaBarrios';
-import CondicionesHab from './pages/Comp-Bienestar/Estructura/SisUrbanos/CondicionesHab';
-import Vivienda from './pages/Comp-Bienestar/Estructura/Vivienda/Vivienda';
-import Informal from './pages/Comp-Bienestar/Estructura/Vivienda/vivienda/informal';
-import Obrera from './pages/Comp-Bienestar/Estructura/Vivienda/vivienda/obrera';
+import TipologiaUrban from './pages/Comp-Bienestar/Estructura/TipologiaUrban/TipologiaUrban';
+import HistoriaBarrios from './pages/Comp-Bienestar/Estructura/TipologiaUrban/HistoriaBarrios';
+import CondicionesHab from './pages/Comp-Bienestar/Estructura/TipologiaUrban/CondicionesHab';
+import Usos from './pages/Comp-Bienestar/Estructura/Vivienda/Usos';
+import Informal from './pages/Comp-Bienestar/Estructura/Vivienda/Usos/Vivienda/informal';
+import Estatal from './pages/Comp-Bienestar/Estructura/Vivienda/Usos/Vivienda/estatal';
+import Privada from './pages/Comp-Bienestar/Estructura/Vivienda/Usos/Vivienda/privada';
+import Comercio from './pages/Comp-Bienestar/Estructura/Vivienda/Usos/Comercio/comercio';
+import Industria from './pages/Comp-Bienestar/Estructura/Vivienda/Usos/Industria/industria';
+
 import DesarrolloUrb from './pages/Comp-Bienestar/Estructura/Vivienda/DesarrollosUrb';
 import ViviendaPP from './pages/Comp-Bienestar/Estructura/Vivienda/Desarrollos/viviendaporperiodos';
 import Estudios from './pages/Comp-Bienestar/Estructura/Vivienda/Desarrollos/estudio';
@@ -87,9 +91,9 @@ import Financiacion from './pages/Comp-Bienestar/Instrumentos/Financiacion';
 
 
 
-import Modelos from './pages/ModelosUrbanos/Modelos'
-import BogotaColonial from './pages/ModelosUrbanos/BogotaColonial'
-import BogotaRepublicana from './pages/ModelosUrbanos/BogotaRepublicana'
+import Modelos from './pages/ModelosUrbanos/Modelos';
+import BogotaColonial from './pages/ModelosUrbanos/BogotaColonial';
+import BogotaRepublicana from './pages/ModelosUrbanos/BogotaRepublicana';
 
 import Noticias from './pages/Noticias/Noticias';
 import Libros from './pages/Repositorio/Libros';
@@ -181,21 +185,28 @@ const App = () => {
           <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Equipamentos" Component={Equipamientos} />
           <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Salud en Bogotá" Component={SaludBogota} />
           <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Iglesias" Component={Iglesias} />
-          <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)" Component={SisUrbanos} />
-          <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios" Component={HistoriaBarrios} />
-          <Route path="componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ" Component={CondicionesHab} />
-          <Route path="componente bienestar/Estructura urbana/Vivienda, comercio e industria" Component={Vivienda} />
-          <Route path="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Informal} />
-          <Route path="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Obrera} />
-          <Route path="componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos" Component={DesarrolloUrb} />
-          <Route path="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Vivienda por periodos" Component={ViviendaPP} />
-          <Route path="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Estudio de caso de barrios" Component={Estudios} />
-          <Route path="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos/Barrios generales" Component={Barrios} />
-          <Route path="componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda" Component={LineaTiempo} />
+          <Route path="componente bienestar/Estructura urbana/Tipologias urbanisticas" Component={TipologiaUrban} />
+          <Route path="componente bienestar/Estructura urbana/Tipologias urbanisticas/Historia de barrios" Component={HistoriaBarrios} />
+          <Route path="componente bienestar/Estructura urbana/Tipologias urbanisticas/Condiciones de habitabilidad UPZ" Component={CondicionesHab} />
+          <Route path="componente bienestar/Estructura urbana/Usos" Component={Usos} />
+          <Route path="/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda estatal" Component={Estatal} />
+          <Route path="/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda privada" Component={Privada} />
+          <Route path="/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Informal} />
+          {/* <Route path="/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Obrera} /> */}
+          <Route path="/componente bienestar/Estructura urbana/Usos/Comercio" Component={Comercio} />
+          <Route path="/componente bienestar/Estructura urbana/Usos/Industria" Component={Industria} />
+          
+          
+          <Route path="componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos" Component={DesarrolloUrb} />
+          <Route path="/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Vivienda por periodos" Component={ViviendaPP} />
+          <Route path="/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Estudio de caso de barrios" Component={Estudios} />
+          <Route path="/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Barrios generales" Component={Barrios} />
+          <Route path="componente bienestar/Estructura urbana/ Usos/Línea de tiempo Historia de la vivienda" Component={LineaTiempo} />
           <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas" Component={Tratamientos} />
           <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación" Component={TraConservacion} />
           <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación" Component={TraRenovacion} />
           <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Desarrollo" Component={TraDesarrollo} />
+
           <Route path="componente bienestar/instrumentos" Component={Instrumentos} />
           <Route path="componente bienestar/instrumentos/Planificación" Component={Planificacion} />
           <Route path="componente bienestar/instrumentos/Gestión" Component={Gestion} />

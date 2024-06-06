@@ -681,7 +681,7 @@ const NavbarResponsive = () => {
                         setEstruturaurbana(false)
                         setSistemaU(true)
                     }}>
-                        <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)">Sistemas urbanos (subdivisón y lotificación)</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Tipologias urbanisticas">Tipologias urbanisticas</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -690,7 +690,7 @@ const NavbarResponsive = () => {
                         setEstruturaurbana(false)
                         setVivienda(true)
                     }}>
-                        <Link to="/componente bienestar/Estructura urbana/Vivienda, comercio e industria" >Vivienda, comercio e industria</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Usos" >Usos</Link>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
@@ -715,14 +715,14 @@ const NavbarResponsive = () => {
                             <path d="M15.92 7.00008V9.00008H3.92002L9.42002 14.5001L8.00002 15.9201L0.0800171 8.00008L8.00002 0.0800781L9.42002 1.50008L3.92002 7.00008H15.92Z" fill="#5E2609" />
                         </svg>
                         <span >
-                            Sistemas urbanos (subdivisón y lotificación)
+                            Tipologias urbanisticas
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Historia de barrios">Historia de barrios</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Tipologias urbanisticas/Historia de barrios">Historia de barrios</Link>
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/componente bienestar/Estructura urbana/Sistemas urbanos (subdivisón y lotificación)/Condiciones de habitabilidad UPZ" >Condiciones de habitabilidad UPZ</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Tipologias urbanisticas/Condiciones de habitabilidad UPZ" >Condiciones de habitabilidad UPZ</Link>
 
                     </li>
                 </ul>}
@@ -736,15 +736,15 @@ const NavbarResponsive = () => {
                             <path d="M15.92 7.00008V9.00008H3.92002L9.42002 14.5001L8.00002 15.9201L0.0800171 8.00008L8.00002 0.0800781L9.42002 1.50008L3.92002 7.00008H15.92Z" fill="#5E2609" />
                         </svg>
                         <span >
-                            Vivienda, comercio e industria
+                            Usos
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/componente bienestar/Estructura urbana/Vivienda, comercio e industria/Desarrollos urbanísticos" >Desarrollos urbanísticos</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos" >Desarrollos urbanísticos</Link>
 
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/componente bienestar/Estructura urbana/ Vivienda, comercio e industria/Línea de tiempo Historia de la vivienda">Línea de tiempo Historia de la vivienda</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda">Línea de tiempo Historia de la vivienda</Link>
                     </li>
 
                 </ul>}
