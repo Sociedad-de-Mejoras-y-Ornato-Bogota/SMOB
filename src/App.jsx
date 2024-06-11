@@ -67,12 +67,12 @@ import EstructuraUrb from './pages/Comp-Bienestar/Estructura/Estructura';
 import TipologiaUrban from './pages/Comp-Bienestar/Estructura/TipologiaUrban/TipologiaUrban';
 import HistoriaBarrios from './pages/Comp-Bienestar/Estructura/TipologiaUrban/HistoriaBarrios';
 import CondicionesHab from './pages/Comp-Bienestar/Estructura/TipologiaUrban/CondicionesHab';
-import Usos from './pages/Comp-Bienestar/Estructura/Vivienda/Usos';
-import Informal from './pages/Comp-Bienestar/Estructura/Vivienda/Usos/Vivienda/informal';
-import Estatal from './pages/Comp-Bienestar/Estructura/Vivienda/Usos/Vivienda/estatal';
-import Privada from './pages/Comp-Bienestar/Estructura/Vivienda/Usos/Vivienda/privada';
-import Comercio from './pages/Comp-Bienestar/Estructura/Vivienda/Usos/Comercio/comercio';
-import Industria from './pages/Comp-Bienestar/Estructura/Vivienda/Usos/Industria/industria';
+// import Usos from './pages/Comp-Bienestar/Estructura/Vivienda/Usos';
+import Informal from './pages/Comp-Bienestar/Estructura/Vivienda/informal';
+import Estatal from './pages/Comp-Bienestar/Estructura/Vivienda/estatal';
+import Privada from './pages/Comp-Bienestar/Estructura/Vivienda/privada';
+import Comercio from './pages/Comp-Bienestar/Estructura/Vivienda/Comercio/comercio';
+import Industria from './pages/Comp-Bienestar/Estructura/Vivienda/Industria/industria';
 
 import DesarrolloUrb from './pages/Comp-Bienestar/Estructura/Vivienda/DesarrollosUrb';
 import ViviendaPP from './pages/Comp-Bienestar/Estructura/Vivienda/Desarrollos/viviendaporperiodos';
@@ -188,20 +188,19 @@ const App = () => {
           <Route path="componente bienestar/Estructura urbana/Tipologias urbanisticas" Component={TipologiaUrban} />
           <Route path="componente bienestar/Estructura urbana/Tipologias urbanisticas/Historia de barrios" Component={HistoriaBarrios} />
           <Route path="componente bienestar/Estructura urbana/Tipologias urbanisticas/Condiciones de habitabilidad UPZ" Component={CondicionesHab} />
-          <Route path="componente bienestar/Estructura urbana/Usos" Component={Usos} />
-          <Route path="/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda estatal" Component={Estatal} />
-          <Route path="/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda privada" Component={Privada} />
-          <Route path="/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Informal} />
-          {/* <Route path="/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Obrera} /> */}
-          <Route path="/componente bienestar/Estructura urbana/Usos/Comercio" Component={Comercio} />
-          <Route path="/componente bienestar/Estructura urbana/Usos/Industria" Component={Industria} />
+          {/* <Route path="componente bienestar/Estructura urbana/Usos" Component={Usos} /> */}
+          <Route path="/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda estatal" Component={Estatal} />
+          <Route path="/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda privada" Component={Privada} />
+          <Route path="/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda informal" Component={Informal} />
+          <Route path="/componente bienestar/Estructura urbana/Comercio" Component={Comercio} />
+          <Route path="/componente bienestar/Estructura urbana/Industria" Component={Industria} />
           
           
-          <Route path="componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos" Component={DesarrolloUrb} />
-          <Route path="/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Vivienda por periodos" Component={ViviendaPP} />
-          <Route path="/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Estudio de caso de barrios" Component={Estudios} />
-          <Route path="/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Barrios generales" Component={Barrios} />
-          <Route path="componente bienestar/Estructura urbana/ Usos/Línea de tiempo Historia de la vivienda" Component={LineaTiempo} />
+          <Route path="componente bienestar/Estructura urbana/Barrios y urbanizaciones" Component={DesarrolloUrb} />
+          <Route path="/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Urbanizaciones por periodo" Component={ViviendaPP} />
+          <Route path="/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Análisis particulares" Component={Estudios} />
+          <Route path="/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Análisis generales" Component={Barrios} />
+          <Route path="componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda" Component={LineaTiempo} />
           <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas" Component={Tratamientos} />
           <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Conservación" Component={TraConservacion} />
           <Route path="componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas/Renovación" Component={TraRenovacion} />

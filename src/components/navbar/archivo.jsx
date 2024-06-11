@@ -56,19 +56,19 @@ export const archivo = [
 				ruta: "/marco institucional/Estructura administrativa de Bogotá",
 			}
 			, {
-                title: "Participación ciudadana",
-                ruta: "#",
-                submenu: [
-                    {
-                        title: "Comportamiento electoral",
-                        ruta: "/marco institucional/Comportamiento electoral"
-                    },
-                    {
-                        title: "Organizaciones sociales",
-                        ruta: "/marco institucional/Organizaciones sociales"
-                    }
-                ]
-            }
+				title: "Participación ciudadana",
+				ruta: "#",
+				submenu: [
+					{
+						title: "Comportamiento electoral",
+						ruta: "/marco institucional/Comportamiento electoral"
+					},
+					{
+						title: "Organizaciones sociales",
+						ruta: "/marco institucional/Organizaciones sociales"
+					}
+				]
+			}
 		],
 	}, {
 		title: "Componente poblacional",
@@ -257,85 +257,52 @@ export const archivo = [
 							ruta: "/componente bienestar/Estructura urbana/Tipologias urbanisticas/Condiciones de habitabilidad UPZ",
 						}
 						],
-					}, {
-						title: "Usos",
+					},
+					{
+						title: "Vivienda",
 						ruta: "#",
-						submenu: [
-							{
-								title: "Vivienda",
-								ruta: "#",
-								submenu: [{
-									title: "Historia de la vivienda",
-									ruta: "/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda",
-									submenu: [{
-										title: "Vivienda estatal",
-										ruta: "/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda estatal"
-									},
-									{
-										title: "Vivienda privada",
-										ruta: "/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda privada"
-									},
-									{
-										title: "Vivienda informal",
-										ruta: "/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda informal"
-									}]
-								}],
+						submenu: [{
+							title: "Historia de la vivienda",
+							ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda",
+							submenu: [{
+								title: "Vivienda estatal",
+								ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda estatal"
 							},
 							{
-								title: "Comercio",
-								ruta: "/componente bienestar/Estructura urbana/Usos/Comercio"
-							}, {
-								title: "Industria",
-								ruta: "/componente bienestar/Estructura urbana/Usos/Industria"
-							}, {
-								title: "Barrios y urbanizaciones",
-								ruta: "/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos",
-								submenu: [
-									{
-										title: "Urbanizaciones por período",
-										ruta: "/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Vivienda por periodos"
-									}
-									, {
-										title: "Análisis general",
-										ruta: "/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Barrios generales"
-									},
-									{
-										title: "Análisis particulares",
-										ruta: "/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Estudio de caso de barrios"
-									}]
-							}
-							// submenu: [
-							//     {
-							//         title: "Historia de la vivienda",
-							//         ruta: "/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda",
-							//         submenu: [{
-							//             title: "Vivienda informal",
-							//             ruta: "/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda informal"
-							//         },
-							//         {
-							//             title: "Vivienda obrera",
-							//             ruta: "/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda/Vivienda informal"
-							//         }]
-							//     }, {
-							//         title: "Desarrollos urbanísticos",
-							//         ruta: "/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos ",
-							//         submenu: [
-							//             {
-							//                 title: "Vivienda por periodos",
-							//                 ruta: "/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Vivienda por periodos"
-							//             }
-							//             , {
-							//                 title: "Barrios generales",
-							//                 ruta: "/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Barrios generales"
-							//             },
-							//             {
-							//                 title: "Estudio de caso de barrios",
-							//                 ruta: "/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos/Estudio de caso de barrios"
-							//             }]
-							//     },
-							// ],
-						],
+								title: "Vivienda privada",
+								ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda privada"
+							},
+							{
+								title: "Vivienda informal",
+								ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda informal"
+							}]
+						},
+						{
+							title: "Barrios y urbanizaciones",
+							ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones",
+							submenu: [
+								{
+									title: "Urbanizaciones por periodo",
+									ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Urbanizaciones por periodo"
+								}
+								, {
+									title: "Análisis generales",
+									ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Análisis generales"
+								},
+								{
+									title: "Análisis particulares",
+									ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Análisis particulares"
+								}]
+						}],
+					},
+					{
+						title: "Comercio",
+						ruta: "/componente bienestar/Estructura urbana/Comercio"
 					}, {
+						title: "Industria",
+						ruta: "/componente bienestar/Estructura urbana/Industria"
+					},
+					{
 						title: "Tratamientos y normas urbanísticas",
 						//ruta: "/componente bienestar/Estructura urbana/Tratamientos y normas urbanísticas",
 						ruta: "#",

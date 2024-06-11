@@ -686,7 +686,7 @@ const NavbarResponsive = () => {
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
                     </li>
-                    <li className={styles.navbarItem} id="a" onClick={() => {
+                    {/* <li className={styles.navbarItem} id="a" onClick={() => {
                         setEstruturaurbana(false)
                         setVivienda(true)
                     }}>
@@ -694,7 +694,7 @@ const NavbarResponsive = () => {
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 17V7L15 12L10 17Z" fill="#5E2609" />
                         </svg>
-                    </li>
+                    </li> */}
                     <li className={styles.navbarItem} id="a" onClick={() => {
                         setEstruturaurbana(false)
                         setNormasU(true)
@@ -740,11 +740,11 @@ const NavbarResponsive = () => {
                         </span>
                     </div>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos" >Desarrollos urbanísticos</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Barrios y urbanizaciones" >Barrios y urbanizaciones</Link>
 
                     </li>
                     <li className={styles.navbarItem} id="a" >
-                        <Link to="/componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda">Línea de tiempo Historia de la vivienda</Link>
+                        <Link to="/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda">Línea de tiempo Historia de la vivienda</Link>
                     </li>
 
                 </ul>}

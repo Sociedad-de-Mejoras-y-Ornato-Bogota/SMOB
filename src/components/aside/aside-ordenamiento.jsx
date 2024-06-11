@@ -213,7 +213,7 @@ const MenuOrdenamiento = () => {
                   </li>
                 </ul>
               </div>}
-              <li style={{ listStyle: "none" }}><Link to="componente bienestar/Estructura urbana/Usos"><span style={{fontSize:"14px"}} onClick={() => {
+              {/* <li style={{ listStyle: "none" }}><Link to="componente bienestar/Estructura urbana/Usos"><span style={{fontSize:"14px"}} onClick={() => {
                 handleToggle()
                 setestructura(!estructura)
               }}>Vivienda, comercío e industria</span></Link>
@@ -224,20 +224,20 @@ const MenuOrdenamiento = () => {
                     <img src={Dropdown} alt="Expand" style={{ width: '8px', height: '8px' }}></img>
                   )}
                 </button>
-              </li>
+              </li> */}
               {vivienda && <div className='dropdown-menu1'>
                 <ul>
                   <li style={{ listStyle: "none" }}>
-                    <Link to="componente bienestar/Estructura urbana/Usos/Línea de tiempo Historia de la vivienda"><span style={{fontSize:"14px"}} onClick={() => {
+                    <Link to="componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda"><span style={{fontSize:"14px"}} onClick={() => {
                       handleToggle()
                       setsisEP(!sisEP)
                     }}>Línea de tiempo Historia de la vivienda </span></Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
-                    <Link to="componente bienestar/Estructura urbana/Usos/Desarrollos urbanísticos"><span style={{fontSize:"14px"}} onClick={() => {
+                    <Link to="componente bienestar/Estructura urbana/Barrios y urbanizaciones"><span style={{fontSize:"14px"}} onClick={() => {
                       handleToggle()
                       setsisEP(!sisEP)
-                    }}>Desarrollos urbanísticos</span></Link>
+                    }}>Barrios y urbanizaciones</span></Link>
                   </li>
                 </ul>
               </div>}
