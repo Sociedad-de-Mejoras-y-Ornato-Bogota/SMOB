@@ -19,7 +19,7 @@ export default function ComportamientoElectoral() {
                         <br />
                         <em style={{ padding: '2px 20px' }}><strong><span style={{ color: "#762f0b" }}>*</span> Alcaldes Mayores de Bogotá D.C. (1988 - presente)</strong>: Elegidos por voto popular: Elegidos por voto popular desde 1988, en un periodo de 4 años, sin posibilidad de reelección inmediata. Configurado en el año 2004 por la Constitución Política de Colombia pasando de 3 a 4 años de gobierno, siendo estos alcaldes del Distrito Capital, creado por la misma Constitución.</em>
                         <iframe
-                            src="https://geoapps.esri.co/portal/apps/dashboards/93ab9e0ae95543de8eb113247bb3922b"
+                            src="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/0ed134dfa5b94198a2c4354b0de7f727"
                             style={{ width: "100%", height: "95vh", marginTop: "3rem", marginBottom: "3rem" }}
                         ></iframe>
                     </>}
@@ -35,7 +35,7 @@ export default function ComportamientoElectoral() {
                                 <em style={{ padding: '2px 20px' }}><strong><span style={{ color: "#762f0b" }}>*</span> Alcalde Mayor del Distrito Especial de Bogotá (1954-1988)</strong>: Elegidos sin voto popular mediante decreto 3640 de 1954 se crea el Distrito Especial de Bogotá y el cargo comienza a denominarse como Alcalde Mayor. Pasa a ser designado directamente por el Presidente de la República.</em>
                                 <em style={{ padding: '2px 20px' }}><strong><span style={{ color: "#762f0b" }}>*</span> Alcaldes Mayores de Bogotá D.C. (1988 - presente)</strong>: Elegidos por voto popular: Elegidos por voto popular desde 1988, en un periodo de 4 años, sin posibilidad de reelección inmediata. Configurado en el año 2004 por la Constitución Política de Colombia pasando de 3 a 4 años de gobierno, siendo estos alcaldes del Distrito Capital, creado por la misma Constitución.</em>
                                 <iframe
-                                    src="https://geoapps.esri.co/portal/apps/dashboards/ac59d4dab7c74576ad432359e2c3cd0a"
+                                    src="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/06fd0f03bc8e4293b9ff6da858871b93"
                                     style={{ width: "100%", height: "95vh", marginTop: "3rem", marginBottom: "3rem" }}
                                 ></iframe>
                             </>
@@ -46,7 +46,7 @@ export default function ComportamientoElectoral() {
                                 <em style={{ padding: '2px 20px' }}><strong><span style={{ color: "#762f0b" }}>*</span> Alcalde Municipal de Bogotá (1935-1954)</strong>: La ley 65 de diciembre de 1909 estableció el restablecimiento de los territorios concebidos originalmente por la Constitución de 1886, retornando a Bogotá a la categoría de capital del departamento de Cundinamarca y administrada por un alcalde nombrado por el gobernador.</em>
                                 <em style={{ padding: '2px 20px' }}><strong><span style={{ color: "#762f0b" }}>*</span> Alcalde Mayor del Distrito Especial de Bogotá (1954-1988)</strong>: Elegidos sin voto popular mediante decreto 3640 de 1954 se crea el Distrito Especial de Bogotá y el cargo comienza a denominarse como Alcalde Mayor. Pasa a ser designado directamente por el Presidente de la República.</em>
                                 <iframe
-                                    src="https://geoapps.esri.co/portal/apps/dashboards/62b80c58a07b4e97b1bd803de362b946"
+                                    src="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/e39aa31ce6794dd59d5cebc6a6fd761c"
                                     style={{ width: "100%", height: "95vh", marginTop: "3rem", marginBottom: "3rem" }}
                                 ></iframe>
                             </>
@@ -60,7 +60,7 @@ export default function ComportamientoElectoral() {
                         <em style={{ padding: '2px 20px' }}><strong><span style={{ color: "#762f0b" }}>*</span> Alcalde Mayor del Distrito Especial de Bogotá (1954-1988)</strong>: Elegidos sin voto popular mediante decreto 3640 de 1954 se crea el Distrito Especial de Bogotá y el cargo comienza a denominarse como Alcalde Mayor. Pasa a ser designado directamente por el Presidente de la República.</em>
                         <em style={{ padding: '2px 20px' }}><strong><span style={{ color: "#762f0b" }}>*</span> Alcaldes Mayores de Bogotá D.C. (1988 - presente)</strong>: Elegidos por voto popular: Elegidos por voto popular desde 1988, en un periodo de 4 años, sin posibilidad de reelección inmediata. Configurado en el año 2004 por la Constitución Política de Colombia pasando de 3 a 4 años de gobierno, siendo estos alcaldes del Distrito Capital, creado por la misma Constitución.</em>
                         <iframe
-                            src="https://geoapps.esri.co/portal/apps/dashboards/54f5832e7e66431c9b07f57e5e8ac1e4"
+                            src="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/5ba7a1b33f084990aa452e0bcec95729"
                             style={{ width: "100%", height: "95vh", marginTop: "3rem", marginBottom: "3rem" }}
                         ></iframe>
                     </>

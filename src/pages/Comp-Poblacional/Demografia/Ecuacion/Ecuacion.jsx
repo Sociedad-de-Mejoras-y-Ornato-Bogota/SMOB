@@ -14,7 +14,7 @@ function Ecuacion() {
         Tv = tasa de natalidad- tasa de mortalidad
       </p>
       <Page_full_description title="Tasa de migración:" description="Tm = tasa de crecimiento – tasa vegetativa" />
-      <Page_tipe_full content_url="https://geogeeks2.maps.arcgis.com/apps/dashboards/45a68a91109b40318c6d2bb327d7befa"></Page_tipe_full>
+      <Page_tipe_full content_url="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/61e1517fec5c4bbd9bb1988e3e1dbd53"></Page_tipe_full>
 
     </>
   );

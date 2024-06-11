@@ -8,9 +8,9 @@ function Crecimiento() {
         <h2 className='title_page'>Crecimiento de la población (1970 - 2035)</h2>
       </section>
       <Page_full_Description title="Crecimiento de población:" description="El crecimiento poblacional se refiere al incremento del número de habitantes en un espacio y tiempo determinado, el cual se puede medir a través de una fórmula matemática. También se puede emplear como sinónimo el término crecimiento demográfico." />
-      <Two_content link_1="https://geogeeks2.maps.arcgis.com/apps/dashboards/586d8531b4d6443fbeb0caea786b6dcb" link_2="https://geogeeks2.maps.arcgis.com/apps/dashboards/3ccec03e3cdc4ac9862aaf38fcf30106"></Two_content>
+      <Two_content link_1="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/613423c94d5b4d069dd079a00c4583a9" link_2="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/5f628184f0d743b6ac61295030c9c4d4"></Two_content>
       <Page_full_Description title="Porcentaje de concentración de la población:" description="El porcentaje de concentración de la población de Colombia en la ciudad capital de Bogotá. La concentración de la población esta relacionada con del nivel de urbanización del país, teniendo un efecto directo en la migración interna, la agricultura, la concentración de la propiedad rural y el escaso dinamismo del sector agrícola tradicional, las ventajas comparativas sociales y económicas entre el campo y la ciudad, así como entre las áreas menores y las grandes capitales." />
-      <Page_tipe_full content_url="https://geogeeks2.maps.arcgis.com/apps/dashboards/d2b67f4294a14f64a7c936b9c20b01d0" />
+      <Page_tipe_full content_url="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/b940d7ba7478468cbb1b5547c1665f99" />
     </>
   )
 }

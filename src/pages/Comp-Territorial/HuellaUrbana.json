@@ -12,10 +12,10 @@
     "layers": ["Huella urbana 1600", "Manzanas en construcción 1600", "Curvas de Nivel", "Cuerpos hídricos"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1600.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1600/",
+    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/-1600/",
     "zoom":"14",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1600"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1600"
   },
   {
     "titulo":"    Plano geométrico de Santafé de Bogotá en 1791 elaborado por Domingo Esquiaqui",
@@ -23,10 +23,10 @@
     "layers": ["Huella urbana 1791","Cuerpos lénticos 1791", "Cuerpos hídricos 1791", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1791.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1791/",
+    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/1791/",
     "zoom":"14",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1791"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1791"
   },
   {
     "titulo":"Plano geométrico de Santafé de Bogotá en 1816 elaborado por Domingo Esquiaqui",
@@ -34,10 +34,10 @@
     "layers": ["Huella urbana 1816", "Cuerpos lénticos 1819", "Cuerpos hídricos 1819", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1816.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/1816/",
+    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/1816/",
     "zoom":"14",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1816"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1816"
   },
   {
     "titulo":"Plano topográfico de Bogotá y sus alrededores en 1849 elaborado por Agustín Codazzi",
@@ -45,10 +45,10 @@
     "layers": ["Huella urbana 1849", "Cuerpos lénticos 1849", "Cuerpos hídricos 1849", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1849.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1849/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/-1849/?draft=true",
     "zoom":"14",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1849"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1849"
   },
   {
     "titulo":"Plano de Bogotá de 1885. Versión de Juan Carrasquilla Botero",
@@ -56,10 +56,10 @@
     "layers": ["Huella urbana 1885", "Cuerpos lénticos 1885", "Cuerpos hídricos 1885", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1885.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1885/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/-1885/?draft=true",
     "zoom":"14",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1885"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1885"
   },
   {
     "titulo":"Plano de Bogotá 1906 elaborado por Francisco Javier Vergara y Velasco",
@@ -67,10 +67,10 @@
     "layers": ["Huella urbana 1906", "Cuerpos lénticos 1906", "Cuerpos hídricos 1906", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1906.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/12c8657cf30d41679a9b402c843fcc4b/page/-1906/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/-1906/?draft=true",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1906"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1906"
   },
   {
     "titulo":"Plano de Bogotá 1913 elaborado por la Oficina de Longitudes y Gregorio Hernández ",
@@ -78,10 +78,10 @@
     "layers": ["Huella urbana 1913", "Cuerpos Lénticos", "Cuerpos Hídricos", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1913.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
-    "iframe_url":"https://experience.arcgis.com/experience/200045e70aa84465a0dbd2464e5f7a4e/",
+    "iframe_url":"https://experience.arcgis.com/experience/e4a745f500a3459d89af90c0e764894c/",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1913"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1913"
   },
   {
     "titulo":"Plano de Bogotá 1923 elaborado por Manuel Rincón ",
@@ -89,10 +89,10 @@
     "layers": ["Huella urbana 1923", "Cuerpos Lénticos 1923", "Cuerpos Hídricos 1923", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1923.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
-    "iframe_url":"https://experience.arcgis.com/experience/767a452dc557419e95913787e0fb0c83/",
+    "iframe_url":"https://experience.arcgis.com/experience/d8cf2661ef6b4df0a422f1b812fef4de/",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1923"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1923"
   },
   {
     "titulo":"Plano editado de Bogotá de 1932  ",
@@ -103,7 +103,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1932"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1932"
   },
   {
     "titulo":"Plano de Bogotá Acuerdo 21 de 1944 de la Secretaría de Obras Públicas Municipales",
@@ -111,10 +111,10 @@
     "layers": ["Huella urbana 1944", "Cuerpos Lénticos 1944", "Cuerpos Hídricos 1944", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1944.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
-    "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1944",
+    "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36/page/1944",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1944"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1944"
   },
   {
     "titulo":"Plano de Bogotá de 1954 elaborado por el Instituto Geográfico Agustín Codazzi",
@@ -122,10 +122,10 @@
     "layers": ["Huella urbana 1954", "Cuerpos Lénticos 1954", "Cuerpos hidricos 1954", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1954.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
-    "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1954",
+    "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36/page/1954",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://geogeeks2.maps.arcgis.com/apps/dashboards/d7ca61e5c07d4d1a9289ae24bea23707#ai=1954"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1954"
   },
   {
     "titulo":"Plano de Bogotá de 1965 elaborado por Carvajal & Cía.",
@@ -133,7 +133,7 @@
     "layers": ["Huella urbana 1965", "Cuerpos Lénticos 1964", "Cuerpos Hidricos 1964", "Curvas de Nivel", "Huella urbana Año 1965"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1965.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
-    "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1965",
+    "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36/page/1965",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ],
     "dash":"https://www.arcgis.com/apps/dashboards/b188b6dca979417c8ed62eca8db704ca"
@@ -144,7 +144,7 @@
     "layers": ["Huella urbana 1976", "Huella urbana Año 1976", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1976.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
-    "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe/page/1976",
+    "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36/page/1976",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ],
     "dash":"https://www.arcgis.com/apps/dashboards/b188b6dca979417c8ed62eca8db704ca"
@@ -155,7 +155,7 @@
     "layers": ["Huella urbana 1985", "Huella urbana Año 1985", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1985.png",
     "map_id":"3a59ed2c90db4888b1a6a1e23fab2e9b",
-    "iframe_url":"https://experience.arcgis.com/experience/8c9113bcb1244b5f99a368514b97b06f",
+    "iframe_url":"https://experience.arcgis.com/experience/244c5ee91f38458aa260b0f1fa15fdfd",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ],
     "dash":"https://www.arcgis.com/apps/dashboards/6c5d295ede1f4ada8e30ffcef4c69a7d"
@@ -166,7 +166,7 @@
     "layers": ["Perímetro Urbano 1991", "Manzanas 1991"],
     "img_url":"",
     "map_id":"80fef7b6a55643479f80f79e6d8cceea",
-    "iframe_url":"https://experience.arcgis.com/experience/31eccb3fccd64309a11a53959ad79a29",
+    "iframe_url":"https://experience.arcgis.com/experience/f9b017e211c949abbf27f20b245ea919",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
     "dash":"https://www.arcgis.com/apps/dashboards/12b85c7dc579494787ccd4ec897640ea"
@@ -177,7 +177,7 @@
     "layers": ["Huella urbana 2000", "Cuerpos lénticos 2000", "Cuerpos hídr icos 2000", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2000.png",
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
-    "iframe_url":"https://experience.arcgis.com/experience/c1640fe1880a4191b9baf9f491c44dee",
+    "iframe_url":"https://experience.arcgis.com/experience/31d3f0ba0a1341668320dffb71aec6cb",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
     "dash":"https://www.arcgis.com/apps/dashboards/99de7f05108a4d54b7bc8f8e8a819377"
@@ -188,7 +188,7 @@
     "layers": ["Manzanas 2006", "Perímetro Urbano 2006"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2006.png",
     "map_id":"ef1b1d8359404e219e971bfe48d796e4",
-    "iframe_url":"https://experience.arcgis.com/experience/05d923964bdd4c2cae205dd7873c60f0/",
+    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
     "dash":"https://www.arcgis.com/apps/dashboards/6e5178af319f4ee9bff6b01d18e97fdd"
@@ -199,7 +199,7 @@
     "layers": ["Huella urbana 2023", "Curvas de Nivel", "Cuerpos_hidricos_2023", "Huella urbana Año 2023"],
     "img_url":"",
     "map_id":"03f96af9046e4c86af5d8037cd5f5665",
-    "iframe_url":"https://experience.arcgis.com/experience/57f7f80b8c5b487a8ac399a7553f1dae/",
+    "iframe_url":"https://experience.arcgis.com/experience/732e06290f2142afb7fe99ed836ea2ab",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
     "dash":"https://www.arcgis.com/apps/dashboards/b71e7a0e86504aa69ced438a261d7b19"

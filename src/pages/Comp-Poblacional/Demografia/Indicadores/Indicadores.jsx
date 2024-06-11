@@ -22,7 +22,7 @@ const Indicadores = () => {
       <div className='row' style={{width:"100vw",height:"auto"}}>
         <div className="col-lg-12">
         <iframe
-          src='https://experience.arcgis.com/experience/418fb6f6b9464b50ac181020a1a18fe5/page/Indicadores/?draft=true&views=Paso-10%2CPaso-5'
+          src='https://experience.arcgis.com/experience/a2ed2cbee4514ab9b11ed1184c726ff5/page/Indicadores/?draft=true&views=Paso-10%2CPaso-5'
           className='dashboards'
           style={{width:"100%",height:"80vh"}}
         ></iframe>

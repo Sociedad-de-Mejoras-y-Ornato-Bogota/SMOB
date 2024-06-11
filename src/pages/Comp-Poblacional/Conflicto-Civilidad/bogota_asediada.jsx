@@ -1,6 +1,5 @@
 import { useState } from "react";
-import Pronto from "../../../components/Not found/ComingSoon"
-import Linetime from "../../../components/lineTime/lineTime";
+import Pronto from "../../../components/Not found/ComingSoon";
 const Bogota_Ascediada = () => {
     const [menu, setMenu] = useState(2)
     return (
@@ -15,7 +14,7 @@ const Bogota_Ascediada = () => {
                 </section>
                 {menu == 1 && <div style={{ width: "100%", display: "flex", justifyContent: "center", padding: "3rem" }}>
                     <iframe
-                        src="https://storymaps.arcgis.com/stories/c6bf68fe97d94cf8a057b075ef240596"
+                        src="https://storymaps.arcgis.com/stories/8ea87b8813f7491cbed07862212baeaf"
                         style={{ width: "100%", height: "95vh", marginTop: "3rem", marginBottom: "3rem" }}
                     ></iframe>
                     {/* <iframe src="https://smob-storage.s3.us-east-2.amazonaws.com/INFOGRAF%C3%8DA+EVOLUCI%C3%93N+DE+LA+CIUDADAN%C3%8DA+CORRECI%C3%93N.pdf" style={{width:"60%", height:"65vh"}}></iframe> */}
