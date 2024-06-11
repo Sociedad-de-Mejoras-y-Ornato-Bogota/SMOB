@@ -5,7 +5,7 @@ const Iglesias = () => {
 
   return (
     <>
-      <Page_tipe_full title="Iglesias" content_url="https://experience.arcgis.com/experience/b39099d39a25486d92ae98ff09616d86/" />
+      <Page_tipe_full title="Iglesias" content_url="https://experience.arcgis.com/experience/2a425b19bd544c22987344c8609eb97a" />
     </>
   )
 }

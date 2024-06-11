@@ -2,7 +2,7 @@ import Page_tipe_full from "../../../../components/page-tipe-full/page-tipe-full
 const DesarrolloUrb = () =>{
     return(
         <>
-        <Page_tipe_full title="Barrios y urbanizaciones" content_url="https://www.arcgis.com/apps/dashboards/a3f35c2b09e6471cb3a650283b1c1cdd"/>
+        <Page_tipe_full title="Barrios y urbanizaciones" content_url="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/df71879cb58f4ab2abbd899e610ecfcb"/>
         </>
     )
 }
