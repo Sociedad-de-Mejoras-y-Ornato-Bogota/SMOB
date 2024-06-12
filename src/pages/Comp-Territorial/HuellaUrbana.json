@@ -12,7 +12,7 @@
     "layers": ["Huella urbana 1600", "Manzanas en construcción 1600", "Curvas de Nivel", "Cuerpos hídricos"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1600.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/-1600/",
+    "iframe_url":"https://experience.arcgis.com/experience/c71baa46878e4532b24bdf267905c7e3/page/-1600/",
     "zoom":"14",
     "center":[-74.071750, 4.604800 ],
     "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1600"
@@ -23,7 +23,7 @@
     "layers": ["Huella urbana 1791","Cuerpos lénticos 1791", "Cuerpos hídricos 1791", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1791.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/1791/",
+    "iframe_url":"https://experience.arcgis.com/experience/c71baa46878e4532b24bdf267905c7e3/page/1791/",
     "zoom":"14",
     "center":[-74.071750, 4.604800 ],
     "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1791"
@@ -34,7 +34,7 @@
     "layers": ["Huella urbana 1816", "Cuerpos lénticos 1819", "Cuerpos hídricos 1819", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1816.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/1816/",
+    "iframe_url":"https://experience.arcgis.com/experience/c71baa46878e4532b24bdf267905c7e3/page/1816/",
     "zoom":"14",
     "center":[-74.071750, 4.604800 ],
     "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1816"
@@ -45,7 +45,7 @@
     "layers": ["Huella urbana 1849", "Cuerpos lénticos 1849", "Cuerpos hídricos 1849", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1849.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/-1849/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/c71baa46878e4532b24bdf267905c7e3/page/-1849/?draft=true",
     "zoom":"14",
     "center":[-74.071750, 4.604800 ],
     "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1849"
@@ -56,7 +56,7 @@
     "layers": ["Huella urbana 1885", "Cuerpos lénticos 1885", "Cuerpos hídricos 1885", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1885.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/-1885/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/c71baa46878e4532b24bdf267905c7e3/page/-1885/?draft=true",
     "zoom":"14",
     "center":[-74.071750, 4.604800 ],
     "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1885"
@@ -67,7 +67,7 @@
     "layers": ["Huella urbana 1906", "Cuerpos lénticos 1906", "Cuerpos hídricos 1906", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1906.png",
     "map_id":"f1356539b4774d8aac6cfe553c81562f",
-    "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f/page/-1906/?draft=true",
+    "iframe_url":"https://experience.arcgis.com/experience/c71baa46878e4532b24bdf267905c7e3/page/-1906/?draft=true",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ],
     "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1906"
@@ -100,7 +100,7 @@
     "layers": ["Huella urbana 1932", "Cuerpos Lénticos 1932", "Cuerpos Hídricos 1932", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1932.png",
     "map_id":"5c4135bc52d040068bbca6bab390709b",
-    "iframe_url":"https://experience.arcgis.com/experience/9ae00ad4ed1041c0961d1cd8ca451cfe",
+    "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36",
     "zoom":"13",
     "center":[-74.071750, 4.604800 ],
     "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/07649ceff0344cca8e609a4fc014fe52#ai=1932"
@@ -136,7 +136,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36/page/1965",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://www.arcgis.com/apps/dashboards/b188b6dca979417c8ed62eca8db704ca"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/cf784f95c2ae41508b7907c62d485193"
   },
   {
     "titulo":"Plano de Bogotá de 1976",
@@ -147,7 +147,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36/page/1976",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://www.arcgis.com/apps/dashboards/b188b6dca979417c8ed62eca8db704ca"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/64688a6635774c3598ae89c7b7abe4cf"
   },
   {
     "titulo":"Plano de Bogotá de 1985",
@@ -158,7 +158,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/244c5ee91f38458aa260b0f1fa15fdfd",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://www.arcgis.com/apps/dashboards/6c5d295ede1f4ada8e30ffcef4c69a7d"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/a1366575e5c44accb6cebfa25c536f98"
   },
   {
     "titulo":"Plano de Bogotá de 1991",
@@ -169,7 +169,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/f9b017e211c949abbf27f20b245ea919",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
-    "dash":"https://www.arcgis.com/apps/dashboards/12b85c7dc579494787ccd4ec897640ea"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/a6b637597eab406382117dc2c69d997b"
   },
   {
     "titulo":"Plano de Bogotá de 2000",
@@ -180,7 +180,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/31d3f0ba0a1341668320dffb71aec6cb",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
-    "dash":"https://www.arcgis.com/apps/dashboards/99de7f05108a4d54b7bc8f8e8a819377"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/ddc376e0aad7455f90e560198d8fdb10"
   },
   {
     "titulo":"Plano de Bogotá de 2006",
@@ -191,7 +191,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
-    "dash":"https://www.arcgis.com/apps/dashboards/6e5178af319f4ee9bff6b01d18e97fdd"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/e20bfe4f14be4515a1649379496eb99c"
   },
   {
     "titulo":"Plano de Bogotá de 2023",
@@ -202,6 +202,6 @@
     "iframe_url":"https://experience.arcgis.com/experience/732e06290f2142afb7fe99ed836ea2ab",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
-    "dash":"https://www.arcgis.com/apps/dashboards/b71e7a0e86504aa69ced438a261d7b19"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/6702e7db2fe6472c9a7391e05ab28ebb"
   }
 ]

@@ -4,7 +4,7 @@ const Proyecciones = () => {
   return (
     <>
       <Page_tipe_1 title="Proyecciones de población" content_url="https://www.youtube.com/embed/PcWDpkTmoHY" />
-      <Page_tipe_full content_url="https://www.arcgis.com/apps/dashboards/7ee3a26da8d64108ad58b55f25645c8c" />
+      <Page_tipe_full content_url="https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/84cfd1b7423e49dfb2d2a5e496ca637a" />
     </>
   );
 };
