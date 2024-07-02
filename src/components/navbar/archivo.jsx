@@ -282,8 +282,8 @@ export const archivo = [
 							ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones",
 							submenu: [
 								{
-									title: "Urbanizaciones por periodo",
-									ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Urbanizaciones por periodo"
+									title: "Urbanizaciones por década",
+									ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Urbanizaciones por decada"
 								}
 								, {
 									title: "Análisis generales",

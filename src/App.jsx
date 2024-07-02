@@ -197,7 +197,7 @@ const App = () => {
           
           
           <Route path="componente bienestar/Estructura urbana/Barrios y urbanizaciones" Component={DesarrolloUrb} />
-          <Route path="/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Urbanizaciones por periodo" Component={ViviendaPP} />
+          <Route path="/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Urbanizaciones por decada" Component={ViviendaPP} />
           <Route path="/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Análisis particulares" Component={Estudios} />
           <Route path="/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Análisis generales" Component={Barrios} />
           <Route path="componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda" Component={LineaTiempo} />

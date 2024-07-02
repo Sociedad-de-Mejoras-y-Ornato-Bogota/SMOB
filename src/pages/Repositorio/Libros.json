@@ -1592,5 +1592,13 @@
 		"autor": "Forero Suárez, Fabio Enrique; Forero Forero, Jenny Alexandra.",
 		"link": "",
 		"type": "Biblioteca"
+	},
+	{
+		"id": 212,
+		"url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/presentaciones/marco/4.+Concepto+del+Plan+de+Ordenamiento+Territorial+a%C3%B1o+2019.pdf",
+		"title": "Plan de Ordenamiento Territorial 2019",
+		"autor": "Marco institucional",
+		"link": "",
+		"type": "Presentaciones SMOB"
 	}
 ]
