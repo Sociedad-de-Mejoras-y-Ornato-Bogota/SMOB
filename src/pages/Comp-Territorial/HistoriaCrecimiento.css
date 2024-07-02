@@ -26,7 +26,7 @@
   left: 10%;
   top: 40%;
   border: none;
-  z-index: "9";
+  z-index: 9;
 }
 .boton-modal-huella{
   position: absolute;

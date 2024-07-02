@@ -201,7 +201,8 @@ function EvolucionHuella() {
               listStyle: "none",
               fontSize: ".7vw",
               cursor: "pointer",
-              padding:"1rem 2rem"
+              padding:"1rem 2rem",
+              zIndex: 10
             }}
             className={`menu-huella-responsive ${opacity ? "opacity" : " "}`}
             id="nav-huella"
