@@ -753,6 +753,192 @@ export default function GraficasDistribucion() {
           ]
         }}
       />
+      <HighchartsReact
+        highcharts={Highcharts}
+        options={{
+          chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'Pirámide de distribución por edad y sexo de Colombia proyección 2024 ',
+            align: 'center'
+        },
+        accessibility: {
+            point: {
+                valueDescriptionFormat: '{index}. Edad {xDescription}, {value}%.'
+            }
+        },
+        xAxis: [{
+            categories: categories,
+            reversed: false,
+            labels: {
+                step: 1,
+            },
+            accessibility: {
+                description: 'Edad (Hombres)'
+            }, title: {
+                text: 'Grupo por edad'
+            }
+        }, { // mirror axis on right side
+            opposite: true,
+            reversed: false,
+            categories: categories,
+            linkedTo: 0,
+            labels: {
+                step: 1
+            },
+            accessibility: {
+                description: 'Edad (Mujeres'
+            }
+        }],
+        yAxis: {
+            title: {
+                text: null
+            },
+            labels: {
+                formatter: function () {
+                    return Math.abs(this.value) + '%';
+                }
+            },
+            accessibility: {
+                description: 'Porcentaje de población',
+                rangeDescription: 'Rango: 0 to 5%'
+            }
+        },
+    
+    
+        plotOptions: {
+            series: {
+                stacking: 'normal',
+            }
+        },
+    
+        tooltip: {
+            formatter: function () {
+                return '<b>' + this.series.name + ', Grupo edad ' + this.point.category + '</b><br/>' +
+                    'Población: ' + Highcharts.numberFormat(Math.abs(this.point.y), 2) + '%';
+            }
+        },
+
+          series: [
+            {
+              name: 'Hombres 2024',
+              data: [
+                -3.53, -3.82, -3.85, -3.88, -4.07,
+                -4.25, -4.02, -3.60, -3.30, -2.85,
+                -2.56, -2.43, -2.12, -1.66, -1.20,
+                -0.80, -0.47, -0.40
+              ],
+              pointWidth: 11,
+              color: "#934729"
+            },
+            {
+              name: 'Mujeres 2024',
+              data: [
+                3.37, 3.66, 3.69, 3.73, 3.99,
+                4.23, 4.08, 3.74, 3.52, 3.13,
+                2.91, 2.83, 2.52, 2.03, 1.50,
+                1.04, 0.64, 0.58
+              ],
+              pointWidth: 11,
+              color: "#e57c32"
+            }
+          ]
+        }}
+      />
+      <HighchartsReact
+        highcharts={Highcharts}
+        options={{
+          chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'Pirámide de distribución por edad y sexo de Colombia proyección 2035 ',
+            align: 'center'
+        },
+        accessibility: {
+            point: {
+                valueDescriptionFormat: '{index}. Edad {xDescription}, {value}%.'
+            }
+        },
+        xAxis: [{
+            categories: categories,
+            reversed: false,
+            labels: {
+                step: 1,
+            },
+            accessibility: {
+                description: 'Edad (Hombres)'
+            }, title: {
+                text: 'Grupo por edad'
+            }
+        }, { // mirror axis on right side
+            opposite: true,
+            reversed: false,
+            categories: categories,
+            linkedTo: 0,
+            labels: {
+                step: 1
+            },
+            accessibility: {
+                description: 'Edad (Mujeres'
+            }
+        }],
+        yAxis: {
+            title: {
+                text: null
+            },
+            labels: {
+                formatter: function () {
+                    return Math.abs(this.value) + '%';
+                }
+            },
+            accessibility: {
+                description: 'Porcentaje de población',
+                rangeDescription: 'Rango: 0 to 5%'
+            }
+        },
+    
+    
+        plotOptions: {
+            series: {
+                stacking: 'normal',
+            }
+        },
+    
+        tooltip: {
+            formatter: function () {
+                return '<b>' + this.series.name + ', Grupo edad ' + this.point.category + '</b><br/>' +
+                    'Población: ' + Highcharts.numberFormat(Math.abs(this.point.y), 2) + '%';
+            }
+        },
+
+          series: [
+            {
+              name: 'Hombres 2035',
+              data: [
+                -2.89, -3.08, -3.27, -3.57, -3.60,
+                -3.60, -3.73, -3.91, -3.76, -3.35,
+                -3.03, -2.61, -2.23, -2.03, -1.69,
+                -1.20, -0.73, -0.51
+              ],
+              pointWidth: 11,
+              color: "#934729"
+            },
+            {
+              name: 'Mujeres 2035',
+              data: [
+                2.76, 2.93, 3.12, 3.43, 3.47,
+                3.50, 3.69, 3.94, 3.85, 3.52,
+                3.27, 2.92, 2.60, 2.47, 2.15,
+                1.63, 1.06, 0.88
+              ],
+              pointWidth: 11,
+              color: "#e57c32"
+            }
+          ]
+        }}
+      />
     </div>
   )
 }

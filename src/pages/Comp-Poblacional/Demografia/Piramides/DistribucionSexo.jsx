@@ -29,7 +29,7 @@ function PiramidesDistribucion() {
           <p className="text_description">
             Para ver un conjunto de pirámides de distribución, haga clic sobre el ítem de su interés en las opciones de Colombia o Bogotá.
             <br />
-            Los censos disponibles corresponden a los años 1938, 1951, 1964, 1973, 1985, 1993, 2005 y 2018.
+            Los censos disponibles corresponden a los años 1938, 1951, 1964, 1973, 1985, 1993, 2005 y 2018. Adicionalmente, podrá consultar las piramides con datos proyectados para los años 2024 y 2035.
           </p>
         </section>
         <section className="button-section" style={{ display: "flex", gap: "3rem", width: "50%" }}>
