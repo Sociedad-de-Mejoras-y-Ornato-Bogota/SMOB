@@ -19,7 +19,7 @@ const Map = ({ map_id, layers, zoom, center }) => {
   
 
   useEffect(() => {
-    esriConfig.apiKey = "AAPKb48bcda51f51466da531fada6e3adc1ep53xJznml5LFFadfaZd0AW7wd2tVXz38VJluote0e3sY3B2I-_sNV6Iu1zU9SOVp";
+    // esriConfig.apiKey = "AAPKb48bcda51f51466da531fada6e3adc1ep53xJznml5LFFadfaZd0AW7wd2tVXz38VJluote0e3sY3B2I-_sNV6Iu1zU9SOVp";
     const webmap = new WebMap({
       portalItem: {
         id: map_id,
