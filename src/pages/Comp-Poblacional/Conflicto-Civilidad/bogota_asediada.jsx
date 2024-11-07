@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Pronto from "../../../components/Not found/ComingSoon";
+import Page_libro_Complete from "../../../components/page-libro-complete/page-libro-complete";
 const Bogota_Ascediada = () => {
     const [menu, setMenu] = useState(2)
     return (
@@ -22,7 +23,7 @@ const Bogota_Ascediada = () => {
                 {menu == 2 && <div style={{ width: '100%' }}>
                     {/* <br />
                     <iframe src="https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/BOGOTA%CC%81+ASEDIADA+SIGLO+XIX_SMOB.pdf" style={{ width: "60%", height: "80vh", display: 'block', margin: '0 auto' }} /> */}
-                    <Pronto/>
+                    <Page_libro_Complete url_book="https://smob-storage.s3.us-east-2.amazonaws.com/BOGOTA_ASEDIADA_SIGLO_XIX_NUEVA_web.pdf" name_component="Antecedentes de la Ley 388 de 1997"/>
                 </div>}
             </div>
         </>

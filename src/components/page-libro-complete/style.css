@@ -1,0 +1,46 @@
+@import url("../../assets/styles/colors.css");
+@import url("../../assets/styles/fonts.css");
+
+.page_book{
+    padding: 3rem;
+    display: flex;
+    gap: 3rem;
+    height: 130vh;
+}
+
+.center_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button_book{
+    padding: 0.8rem;
+    font-size: var(--font-size-2);
+    background-color: rgb(118, 47, 11);
+    border-color: rgb(118, 47, 11);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.content_book{
+    width: 80%;
+    height: 100%;
+}
+.ver_mas{
+    color: rgb(118, 47, 11);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1099px) {
+    .page_book{
+        flex-direction:row;
+    }
+    .content_book{
+        width: 130%;
+        height: 100%;
+    }
+}
