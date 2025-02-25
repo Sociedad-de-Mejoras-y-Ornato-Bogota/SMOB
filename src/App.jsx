@@ -65,6 +65,7 @@ import Telecomunicaciones from './pages/Comp-Bienestar/Infraestructura/Telecomun
 import Basuras from './pages/Comp-Bienestar/Infraestructura/Basuras';
 import EstructuraUrb from './pages/Comp-Bienestar/Estructura/Estructura';
 import TipologiaUrban from './pages/Comp-Bienestar/Estructura/TipologiaUrban/TipologiaUrban';
+import Vivienda from './pages/Comp-Bienestar/Infraestructura/Vivienda';
 import HistoriaBarrios from './pages/Comp-Bienestar/Estructura/TipologiaUrban/HistoriaBarrios';
 import CondicionesHab from './pages/Comp-Bienestar/Estructura/TipologiaUrban/CondicionesHab';
 // import Usos from './pages/Comp-Bienestar/Estructura/Vivienda/Usos';
@@ -185,6 +186,7 @@ const App = () => {
           <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Equipamentos" Component={Equipamientos} />
           <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Salud en Bogotá" Component={SaludBogota} />
           <Route path="/componente bienestar/Estructura Urbana/Sistema de equipamientos/Iglesias" Component={Iglesias} />
+          <Route path="componente bienestar/Estructura urbana/Vivienda" Component={Vivienda} />
           <Route path="componente bienestar/Estructura urbana/Tipologias urbanisticas" Component={TipologiaUrban} />
           <Route path="componente bienestar/Estructura urbana/Tipologias urbanisticas/Historia de barrios" Component={HistoriaBarrios} />
           <Route path="componente bienestar/Estructura urbana/Tipologias urbanisticas/Condiciones de habitabilidad UPZ" Component={CondicionesHab} />

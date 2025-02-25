@@ -260,40 +260,40 @@ export const archivo = [
 					},
 					{
 						title: "Vivienda",
-						ruta: "#",
-						submenu: [{
-							title: "Historia de la vivienda",
-							ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda",
-							submenu: [{
-								title: "Vivienda estatal",
-								ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda estatal"
-							},
-							{
-								title: "Vivienda privada",
-								ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda privada"
-							},
-							{
-								title: "Vivienda informal",
-								ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda informal"
-							}]
-						},
-						{
-							title: "Barrios y urbanizaciones",
-							ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones",
-							submenu: [
-								{
-									title: "Urbanizaciones por década",
-									ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Urbanizaciones por decada"
-								}
-								, {
-									title: "Análisis generales",
-									ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Análisis generales"
-								},
-								{
-									title: "Análisis particulares",
-									ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Análisis particulares"
-								}]
-						}],
+						ruta: "/componente bienestar/Estructura urbana/Vivienda",
+						// submenu: [{
+						// 	title: "Historia de la vivienda",
+						// 	ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda",
+						// 	submenu: [{
+						// 		title: "Vivienda estatal",
+						// 		ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda estatal"
+						// 	},
+						// 	{
+						// 		title: "Vivienda privada",
+						// 		ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda privada"
+						// 	},
+						// 	{
+						// 		title: "Vivienda informal",
+						// 		ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda informal"
+						// 	}]
+						// },
+						// {
+						// 	title: "Barrios y urbanizaciones",
+						// 	ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones",
+						// 	submenu: [
+						// 		{
+						// 			title: "Urbanizaciones por década",
+						// 			ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Urbanizaciones por decada"
+						// 		}
+						// 		, {
+						// 			title: "Análisis generales",
+						// 			ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Análisis generales"
+						// 		},
+						// 		{
+						// 			title: "Análisis particulares",
+						// 			ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones/Análisis particulares"
+						// 		}]
+						// }],
 					},
 					{
 						title: "Comercio",
