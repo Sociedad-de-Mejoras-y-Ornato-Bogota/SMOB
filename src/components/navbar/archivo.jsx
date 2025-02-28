@@ -245,19 +245,19 @@ export const archivo = [
 							},
 						]
 					},
-					{
-						title: "Tipologías urbanísticas",
-						//ruta: "/componente bienestar/Estructura urbana/Tipologias urbanisticas",
-						ruta: "#",
-						submenu: [{
-							title: "Historia de barrios",
-							ruta: "/componente bienestar/Estructura urbana/Tipologias urbanisticas/Historia de barrios",
-						}, {
-							title: "Condiciones de habitabilidad UPZ",
-							ruta: "/componente bienestar/Estructura urbana/Tipologias urbanisticas/Condiciones de habitabilidad UPZ",
-						}
-						],
-					},
+					// {
+					// 	title: "Tipologías urbanísticas",
+					// 	//ruta: "/componente bienestar/Estructura urbana/Tipologias urbanisticas",
+					// 	ruta: "#",
+					// 	submenu: [{
+					// 		title: "Historia de barrios",
+					// 		ruta: "/componente bienestar/Estructura urbana/Tipologias urbanisticas/Historia de barrios",
+					// 	}, {
+					// 		title: "Condiciones de habitabilidad UPZ",
+					// 		ruta: "/componente bienestar/Estructura urbana/Tipologias urbanisticas/Condiciones de habitabilidad UPZ",
+					// 	}
+					// 	],
+					// },
 					{
 						title: "Vivienda",
 						ruta: "/componente bienestar/Estructura urbana/Vivienda",
