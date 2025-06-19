@@ -1577,7 +1577,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>6.003</strong>
+                  <strong>7.135</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1588,7 +1588,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>900</strong>
+                  <strong>567</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
@@ -1599,7 +1599,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-2">
-                  <strong>2.616</strong>
+                  <strong>2.589</strong>
                 </h3>
                 <h3 className="h3-c-2">
                   <strong>ha</strong>
@@ -1610,7 +1610,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-2">
-                  <strong>706</strong>
+                  <strong>1942</strong>
                 </h3>
                 <h3 className="h3-c-2">
                   <strong>ha</strong>
@@ -1621,7 +1621,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-2">
-                  <strong>2.908</strong>
+                  <strong>2.363</strong>
                 </h3>
                 <h3 className="h3-c-2">
                   <strong>ha</strong>
@@ -1632,7 +1632,7 @@ const Graph2 = () => {
               <p>
                 <h3></h3>
                 <h3 className="h3-c-1">
-                  <strong>5.954</strong>
+                  <strong>6.499</strong>
                 </h3>
                 <h3 className="h3-c-1">
                   <strong>ha</strong>
