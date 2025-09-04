@@ -1395,7 +1395,7 @@ const Graph2 = () => {
                       alt="Icono"
                       width="20"
                       height="20"
-                      onClick={handleDivClick10}
+                      onClick={handleDivClick12}
                     />
                   </button>
                   <button className="cu2">
@@ -1404,7 +1404,7 @@ const Graph2 = () => {
                       alt="Icono"
                       width="20"
                       height="20"
-                      onClick={handleDivClick10E}
+                      onClick={handleDivClick12E}
                     />
                   </button>
                 </div>
