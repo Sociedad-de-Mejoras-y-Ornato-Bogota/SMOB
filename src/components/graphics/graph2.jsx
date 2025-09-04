@@ -518,7 +518,7 @@ const Graph2 = () => {
     setShowPopup11E(true);
   };
   const handleDivClick12E = () => {
-    setShowPopup11E(true);
+    setShowPopup12E(true);
   };
 
   const handleDivClickPDF67 = () => {
