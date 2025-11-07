@@ -1,7 +1,54 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 export default function ComportamientoElectoral() {
-    const [menu, setMenu] = useState(1);
-    const [menu2, setMenu2] = useState(2);
+const slugMap = {
+    "alcaldia": { menu: 1 },
+    "concejo/elecciones": { menu: 2, menu2: 1 },
+    "concejo/listado": { menu: 2, menu2: 2 },
+    "analisis": { menu: 3 },
+  };
+
+  const parseHashToState = () => {
+    try {
+      const raw = (window.location.hash || "#alcaldia").replace(/^#/, "");
+      const decoded = decodeURIComponent(raw);
+      return slugMap[decoded] ?? { menu: 1, menu2: 2 };
+    } catch {
+      return { menu: 1, menu2: 2 };
+    }
+  };
+
+  const initial = parseHashToState();
+  const [menu, setMenu] = useState(initial.menu);
+  const [menu2, setMenu2] = useState(initial.menu2 ?? 2);
+
+  const stateToSlug = (m, m2) => {
+    if (m === 1) return "alcaldia";
+    if (m === 3) return "analisis";
+    if (m === 2) return m2 === 1 ? "concejo/elecciones" : "concejo/listado";
+    return "alcaldia";
+  };
+
+  // actualizar hash + estado (crea entrada en historial)
+  const navigateHash = (newMenu, newMenu2 = null) => {
+    const nm = newMenu;
+    const n2 = newMenu2 ?? (nm === 2 ? menu2 : menu2);
+    const slug = stateToSlug(nm, n2);
+    window.location.hash = encodeURI(slug); // cambia URL sin recargar (encodeURI preserva la barra en lugar del %2F)
+    setMenu(nm);
+    if (nm === 2) setMenu2(n2);
+  };
+
+  // Escuchar back/forward (hashchange) y sincronizar en carga inicial
+  useEffect(() => {
+    const onHash = () => {
+      const parsed = parseHashToState();
+      setMenu(parsed.menu);
+      if (parsed.menu === 2 && parsed.menu2) setMenu2(parsed.menu2);
+    };
+    window.addEventListener("hashchange", onHash);
+    onHash(); // sincronizar en montaje por si la URL ya trae hash
+    return () => window.removeEventListener("hashchange", onHash);
+  }, []);
     return (
         <>
             <div style={{ minHeight: "65vh", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
@@ -10,9 +57,23 @@ export default function ComportamientoElectoral() {
                 </section>
                 <br />
                 <section style={{ display: "flex", gap: "1rem" }}>
-                    <button className={`${menu == 1 ? "button-active" : "button-inactive"}`} onClick={() => setMenu(1)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Elecciones Alcaldía Bogotá</button>
-                    <button className={`${menu == 2 ? "button-active" : "button-inactive"}`} onClick={() => setMenu(2)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Concejo de Bogotá</button>
-                    <button className={`${menu == 3 ? "button-active" : "button-inactive"}`} onClick={() => setMenu(3)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Análisis histórico</button>
+                    <button className={`${menu === 1 ? "button-active" : "button-inactive"}`}
+        onClick={() => navigateHash(1)}
+        style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>
+  Elecciones Alcaldía Bogotá
+</button>
+
+<button className={`${menu === 2 ? "button-active" : "button-inactive"}`}
+        onClick={() => navigateHash(2, 1)}
+        style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>
+  Concejo de Bogotá
+</button>
+
+<button className={`${menu === 3 ? "button-active" : "button-inactive"}`}
+        onClick={() => navigateHash(3)}
+        style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>
+  Análisis histórico
+</button>
                 </section>
                 {menu == 1 &&
                     <>
@@ -26,8 +87,17 @@ export default function ComportamientoElectoral() {
                 {menu == 2 &&
                     <>
                         <section style={{ display: "flex", gap: "1rem", marginTop: "20px" }}>
-                            <button className={`${menu2 == 2 ? "button-active" : "button-inactive"}`} onClick={() => setMenu2(2)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Listado concejales 1935-1970</button>
-                            <button className={`${menu2 == 1 ? "button-active" : "button-inactive"}`} onClick={() => setMenu2(1)} style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>Elecciones Concejo de Bogotá</button>
+                            <button className={`${menu2 === 2 ? "button-active" : "button-inactive"}`}
+        onClick={() => navigateHash(2, 2)}
+        style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>
+  Listado concejales 1935-1970
+</button>
+
+<button className={`${menu2 === 1 ? "button-active" : "button-inactive"}`}
+        onClick={() => navigateHash(2, 1)}
+        style={{ padding: "0.8rem", width: "100%", borderRadius: "5px", borderColor: "transparent" }}>
+  Elecciones Concejo de Bogotá
+</button>
                         </section>
                         {menu2 == 1 &&
                             <>

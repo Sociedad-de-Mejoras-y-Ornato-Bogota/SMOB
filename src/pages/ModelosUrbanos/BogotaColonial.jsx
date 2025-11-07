@@ -1,19 +1,9 @@
-import Pronto from "../../components/Not found/ComingSoon";
+import Page_libro from "../../components/page-libro/page-libro"
+export default function OrigenesCivilidad() {
 
-function BogotaColonial() {
-    return (
-        <>
-            <div style={{ minHeight: "65vh", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-                <section className='title_section'>
-                    <h2 className='title_page'>Bogotá: ciudad colonial</h2>
-                </section>
-               <div style={{width: '100%'}}>
-                    {/* <br/>
-                    <iframe src="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/Bogot%C3%A1+Ciudad+Colonial_SMOB.pdf"  style={{width:"60%", height:"80vh", display: 'block', margin: '0 auto'}}/> */}
-                    <Pronto/>
-                </div>
-            </div>
-        </>
-    );
+  return (
+    <>
+      <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/04A.+BOGOTA_+CIUDAD+COLONIAL+1538-1810_PREV.pdf" name_component="Bogotá: ciudad colonial" />
+    </>
+  );
 }
-export default BogotaColonial;
