@@ -260,10 +260,11 @@ export const archivo = [
 					// },
 					{
 						title: "Vivienda",
-						ruta: "/componente bienestar/Estructura urbana/Vivienda",
-						// submenu: [{
-						// 	title: "Historia de la vivienda",
-						// 	ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda",
+						//ruta: "/componente bienestar/Estructura urbana/Vivienda",
+						ruta: "#", 
+						submenu: [{
+						 	title: "Estudio de vivienda",
+						 	ruta: "/componente bienestar/Estructura-urbana/Vivienda/Estudiodevivienda",
 						// 	submenu: [{
 						// 		title: "Vivienda estatal",
 						// 		ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda estatal"
@@ -275,11 +276,11 @@ export const archivo = [
 						// 	{
 						// 		title: "Vivienda informal",
 						// 		ruta: "/componente bienestar/Estructura urbana/Línea de tiempo Historia de la vivienda/Vivienda informal"
-						// 	}]
-						// },
-						// {
-						// 	title: "Barrios y urbanizaciones",
-						// 	ruta: "/componente bienestar/Estructura urbana/Barrios y urbanizaciones",
+						
+						},
+						{
+						title: "Ejercicio práctico de vivienda",
+						ruta: "/componente bienestar/Estructura-urbana/Vivienda/Ejerciciodevivienda",
 						// 	submenu: [
 						// 		{
 						// 			title: "Urbanizaciones por década",
@@ -295,6 +296,8 @@ export const archivo = [
 						// 		}]
 						// }],
 					},
+				    ]
+				    }, 
 					{
 						title: "Comercio",
 						ruta: "/componente bienestar/Estructura urbana/Comercio"
