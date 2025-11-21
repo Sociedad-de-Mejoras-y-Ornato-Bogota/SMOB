@@ -93,7 +93,7 @@ export default function comportamientoElectoral() {
               borderColor: "transparent",
             }}
           >
-            Modelo Multifamiliar de 5 pisos
+            Modelo multifamiliar de 5 pisos
           </button>
         </section>
 

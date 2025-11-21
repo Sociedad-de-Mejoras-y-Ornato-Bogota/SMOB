@@ -192,9 +192,21 @@ export const archivo = [
 				}, {
 					title: "Sistema de servicios públicos",
 					ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos",
-					submenu: [{
-						title: "Historia del acueducto y alcantarillado ",
-						ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos/Acueducto",
+					submenu: [
+						{
+						title: "Acueducto y alcantarillado",
+						//ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos/Acueducto",
+						ruta:"#",
+						submenu: [{
+							title: "Historia del acueducto y alcantarillado",
+							ruta: "/componente bienestar/infraestructura/Sistema-de-servicios-públicos/Acueducto-y-Alcantarillado/Acueducto",
+						}, {
+
+							title: "Ejercicio de modelación del sistema de acueducto de Bogotá",
+							ruta: "/componente bienestar/infraestructura/Sistema-de-servicios-públicos/Acueducto-y-Alcantarillado/Acueductoclase",
+						
+                            },
+                        ]
 					}, {
 						title: "Historia de la energía eléctrica",
 						ruta: "/componente bienestar/infraestructura/Sistema de servicios públicos/Energia",

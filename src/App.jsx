@@ -59,6 +59,7 @@ import Equipamientos from './pages/Comp-Bienestar/Infraestructura/SistemaEspacio
 import SistemaS from './pages/Comp-Bienestar/Infraestructura/SistemaServiciosPublicos';
 import Iglesias from './pages/Comp-Bienestar/Infraestructura/SistemaEspacioPublico/Iglesias';
 import AguaYAcueducto from './pages/Comp-Bienestar/Infraestructura/Acueducto';
+import Acueductoclase from './pages/Comp-Bienestar/Infraestructura/Acueductoclase';
 import SGas from './pages/Comp-Bienestar/Infraestructura/Gas';
 import Energia from './pages/Comp-Bienestar/Infraestructura/Energia';
 import Telecomunicaciones from './pages/Comp-Bienestar/Infraestructura/Telecomunicaciones';
@@ -175,7 +176,8 @@ const App = () => {
           <Route path="componente bienestar/infraestructura" Component={Infraestructura} />
           <Route path="componente bienestar/infraestructura/Sistema vial y de transporte" Component={SistemaV} />
           <Route path="componente bienestar/infraestructura/Sistema de servicios públicos" Component={SistemaS} />
-          <Route path="componente bienestar/infraestructura/Sistema de servicios públicos/Acueducto" Component={AguaYAcueducto} />
+          <Route path="componente bienestar/infraestructura/Sistema-de-servicios-públicos/Acueducto-y-Alcantarillado/Acueducto" Component={AguaYAcueducto} />
+          <Route path="componente bienestar/infraestructura/Sistema-de-servicios-públicos/Acueducto-y-Alcantarillado/Acueductoclase" Component={Acueductoclase} />
           <Route path="componente bienestar/infraestructura/Sistema de servicios públicos/Energia" Component={Energia} />
           <Route path="componente bienestar/infraestructura/Sistema de servicios públicos/Gas" Component={SGas} />
           <Route path="componente bienestar/infraestructura/Sistema de servicios públicos/Telecomunicaciones" Component={Telecomunicaciones} />
