@@ -449,6 +449,9 @@ export const archivo = [
 			}, {
 				title: "Bogota: ciudad futura",
 				ruta: "Modelos Urbanos/Bogotá futura"
+			},{
+				title: "Visión prospectiva de la Sabana: 2025 - 2035",
+				ruta: "/Modelos Urbanos/Visionsabana"
 			}
 		],
 	}, {

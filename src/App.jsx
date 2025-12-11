@@ -108,6 +108,7 @@ import Financiacion from './pages/Comp-Bienestar/Instrumentos/Financiacion';
 import Modelos from './pages/ModelosUrbanos/Modelos';
 import BogotaColonial from './pages/ModelosUrbanos/BogotaColonial';
 import BogotaRepublicana from './pages/ModelosUrbanos/BogotaRepublicana';
+import Visionsabana from './pages/ModelosUrbanos/Visionsabana';
 
 import Noticias from './pages/Noticias/Noticias';
 import Libros from './pages/Repositorio/Libros';
@@ -248,6 +249,7 @@ const App = () => {
           <Route path="Modelos Urbanos/Bogotá Colonial" Component={BogotaColonial} />
           <Route path="Modelos Urbanos/Bogotá Republicana" Component={BogotaRepublicana} />
           <Route path="Modelos Urbanos/Bogotá Futura" Component={BogotaFutura}/>
+          <Route path="/Modelos Urbanos/Visionsabana" Component={Visionsabana}/>
 
           {/* Rutas Componente noticias */}
           <Route path="noticias" Component={Noticias} />
