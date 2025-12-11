@@ -61,7 +61,22 @@ export const archivo = [
 				submenu: [
 					{
 						title: "Comportamiento electoral",
-						ruta: "/marco institucional/Comportamiento electoral"
+						ruta: "#",
+					    submenu:[
+							{
+                            title: "Histórico de Bogotá: alcaldía y concejo",
+						    ruta: "/marco institucional/Participación ciudadana/Comportamiento electoral/Historico Bogotá",
+							},
+							{
+                            title: "Participación electoral elecciones regionales 2019 y 2023 en municipios de la Sabana",
+						    ruta: "/marco institucional/Participación ciudadana/Comportamiento electoral/Eleccionesregionales",
+							},
+
+
+						]
+					
+					
+					
 					},
 					{
 						title: "Organizaciones sociales",
@@ -137,7 +152,24 @@ export const archivo = [
 				submenu: [{
 					title: "Pobreza en Colombia y Bogotá",
 					ruta: "/Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá",
-				},],
+				},
+			              {
+                    title: "La pobreza en la Sabana",
+					ruta: "/Componente-poblacional/Estructura-socioeconómica/Pobrezasabana", 
+				},
+				          {
+                    title: "Producto interno bruto",
+					ruta: "/Componente-poblacional/Estructura-socioeconómica/PIB", 
+				},
+				          {
+                    title: "Situación fiscal",
+					ruta: "/Componente-poblacional/Estructura-socioeconómica/Situacionfiscal", 
+				},
+				          {
+                    title: "Fragmentación predial",
+					ruta: "/Componente-poblacional/Estructura-socioeconómica/Fragmentacionpredial", 
+				},
+			],
 			},
 		],
 	}, {
@@ -157,11 +189,63 @@ export const archivo = [
 		// ],
 		submenu: [{
 			title: "Municipio, estructura rural, y región metropolitana",
-			ruta: "/Componente territorial/Municipio estructura rural y region metropolitana",
+			ruta: "#",
+		    submenu: [
+				{
+                   title: "Municipio",
+			       ruta: "/Componente territorial/Municipio estructura rural y region metropolitana/Municipio",
+				},
+                {
+                   title: "Estructura rural",
+			       ruta: "#",
+				   submenu: [
+                   {
+                   title: "Agricultura",
+			       ruta: "/Componente territorial/Municipio estructura rural y region metropolitana/Estructura rural/Agricultura",
+				   },
+				   {
+                   title: "Floricultura",
+			       ruta: "/Componente territorial/Municipio estructura rural y region metropolitana/Estructura rural/Floricultura",
+				   },
+				   {
+                   title: "Minería",
+			       ruta: "/Componente territorial/Municipio estructura rural y region metropolitana/Estructura rural/mineria",
+				   },
+				   ]
+				},
+		   ]
+				
 		}, {
-			title: "Estructura ecológica principal",
-			ruta: "/Componente territorial/Estructura ecológica principal"
-			//ruta: "/Componente territorial/Indicadores urbanísticos",
+			title: "Estructura ecológica principal, gestión del riesgo, y cambio climático",
+			ruta: "#",
+			submenu: [
+            {
+            title: "Evolución Estructura ecológica principal Bogotá",
+			ruta: "/Componente territorial/Estructura ecológica principal/evolucion",
+			},
+            {
+            title: "Sistema hídrico",
+			ruta: "/Componente territorial/Estructura ecológica principal/Sistemahidrico",
+			},
+            {
+            title: "Sistema ambiental Sabana",
+			ruta: "#",
+			submenu: [
+				{
+                title: "Potencial hídrico, amenazas naturales, y cambio climático",
+			    ruta: "/Componente territorial/Estructura ecológica principal/Sistema ambiental/PotencialhidricoCCAM",
+				},
+				{
+                title: "Potencial ecosistémico",
+			    ruta: "/Componente territorial/Estructura ecológica principal/Sistema ambiental/Potencialecosistemico",
+				},
+				{
+                title: "Potencial agrícola",
+			    ruta: "/Componente territorial/Estructura ecológica principal/Sistema ambiental/Potencialagricola",
+				},
+	          ]
+		    },
+           ]
 		}, {
 			title: "Estructura de la huella urbana",
 			ruta: "#",

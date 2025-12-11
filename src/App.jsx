@@ -20,8 +20,9 @@ import EsquemaLey from './pages/Marco-Institucional/LeyesOrdenamiento/EsquemaLey
 import EstruturaAdmin from './pages/Marco-Institucional/EstructuraAdmin/EstructuraAdmin';
 import LineaTiempoiEA from './pages/Marco-Institucional/EstructuraAdmin/LineaTiempoEA';
 import Evolucion from './pages/Marco-Institucional/EstructuraAdmin/Evolucion';
-import ComportamientoElectoral from './pages/Marco-Institucional/ParticipacionCiudadana/comportamientoElectoral';
+import HistoricoBogota from './pages/Marco-Institucional/ParticipacionCiudadana/Comportamiento electoral/HistoricoBogota';
 import OrganizacionesSociales from './pages/Marco-Institucional/ParticipacionCiudadana/organizaciones';
+import Eleccionesregionales from './pages/Marco-Institucional/ParticipacionCiudadana/Comportamiento electoral/Eleccionesregionales';
 
 import Poblacional from './pages/Comp-Poblacional/Poblacional';
 import Conflicto from './pages/Comp-Poblacional/Conflicto-Civilidad/Conflicto';
@@ -43,12 +44,21 @@ import SocioEspacial from './pages/Comp-Poblacional/EstructuraSocioEspacial/Soci
 import Espacial from './pages/Comp-Poblacional/EstructuraSocioEspacial/SegregacionEspacial';
 import SocioEconomica from './pages/Comp-Poblacional/EstructuraSocioEconomica/SocioEconomica';
 import AnalisisPob from './pages/Comp-Poblacional/EstructuraSocioEconomica/AnalisisdePobrezaenColombia';
-
-
+import Pobrezasabana from './pages/Comp-Poblacional/EstructuraSocioEconomica/Pobrezasabana';
+import Fragmentacionpredial from './pages/Comp-Poblacional/EstructuraSocioEconomica/Fragmentacionpredial';
+import PIB from './pages/Comp-Poblacional/EstructuraSocioEconomica/PIB';
+import Situacionfiscal from './pages/Comp-Poblacional/EstructuraSocioEconomica/Situacionfiscal';
 import Territorial from './pages/Comp-Territorial/Territorial';
 import EvolucionHuella from './pages/Comp-Territorial/EvolucionHuella';
 import IndicadoresUrban from './pages/Comp-Territorial/IndicadoresUrban';
 import EstructuraEP from './pages/Comp-Territorial/EstructuraEP';
+import Sistemahidrico from './pages/Comp-Territorial/Sistemahidrico';
+import Mineria from './pages/Comp-Territorial/Estructura-rural/Mineria';
+import Floricultura from './pages/Comp-Territorial/Estructura-rural/Floricultura';
+import Agricultura from './pages/Comp-Territorial/Estructura-rural/Agricultura';
+import Potencialagricola from './pages/Comp-Territorial/Sistema-ambiental/Potencialagricola';
+import PotencialhidricoCCAM from './pages/Comp-Territorial/Sistema-ambiental/PotencialhidricoCCAM';
+import Potencialecosistemico from './pages/Comp-Territorial/Sistema-ambiental/Potencialecosistemico';
 
 import Bienestar from './pages/Comp-Bienestar/Ordenamiento';
 import Infraestructura from './pages/Comp-Bienestar/Infraestructura/infraestructura';
@@ -111,6 +121,7 @@ import Municipio from './pages/Comp-Territorial/Municipio';
 
 
 
+
 const App = () => {
   return (
     <Router>
@@ -133,8 +144,10 @@ const App = () => {
           <Route path="marco institucional/Leyes de ordenamiento territorial" Component={LeyesOrdenamiento} />
           <Route path="marco institucional/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997" Component={AntecentesLey} />
           <Route path="marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997" Component={EsquemaLey} />
-          <Route path="marco institucional/Comportamiento electoral" Component={ComportamientoElectoral} />
+          <Route path="marco institucional/Participación ciudadana/Comportamiento electoral/Historico Bogotá" Component={HistoricoBogota} />
           <Route path="marco institucional/Organizaciones sociales" Component={OrganizacionesSociales} />
+          <Route path="marco institucional/Participación ciudadana/Comportamiento electoral/Eleccionesregionales" Component={Eleccionesregionales} />
+
           {/* <Route path="marco institucional/Leyes de ordenamiento territorial/Concepto Plan de Ordenamiento Territorial año 2019" Component={ConceptoLey} /> */}
           <Route path="marco institucional/Estructura administrativa de Bogotá" Component={EstruturaAdmin} />
           <Route path="marco institucional/Estructura administrativa de Bogotá/Evolución de la estructura administrativa de Bogotá desde su fundación hasta el año 2021" Component={Evolucion} />
@@ -162,15 +175,25 @@ const App = () => {
           <Route path='Componente poblacional/Estructura socioespacial/Segregación espacial por Localidades' Component={Espacial} />
           <Route path='Componente poblacional/Estructura socioeconómica' Component={SocioEconomica} />
           <Route path='Componente poblacional/Estructura socioeconómica/Pobreza en Colombia y Bogotá' Component={AnalisisPob} />
-
+          <Route path='/Componente-poblacional/Estructura-socioeconómica/Pobrezasabana' Component={Pobrezasabana} />
+          <Route path='/Componente-poblacional/Estructura-socioeconómica/Fragmentacionpredial' Component={Fragmentacionpredial} />
+          <Route path='Componente-poblacional/Estructura-socioeconómica/PIB' Component={PIB} />
+          <Route path='/Componente-poblacional/Estructura-socioeconómica/Situacionfiscal' Component={Situacionfiscal} />
 
           {/* Rutas Componente territorial */}
           <Route path="Componente territorial" Component={Territorial} />
           <Route path="Componente territorial/Evolución de la huella urbana" Component={EvolucionHuella} />
           <Route path="Componente territorial/Indicadores urbanísticos" Component={IndicadoresUrban} />
-          <Route path="Componente territorial/Estructura ecológica principal" Component={EstructuraEP} />
-          <Route path="Componente territorial/Municipio estructura rural y region metropolitana" Component={Municipio} />
-
+          <Route path="Componente territorial/Estructura ecológica principal/evolucion" Component={EstructuraEP} />
+           <Route path="/Componente territorial/Estructura ecológica principal/Sistemahidrico" Component={Sistemahidrico} />
+          <Route path="/Componente territorial/Municipio estructura rural y region metropolitana/Municipio" Component={Municipio} />
+          <Route path="/Componente territorial/Municipio estructura rural y region metropolitana/Estructura rural/mineria" Component={Mineria} />
+          <Route path="Componente territorial/Municipio estructura rural y region metropolitana/Estructura rural/Floricultura" Component={Floricultura} />
+          <Route path="/Componente territorial/Municipio estructura rural y region metropolitana/Estructura rural/Agricultura" Component={Agricultura} />
+          <Route path="/Componente territorial/Estructura ecológica principal/Sistema ambiental/Potencialagricola" Component={Potencialagricola} />
+          <Route path="Componente territorial/Estructura ecológica principal/Sistema ambiental/PotencialhidricoCCAM" Component={PotencialhidricoCCAM} />
+          <Route path="Componente territorial/Estructura ecológica principal/Sistema ambiental/Potencialecosistemico" Component={Potencialecosistemico} />
+          
           {/* Rutas Componente Bienestar */}
           <Route path="componente bienestar" Component={Bienestar} />
           <Route path="componente bienestar/infraestructura" Component={Infraestructura} />

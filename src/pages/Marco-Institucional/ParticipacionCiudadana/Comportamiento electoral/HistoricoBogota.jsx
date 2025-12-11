@@ -53,7 +53,7 @@ const slugMap = {
         <>
             <div style={{ minHeight: "65vh", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                 <section className='title_section'>
-                    <h2 className='title_page'>Comportamiento electoral</h2>
+                    <h2 className='title_page'>Histórico de Bogotá: alcaldía y concejo</h2>
                 </section>
                 <br />
                 <section style={{ display: "flex", gap: "1rem" }}>
