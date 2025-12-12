@@ -117,7 +117,14 @@ export default function Visionsabana() {
         {menu === 1 && (
             
           
-            <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/modelos+de+ciudad/Visi%C3%B3n+Sabana.pdf" name_component="Bases para la construcción de una visión prospectiva de la Sabana 2025 - 2035: Cálculo del área necesaria para el desarrollo de vivienda futura en la Región y caracterización de la dinámica de urbanización y el potencial agroambiental"
+            <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/modelos+de+ciudad/Visi%C3%B3n+Sabana.pdf" name_component={
+              <>
+            Bases para la construcción de una visión prospectiva de la Sabana 2025 - 2035: {" "}
+                 <em>
+              Cálculo del área necesaria para el desarrollo de vivienda futura en la Región y caracterización de la dinámica de urbanización y el potencial agroambiental
+                </em>
+              </>
+            }
             style={{
               width: "100%",
               height: "95vh",
