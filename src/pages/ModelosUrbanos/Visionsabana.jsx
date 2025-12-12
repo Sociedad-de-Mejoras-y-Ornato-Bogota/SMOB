@@ -150,18 +150,15 @@ export default function Visionsabana() {
         )}
 
         {menu === 3 && ( 
-        <div
-    style={{
-      width: "100%",
-      marginTop: "3rem",
-      marginBottom: "3rem",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-    }}
-  >
-    <Pronto />
-  </div>
+     <iframe
+            src="https://storymaps.arcgis.com/stories/7b4edd909ec34e90abb33d8291177a22"
+            style={{
+              width: "100%",
+              height: "95vh",
+              marginTop: "3rem",
+              marginBottom: "3rem",
+            }}
+          />
         )}
       </div>
     </>
