@@ -3,7 +3,7 @@ import './EstructuraEP.css';
 function Sistemahidrico() {
   return (
     <>
-    <Page_tipe_full title="Sistema hídrico" content_url ="https://experience.arcgis.com/experience/a0a397c97be4407eb32cccb7af191af3"/>
+    <Page_tipe_full title="Sistema hídrico" content_url ="https://experience.arcgis.com/experience/775f49e402a44c7faeae9dd9d75889fc"/>
     </>
   );
 }
