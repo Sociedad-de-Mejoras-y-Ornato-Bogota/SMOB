@@ -196,9 +196,9 @@
   {
     "titulo":"Plano de Bogotá de 2023",
     "año": 2023,
-    "layers": ["Huella urbana 2023", "Curvas de Nivel", "Cuerpos_hidricos_2023", "Huella urbana Año 2023"],
+    "layers": ["Cuerpos hídricos","Curvas de nivel","Huella urbana 2023"],
     "img_url":"",
-    "map_id":"c013f5a865b94731af721189ffe0bdb5",
+    "map_id":"4929691c8ce348c2b6652d9455286f89",
     "iframe_url":"https://experience.arcgis.com/experience/732e06290f2142afb7fe99ed836ea2ab",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
