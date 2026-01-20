@@ -163,7 +163,7 @@
   {
     "titulo":"Plano de Bogotá de 1991",
     "año": 1991,
-    "layers": ["Perímetro Urbano 1991", "Manzanas 1991"],
+    "layers": ["Cuerpos hídricos", "Curvas de nivel","Huella urbana 1991"],
     "img_url":"",
     "map_id":"45e311ff00df40d08e8693e771952b99",
     "iframe_url":"https://experience.arcgis.com/experience/f9b017e211c949abbf27f20b245ea919",
@@ -174,9 +174,9 @@
   {
     "titulo":"Plano de Bogotá de 2000",
     "año": 2000,
-    "layers": ["Huella urbana 2000", "Cuerpos lénticos 2000", "Cuerpos hídr icos 2000", "Curvas de Nivel"],
+    "layers": ["Curvas de nivel", "Cuerpos hídricos", "Huella urbana 2000"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2000.png",
-    "map_id":"c013f5a865b94731af721189ffe0bdb5",
+    "map_id":"d102bf45651741a58085b11dfe5f6338",
     "iframe_url":"https://experience.arcgis.com/experience/31d3f0ba0a1341668320dffb71aec6cb",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
@@ -185,7 +185,7 @@
   {
     "titulo":"Plano de Bogotá de 2006",
     "año": 2006,
-    "layers": ["Manzanas 2006", "Perímetro Urbano 2006"],
+    "layers": ["Cuerpos hídricos", "Curvas de nivel","Huella urbana 2006"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/2006.png",
     "map_id":"67f108836cc24f2e8006e8c3ff554965",
     "iframe_url":"https://experience.arcgis.com/experience/4584f7e9a89248d6affee7dc011b7f7f",
