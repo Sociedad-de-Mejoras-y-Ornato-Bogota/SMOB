@@ -130,7 +130,7 @@
   {
     "titulo":"Plano de Bogotá de 1965 elaborado por Carvajal & Cía.",
     "año": 1965,
-    "layers": ["Huella urbana 1965", "Cuerpos Lénticos 1964", "Cuerpos Hidricos 1964", "Curvas de Nivel", "Huella urbana Año 1965"],
+    "layers": ["Huella urbana 1965", "Cuerpos Lénticos 1964", "Cuerpos Hidricos 1964", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1965.png",
     "map_id":"7453fd41376d44658170d5a9903b64df",
     "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36/page/1965",
@@ -141,7 +141,7 @@
   {
     "titulo":"Plano de Bogotá de 1976",
     "año": 1976,
-    "layers": ["Huella urbana 1976", "Huella urbana Año 1976", "Curvas de Nivel"],
+    "layers": ["Huella urbana 1976", "Cuerpos Hidricos 1964", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1976.png",
     "map_id":"7453fd41376d44658170d5a9903b64df",
     "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36/page/1976",
@@ -152,7 +152,7 @@
   {
     "titulo":"Plano de Bogotá de 1985",
     "año": 1985,
-    "layers": ["Huella urbana 1985", "Huella urbana Año 1985", "Curvas de Nivel"],
+    "layers": ["Huella urbana 1985", "Cuerpos Hidricos 1964", "Curvas de Nivel"],
     "img_url":"https://smob-storage.s3.us-east-2.amazonaws.com/huella-urbana-imgs/1985.png",
     "map_id":"7453fd41376d44658170d5a9903b64df",
     "iframe_url":"https://experience.arcgis.com/experience/244c5ee91f38458aa260b0f1fa15fdfd",

@@ -78,6 +78,50 @@ function EvolucionHuella() {
 
   //fin
 
+  const dashRef = useRef(null); //ref para el iframe dashboard
+  const indicadoresTitleRef = useRef(null);
+  const indicadoresRef = useRef(null);
+  const nudgeDash = () => {
+  const iframe = dashRef.current;
+  if (!iframe) return;
+
+  // Cambio REAL en pixeles para forzar recalculo
+  iframe.style.width = "calc(100% - 2px)";
+  iframe.style.height = "calc(90vh - 2px)";
+
+  requestAnimationFrame(() => {
+    iframe.style.width = "100%";
+    iframe.style.height = "90vh";
+  });
+};
+
+const nudgeDashMulti = () => {
+  nudgeDash();
+  setTimeout(nudgeDash, 300);
+  setTimeout(nudgeDash, 900);
+  setTimeout(nudgeDash, 1800);
+  setTimeout(nudgeDash, 3000);
+};
+
+// ✅ Función integrada: cerrar modal + scroll + arreglar tamaño
+const irAIndicadores = () => {
+  setOpen(false);
+  setOpacity(false);
+
+  // 1) scroll al punto correcto
+  setTimeout(() => {
+    indicadoresTitleRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }, 150);
+
+  // 2) luego forzamos recalculo del dashboard
+  setTimeout(() => {
+    nudgeDashMulti();
+  }, 700);
+};
+
   const [scrollTop, setScrollTop] = useState(0)
   const [opacity, setOpacity] = useState(false);
   const [open, setOpen] = useState(false);
@@ -270,15 +314,9 @@ function EvolucionHuella() {
                     center={dataFilter?.center}
                   />
                   <button
-                    className="boton-modal-huella"
-                    onClick={() => {
-                      setOpen(false);
-                      setOpacity(false);
-                      document
-                        .querySelector(`#frame`)
-                        .scrollIntoView({ behavior: "smooth" });
-                    }}
-                  >
+                     className="boton-modal-huella"
+                      onClick={irAIndicadores}
+                     >
                     Ver indicadores
                   </button>
                 </dialog>
@@ -366,13 +404,7 @@ function EvolucionHuella() {
                 <button
                   className="boton-modal-huella"
 
-                  onClick={() => {
-                    setOpen(false);
-                    setOpacity(false);
-                    document
-                      .querySelector(`#frame`)
-                      .scrollIntoView({ behavior: "smooth" });
-                  }}
+                  onClick={irAIndicadores}
                 >
                   Ver indicadores
                 </button>
@@ -433,20 +465,26 @@ function EvolucionHuella() {
         <div style={{ height: "auto", marginTop: "5vh" }}>
           <div >
             <center>
-              <h4 style={{ color: "rgb(118, 47, 11)", fontWeight: "bold", padding: "3rem" }} className="text-responsive">
-                Indicadores urbanísticos
-              </h4>
+              <h4
+              ref={indicadoresTitleRef}
+              style={{ color: "rgb(118, 47, 11)", fontWeight: "bold", padding: "3rem" }}
+              className="text-responsive indicadores-title"
+              >
+              Indicadores urbanísticos
+            </h4>
             </center>
+            <div ref={indicadoresRef} className="dash-container">
             <iframe
-              className={` ${opacity ? "opacity" : " "}`}
-              id="frame"
+              key={dataFilter.dash}
+              ref={dashRef}
+              className={`${opacity ? "opacity" : ""}`}
               src={dataFilter.dash}
-              style={{ width: "99vw", height: "90vh" }}
+              style={{ width: "100%", height: "90vh" }}
               sandbox="allow-scripts allow-same-origin allow-popups"
+              onLoad={() => nudgeDashMulti()}
             ></iframe>
+            </div>
             {year != 1600 && <iframe
-              className={` ${opacity ? "opacity" : " "}`}
-              id="frame"
               src={dataFilter.iframe_url}
               style={{ width: "99vw", height: "90vh" }}
               sandbox="allow-scripts allow-same-origin allow-popups"
