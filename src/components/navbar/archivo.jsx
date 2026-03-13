@@ -110,7 +110,7 @@ export const archivo = [
 				ruta: "/Componente poblacional/demografía",
 				submenu: [
 					{
-						title: "Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018",
+						title: "Auge y declive demográfico de Colombia y Bogotá 1928 - 2028 Un siglo de demografía",
 						ruta: "/Componente poblacional/demografía/Evolución demográfica de Colombia y Bogotá en ochenta años 1938 - 2018",
 					}, {
 						title: "Series y proyecciones de población",

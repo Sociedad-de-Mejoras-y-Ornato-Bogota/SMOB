@@ -103,7 +103,7 @@ const nudgeDashMulti = () => {
   setTimeout(nudgeDash, 3000);
 };
 
-// ✅ Función integrada: cerrar modal + scroll + arreglar tamaño
+//  Función integrada: cerrar modal + scroll + arreglar tamaño
 const irAIndicadores = () => {
   setOpen(false);
   setOpacity(false);
@@ -116,7 +116,7 @@ const irAIndicadores = () => {
     });
   }, 150);
 
-  // 2) luego forzamos recalculo del dashboard
+  // 2) luego recalculo del dashboard
   setTimeout(() => {
     nudgeDashMulti();
   }, 700);
