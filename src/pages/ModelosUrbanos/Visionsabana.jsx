@@ -66,7 +66,7 @@ export default function Visionsabana() {
         }}
       >
         <section className="title_section">
-          <h2 className="title_page">Visión prospectiva de la Sabana: 2025 - 2035</h2>
+          <h2 className="title_page">OCupación territorial de Bogotá Sabana</h2>
         </section>
 
         <br />
@@ -117,11 +117,11 @@ export default function Visionsabana() {
         {menu === 1 && (
             
           
-            <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/modelos+de+ciudad/Visi%C3%B3n+Sabana.pdf" name_component={
+            <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/Ocupaci%C3%B3n+territorial+de+Bogot%C3%A1+Sabana+Web+(1).pdf" name_component={
               <>
-            Bases para la construcción de una visión prospectiva de la Sabana 2025 - 2035: {" "}
+            Ocupación territorial de Bogotá Sabana {" "}
                  <em>
-              Cálculo del área necesaria para el desarrollo de vivienda futura en la Región y caracterización de la dinámica de urbanización y el potencial agroambiental
+              Bases para una visión prospectiva 2025-2035
                 </em>
               </>
             }
