@@ -38,12 +38,12 @@
         flex-direction: column !important;
         height: auto !important;
         padding: 1.5rem !important;
-        padding-top: 6rem !important; /* 🔥 evita que el header tape el título */
+        padding-top: 6rem !important; 
     }
     .button_book{
     width: auto !important;
-    padding: 0.9rem 1.6rem !important;  /* 🔥 más aire */
-    font-size: 0.5rem !important;         /* 🔥 tamaño legible */
+    padding: 0.9rem 1.6rem !important;  
+    font-size: 0.5rem !important;         
     font-weight: 600;
     border-radius: 8px;
     }
