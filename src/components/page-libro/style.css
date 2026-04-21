@@ -62,16 +62,14 @@
     }
 
     .right_section{
-        width: 100% !important;
-        order: 2 !important;
-        display: block !important;
+        display: block !important; /* 🔥 fuera de flex */
     }
 
-    .content_book{
-        width: 100% !important;
-        height: auto !important;     
-        min-height: 80vh;            
-        border-radius: 8px;
+   .content_book{
+    width: 100% !important;
+    height: 80vh !important; /* 🔥 NO 100vh */
+    border: none;
+    -webkit-overflow-scrolling: touch;
     }
 
     .button_book{
