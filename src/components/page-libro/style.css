@@ -64,12 +64,13 @@
     .right_section{
         width: 100% !important;
         order: 2 !important;
-        align-items: stretch !important;
+        display: block !important;
     }
 
     .content_book{
         width: 100% !important;
-        height: 70vh !important;
+        height: auto !important;     
+        min-height: 80vh;            
         border-radius: 8px;
     }
 
