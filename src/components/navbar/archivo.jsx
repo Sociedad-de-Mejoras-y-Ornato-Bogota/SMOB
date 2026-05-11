@@ -31,29 +31,29 @@ export const archivo = [
 			}
 		],
 	}, {
-		title: "Marco institucional",
-		ruta: "/marco institucional",
+		title: "Marcos regulatorios",
+		ruta: "/marcos regulatorios",
 		color: "white",
 		submenu: [
 			{
 				title: "Nueva agenda urbana y los ODS",
-				ruta: "/marco institucional/Nueva agenda urbana y los ODS"
+				ruta: "/marcos regulatorios/Nueva agenda urbana y los ODS"
 			}, {
 				title: "Leyes del ordenamiento territorial",
-				ruta: "/marco institucional/Leyes de ordenamiento territorial",
+				ruta: "/marcos regulatorios/Leyes de ordenamiento territorial",
 				submenu: [
 					{
 						title: "Antecedentes de la Ley 338 de 1997",
-						ruta: "/marco institucional/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997"
+						ruta: "/marcos regulatorios/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997"
 					},
 					{
 						title: "Esquema de la Ley 338 de 1997",
-						ruta: "/marco institucional/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997"
+						ruta: "/marcos regulatorios/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997"
 					}
 				],
 			}, {
 				title: "Estructura administrativa de Bogotá",
-				ruta: "/marco institucional/Estructura administrativa de Bogotá",
+				ruta: "/marcos regulatorios/Estructura administrativa de Bogotá",
 			}
 			, {
 				title: "Participación ciudadana",
@@ -65,11 +65,11 @@ export const archivo = [
 					    submenu:[
 							{
                             title: "Histórico de Bogotá: alcaldía y concejo",
-						    ruta: "/marco institucional/Participación ciudadana/Comportamiento electoral/Historico Bogotá",
+						    ruta: "/marcos regulatorios/Participación ciudadana/Comportamiento electoral/Historico Bogotá",
 							},
 							{
                             title: "Participación electoral elecciones regionales 2019 y 2023 en municipios de la Sabana",
-						    ruta: "/marco institucional/Participación ciudadana/Comportamiento electoral/Eleccionesregionales",
+						    ruta: "/marcos regulatorios/Participación ciudadana/Comportamiento electoral/Eleccionesregionales",
 							},
 
 
@@ -80,7 +80,7 @@ export const archivo = [
 					},
 					{
 						title: "Organizaciones sociales",
-						ruta: "/marco institucional/Organizaciones sociales"
+						ruta: "/marcos regulatorios/Organizaciones sociales"
 					}
 				]
 			}
