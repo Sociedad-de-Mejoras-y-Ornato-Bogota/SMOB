@@ -140,20 +140,20 @@ const App = () => {
           <Route path='construyendo civilidad/Cuidad y cuidadanía/La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá' Component={Responsabilidad} />
 
           {/* Rutas marco institucional  */}
-          <Route path="marcos regulatorios" Component={Marco} />
-          <Route path="marcos regulatorios/Nueva agenda urbana y los ODS" Component={AgendaYods} />
-          <Route path="marcos regulatorios/Leyes de ordenamiento territorial" Component={LeyesOrdenamiento} />
-          <Route path="marcos regulatorios/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997" Component={AntecentesLey} />
-          <Route path="marcos regulatorios/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997" Component={EsquemaLey} />
-          <Route path="marcos regulatorios/Participación ciudadana/Comportamiento electoral/Historico Bogotá" Component={HistoricoBogota} />
-          <Route path="marcos regulatorios/Organizaciones sociales" Component={OrganizacionesSociales} />
-          <Route path="marcos regulatorios/Participación ciudadana/Comportamiento electoral/Eleccionesregionales" Component={Eleccionesregionales} />
+          <Route path="sistemas regulatorios" Component={Marco} />
+          <Route path="sistemas regulatorios/Nueva agenda urbana y los ODS" Component={AgendaYods} />
+          <Route path="sistemas regulatorios/Leyes de ordenamiento territorial" Component={LeyesOrdenamiento} />
+          <Route path="sistemas regulatorios/Leyes de ordenamiento territorial/Antecedentes de la Ley 388 de 1997" Component={AntecentesLey} />
+          <Route path="sistemas regulatorios/Leyes de ordenamiento territorial/Esquema de la Ley 388 de 1997" Component={EsquemaLey} />
+          <Route path="sistemas regulatorios/Participación ciudadana/Comportamiento electoral/Historico Bogotá" Component={HistoricoBogota} />
+          <Route path="sistemas regulatorios/Organizaciones sociales" Component={OrganizacionesSociales} />
+          <Route path="sistemas regulatorios/Participación ciudadana/Comportamiento electoral/Eleccionesregionales" Component={Eleccionesregionales} />
 
           {/* <Route path="marco institucional/Leyes de ordenamiento territorial/Concepto Plan de Ordenamiento Territorial año 2019" Component={ConceptoLey} /> */}
-          <Route path="marcos regulatorios/Estructura administrativa de Bogotá" Component={EstruturaAdmin} />
-          <Route path="marcos regulatorios/Estructura administrativa de Bogotá/Evolución de la estructura administrativa de Bogotá desde su fundación hasta el año 2021" Component={Evolucion} />
+          <Route path="sistemas regulatorios/Estructura administrativa de Bogotá" Component={EstruturaAdmin} />
+          <Route path="sistemas regulatorios/Estructura administrativa de Bogotá/Evolución de la estructura administrativa de Bogotá desde su fundación hasta el año 2021" Component={Evolucion} />
 
-          <Route path='marcos regulatorios/Estructura administrativa de Bogotá/Línea del tiempo Estructura Administrativa de Bogotá' Component={LineaTiempoiEA} />
+          <Route path='sistemas regulatorios/Estructura administrativa de Bogotá/Línea del tiempo Estructura Administrativa de Bogotá' Component={LineaTiempoiEA} />
 
           {/* Rutas Componente poblacional */}
           <Route path="Componente poblacional" Component={Poblacional} />

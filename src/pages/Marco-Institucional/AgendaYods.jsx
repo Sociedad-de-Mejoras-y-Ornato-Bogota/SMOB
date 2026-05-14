@@ -7,13 +7,13 @@ import { useNavigate } from 'react-router-dom';
 export default function AgendaYods() {
   const navigateTo = useNavigate(); 
     const navigate = (path) => {
-      navigateTo("/marcos regulatorios/" + path)
+      navigateTo("/sistemas regulatorios/" + path)
     }
   const [modal, setModal] = useState(false);
   const [infoPresentacion, setinfoPresentacion] = useState(false);
   return (
     <>
-    <Page_principal url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/MarcoInstitucional/1.+Imagen+ODS+110526.png" name_component="Nueva agenda urbana y los Objetivos de Desarrollo Sostenible" description_component="Las herramientas de planificación de la ciudad y los propiosmecanismos de participación ciudadana, tal vez como nunca antes en la historia, están enfrentados a fuerzas poderosas -domésticas y mundiales-, que desatan dinámicas urbanas signadas por la incertidumbre y el sufrimiento humano. ¿Cómo entender y manejar la complejidad acuciante de la ciudad moderna, ante los objetivos inaplazables de desarrollo sostenible?"
+    <Page_principal url_imagen="https://smob-storage.s3.us-east-2.amazonaws.com/recursosSMOB/MarcoInstitucional/1.+imagen+ODS+140526.png" name_component="Nueva agenda urbana y los Objetivos de Desarrollo Sostenible" description_component="Las herramientas de planificación de la ciudad y los propiosmecanismos de participación ciudadana, tal vez como nunca antes en la historia, están enfrentados a fuerzas poderosas -domésticas y mundiales-, que desatan dinámicas urbanas signadas por la incertidumbre y el sufrimiento humano. ¿Cómo entender y manejar la complejidad acuciante de la ciudad moderna, ante los objetivos inaplazables de desarrollo sostenible?"
     
     areas={
       [
