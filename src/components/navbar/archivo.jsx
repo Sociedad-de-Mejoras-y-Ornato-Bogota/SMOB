@@ -80,7 +80,7 @@ export const archivo = [
 					},
 					{
 						title: "Organizaciones sociales",
-						ruta: "/marcos regulatorios/Organizaciones sociales"
+						ruta: "/sistemas regulatorios/Organizaciones sociales"
 					}
 				]
 			}
