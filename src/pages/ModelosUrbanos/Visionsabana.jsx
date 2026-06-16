@@ -66,7 +66,7 @@ export default function Visionsabana() {
         }}
       >
         <section className="title_section">
-          <h2 className="title_page">OCupación territorial de Bogotá Sabana</h2>
+          <h2 className="title_page">Ocupación territorial de Bogotá Sabana</h2>
         </section>
 
         <br />
