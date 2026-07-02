@@ -136,7 +136,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36/page/1965",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/cf784f95c2ae41508b7907c62d485193"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/05ef5c8f2a1a4c979bc3e9940f4c3605"
   },
   {
     "titulo":"Plano de Bogotá de 1976",
@@ -147,7 +147,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/41bb92077bf644049881bef840d73e36/page/1976",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/64688a6635774c3598ae89c7b7abe4cf"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/373bece2a3a54a558bb7814bd0522b2a"
   },
   {
     "titulo":"Plano de Bogotá de 1985",
@@ -158,7 +158,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/244c5ee91f38458aa260b0f1fa15fdfd",
     "zoom":"12",
     "center":[-74.071750, 4.604800 ],
-    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/a1366575e5c44accb6cebfa25c536f98"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/19c94e8bf42b4cac930368b05f9cb85a"
   },
   {
     "titulo":"Plano de Bogotá de 1991",
@@ -169,7 +169,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/f9b017e211c949abbf27f20b245ea919",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
-    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/a6b637597eab406382117dc2c69d997b"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/c053f40f2b314b1c98a9c854934d85b2"
   },
   {
     "titulo":"Plano de Bogotá de 2000",
@@ -180,7 +180,7 @@
     "iframe_url":"https://experience.arcgis.com/experience/31d3f0ba0a1341668320dffb71aec6cb",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
-    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/ddc376e0aad7455f90e560198d8fdb10"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/a6343fbaa54c4b189070362c348da572"
   },
   {
     "titulo":"Plano de Bogotá de 2006",
@@ -202,6 +202,6 @@
     "iframe_url":"https://experience.arcgis.com/experience/732e06290f2142afb7fe99ed836ea2ab",
     "zoom":"12",
     "center":[-74.121750, 4.634800 ],
-    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/6702e7db2fe6472c9a7391e05ab28ebb"
+    "dash":"https://sosmejorasbogota.maps.arcgis.com/apps/dashboards/cff1dc31523b4d75b02d00411936c6b9"
   }
 ]
