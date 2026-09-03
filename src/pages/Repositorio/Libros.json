@@ -54,7 +54,8 @@
 		"title": "Análisis demográfico prospectivo de Bogotá y la Sabana(2020 - 2050)",
 		"autor": "Echeverri Perico, Rafael",
 		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/An%C3%A1lisis+demogr%C3%A1fico+prospectivo+de+Bogot%C3%A1+y+la+Sabana+2020-2050.pdf",
-		"type": "Publicaciones SMOB"
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección 100 años"
 	},
 	{
 		"id": 29,
@@ -134,7 +135,8 @@
 		"title": "Bogotá y la Sabana. Sistema Ambiental y los Modelos de Ocupación",
 		"autor": "Echeverri Perico, Rafael & Wilches Chaux, Gustavo",
 		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Bogot%C3%A1+y+la+Sabana+-+sistema+ambiental+y+los+modelos+de+ocupaci%C3%B3n.pdf",
-		"type": "Publicaciones SMOB"
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección 100 años"
 	},
 	{
 		"id": 157,
@@ -390,7 +392,8 @@
 		"title": "Construyamos civilidad.",
 		"autor": "Pombo Urdaneta, Carlos Roberto.",
 		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Construyamos+Civilidad.pdf",
-		"type": "Publicaciones SMOB"
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección 100 años"
 	},
 	{
 		"id": 69,
@@ -918,7 +921,8 @@
 		"title": "La Bogotá que seremos",
 		"autor": "Rojas Morales, Ernesto & Pachón Muñoz, Alvaro E.",
 		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/La+Bogot%C3%A1+que+seremos+-+Poblaci%C3%B3n+y+territorio.pdf",
-		"type": "Publicaciones SMOB"
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección 100 años"
 	},
 	{
 		"id": 114,
@@ -974,7 +978,8 @@
 		"title": "La construcción del territorio sostenible.Un asunto complejo",
 		"autor": "Guhl Nannetti, Ernesto; Guzmán Hennessey, Manuel ; Carrizosa Umaña, Julio; Pacheco, Margarita.",
 		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/La+construcci%C3%B3n+del+territorio+sostenible.+Un+asunto+complejo.pdf",
-		"type": "Publicaciones SMOB"
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección 100 años"
 	},
 	{
 		"id": 2,
@@ -1600,5 +1605,71 @@
 		"autor": "Marco institucional",
 		"link": "",
 		"type": "Presentaciones SMOB"
+	},
+		{
+		"id": 213,
+		"url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Ciudadania_Civilidad.jpg",
+		"title": "Ciudadanía y civilidad",
+		"autor": "Pombo Urdaneta, Carlos Roberto; Mallarino Flórez, Gonzalo.",
+		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/libros/construyendo-civilidad/SMOB_Ciudadania%20y%20civilidad_web.pdf",
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección Construyendo Civilidad"
+	},
+	{
+		"id": 214,
+		"url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Bogota_asediada.jpg",
+		"title": "Bogotá Asediada siglo XIX",
+		"autor": "Pombo Urdaneta, Carlos Roberto.",
+		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/BOGOTA_ASEDIADA_SIGLO_XIX_NUEVA_web.pdf",
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección Construyendo Civilidad"
+		
+	},
+	{
+		"id": 215,
+		"url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Demografia_violencia_urbanizacion.jpg",
+		"title": "Demografía, violencia, y urbanización",
+		"autor": "Pombo Urdaneta, Carlos Roberto.",
+		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/Libro+Demografi%CC%81a%2C+violencia+y+urbanizacio%CC%81n_WEB+SMOB.pdf",
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección Construyendo Civilidad"
+	},
+	{
+		"id": 216,
+		"url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Auge_declive_demografico.jpg",
+		"title": "Auge y declive demográfico de Colombia y Bogotá 1928 - 2028 Un siglo de demografía",
+		"autor": "Pombo Urdaneta, Carlos Roberto.",
+		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/AUGE+Y+DECLIVE+DEMOGRA%CC%81FICO+COLOMBIA+Y+BOGOTA_WEB.pdf",
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección Construyendo Civilidad"
+	},
+	{
+		"id": 217,
+		"url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Ocupacion_Territorial_BTA.jpg",
+		"title": "Ocupación territorial de Bogotá Sabana Bases para una visión prospectiva 2025 - 2035",
+		"autor": "Pombo Urdaneta, Carlos Roberto; Barrea Arias, Carlos; Casses Franceschi, Felipe.",
+		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/Ocupaci%C3%B3n+territorial+de+Bogot%C3%A1+Sabana+Web+(1).pdf",
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección Construyendo Civilidad"
+	},
+	{
+		"id": 218,
+		"url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Ciudad_Colonial.jpg",
+		"title": "Bogotá: ciudad colonial 1538 - 1810",
+		"autor": "Pombo Urdaneta, Carlos Roberto; Mallarino Flórez, Gonzalo.",
+		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/modelos+de+ciudad/04A.+BOGOTA_+CIUDAD+COLONIAL+1538-1810_WEB.pdf",
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección Construyendo Civilidad"
+		
+	},
+
+		{
+		"id": 219,
+		"url_image": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Catedra/CI_CATEDRABTA.jpg",
+		"title": "Componente I",
+		"autor": "Pombo Urdaneta, Carlos Roberto.",
+		"link": "https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Catedra/Componente+I+%C2%BFC%C3%B3mo+conocemos+(Web).pdf",
+		"type": "Publicaciones SMOB",
+		"subtype": "Colección Construyendo Civilidad - Cátedra Bogotá"
 	}
 ]
