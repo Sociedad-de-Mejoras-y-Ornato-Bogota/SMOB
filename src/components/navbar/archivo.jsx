@@ -434,6 +434,10 @@ export const archivo = [
 					}
 				],
 			},
+			{
+				title: "Análisis de elementos de bienestar",
+				ruta: "/componente bienestar/cercade"
+			},	
 		],
 	}, {
 		title: "Modelos de ciudad",

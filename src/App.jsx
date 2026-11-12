@@ -101,6 +101,7 @@ import Instrumentos from './pages/Comp-Bienestar/Instrumentos/Instrumentos';
 import Planificacion from './pages/Comp-Bienestar/Instrumentos/Planificacion';
 import Gestion from './pages/Comp-Bienestar/Instrumentos/Gestion';
 import Financiacion from './pages/Comp-Bienestar/Instrumentos/Financiacion';
+import cercade from './pages/Comp-Bienestar/cercade';
 
 
 
@@ -242,6 +243,8 @@ const App = () => {
           <Route path="componente bienestar/instrumentos/Planificación" Component={Planificacion} />
           <Route path="componente bienestar/instrumentos/Gestión" Component={Gestion} />
           <Route path="componente bienestar/instrumentos/Financiación" Component={Financiacion} />
+
+          <Route path="componente bienestar/cercade" Component={cercade} />
 
 
           {/* Rutas Componente modelos urbanos */}
