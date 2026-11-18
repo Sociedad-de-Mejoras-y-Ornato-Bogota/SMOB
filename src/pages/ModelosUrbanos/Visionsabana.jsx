@@ -117,7 +117,7 @@ export default function Visionsabana() {
         {menu === 1 && (
             
           
-            <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/Ocupaci%C3%B3n+territorial+de+Bogot%C3%A1+Sabana+Web+(1).pdf" name_component={
+            <Page_libro url_book="https://smob-storage.s3.us-east-2.amazonaws.com/publicaciones/Ocupaci%C3%B3n+territorial+de+Bogot%C3%A1+Sabana+Web.pdf" name_component={
               <>
             Ocupación territorial de Bogotá Sabana {" "}
                  <em>
